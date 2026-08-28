@@ -1,0 +1,28 @@
+﻿examId,question,type,detail
+national-2009,1,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2010,2,anchor-duplicate,후보 3개 중 첫 순차 후보 선택
+local-2010,7,anchor-duplicate,후보 3개 중 첫 순차 후보 선택
+national-2011,4,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2011,18,crop-size-suspicious,"crop=960x199, page=1984x2804"
+national-2012,2,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2012,7,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2012,2,crop-size-suspicious,"crop=1181x215, page=2427x3437"
+national-2014,18,crop-size-suspicious,"crop=960x192, page=1984x2804"
+national-2016,4,anchor-duplicate,후보 3개 중 첫 순차 후보 선택
+national-2016,5,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2016,1,crop-size-suspicious,"crop=960x206, page=1984x2804"
+national-2017,2,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2017,7,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2017,20,anchor-manual-override,manual override: Vision OCRㅇㅣ 문제번호와 문장을 누락함. 원본 3쪽 우측 하단의 '문 20.' 위치를 육안 확인.
+national-2020,1,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2020,4,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+national-2021,2,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2022,2,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2022,7,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+military-2024,12,crop-size-suspicious,"crop=1182x237, page=2429x3440"
+local-2025,16,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2025,18,anchor-manual-override,manual override: Vision OCRㅇㅣ '문 18.'을 '문 16.'으로 오인식함. 원본 4쪽 좌측 중단 위치를 육안 확인.
+national-2026,2,anchor-duplicate,후보 4개 중 첫 순차 후보 선택
+national-2026,7,anchor-duplicate,후보 3개 중 첫 순차 후보 선택
+local-2026,1,anchor-duplicate,후보 2개 중 첫 순차 후보 선택
+local-2026,7,anchor-duplicate,후보 2개 중 첫 순차 후보 선택

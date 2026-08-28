@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문제 이미지·정답 검수</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header compact-header">
+    <div>
+      <p class="eyebrow">QUALITY REVIEW</p>
+      <h1>문제 이미지·정답 검수</h1>
+      <p class="header-copy">잘림 상태와 정답 확정 여부를 빠르게 확인하고 검수 결과를 내보냅니다.</p>
+    </div>
+    <nav class="header-actions">
+      <a class="button button-secondary" href="index.html">문제은행으로</a>
+      <button class="button button-ghost" id="export-review" type="button">검수 결과 내보내기</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard review-dashboard">
+      <article><strong id="review-total">0</strong><span>전체 문제</span></article>
+      <article><strong id="reviewed-crops">0</strong><span>이미지 확인 완료</span></article>
+      <article><strong id="unresolved-count">0</strong><span>정답 미확정</span></article>
+      <article><strong id="classification-review-count">0</strong><span>분류 재검토</span></article>
+    </section>
+
+    <section class="review-controls">
+      <label>시험<select id="review-exam"><option value="">전체 시험</option></select></label>
+      <label>이미지 상태
+        <select id="review-crop-filter">
+          <option value="">전체</option><option value="pending">아직 안 봄</option><option value="ok">확인 완료</option><option value="issue">문제 있음</option>
+        </select>
+      </label>
+      <label>정답 상태
+        <select id="review-answer-filter">
+          <option value="">전체</option><option value="unresolved">미확정</option><option value="verified">확정</option>
+        </select>
+      </label>
+      <label>분류 상태
+        <select id="review-classification-filter">
+          <option value="">전체</option><option value="needs-review">재검토 필요</option><option value="approved">자동 확정</option>
+        </select>
+      </label>
+      <label>검색<input id="review-search" type="search" placeholder="문제 ID, OCR 본문, 세부개념"></label>
+      <button class="button button-primary" id="mark-visible-ok" type="button">현재 목록 이미지 정상 처리</button>
+    </section>
+
+    <section class="review-links">
+      <div>
+        <h2>일괄 검수 자료</h2>
+        <p>시험별 접촉 시트에서 20문제를 한 장으로 확인할 수 있습니다.</p>
+      </div>
+      <div class="link-buttons">
+        <a class="button button-secondary" href="review/unresolved-answers.csv" download>정답 미확정 CSV</a>
+        <a class="button button-secondary" href="review/unresolved-answers.json" download>정답 미확정 JSON</a>
+        <a class="button button-secondary" href="review/crop-review.csv" download>자동 감지 오류 CSV</a>
+        <button class="button button-secondary" id="show-contact-sheets" type="button">접촉 시트 보기</button>
+      </div>
+    </section>
+
+    <section class="contact-sheet-list is-hidden" id="contact-sheet-list"></section>
+    <p class="review-count-line" id="review-count-line"></p>
+    <section class="review-grid" id="review-grid"></section>
+  </main>
+
+  <div class="toast" id="review-toast" role="status"></div>
+  <script src="data/data.js"></script>
+  <script src="review.js"></script>
+</body>
+</html>

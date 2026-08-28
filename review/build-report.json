@@ -1,0 +1,182 @@
+{
+  "examCount": 34,
+  "questionCount": 680,
+  "expectedQuestionCount": 680,
+  "unresolvedAnswerCount": 0,
+  "provisionalAnswerCount": 0,
+  "missingAnswerCount": 0,
+  "buildIssueCount": 27,
+  "cropIssueCount": 5,
+  "anchorReviewCount": 22,
+  "classificationNeedsReviewCount": 521,
+  "categoryCounts": {
+    "digital-engineering": 165,
+    "electronic-circuits": 351,
+    "semiconductor": 97,
+    "circuit-theory": 67
+  },
+  "issues": [
+    {
+      "examId": "national-2009",
+      "question": 1,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2010",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 3개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2010",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 3개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2011",
+      "question": 4,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2011",
+      "question": 18,
+      "type": "crop-size-suspicious",
+      "detail": "crop=960x199, page=1984x2804"
+    },
+    {
+      "examId": "national-2012",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2012",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2012",
+      "question": 2,
+      "type": "crop-size-suspicious",
+      "detail": "crop=1181x215, page=2427x3437"
+    },
+    {
+      "examId": "national-2014",
+      "question": 18,
+      "type": "crop-size-suspicious",
+      "detail": "crop=960x192, page=1984x2804"
+    },
+    {
+      "examId": "national-2016",
+      "question": 4,
+      "type": "anchor-duplicate",
+      "detail": "후보 3개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2016",
+      "question": 5,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2016",
+      "question": 1,
+      "type": "crop-size-suspicious",
+      "detail": "crop=960x206, page=1984x2804"
+    },
+    {
+      "examId": "national-2017",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2017",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2017",
+      "question": 20,
+      "type": "anchor-manual-override",
+      "detail": "manual override: Vision OCRㅇㅣ 문제번호와 문장을 누락함. 원본 3쪽 우측 하단의 '문 20.' 위치를 육안 확인."
+    },
+    {
+      "examId": "national-2020",
+      "question": 1,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2020",
+      "question": 4,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2021",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2022",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2022",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "military-2024",
+      "question": 12,
+      "type": "crop-size-suspicious",
+      "detail": "crop=1182x237, page=2429x3440"
+    },
+    {
+      "examId": "local-2025",
+      "question": 16,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2025",
+      "question": 18,
+      "type": "anchor-manual-override",
+      "detail": "manual override: Vision OCRㅇㅣ '문 18.'을 '문 16.'으로 오인식함. 원본 4쪽 좌측 중단 위치를 육안 확인."
+    },
+    {
+      "examId": "national-2026",
+      "question": 2,
+      "type": "anchor-duplicate",
+      "detail": "후보 4개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "national-2026",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 3개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2026",
+      "question": 1,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    },
+    {
+      "examId": "local-2026",
+      "question": 7,
+      "type": "anchor-duplicate",
+      "detail": "후보 2개 중 첫 순차 후보 선택"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "mergedAt": "2026-08-28",
+  "addedExamCount": 21,
+  "addedQuestionCount": 420,
+  "totalExamCount": 55,
+  "totalQuestionCount": 1100,
+  "officialAnswerCount": 1100,
+  "agencies": {
+    "국가직": {
+      "examCount": 20,
+      "questionCount": 400
+    },
+    "국회직": {
+      "examCount": 13,
+      "questionCount": 260
+    },
+    "군무원": {
+      "examCount": 5,
+      "questionCount": 100
+    },
+    "서울시": {
+      "examCount": 8,
+      "questionCount": 160
+    },
+    "지방직": {
+      "examCount": 9,
+      "questionCount": 180
+    }
+  }
+}

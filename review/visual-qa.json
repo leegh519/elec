@@ -1,0 +1,18 @@
+{
+  "reviewedAt": "2026-08-17",
+  "method": "34개 시험 접촉 시트 전체 검사 후 자동 경고 이미지 원본 크기 추가 확인",
+  "verifiedShortQuestions": [
+    "local-2011-18",
+    "local-2012-02",
+    "national-2014-18",
+    "national-2016-01",
+    "military-2024-12"
+  ],
+  "fixed": [
+    {
+      "id": "military-2023-20",
+      "issue": "20번 뒤에 21·22번이 포함됨",
+      "fix": "OCR이 찾은 21번 제목을 20번 잘림의 하단 경계로 사용"
+    }
+  ]
+}

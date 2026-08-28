@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "id": "circuit-theory", "label": "회로이론", "topics": [
+        {"id":"elements-basics","label":"회로소자·기초량","concepts":["전압·전류·전력","R·L·C","전압원·전류원","에너지 저장"]},
+        {"id":"series-parallel","label":"직·병렬회로","concepts":["저항 직·병렬","커패시터 직·병렬","인덕터 직·병렬","등가회로"]},
+        {"id":"kcl-kvl","label":"KCL·KVL","concepts":["옴의 법칙","KCL","KVL"]},
+        {"id":"node-analysis","label":"노드 해석","concepts":["노드전압","슈퍼노드"]},
+        {"id":"loop-analysis","label":"루프 해석","concepts":["루프전류","슈퍼메시"]},
+        {"id":"bridge","label":"브리지회로","concepts":["휘트스톤 브리지","브리지 평형"]},
+        {"id":"wye-delta","label":"Y－Δ 변환","concepts":["Y→Δ 변환","Δ→Y 변환"]},
+        {"id":"source-transform","label":"전원변환","concepts":["전압원→전류원","전류원→전압원"]},
+        {"id":"superposition","label":"중첩정리","concepts":["독립전원 분리","중첩 원리"]},
+        {"id":"thevenin","label":"테브난 정리","concepts":["테브난 전압","테브난 저항","테브난 등가회로"]},
+        {"id":"norton","label":"노턴 정리","concepts":["노턴 전류","노턴 저항","노턴 등가회로"]},
+        {"id":"maximum-power","label":"최대전력 전달","concepts":["저항 정합","공액 정합","최대전력","전력전달효율"]},
+        {"id":"other-theorems","label":"밀러·밀만·상반정리","concepts":["밀러정리","밀만정리","상반정리"]},
+        {"id":"transient","label":"과도현상","concepts":["RC 응답","RL 응답","RLC 응답","시정수","초기값·최종값"]},
+        {"id":"sinusoidal-phasor","label":"정현파·페이저","concepts":["정현파","주파수·주기","페이저","임피던스·어드미턴스"]},
+        {"id":"ac-power","label":"교류전력·역률","concepts":["유효·무효·피상전력","복소전력","역률","역률개선"]},
+        {"id":"resonance","label":"공진회로","concepts":["직렬공진","병렬공진","공진주파수","Q·대역폭"]},
+        {"id":"coupled-transformer","label":"유도결합·변압기","concepts":["상호인덕턴스","결합계수","이상변압기","임피던스 변환"]},
+        {"id":"two-port","label":"4단자망","concepts":["Z·Y·h 파라미터","ABCD 파라미터","2포트 접속"]},
+        {"id":"non-sinusoidal-fourier","label":"비정현파·푸리에급수","concepts":["평균값·실효값","푸리에급수","고조파"]},
+        {"id":"laplace","label":"라플라스 변환","concepts":["라플라스 회로해석","초기조건","역변환"]},
+        {"id":"transfer-response","label":"전달함수·주파수응답","concepts":["전달함수","극점·영점","보드선도"]},
+        {"id":"passive-filter","label":"수동필터","concepts":["저역·고역통과","대역통과·대역저지","차단주파수"]},
+        {"id":"three-phase","label":"3상회로","concepts":["Y·Δ 결선","평형 3상","3상 전력"]},
+        {"id":"electrostatics-field","label":"전계·전위·정전용량","concepts":["쿨롱의 법칙","전계·전위","가우스 법칙","유전체·정전용량"]},
+        {"id":"magnetic-circuit","label":"자계·자기회로","concepts":["자계·자속","자기저항","코일 자기회로","도선 간 힘"]},
+        {"id":"electromagnetic-induction","label":"전자유도","concepts":["패러데이 법칙","렌츠 법칙","유도기전력","와전류"]}
+      ]
+    },
+    {
+      "id": "semiconductor", "label": "반도체", "topics": [
+        {"id":"bands","label":"반도체 기초·에너지대","concepts":["도체·반도체·절연체","에너지대","페르미준위","밴드갭"]},
+        {"id":"carriers","label":"반도체 물성·캐리어","concepts":["진성·불순물 반도체","N형·P형","전자·정공","이동도·전도도"]},
+        {"id":"phenomena","label":"반도체 현상","concepts":["확산·드리프트","생성·재결합","홀효과","광전·열전효과"]},
+        {"id":"pn-junction","label":"PN 접합","concepts":["공핍층","확산전위","순·역방향 바이어스","항복","접합용량"]},
+        {"id":"diode-model","label":"다이오드 특성·등가모델","concepts":["전류·전압 특성","이상모델","정전압모델","소신호모델"]},
+        {"id":"special-diodes","label":"특수 다이오드","concepts":["제너 다이오드","쇼트키 다이오드","터널 다이오드","버랙터 다이오드"]},
+        {"id":"opto-devices","label":"광반도체 소자","concepts":["LED","포토다이오드","태양전지","광결합기"]},
+        {"id":"bjt-device","label":"BJT 소자이론","concepts":["BJT 구조·동작","전류 관계","동작영역","특성곡선"]},
+        {"id":"jfet-device","label":"JFET·MESFET 소자이론","concepts":["JFET","MESFET","핀치오프","전달특성"]},
+        {"id":"mosfet-device","label":"MOSFET 소자이론","concepts":["증가형·공핍형","문턱전압","채널","동작영역"]},
+        {"id":"power-devices","label":"전력반도체","concepts":["SCR·TRIAC·DIAC","UJT","IGBT","전력 MOSFET"]},
+        {"id":"fabrication","label":"반도체 공정·집적회로","concepts":["웨이퍼·도핑","산화·확산·이온주입","CMOS 공정","집적도·패키징"]}
+      ]
+    },
+    {
+      "id": "electronic-circuits", "label": "전자회로", "topics": [
+        {"id":"rectifier-smoothing","label":"정류·평활회로","concepts":["반파정류","전파정류","브리지정류","리플","평활필터"]},
+        {"id":"limiter-clipper","label":"리미터·클리퍼회로","concepts":["직렬·병렬 리미터","바이어스 리미터","양·음 리미터"]},
+        {"id":"clamper-multiplier","label":"클램퍼·배전압회로","concepts":["양·음 클램퍼","배전압회로","첨두값 검출"]},
+        {"id":"zener-regulator","label":"제너 정전압회로","concepts":["제너 정전압","부하변동","전원변동"]},
+        {"id":"bjt-bias","label":"BJT 바이어스·직류부하선","concepts":["직류부하선","고정·자기 바이어스","전압분배 바이어스","온도 안정화"]},
+        {"id":"bjt-amplifier","label":"BJT 증폭기","concepts":["CE·CC·CB","h 파라미터","소신호 등가회로","증폭도·임피던스"]},
+        {"id":"fet-amplifier","label":"FET 바이어스·증폭기","concepts":["CS·CD·CG","FET 바이어스","FET 소신호 해석"]},
+        {"id":"amplifier-frequency","label":"증폭기 주파수특성","concepts":["결합·바이패스","저·고주파 차단","밀러효과","잡음·왜곡"]},
+        {"id":"multistage-special","label":"다단·특수증폭기","concepts":["다단증폭기","달링턴","캐스코드·부트스트랩","동조증폭기"]},
+        {"id":"power-amplifier","label":"전력증폭기","concepts":["A·B·AB·C급","푸시풀","효율·왜곡"]},
+        {"id":"differential-mirror","label":"차동증폭기·전류미러","concepts":["차동증폭기","차동이득","CMRR","전류미러"]},
+        {"id":"feedback-amplifier","label":"부귀환증폭기","concepts":["귀환 형식","이득·대역폭","입출력 임피던스","안정도"]},
+        {"id":"opamp-basics","label":"연산증폭기 기초","concepts":["이상적 OP AMP","가상단락","입출력저항","슬루율"]},
+        {"id":"opamp-operations","label":"연산증폭기 연산회로","concepts":["반전·비반전","가산·감산","미분·적분","전압추종기"]},
+        {"id":"comparator-schmitt","label":"비교기·슈미트 트리거","concepts":["비교기","영교차 검출","슈미트 트리거","히스테리시스"]},
+        {"id":"active-filter","label":"능동필터","concepts":["저역·고역통과","대역통과·대역저지","차단주파수"]},
+        {"id":"oscillator","label":"발진회로","concepts":["발진조건","RC·Wien","하틀리·콜피츠·클랩","수정발진기"]},
+        {"id":"pulse-555","label":"펄스회로·555 타이머","concepts":["멀티바이브레이터","단안정·비안정","펄스 발생","555 타이머"]},
+        {"id":"power-supply-regulator","label":"전원·전압조정회로","concepts":["선형·직렬·병렬 조정기","스위칭 전원","DC-DC 컨버터"]},
+        {"id":"amplifier-basics","label":"증폭기 기초특성","concepts":["전압·전류·전력이득","입출력 임피던스","dB","임피던스 정합"]},
+        {"id":"signals-systems","label":"신호·시스템","concepts":["LTI 시스템","임펄스 응답","컨볼루션","샘플링·에일리어싱"]},
+        {"id":"control-systems","label":"제어공학","concepts":["신호흐름선도","폐루프 전달함수","안정도·루스 판별","제어계 응답"]},
+        {"id":"analog-communication","label":"아날로그 변복조","concepts":["AM·DSB·SSB","FM·PM","변조지수","변복조 회로"]},
+        {"id":"rf-antenna","label":"안테나·전파","concepts":["안테나 길이·이득","전파 특성","전송선로","RF"]},
+        {"id":"electromagnetic-waves","label":"전자기파·전파전파","concepts":["맥스웰 방정식","전자기파 속도·파장","매질·굴절률","편파"]},
+        {"id":"measurement-sensors","label":"계측·센서회로","concepts":["전압계·전류계","오실로스코프","브리지 센서","변환기"]}
+      ]
+    },
+    {
+      "id": "digital-engineering", "label": "디지털 공학", "topics": [
+        {"id":"number-systems","label":"수 체계·진법변환","concepts":["2·8·10·16진수","진법변환"]},
+        {"id":"codes-arithmetic","label":"코드·2진연산","concepts":["보수","2진 연산","BCD·Gray","ASCII"]},
+        {"id":"boolean-gates","label":"불대수·논리게이트","concepts":["불대수","드모르간","기본·범용게이트","논리식 변환"]},
+        {"id":"minimization-kmap","label":"논리식 최소화·카르노맵","concepts":["카르노맵","최소항·최대항","Don't care"]},
+        {"id":"logic-families","label":"논리군·전기적 특성","concepts":["TTL·CMOS","잡음여유","팬인·팬아웃","전달지연·전력소모"]},
+        {"id":"arithmetic-circuits","label":"산술회로","concepts":["가산기","감산기","ALU"]},
+        {"id":"encoder-decoder","label":"인코더·디코더","concepts":["인코더","우선순위 인코더","디코더"]},
+        {"id":"mux-demux","label":"멀티플렉서·디멀티플렉서","concepts":["MUX","DEMUX","데이터 선택"]},
+        {"id":"other-combinational","label":"기타 조합논리회로","concepts":["디지털 비교기","패리티 발생·검사","코드변환기"]},
+        {"id":"latch-flipflop","label":"래치·플립플롭","concepts":["RS·JK·D·T 플립플롭","래치","상태표·여기표","레이스 현상"]},
+        {"id":"counter","label":"카운터","concepts":["동기·비동기 카운터","링·존슨 카운터","분주"]},
+        {"id":"register","label":"레지스터","concepts":["시프트레지스터","직·병렬 변환"]},
+        {"id":"memory","label":"메모리","concepts":["ROM·RAM","SRAM·DRAM·HBM","플래시"]},
+        {"id":"pld-fpga","label":"PLD·FPGA","concepts":["PLA·PAL","CPLD","FPGA"]},
+        {"id":"adc-dac","label":"ADC·DAC","concepts":["분해능·양자화","R-2R DAC","변환방식","변환시간"]},
+        {"id":"microprocessor","label":"마이크로프로세서","concepts":["CPU 구조","주소·데이터·제어버스","명령처리"]},
+        {"id":"mcu-interface","label":"마이크로컨트롤러·인터페이스","concepts":["MCU·Arduino","RS-232·UART","SPI·I²C","직렬·병렬 전송"]},
+        {"id":"digital-communication","label":"디지털 변복조·PCM","concepts":["ASK·FSK·PSK·QAM","PCM","심볼률·비트율","오류확률"]},
+        {"id":"information-data","label":"정보이론·데이터통신","concepts":["나이퀴스트율","채널용량","SNR","데이터 전송률"]},
+        {"id":"network-protocol","label":"네트워크 프로토콜","concepts":["OSI 7계층","TCP·UDP·IP","LAN·인터넷","전송 프로토콜"]}
+      ]
+    }
+  ],
+  "auxiliaryTags": {
+    "applications": ["통신","제어","계측","센서","임베디드","컴퓨터·메모리","신호처리","전력전자","광전자","RF·전파"],
+    "questionTypes": ["개념형","계산형","회로해석","파형해석","소자특성","논리식·카르노맵","타이밍도·상태표","회로도 포함","복수개념"]
+  }
+}

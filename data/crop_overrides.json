@@ -1,0 +1,43 @@
+{
+  "local-2011": {
+    "20": {
+      "disableTrim": true,
+      "bottom": 0.92,
+      "reason": "회로도 내부의 큰 여백을 페이지 하단으로 오인하여 회로와 선택지가 잘림"
+    }
+  },
+  "national-2016": {
+    "8": {
+      "disableTrim": true,
+      "reason": "회로도와 선택지 사이의 큰 여백 때문에 하단이 잘림"
+    },
+    "11": {
+      "reviewApproved": true,
+      "continuations": [
+        {
+          "page": 2,
+          "column": 1,
+          "top": 0.028,
+          "bottom": 0.596
+        }
+      ],
+      "reason": "문제 본문은 2쪽 왼쪽 하단, 선택지는 같은 쪽 오른쪽 상단에 이어짐"
+    }
+  },
+  "national-2020": {
+    "14": {
+      "disableTrim": true,
+      "reason": "회로도와 선택지 사이의 큰 여백 때문에 하단이 잘림"
+    },
+    "20": {
+      "disableTrim": true,
+      "reason": "회로도 내부의 큰 여백을 페이지 하단으로 오인하여 회로와 선택지가 잘림"
+    }
+  },
+  "military-2025": {
+    "10": {
+      "disableTrim": true,
+      "reason": "회로도와 선택지 사이의 큰 여백 때문에 하단이 잘림"
+    }
+  }
+}
