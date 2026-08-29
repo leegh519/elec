@@ -37,6 +37,7 @@ RULES = [
     rule("circuit-theory", "resonance", "공진회로", r"공진", r"선택도", r"quality\s*factor", r"q\s*[값계수]", r"대역폭.*공진"),
     rule("circuit-theory", "coupled-transformer", "유도결합·변압기", r"상호\s*인덕턴스", r"결합\s*계수", r"변압기", r"권선수비", r"권선비"),
     rule("circuit-theory", "two-port", "4단자망", r"4\s*단자", r"2\s*단자쌍", r"abcd\s*파라미터", r"전송\s*파라미터", r"[zyh]\s*파라미터"),
+    rule("circuit-theory", "distributed-parameter", "특성임피던스", r"분포\s*정수", r"전송\s*선로", r"특성\s*임피던스", r"전파\s*정수", r"무왜형", r"반사\s*계수", r"정재파"),
     rule("circuit-theory", "non-sinusoidal-fourier", "비정현파·푸리에", r"푸리에", r"고조파", r"비정현파", r"파고율", r"파형률", r"실효값.*평균값", r"평균값.*실효값"),
     rule("circuit-theory", "laplace", "라플라스 변환", r"라플라스", r"laplace", r"역변환"),
     rule("circuit-theory", "transfer-response", "전달함수·주파수응답", r"전달\s*함수", r"극점", r"영점", r"보드\s*선도", r"bode", r"주파수\s*응답"),
@@ -84,7 +85,7 @@ RULES = [
     rule("electronic-circuits", "signals-systems", "신호·시스템", r"선형\s*시불변", r"lti", r"임펄스\s*응답", r"컨볼루션|convolution", r"이산\s*시스템", r"표본화.*에일리어싱", r"aliasing"),
     rule("electronic-circuits", "control-systems", "제어공학", r"신호\s*흐름도", r"메이슨", r"폐루프\s*제어", r"특성\s*방정식.*안정", r"루스", r"routh", r"제어\s*(계통|시스템)"),
     rule("electronic-circuits", "analog-communication", "아날로그 변복조", r"진폭\s*변조", r"주파수\s*변조", r"위상\s*변조", r"\bam\b", r"\bfm\b", r"dsb", r"ssb", r"변조\s*지수", r"변조도", r"프리\s*엠퍼시스", r"디엠퍼시스", r"반송파"),
-    rule("electronic-circuits", "rf-antenna", "안테나·전파", r"안테나", r"무선\s*전파", r"전송\s*선로", r"정재파", r"반사\s*계수", r"광섬유", r"동축\s*케이블"),
+    rule("electronic-circuits", "rf-antenna", "안테나·전파", r"안테나", r"무선\s*전파", r"광섬유", r"동축\s*케이블"),
     rule("electronic-circuits", "electromagnetic-waves", "전자기파·전파전파", r"전자기파", r"맥스웰", r"굴절률.*전파", r"전파\s*속도", r"편파"),
     rule("electronic-circuits", "measurement-sensors", "계측·센서", r"전압계", r"전류계", r"멀티미터", r"오실로스코프", r"계측", r"센서", r"서미스터", r"스트레인\s*게이지"),
 
@@ -405,6 +406,7 @@ ID_OVERRIDES = {
     "seoul-2017-10": ("semiconductor", ["mosfet-device"]),
     "seoul-2017-11": ("electronic-circuits", ["bjt-amplifier"]),
     "seoul-2017-16": ("circuit-theory", ["dc-steady-state"]),
+    "seoul-2014-14": ("circuit-theory", ["distributed-parameter"]),
     "seoul-2018-03": ("electronic-circuits", ["control-systems"]),
     "seoul-2018-06": ("electronic-circuits", ["active-filter", "opamp-operations"]),
     "seoul-2018-07": ("electronic-circuits", ["rectifier-smoothing"]),
@@ -438,6 +440,7 @@ CONCEPT_OVERRIDES = {
     "national-2008-11": ["정상상태 등가회로"],
     "local-2009-12": ["정상상태 등가회로"],
     "seoul-2017-16": ["커패시터 개방"],
+    "seoul-2014-14": ["특성임피던스"],
 }
 
 MAX_POWER_IDS = {

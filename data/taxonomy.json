@@ -23,6 +23,7 @@
         {"id":"resonance","label":"공진회로","concepts":["직렬공진","병렬공진","공진주파수","Q·대역폭"]},
         {"id":"coupled-transformer","label":"유도결합·변압기","concepts":["상호인덕턴스","결합계수","이상변압기","임피던스 변환"]},
         {"id":"two-port","label":"4단자망","concepts":["Z·Y·h 파라미터","ABCD 파라미터","2포트 접속"]},
+        {"id":"distributed-parameter","label":"전송선로·분포정수회로","concepts":["특성임피던스","전파정수·무왜형 조건"]},
         {"id":"non-sinusoidal-fourier","label":"비정현파·푸리에급수","concepts":["평균값·실효값","푸리에급수","고조파"]},
         {"id":"laplace","label":"라플라스 변환","concepts":["라플라스 회로해석","초기조건","역변환"]},
         {"id":"transfer-response","label":"전달함수·주파수응답","concepts":["전달함수","극점·영점","보드선도"]},
@@ -74,7 +75,7 @@
         {"id":"signals-systems","label":"신호·시스템","concepts":["LTI 시스템","임펄스 응답","컨볼루션","샘플링·에일리어싱"]},
         {"id":"control-systems","label":"제어공학","concepts":["신호흐름선도","폐루프 전달함수","안정도·루스 판별","제어계 응답"]},
         {"id":"analog-communication","label":"아날로그 변복조","concepts":["AM·DSB·SSB","FM·PM","변조지수","변복조 회로"]},
-        {"id":"rf-antenna","label":"안테나·전파","concepts":["안테나 길이·이득","전파 특성","전송선로","RF"]},
+        {"id":"rf-antenna","label":"안테나·전파","concepts":["안테나 길이·이득","전파 특성","RF"]},
         {"id":"electromagnetic-waves","label":"전자기파·전파전파","concepts":["맥스웰 방정식","전자기파 속도·파장","매질·굴절률","편파"]},
         {"id":"measurement-sensors","label":"계측·센서회로","concepts":["전압계·전류계","오실로스코프","브리지 센서","변환기"]}
       ]

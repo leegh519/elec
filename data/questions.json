@@ -17586,12 +17586,12 @@
       "height": 380
     },
     "classification": {
-      "category": "electronic-circuits",
+      "category": "circuit-theory",
       "topics": [
-        "rf-antenna"
+        "distributed-parameter"
       ],
       "concepts": [
-        "안테나 길이·이득"
+        "특성임피던스"
       ],
       "auxiliaryTags": [
         "통신"
@@ -17600,7 +17600,7 @@
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,

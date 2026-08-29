@@ -4922,12 +4922,12 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "seoul-2014-14": {
-    "category": "electronic-circuits",
+    "category": "circuit-theory",
     "topics": [
-      "rf-antenna"
+      "distributed-parameter"
     ],
     "concepts": [
-      "안테나 길이·이득"
+      "특성임피던스"
     ],
     "auxiliaryTags": [
       "통신"
@@ -4936,7 +4936,7 @@
       "계산형"
     ],
     "status": "approved",
-    "method": "curriculum-v2:rule-candidate"
+    "method": "curriculum-v2:curated"
   },
   "seoul-2014-15": {
     "category": "digital-engineering",
