@@ -289,7 +289,7 @@ ID_OVERRIDES = {
     "assembly-2022-19": ("electronic-circuits", ["feedback-amplifier"]),
     "assembly-2022-20": ("electronic-circuits", ["electromagnetic-waves"]),
     "assembly-2023-04": ("digital-engineering", ["digital-communication"]),
-    "assembly-2023-14": ("circuit-theory", ["non-sinusoidal-fourier"]),
+    "assembly-2023-14": ("circuit-theory", ["sinusoidal-phasor"]),
     "assembly-2024-12": ("electronic-circuits", ["signals-systems"]),
     "assembly-2025-09": ("digital-engineering", ["minimization-kmap"]),
     "assembly-2025-10": ("digital-engineering", ["number-systems"]),
@@ -441,6 +441,7 @@ CONCEPT_OVERRIDES = {
     "local-2009-12": ["정상상태 등가회로"],
     "seoul-2017-16": ["커패시터 개방"],
     "seoul-2014-14": ["특성임피던스"],
+    "assembly-2023-14": ["정현파", "주파수·주기", "페이저"],
 }
 
 MAX_POWER_IDS = {
