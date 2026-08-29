@@ -16,6 +16,7 @@
         {"id":"norton","label":"노턴 정리","concepts":["노턴 전류","노턴 저항","노턴 등가회로"]},
         {"id":"maximum-power","label":"최대전력 전달","concepts":["저항 정합","공액 정합","최대전력","전력전달효율"]},
         {"id":"other-theorems","label":"밀러·밀만·상반정리","concepts":["밀러정리","밀만정리","상반정리"]},
+        {"id":"dc-steady-state","label":"직류 정상상태","concepts":["인덕터 단락","커패시터 개방","정상상태 등가회로","정상상태 전압·전류"]},
         {"id":"transient","label":"과도현상","concepts":["RC 응답","RL 응답","RLC 응답","시정수","초기값·최종값"]},
         {"id":"sinusoidal-phasor","label":"정현파·페이저","concepts":["정현파","주파수·주기","페이저","임피던스·어드미턴스"]},
         {"id":"ac-power","label":"교류전력·역률","concepts":["유효·무효·피상전력","복소전력","역률","역률개선"]},

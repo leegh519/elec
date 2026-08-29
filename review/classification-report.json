@@ -24,6 +24,7 @@
     "control-systems": 3,
     "counter": 9,
     "coupled-transformer": 13,
+    "dc-steady-state": 3,
     "differential-mirror": 13,
     "digital-communication": 19,
     "diode-model": 16,
@@ -82,7 +83,7 @@
     "thevenin": 14,
     "three-phase": 1,
     "transfer-response": 22,
-    "transient": 21,
+    "transient": 18,
     "two-port": 6,
     "zener-regulator": 7
   },

@@ -1812,10 +1812,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "transient"
+        "dc-steady-state"
       ],
       "concepts": [
-        "RC 응답"
+        "정상상태 등가회로"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -5478,10 +5478,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "transient"
+        "dc-steady-state"
       ],
       "concepts": [
-        "RC 응답"
+        "정상상태 등가회로"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -28570,10 +28570,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "transient"
+        "dc-steady-state"
       ],
       "concepts": [
-        "RC 응답"
+        "커패시터 개방"
       ],
       "auxiliaryTags": [],
       "questionTypes": [

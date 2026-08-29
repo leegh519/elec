@@ -147,12 +147,12 @@ ID_OVERRIDES = {
     "national-2008-12": ("digital-engineering", ["boolean-gates"]),
     "national-2008-18": ("electronic-circuits", ["clamper-multiplier"]),
     "national-2008-19": ("circuit-theory", ["transient"]),
-    "national-2008-11": ("circuit-theory", ["transient"]),
+    "national-2008-11": ("circuit-theory", ["dc-steady-state"]),
     "national-2009-16": ("circuit-theory", ["transient"]),
     "national-2009-18": ("circuit-theory", ["transient"]),
     "national-2009-09": ("digital-engineering", ["mux-demux"]),
     "local-2009-02": ("electronic-circuits", ["bjt-amplifier"]),
-    "local-2009-12": ("circuit-theory", ["transient"]),
+    "local-2009-12": ("circuit-theory", ["dc-steady-state"]),
     "local-2009-20": ("circuit-theory", ["series-parallel"]),
     "military-2022-07": ("circuit-theory", ["transient"]),
     "national-2026-07": ("circuit-theory", ["transient"]),
@@ -404,7 +404,7 @@ ID_OVERRIDES = {
     "seoul-2017-08": ("circuit-theory", ["series-parallel"]),
     "seoul-2017-10": ("semiconductor", ["mosfet-device"]),
     "seoul-2017-11": ("electronic-circuits", ["bjt-amplifier"]),
-    "seoul-2017-16": ("circuit-theory", ["transient"]),
+    "seoul-2017-16": ("circuit-theory", ["dc-steady-state"]),
     "seoul-2018-03": ("electronic-circuits", ["control-systems"]),
     "seoul-2018-06": ("electronic-circuits", ["active-filter", "opamp-operations"]),
     "seoul-2018-07": ("electronic-circuits", ["rectifier-smoothing"]),
@@ -432,6 +432,12 @@ ID_OVERRIDES = {
     "seoul-2021-15": ("digital-engineering", ["other-combinational", "boolean-gates"]),
     "seoul-2021-16": ("electronic-circuits", ["comparator-schmitt", "opamp-operations"]),
     "seoul-2021-20": ("electronic-circuits", ["comparator-schmitt", "limiter-clipper"]),
+}
+
+CONCEPT_OVERRIDES = {
+    "national-2008-11": ["정상상태 등가회로"],
+    "local-2009-12": ["정상상태 등가회로"],
+    "seoul-2017-16": ["커패시터 개방"],
 }
 
 MAX_POWER_IDS = {
@@ -551,6 +557,8 @@ def classify(question: dict, topic_index: dict) -> dict:
         matched = [concept for concept in payload.get("concepts", []) if concept in allowed]
         concepts.extend(matched or allowed[:1])
     concepts = list(dict.fromkeys(concepts))
+    if question["id"] in CONCEPT_OVERRIDES:
+        concepts = CONCEPT_OVERRIDES[question["id"]]
     if len(topics) > 1:
         question_types = list(dict.fromkeys([*(old.get("questionTypes") or []), "복수개념"]))
     else:

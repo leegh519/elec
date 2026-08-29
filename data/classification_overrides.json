@@ -510,10 +510,10 @@
   "national-2008-11": {
     "category": "circuit-theory",
     "topics": [
-      "transient"
+      "dc-steady-state"
     ],
     "concepts": [
-      "RC 응답"
+      "정상상태 등가회로"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
@@ -1533,10 +1533,10 @@
   "local-2009-12": {
     "category": "circuit-theory",
     "topics": [
-      "transient"
+      "dc-steady-state"
     ],
     "concepts": [
-      "RC 응답"
+      "정상상태 등가회로"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
@@ -7947,10 +7947,10 @@
   "seoul-2017-16": {
     "category": "circuit-theory",
     "topics": [
-      "transient"
+      "dc-steady-state"
     ],
     "concepts": [
-      "RC 응답"
+      "커패시터 개방"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
