@@ -50177,10 +50177,12 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "non-sinusoidal-fourier"
+        "sinusoidal-phasor"
       ],
       "concepts": [
-        "평균값·실효값"
+        "정현파",
+        "주파수·주기",
+        "페이저"
       ],
       "auxiliaryTags": [
         "신호처리"
