@@ -35,6 +35,8 @@
   const selectedTopics = new Set();
   const selectedHistories = new Set();
 
+  const HISTORY_KEY = "electronics-question-bank-screen";
+
   function loadProgress() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
     catch { return {}; }
@@ -133,10 +135,29 @@
     els.toggleAllMeta.textContent = "전체 분류 표시";
     els.result.classList.add("is-hidden");
     els.result.innerHTML = "";
-    els.setup.classList.add("is-hidden");
-    els.practice.classList.remove("is-hidden");
+    window.history.pushState({ [HISTORY_KEY]: "practice" }, "", window.location.href);
+    showPractice();
     renderPractice();
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function showPractice() {
+    els.setup.classList.add("is-hidden");
+    els.practice.classList.remove("is-hidden");
+  }
+
+  function showSetup() {
+    els.practice.classList.add("is-hidden");
+    els.setup.classList.remove("is-hidden");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function returnToSetup() {
+    if (window.history.state?.[HISTORY_KEY] === "practice") {
+      window.history.back();
+      return;
+    }
+    showSetup();
   }
 
   function renderPractice() {
@@ -413,7 +434,15 @@
   els.resetFilters.addEventListener("click", resetFilters);
   els.modeInputs.forEach(input => input.addEventListener("change", () => els.batchWrap.classList.toggle("is-hidden", input.value === "single" && input.checked)));
   els.start.addEventListener("click", startPractice);
-  els.back.addEventListener("click", () => { els.practice.classList.add("is-hidden"); els.setup.classList.remove("is-hidden"); window.scrollTo({ top: 0, behavior: "smooth" }); });
+  els.back.addEventListener("click", returnToSetup);
+  window.addEventListener("popstate", event => {
+    if (event.state?.[HISTORY_KEY] === "practice" && activeQuestions.length) {
+      showPractice();
+      renderPractice();
+      return;
+    }
+    showSetup();
+  });
   els.toggleAllMeta.addEventListener("click", toggleAllMetadata);
   els.gradeBatch.addEventListener("click", gradeBatch);
   els.exportProgress.addEventListener("click", exportProgress);
@@ -422,5 +451,6 @@
   initializeFilters();
   updateDashboard();
   updateFilterCount();
+  window.history.replaceState({ [HISTORY_KEY]: "setup" }, "", window.location.href);
   els.batchWrap.classList.add("is-hidden");
 })();
