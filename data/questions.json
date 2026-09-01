@@ -1267,14 +1267,12 @@
       "height": 889
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction",
-        "special-diodes"
+        "zener-regulator"
       ],
       "concepts": [
-        "공핍층",
-        "제너 다이오드"
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -1282,7 +1280,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -1330,19 +1328,22 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor"
+        "sinusoidal-phasor",
+        "ac-power"
       ],
       "concepts": [
-        "정현파"
+        "정현파",
+        "유효·무효·피상전력"
       ],
       "auxiliaryTags": [
         "전력전자"
       ],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -1636,17 +1637,17 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -2103,19 +2104,22 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "active-filter",
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "저역·고역통과",
+        "반전·비반전"
       ],
       "auxiliaryTags": [
         "신호처리"
       ],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -2163,11 +2167,9 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor",
         "passive-filter"
       ],
       "concepts": [
-        "정현파",
         "저역·고역통과"
       ],
       "auxiliaryTags": [
@@ -2179,7 +2181,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -2706,20 +2708,25 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "bjt-device"
+        "carriers",
+        "bjt-device",
+        "mosfet-device"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "진성·불순물 반도체",
+        "BJT 구조·동작",
+        "증가형·공핍형"
       ],
       "auxiliaryTags": [
         "전력전자"
       ],
       "questionTypes": [
         "개념형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -2944,12 +2951,12 @@
       "height": 1586
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "limiter-clipper"
       ],
       "concepts": [
-        "정현파"
+        "직렬·병렬 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -2957,7 +2964,7 @@
         "파형해석"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -3065,11 +3072,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "differential-mirror",
+        "active-filter",
         "opamp-operations"
       ],
       "concepts": [
-        "차동증폭기",
+        "저역·고역통과",
         "반전·비반전"
       ],
       "auxiliaryTags": [
@@ -3080,7 +3087,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -3185,19 +3192,22 @@
       "height": 1252
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "digital-engineering",
       "topics": [
-        "mosfet-device"
+        "logic-families",
+        "boolean-gates"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "TTL·CMOS",
+        "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -4813,12 +4823,12 @@
       "height": 474
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "digital-engineering",
       "topics": [
-        "bjt-device"
+        "logic-families"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "TTL·CMOS"
       ],
       "auxiliaryTags": [
         "전력전자"
@@ -4827,7 +4837,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -5655,12 +5665,12 @@
       "height": 1389
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "rectifier-smoothing"
       ],
       "concepts": [
-        "정현파"
+        "반파정류"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -5669,7 +5679,7 @@
         "파형해석"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -7448,10 +7458,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -7459,7 +7469,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -8696,10 +8706,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -8707,7 +8717,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -9114,21 +9124,24 @@
       "height": 1484
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "limiter-clipper",
+        "opamp-operations"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "직렬·병렬 리미터",
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
         "회로도 포함",
-        "소자특성"
+        "소자특성",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -9890,14 +9903,12 @@
       "height": 627
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor",
-        "coupled-transformer"
+        "oscillator"
       ],
       "concepts": [
-        "정현파",
-        "상호인덕턴스"
+        "발진조건"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -9908,7 +9919,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -11456,12 +11467,10 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "mosfet-device",
-        "bjt-device"
+        "mosfet-device"
       ],
       "concepts": [
-        "증가형·공핍형",
-        "BJT 구조·동작"
+        "증가형·공핍형"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -11469,7 +11478,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -11756,17 +11765,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "logic-families",
         "boolean-gates"
       ],
       "concepts": [
+        "TTL·CMOS",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -12409,12 +12421,12 @@
       "height": 2055
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "limiter-clipper"
       ],
       "concepts": [
-        "정현파"
+        "직렬·병렬 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -12422,7 +12434,7 @@
         "파형해석"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -12773,17 +12785,17 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -13667,10 +13679,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor"
+        "transfer-response"
       ],
       "concepts": [
-        "정현파"
+        "전달함수"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -13679,7 +13691,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -13725,21 +13737,24 @@
       "height": 1438
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-amplifier",
+        "multistage-special"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "CE·CC·CB",
+        "다단증폭기"
       ],
       "auxiliaryTags": [
         "신호처리"
       ],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -13787,14 +13802,12 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "carriers",
-        "pn-junction",
-        "bjt-device"
+        "bjt-device",
+        "mosfet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "공핍층",
-        "BJT 구조·동작"
+        "BJT 구조·동작",
+        "증가형·공핍형"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -13802,7 +13815,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -14087,11 +14100,9 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics",
         "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP",
         "반전·비반전"
       ],
       "auxiliaryTags": [],
@@ -14101,7 +14112,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -14442,19 +14453,19 @@
       "height": 1412
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "semiconductor",
       "topics": [
-        "sinusoidal-phasor"
+        "diode-model"
       ],
       "concepts": [
-        "정현파"
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -15460,11 +15471,9 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor",
         "non-sinusoidal-fourier"
       ],
       "concepts": [
-        "정현파",
         "평균값·실효값"
       ],
       "auxiliaryTags": [
@@ -15475,7 +15484,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -15888,14 +15897,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "codes-arithmetic",
+        "arithmetic-circuits",
         "encoder-decoder"
       ],
       "concepts": [
+        "보수",
+        "가산기",
         "인코더"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
       "method": "curriculum-v2:curated"
@@ -16432,12 +16446,10 @@
       "category": "electronic-circuits",
       "topics": [
         "amplifier-frequency",
-        "opamp-basics",
         "active-filter"
       ],
       "concepts": [
         "결합·바이패스",
-        "이상적 OP AMP",
         "저역·고역통과"
       ],
       "auxiliaryTags": [
@@ -16448,7 +16460,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -20106,10 +20118,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -20117,7 +20129,7 @@
         "파형해석"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -22399,10 +22411,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "series-parallel"
+        "resonance"
       ],
       "concepts": [
-        "저항 직·병렬"
+        "직렬공진"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -22410,7 +22422,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -22517,12 +22529,12 @@
       "height": 380
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "resonance"
+        "oscillator"
       ],
       "concepts": [
-        "직렬공진"
+        "발진조건"
       ],
       "auxiliaryTags": [
         "제어"
@@ -22531,7 +22543,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -22698,12 +22710,12 @@
       "height": 730
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -22712,7 +22724,7 @@
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -23922,19 +23934,22 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "logic-families",
         "boolean-gates"
       ],
       "concepts": [
+        "TTL·CMOS",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
         "회로도 포함",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -29241,12 +29256,12 @@
       "height": 926
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "differential-mirror"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "차동증폭기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -29254,7 +29269,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -29542,12 +29557,12 @@
       "height": 801
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -29556,7 +29571,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -29958,12 +29973,12 @@
       "height": 1106
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-amplifier"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "CS·CD·CG"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -29973,7 +29988,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -33226,14 +33241,12 @@
       "height": 867
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "bridge",
-        "sinusoidal-phasor"
+        "rectifier-smoothing"
       ],
       "concepts": [
-        "브리지 평형",
-        "정현파"
+        "반파정류"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -33245,7 +33258,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -33900,18 +33913,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "logic-families",
         "boolean-gates"
       ],
       "concepts": [
+        "TTL·CMOS",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -36909,19 +36925,22 @@
       "height": 813
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "limiter-clipper",
+        "opamp-operations"
       ],
       "concepts": [
-        "정현파"
+        "직렬·병렬 리미터",
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -37085,10 +37104,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "bjt-bias"
+        "oscillator"
       ],
       "concepts": [
-        "직류부하선"
+        "발진조건"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -37099,7 +37118,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -40538,17 +40557,20 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "bjt-device"
+        "bjt-device",
+        "mosfet-device"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "BJT 구조·동작",
+        "증가형·공핍형"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -43789,19 +43811,19 @@
       "height": 859
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -44276,18 +44298,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "logic-families",
         "boolean-gates"
       ],
       "concepts": [
+        "TTL·CMOS",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -48538,11 +48563,9 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "bjt-device",
         "mosfet-device"
       ],
       "concepts": [
-        "BJT 구조·동작",
         "증가형·공핍형"
       ],
       "auxiliaryTags": [
@@ -48553,7 +48576,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -48905,14 +48928,12 @@
       "height": 916
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "elements-basics",
-        "coupled-transformer"
+        "oscillator"
       ],
       "concepts": [
-        "R·L·C",
-        "상호인덕턴스"
+        "발진조건"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -48921,7 +48942,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -51130,12 +51151,12 @@
       "height": 699
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-amplifier"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "CS·CD·CG"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -51143,7 +51164,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -51367,20 +51388,23 @@
       "height": 841
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "digital-engineering",
       "topics": [
-        "mosfet-device"
+        "logic-families",
+        "boolean-gates"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "TTL·CMOS",
+        "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -51667,12 +51691,12 @@
       "height": 690
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "rectifier-smoothing"
       ],
       "concepts": [
-        "정현파"
+        "반파정류"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -51680,7 +51704,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -54054,17 +54078,22 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "arithmetic-circuits"
+        "arithmetic-circuits",
+        "encoder-decoder",
+        "other-combinational"
       ],
       "concepts": [
-        "가산기"
+        "가산기",
+        "인코더",
+        "디지털 비교기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -54420,10 +54449,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "source-transform"
+        "thevenin"
       ],
       "concepts": [
-        "전압원→전류원"
+        "테브난 전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -55933,14 +55962,12 @@
       "height": 1053
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction",
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "공핍층",
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -55949,7 +55976,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -55997,12 +56024,12 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor",
-        "coupled-transformer"
+        "coupled-transformer",
+        "ac-power"
       ],
       "concepts": [
-        "정현파",
-        "상호인덕턴스"
+        "상호인덕턴스",
+        "유효·무효·피상전력"
       ],
       "auxiliaryTags": [
         "전력전자"
@@ -56013,7 +56040,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -56122,10 +56149,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics"
+        "opamp-operations"
       ],
       "concepts": [
-        "이상적 OP AMP"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -56133,7 +56160,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -56239,12 +56266,12 @@
       "height": 1323
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "coupled-transformer"
+        "rectifier-smoothing"
       ],
       "concepts": [
-        "상호인덕턴스"
+        "반파정류"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -56254,7 +56281,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -56537,10 +56564,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor"
+        "laplace"
       ],
       "concepts": [
-        "정현파"
+        "라플라스 회로해석"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -56549,7 +56576,7 @@
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -56655,17 +56682,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "counter",
         "latch-flipflop"
       ],
       "concepts": [
+        "동기·비동기 카운터",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -56946,14 +56976,12 @@
       "height": 695
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor",
-        "transfer-response"
+        "oscillator"
       ],
       "concepts": [
-        "정현파",
-        "전달함수"
+        "발진조건"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -56964,7 +56992,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -57190,12 +57218,12 @@
       "height": 949
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -57203,7 +57231,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -57787,12 +57815,12 @@
       "height": 956
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -57800,7 +57828,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -58082,12 +58110,12 @@
       "height": 1035
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -58095,7 +58123,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -60249,10 +60277,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor"
+        "passive-filter"
       ],
       "concepts": [
-        "정현파"
+        "저역·고역통과"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -60261,7 +60289,7 @@
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -61087,10 +61115,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "elements-basics"
+        "electrostatics-field"
       ],
       "concepts": [
-        "전압·전류·전력"
+        "전계·전위"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -61143,19 +61171,19 @@
       "height": 771
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "limiter-clipper"
       ],
       "concepts": [
-        "제너 다이오드"
+        "직렬·병렬 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -61622,17 +61650,17 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "sinusoidal-phasor"
+        "resonance"
       ],
       "concepts": [
-        "정현파"
+        "직렬공진"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -61859,12 +61887,12 @@
       "height": 471
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor"
+        "rectifier-smoothing"
       ],
       "concepts": [
-        "정현파"
+        "반파정류"
       ],
       "auxiliaryTags": [
         "계측",
@@ -61874,7 +61902,7 @@
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -61920,19 +61948,19 @@
       "height": 957
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "limiter-clipper"
       ],
       "concepts": [
-        "전류·전압 특성"
+        "직렬·병렬 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -63054,12 +63082,12 @@
       "height": 1371
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bjt-device"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "BJT 구조·동작"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -63067,7 +63095,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -63537,19 +63565,19 @@
       "height": 1080
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-amplifier"
       ],
       "concepts": [
-        "증가형·공핍형"
+        "CS·CD·CG"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -63712,16 +63740,12 @@
       "height": 941
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "sinusoidal-phasor",
-        "resonance",
-        "transfer-response"
+        "active-filter"
       ],
       "concepts": [
-        "정현파",
-        "직렬공진",
-        "전달함수"
+        "저역·고역통과"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -63731,7 +63755,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -64147,11 +64171,9 @@
     "classification": {
       "category": "semiconductor",
       "topics": [
-        "carriers",
         "bjt-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
         "BJT 구조·동작"
       ],
       "auxiliaryTags": [],
@@ -64160,7 +64182,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -64858,11 +64880,9 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "source-transform",
         "series-parallel"
       ],
       "concepts": [
-        "전압원→전류원",
         "저항 직·병렬"
       ],
       "auxiliaryTags": [],
@@ -64871,7 +64891,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -65345,17 +65365,20 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
+        "series-parallel",
         "elements-basics"
       ],
       "concepts": [
+        "저항 직·병렬",
         "R·L·C"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -65998,14 +66021,12 @@
       "height": 864
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model",
-        "bjt-device"
+        "bjt-bias"
       ],
       "concepts": [
-        "전류·전압 특성",
-        "BJT 구조·동작"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -66014,7 +66035,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
