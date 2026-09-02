@@ -1477,7 +1477,7 @@
       ]
     },
     "3": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -1489,7 +1489,7 @@
       ]
     },
     "4": {
-      "choice": 1,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -1501,7 +1501,7 @@
       ]
     },
     "5": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -1525,7 +1525,7 @@
       ]
     },
     "7": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -1537,7 +1537,7 @@
       ]
     },
     "8": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -1549,7 +1549,7 @@
       ]
     },
     "9": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -1561,7 +1561,7 @@
       ]
     },
     "10": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -1573,78 +1573,6 @@
       ]
     },
     "11": {
-      "choice": 3,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "12": {
-      "choice": 3,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "13": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "14": {
-      "choice": 3,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "15": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "16": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
-          "booktype": "인"
-        }
-      ]
-    },
-    "17": {
       "choice": 4,
       "status": "official",
       "sources": [
@@ -1656,7 +1584,7 @@
         }
       ]
     },
-    "18": {
+    "12": {
       "choice": 1,
       "status": "official",
       "sources": [
@@ -1668,7 +1596,19 @@
         }
       ]
     },
-    "19": {
+    "13": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "14": {
       "choice": 2,
       "status": "official",
       "sources": [
@@ -1680,8 +1620,68 @@
         }
       ]
     },
-    "20": {
+    "15": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "16": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "17": {
       "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "18": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "19": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2013년 국가직 최종정답 (인책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2412&bbsId=BBSMSTR_000000000138",
+          "booktype": "인"
+        }
+      ]
+    },
+    "20": {
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -1961,7 +1961,7 @@
       ]
     },
     "3": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -1973,7 +1973,7 @@
       ]
     },
     "4": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -1985,7 +1985,7 @@
       ]
     },
     "5": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -1997,7 +1997,7 @@
       ]
     },
     "6": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2009,7 +2009,7 @@
       ]
     },
     "7": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2021,7 +2021,7 @@
       ]
     },
     "8": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2033,7 +2033,7 @@
       ]
     },
     "9": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2045,7 +2045,7 @@
       ]
     },
     "10": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2069,7 +2069,7 @@
       ]
     },
     "12": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2081,7 +2081,7 @@
       ]
     },
     "13": {
-      "choice": 4,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2105,7 +2105,7 @@
       ]
     },
     "15": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2129,7 +2129,7 @@
       ]
     },
     "17": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2141,7 +2141,7 @@
       ]
     },
     "18": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2165,7 +2165,7 @@
       ]
     },
     "20": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2179,7 +2179,7 @@
   },
   "national-2016": {
     "1": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2203,7 +2203,7 @@
       ]
     },
     "3": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2227,18 +2227,6 @@
       ]
     },
     "5": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2016년 국가직 최종정답 (2책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2968&bbsId=BBSMSTR_000000000138",
-          "booktype": "2"
-        }
-      ]
-    },
-    "6": {
       "choice": 3,
       "status": "official",
       "sources": [
@@ -2250,8 +2238,20 @@
         }
       ]
     },
+    "6": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2016년 국가직 최종정답 (2책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2968&bbsId=BBSMSTR_000000000138",
+          "booktype": "2"
+        }
+      ]
+    },
     "7": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2263,7 +2263,7 @@
       ]
     },
     "8": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2287,7 +2287,7 @@
       ]
     },
     "10": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2299,7 +2299,7 @@
       ]
     },
     "11": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2311,7 +2311,7 @@
       ]
     },
     "12": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2335,18 +2335,6 @@
       ]
     },
     "14": {
-      "choice": 3,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2016년 국가직 최종정답 (2책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2968&bbsId=BBSMSTR_000000000138",
-          "booktype": "2"
-        }
-      ]
-    },
-    "15": {
       "choice": 2,
       "status": "official",
       "sources": [
@@ -2358,8 +2346,20 @@
         }
       ]
     },
-    "16": {
+    "15": {
       "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2016년 국가직 최종정답 (2책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=2968&bbsId=BBSMSTR_000000000138",
+          "booktype": "2"
+        }
+      ]
+    },
+    "16": {
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2383,7 +2383,7 @@
       ]
     },
     "18": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2407,7 +2407,7 @@
       ]
     },
     "20": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2663,7 +2663,7 @@
   },
   "national-2018": {
     "1": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2675,7 +2675,7 @@
       ]
     },
     "2": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2687,7 +2687,7 @@
       ]
     },
     "3": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2699,7 +2699,7 @@
       ]
     },
     "4": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2747,7 +2747,7 @@
       ]
     },
     "8": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2759,7 +2759,7 @@
       ]
     },
     "9": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2771,7 +2771,7 @@
       ]
     },
     "10": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2795,7 +2795,7 @@
       ]
     },
     "12": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2831,7 +2831,7 @@
       ]
     },
     "15": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2855,7 +2855,7 @@
       ]
     },
     "17": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -2867,7 +2867,7 @@
       ]
     },
     "18": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2879,7 +2879,7 @@
       ]
     },
     "19": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2891,7 +2891,7 @@
       ]
     },
     "20": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
