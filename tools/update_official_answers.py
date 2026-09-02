@@ -10,6 +10,8 @@ from urllib.parse import urlencode
 
 PROJECT = Path(__file__).resolve().parents[1]
 KEY_FILE = PROJECT / "data" / "answer_keys.json"
+QUESTIONS_FILE = PROJECT / "data" / "questions.json"
+DATA_JS_FILE = PROJECT / "data" / "data.js"
 MISMATCH_FILE = PROJECT / "review" / "answer-source-mismatches.json"
 BASE = "https://gongmuwon.gosi.kr"
 
@@ -27,7 +29,7 @@ ANSWERS = {
     "national-2016": [1, 2, 2, 4, 1, 3, 4, 1, 1, 4, 1, 2, 2, 3, 2, 3, 4, 3, 1, 4],
     "national-2017": [4, 2, 1, 4, 3, 3, 2, 4, 2, 3, 1, 1, 4, 1, 2, 1, 1, 3, 3, 4],
     "national-2018": [1, 4, 4, 2, 1, 4, 2, 3, 3, 3, 2, 3, 4, 2, 2, 3, 3, 2, 2, 1],
-    "national-2019": [2, 3, 4, 2, 3, 3, 2, 2, 1, 4, 2, 4, 2, 1, 1, 4, 3, 3, 3, 1],
+    "national-2019": [3, 3, 1, 2, 4, 3, 3, 2, 2, 3, 4, 1, 4, 2, 2, 1, 1, 1, 3, 4],
     "national-2020": [4, 1, 1, 4, 3, 1, 4, 3, 2, 3, 1, 2, 1, 3, 2, 4, 3, 3, 2, 3],
     "national-2021": [2, 1, 1, 2, 2, 4, 3, 2, 3, 4, 3, 3, 3, 1, 4, 1, 2, 4, 4, 2],
     "national-2022": [4, 3, 2, 4, 3, 2, 2, 3, 3, 4, 1, 2, 3, 4, 1, 4, 1, 3, 4, 1],
@@ -112,6 +114,32 @@ def source_for(exam_id: str) -> dict:
     return {"type": "official", "label": label, "url": url, "booktype": booktype}
 
 
+def sync_question_data(answer_keys: dict) -> int:
+    """정답 원본을 문제 JSON과 브라우저용 데이터에도 함께 반영한다."""
+    if not QUESTIONS_FILE.exists():
+        return 0
+    questions = json.loads(QUESTIONS_FILE.read_text(encoding="utf-8"))
+    changed = 0
+    for question in questions:
+        entry = answer_keys.get(question["examId"], {}).get(str(question["number"]))
+        if entry is None or question.get("answer") == entry:
+            continue
+        question["answer"] = entry
+        question.setdefault("review", {})["answer"] = "approved"
+        changed += 1
+    QUESTIONS_FILE.write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    if DATA_JS_FILE.exists():
+        prefix = "window.QUESTION_BANK = "
+        raw = DATA_JS_FILE.read_text(encoding="utf-8").strip()
+        if not raw.startswith(prefix) or not raw.endswith(";"):
+            raise ValueError("data.js 형식이 올바르지 않습니다")
+        payload = json.loads(raw[len(prefix):-1])
+        payload["questions"] = questions
+        DATA_JS_FILE.write_text(prefix + json.dumps(payload, ensure_ascii=False) + ";\n", encoding="utf-8")
+    return changed
+
+
 def main() -> None:
     old = json.loads(KEY_FILE.read_text(encoding="utf-8")) if KEY_FILE.exists() else {}
     mismatches = []
@@ -135,9 +163,13 @@ def main() -> None:
             }
 
     KEY_FILE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    synced = sync_question_data(result)
     MISMATCH_FILE.parent.mkdir(parents=True, exist_ok=True)
     MISMATCH_FILE.write_text(json.dumps(mismatches, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"official exams={len(result)} answers={sum(map(len, result.values()))} mismatches={len(mismatches)}")
+    print(
+        f"official exams={len(result)} answers={sum(map(len, result.values()))} "
+        f"mismatches={len(mismatches)} synced={synced}"
+    )
 
 
 if __name__ == "__main__":
