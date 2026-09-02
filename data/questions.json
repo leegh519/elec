@@ -13329,7 +13329,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -13393,7 +13393,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -13452,7 +13452,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -13572,7 +13572,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -13634,7 +13634,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -13694,7 +13694,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -13757,7 +13757,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -13818,7 +13818,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -13876,7 +13876,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -13935,7 +13935,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -13996,7 +13996,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -14055,7 +14055,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -14115,7 +14115,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -14173,7 +14173,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -14235,7 +14235,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -14293,7 +14293,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -14352,7 +14352,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -18154,7 +18154,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -18215,7 +18215,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -18273,7 +18273,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -18333,7 +18333,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -18392,7 +18392,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -18452,7 +18452,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -18513,7 +18513,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -18574,7 +18574,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -18692,7 +18692,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -18750,7 +18750,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 4,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -18870,7 +18870,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -18991,7 +18991,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -19052,7 +19052,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -19170,7 +19170,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -21643,7 +21643,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -21760,7 +21760,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -21877,7 +21877,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -21936,7 +21936,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -21997,7 +21997,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -22056,7 +22056,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -22173,7 +22173,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -22235,7 +22235,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -22305,7 +22305,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -22425,7 +22425,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -22486,7 +22486,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -22546,7 +22546,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -22667,7 +22667,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -22789,7 +22789,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -28906,7 +28906,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -28969,7 +28969,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -29030,7 +29030,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -29091,7 +29091,7 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -29332,7 +29332,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -29393,7 +29393,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -29452,7 +29452,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -29574,7 +29574,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -29750,7 +29750,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -29871,7 +29871,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -29930,7 +29930,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -29991,7 +29991,7 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -30050,7 +30050,7 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -42067,7 +42067,7 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {

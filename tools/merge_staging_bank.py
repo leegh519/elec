@@ -37,13 +37,19 @@ def pdf_text(path: Path) -> str:
         return "\n".join(page.extract_text() or "" for page in pdf.pages)
 
 
-def number_rows(text: str) -> list[list[int]]:
+def number_rows(text: str) -> list[list[int | None]]:
     rows = []
     for line in text.splitlines():
         match = re.match(r"문\s*(\d+)\s+(.+)$", line.strip())
         if not match:
             continue
-        values = [int(value) for value in re.findall(r"(?<!\d)[1-5](?!\d)", match.group(2))]
+        # 빈 정답 칸도 열 하나로 보존해야 뒤 과목의 정답 열이 밀리지 않는다.
+        # 2021년 19번 한국사는 '정답없음'이라 이를 버리면 전자공학개론이
+        # 바로 다음 과목인 전기이론의 값으로 잘못 연결된다.
+        values = [
+            None if value == "정답없음" else int(value)
+            for value in re.findall(r"정답없음|(?<!\d)[1-5](?!\d)", match.group(2))
+        ]
         rows.append([int(match.group(1)), *values])
     return rows
 
@@ -70,7 +76,10 @@ def assembly_answers(year: int, path: Path) -> tuple[list[int], str]:
         for number, *values in rows:
             if number != len(answers) + 1 or len(values) <= index:
                 raise ValueError(f"{path.name}: {number}번 전자공학개론 열 추출 실패")
-            answers.append(values[index])
+            answer = values[index]
+            if answer is None:
+                raise ValueError(f"{path.name}: {number}번 전자공학개론 정답 없음")
+            answers.append(answer)
         booktype = "가" if year <= 2021 else "단일"
     if len(answers) != 20:
         raise ValueError(f"{path.name}: 정답 {len(answers)}개")
