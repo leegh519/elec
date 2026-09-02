@@ -2905,7 +2905,7 @@
   },
   "national-2019": {
     "1": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -2929,7 +2929,7 @@
       ]
     },
     "3": {
-      "choice": 4,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -2953,7 +2953,7 @@
       ]
     },
     "5": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -2977,7 +2977,7 @@
       ]
     },
     "7": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -3001,7 +3001,7 @@
       ]
     },
     "9": {
-      "choice": 1,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
@@ -3013,7 +3013,7 @@
       ]
     },
     "10": {
-      "choice": 4,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
@@ -3025,7 +3025,7 @@
       ]
     },
     "11": {
-      "choice": 2,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
@@ -3037,7 +3037,7 @@
       ]
     },
     "12": {
-      "choice": 4,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -3049,42 +3049,6 @@
       ]
     },
     "13": {
-      "choice": 2,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
-          "booktype": "나"
-        }
-      ]
-    },
-    "14": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
-          "booktype": "나"
-        }
-      ]
-    },
-    "15": {
-      "choice": 1,
-      "status": "official",
-      "sources": [
-        {
-          "type": "official",
-          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
-          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
-          "booktype": "나"
-        }
-      ]
-    },
-    "16": {
       "choice": 4,
       "status": "official",
       "sources": [
@@ -3096,8 +3060,44 @@
         }
       ]
     },
+    "14": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
+          "booktype": "나"
+        }
+      ]
+    },
+    "15": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
+          "booktype": "나"
+        }
+      ]
+    },
+    "16": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "사이버국가고시센터 2019년 국가직 최종정답 (나책형)",
+          "url": "https://gongmuwon.gosi.kr/oprut/EvmArPrblmCransGdDtl.do?pstId=3535&bbsId=BBSMSTR_000000000138",
+          "booktype": "나"
+        }
+      ]
+    },
     "17": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -3109,7 +3109,7 @@
       ]
     },
     "18": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
@@ -3133,7 +3133,7 @@
       ]
     },
     "20": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
