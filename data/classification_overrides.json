@@ -2422,19 +2422,20 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2011-05": {
-    "category": "circuit-theory",
+    "category": "electronic-circuits",
     "topics": [
-      "coupled-transformer"
+      "power-supply-regulator"
     ],
     "concepts": [
-      "상호인덕턴스"
+      "선형·직렬·병렬 조정기",
+      "스위칭 전원"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
-      "계산형"
+      "개념형"
     ],
     "status": "approved",
-    "method": "curriculum-v2:rule-candidate"
+    "method": "curriculum-v2:curated"
   },
   "national-2011-06": {
     "category": "electronic-circuits",

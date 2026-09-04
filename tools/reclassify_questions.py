@@ -159,6 +159,8 @@ ID_OVERRIDES = {
     "national-2026-07": ("circuit-theory", ["transient"]),
     "military-2026-09": ("circuit-theory", ["transient"]),
     "national-2012-07": ("digital-engineering", ["latch-flipflop", "register"]),
+    # 선지의 '변압기'가 아니라 선형·스위칭 조정기의 특성 비교가 핵심이다.
+    "national-2011-05": ("electronic-circuits", ["power-supply-regulator"]),
     "national-2011-10": ("electronic-circuits", ["clamper-multiplier"]),
     "national-2011-11": ("digital-engineering", ["information-data"]),
     "national-2010-02": ("electronic-circuits", ["bjt-bias"]),
@@ -522,11 +524,16 @@ ID_OVERRIDES.update({
 })
 
 CONCEPT_OVERRIDES = {
+    "national-2011-05": ["선형·직렬·병렬 조정기", "스위칭 전원"],
     "national-2008-11": ["정상상태 등가회로"],
     "local-2009-12": ["정상상태 등가회로"],
     "seoul-2017-16": ["커패시터 개방"],
     "seoul-2014-14": ["특성임피던스"],
     "assembly-2023-14": ["정현파", "주파수·주기", "페이저"],
+}
+
+QUESTION_TYPE_OVERRIDES = {
+    "national-2011-05": ["개념형"],
 }
 
 MAX_POWER_IDS = {
@@ -652,6 +659,8 @@ def classify(question: dict, topic_index: dict) -> dict:
         question_types = list(dict.fromkeys([*(old.get("questionTypes") or []), "복수개념"]))
     else:
         question_types = old.get("questionTypes") or ["개념형"]
+    if question["id"] in QUESTION_TYPE_OVERRIDES:
+        question_types = QUESTION_TYPE_OVERRIDES[question["id"]]
     return {
         "category": category,
         "topics": topics,
