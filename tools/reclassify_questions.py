@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""전자공학개론 680문항을 세분화된 복수 중분류 체계로 재분류한다."""
+"""전자공학개론 문제를 복수 중분류 체계로 재분류한다."""
 from __future__ import annotations
 
 import json
@@ -47,19 +47,19 @@ RULES = [
     rule("circuit-theory", "magnetic-circuit", "자기회로·전자기력", r"자속\s*밀도", r"자기장\s*세기", r"자기\s*저항", r"자속선", r"도선.*자기력", r"두\s*도선.*힘", r"코어.*자속"),
     rule("circuit-theory", "electromagnetic-induction", "전자유도", r"유도\s*기전력", r"패러데이", r"렌츠", r"자속.*변화", r"와전류"),
 
-    # 반도체 소자이론.
-    rule("semiconductor", "bands", "에너지대", r"에너지\s*(대|밴드)", r"페르미", r"가전자대", r"전도대", r"밴드갭", r"도체.*절연체.*반도체"),
-    rule("semiconductor", "carriers", "캐리어·반도체 물성", r"진성\s*반도체", r"불순물\s*반도체", r"n\s*형", r"p\s*형", r"다수\s*캐리어", r"소수\s*캐리어", r"이동도", r"전도도", r"정공"),
-    rule("semiconductor", "phenomena", "반도체 현상", r"드리프트", r"확산\s*전류", r"생성.*재결합", r"재결합", r"홀\s*효과", r"hall\s*effect", r"광전\s*효과", r"열전\s*효과"),
-    rule("semiconductor", "pn-junction", "PN 접합", r"pn\s*접합", r"공핍층", r"확산\s*전위", r"built.?in", r"순방향\s*바이어스", r"역방향\s*바이어스", r"접합\s*커패시턴스"),
-    rule("semiconductor", "diode-model", "다이오드 특성·모델", r"다이오드.*전류.?전압", r"다이오드.*등가", r"다이오드.*특성", r"순방향\s*전압\s*강하", r"이상적.*다이오드"),
-    rule("semiconductor", "special-diodes", "특수 다이오드", r"제너\s*다이오드", r"zener", r"쇼트키", r"터널\s*다이오드", r"버랙터", r"가변\s*용량\s*다이오드"),
-    rule("semiconductor", "opto-devices", "광반도체 소자", r"포토\s*다이오드", r"태양\s*전지", r"발광\s*다이오드", r"\bled\b", r"광결합", r"포토\s*트랜지스터"),
-    rule("semiconductor", "bjt-device", "BJT 소자이론", r"bjt", r"바이폴라", r"베이스\s*전류", r"컬렉터\s*전류", r"이미터\s*전류", r"활성\s*영역", r"포화\s*영역", r"차단\s*영역", r"전류\s*이득\s*[βb]"),
-    rule("semiconductor", "jfet-device", "JFET 소자이론", r"jfet", r"mesfet", r"핀치\s*오프", r"pinch.?off", r"쇼클리\s*방정식"),
-    rule("semiconductor", "mosfet-device", "MOSFET 소자이론", r"mosfet", r"문턱\s*전압", r"threshold", r"증가형", r"공핍형", r"채널\s*길이\s*변조"),
-    rule("semiconductor", "power-devices", "전력반도체", r"\bscr\b", r"triac", r"diac", r"thyristor", r"사이리스터", r"\bujt\b", r"\bigbt\b"),
-    rule("semiconductor", "fabrication", "반도체 공정", r"웨이퍼", r"이온\s*주입", r"산화막", r"반도체\s*공정", r"집적도", r"패키징", r"확산\s*공정", r"포토리소"),
+    # 전자회로에 통합한 반도체 기초·소자: 같은 중분류의 개념별 규칙을 합산한다.
+    rule("electronic-circuits", "semiconductor-basics", "에너지대", r"에너지\s*(대|밴드)", r"페르미", r"가전자대", r"전도대", r"밴드갭", r"도체.*절연체.*반도체"),
+    rule("electronic-circuits", "semiconductor-basics", "진성·불순물 반도체", r"진성\s*반도체", r"불순물\s*반도체", r"n\s*형", r"p\s*형", r"다수\s*캐리어", r"소수\s*캐리어", r"이동도", r"전도도", r"정공"),
+    rule("electronic-circuits", "semiconductor-basics", "확산·드리프트", r"드리프트", r"확산\s*전류", r"생성.*재결합", r"재결합", r"홀\s*효과", r"hall\s*effect", r"광전\s*효과", r"열전\s*효과"),
+    rule("electronic-circuits", "diode-basics", "공핍층", r"pn\s*접합", r"공핍층", r"확산\s*전위", r"built.?in", r"순방향\s*바이어스", r"역방향\s*바이어스", r"접합\s*커패시턴스"),
+    rule("electronic-circuits", "diode-basics", "전류·전압 특성", r"다이오드.*전류.?전압", r"다이오드.*등가", r"다이오드.*특성", r"순방향\s*전압\s*강하", r"이상적.*다이오드"),
+    rule("electronic-circuits", "special-devices", "제너 다이오드", r"제너\s*다이오드", r"zener", r"쇼트키", r"터널\s*다이오드", r"버랙터", r"가변\s*용량\s*다이오드"),
+    rule("electronic-circuits", "special-devices", "LED", r"포토\s*다이오드", r"태양\s*전지", r"발광\s*다이오드", r"\bled\b", r"광결합", r"포토\s*트랜지스터"),
+    rule("electronic-circuits", "bjt-device", "BJT 구조·동작", r"bjt", r"바이폴라", r"베이스\s*전류", r"컬렉터\s*전류", r"이미터\s*전류", r"활성\s*영역", r"포화\s*영역", r"차단\s*영역", r"전류\s*이득\s*[βb]"),
+    rule("electronic-circuits", "fet-device", "JFET", r"jfet", r"mesfet", r"핀치\s*오프", r"pinch.?off", r"쇼클리\s*방정식"),
+    rule("electronic-circuits", "fet-device", "증가형·공핍형", r"mosfet", r"문턱\s*전압", r"threshold", r"증가형", r"공핍형", r"채널\s*길이\s*변조"),
+    rule("electronic-circuits", "special-devices", "SCR·TRIAC·DIAC", r"\bscr\b", r"triac", r"diac", r"thyristor", r"사이리스터", r"\bujt\b", r"\bigbt\b"),
+    rule("electronic-circuits", "semiconductor-basics", "웨이퍼·도핑", r"웨이퍼", r"이온\s*주입", r"산화막", r"반도체\s*공정", r"집적도", r"패키징", r"확산\s*공정", r"포토리소"),
 
     # 전자회로.
     rule("electronic-circuits", "rectifier-smoothing", "정류·평활", r"반파\s*정류", r"전파\s*정류", r"브리지\s*정류", r"정류\s*회로", r"정류기", r"리플", r"평활"),
@@ -119,11 +119,11 @@ OLD_TOPIC_FALLBACK = {
     "non-sinusoidal": ("circuit-theory", "non-sinusoidal-fourier"), "resonance": ("circuit-theory", "resonance"),
     "sinusoidal": ("circuit-theory", "sinusoidal-phasor"), "transfer-function": ("circuit-theory", "transfer-response"),
     "transient": ("circuit-theory", "transient"), "two-port": ("circuit-theory", "two-port"),
-    "bands": ("semiconductor", "bands"), "materials": ("semiconductor", "carriers"),
-    "phenomena": ("semiconductor", "phenomena"), "pn-junction": ("semiconductor", "pn-junction"),
-    "diode-devices": ("semiconductor", "special-diodes"), "bjt-device": ("semiconductor", "bjt-device"),
-    "fet-device": ("semiconductor", "mosfet-device"), "power-devices": ("semiconductor", "power-devices"),
-    "fabrication": ("semiconductor", "fabrication"), "diode-applications": ("electronic-circuits", "rectifier-smoothing"),
+    "bands": ("electronic-circuits", "semiconductor-basics"), "materials": ("electronic-circuits", "semiconductor-basics"),
+    "phenomena": ("electronic-circuits", "semiconductor-basics"), "pn-junction": ("electronic-circuits", "diode-basics"),
+    "diode-devices": ("electronic-circuits", "special-devices"), "bjt-device": ("electronic-circuits", "bjt-device"),
+    "fet-device": ("electronic-circuits", "fet-device"), "power-devices": ("electronic-circuits", "special-devices"),
+    "fabrication": ("electronic-circuits", "semiconductor-basics"), "diode-applications": ("electronic-circuits", "rectifier-smoothing"),
     "bjt-bias": ("electronic-circuits", "bjt-bias"), "bjt-amplifiers": ("electronic-circuits", "bjt-amplifier"),
     "fet-amplifiers": ("electronic-circuits", "fet-amplifier"), "frequency-response": ("electronic-circuits", "amplifier-frequency"),
     "power-amplifiers": ("electronic-circuits", "power-amplifier"), "feedback": ("electronic-circuits", "feedback-amplifier"),
@@ -170,7 +170,7 @@ ID_OVERRIDES = {
     "local-2010-06": ("circuit-theory", ["sinusoidal-phasor"]),
     "national-2011-03": ("circuit-theory", ["ac-power"]),
     "national-2011-07": ("electronic-circuits", ["opamp-operations", "limiter-clipper"]),
-    "national-2011-09": ("semiconductor", ["bjt-device"]),
+    "national-2011-09": ("electronic-circuits", ["bjt-device"]),
     "local-2012-16": ("electronic-circuits", ["limiter-clipper"]),
     "national-2012-08": ("circuit-theory", ["node-analysis"]),
     "national-2013-08": ("electronic-circuits", ["clamper-multiplier"]),
@@ -202,7 +202,7 @@ ID_OVERRIDES = {
     "military-2022-17": ("circuit-theory", ["elements-basics"]),
     "military-2022-18": ("circuit-theory", ["elements-basics"]),
     "military-2022-10": ("electronic-circuits", ["amplifier-frequency"]),
-    "military-2022-06": ("semiconductor", ["opto-devices"]),
+    "military-2022-06": ("electronic-circuits", ["special-devices"]),
     "military-2022-08": ("electronic-circuits", ["opamp-operations"]),
     "military-2023-12": ("circuit-theory", ["elements-basics"]),
     "military-2023-13": ("electronic-circuits", ["bjt-bias"]),
@@ -262,8 +262,8 @@ ID_OVERRIDES = {
     "assembly-2018-17": ("circuit-theory", ["sinusoidal-phasor"]),
     "seoul-2018-14": ("circuit-theory", ["non-sinusoidal-fourier"]),
     "assembly-2019-05": ("circuit-theory", ["non-sinusoidal-fourier"]),
-    "assembly-2019-08": ("semiconductor", ["carriers"]),
-    "assembly-2019-09": ("semiconductor", ["fabrication"]),
+    "assembly-2019-08": ("electronic-circuits", ["semiconductor-basics"]),
+    "assembly-2019-09": ("electronic-circuits", ["semiconductor-basics"]),
     "assembly-2019-15": ("circuit-theory", ["node-analysis"]),
     "assembly-2019-18": ("circuit-theory", ["maximum-power"]),
     "seoul-2019-04": ("circuit-theory", ["magnetic-circuit"]),
@@ -295,7 +295,7 @@ ID_OVERRIDES = {
     "assembly-2024-12": ("electronic-circuits", ["signals-systems"]),
     "assembly-2025-09": ("digital-engineering", ["minimization-kmap"]),
     "assembly-2025-10": ("digital-engineering", ["number-systems"]),
-    "assembly-2025-12": ("semiconductor", ["carriers"]),
+    "assembly-2025-12": ("electronic-circuits", ["semiconductor-basics"]),
     "assembly-2025-14": ("electronic-circuits", ["bjt-amplifier"]),
     "assembly-2025-18": ("electronic-circuits", ["zener-regulator"]),
 
@@ -313,12 +313,12 @@ ID_OVERRIDES = {
     "assembly-2014-12": ("electronic-circuits", ["bjt-bias"]),
     "assembly-2014-14": ("circuit-theory", ["series-parallel"]),
     "assembly-2014-19": ("electronic-circuits", ["oscillator"]),
-    "assembly-2015-03": ("semiconductor", ["mosfet-device"]),
+    "assembly-2015-03": ("electronic-circuits", ["fet-device"]),
     "assembly-2015-04": ("circuit-theory", ["node-analysis"]),
     "assembly-2015-09": ("electronic-circuits", ["fet-amplifier"]),
     "assembly-2015-15": ("circuit-theory", ["sinusoidal-phasor"]),
     "assembly-2015-18": ("electronic-circuits", ["bjt-bias"]),
-    "assembly-2016-01": ("semiconductor", ["special-diodes"]),
+    "assembly-2016-01": ("electronic-circuits", ["special-devices"]),
     "assembly-2016-03": ("electronic-circuits", ["fet-amplifier"]),
     "assembly-2016-07": ("circuit-theory", ["electrostatics-field"]),
     "assembly-2016-17": ("electronic-circuits", ["amplifier-frequency"]),
@@ -326,7 +326,7 @@ ID_OVERRIDES = {
     "assembly-2017-01": ("electronic-circuits", ["rectifier-smoothing"]),
     "assembly-2017-16": ("electronic-circuits", ["feedback-amplifier"]),
     "assembly-2017-15": ("circuit-theory", ["node-analysis"]),
-    "assembly-2017-20": ("semiconductor", ["mosfet-device"]),
+    "assembly-2017-20": ("electronic-circuits", ["fet-device"]),
     "assembly-2018-04": ("circuit-theory", ["sinusoidal-phasor"]),
     "assembly-2018-05": ("electronic-circuits", ["clamper-multiplier"]),
     "assembly-2018-09": ("digital-engineering", ["logic-families", "boolean-gates"]),
@@ -343,7 +343,7 @@ ID_OVERRIDES = {
     "assembly-2020-11": ("circuit-theory", ["maximum-power"]),
     "assembly-2020-13": ("circuit-theory", ["node-analysis"]),
     "assembly-2020-14": ("electronic-circuits", ["limiter-clipper"]),
-    "assembly-2020-15": ("semiconductor", ["pn-junction", "diode-model"]),
+    "assembly-2020-15": ("electronic-circuits", ["diode-basics", "diode-basics"]),
     "assembly-2020-16": ("electronic-circuits", ["rectifier-smoothing", "power-supply-regulator"]),
     "assembly-2021-01": ("circuit-theory", ["node-analysis"]),
     "assembly-2021-04": ("electronic-circuits", ["bjt-amplifier"]),
@@ -360,9 +360,9 @@ ID_OVERRIDES = {
     "assembly-2022-18": ("electronic-circuits", ["electromagnetic-waves"]),
     "assembly-2023-02": ("digital-engineering", ["counter", "latch-flipflop"]),
     "assembly-2023-03": ("digital-engineering", ["digital-communication"]),
-    "assembly-2023-12": ("semiconductor", ["bjt-device"]),
+    "assembly-2023-12": ("electronic-circuits", ["bjt-device"]),
     "assembly-2023-15": ("circuit-theory", ["electrostatics-field"]),
-    "assembly-2023-17": ("semiconductor", ["phenomena"]),
+    "assembly-2023-17": ("electronic-circuits", ["semiconductor-basics"]),
     "assembly-2023-19": ("circuit-theory", ["sinusoidal-phasor"]),
     "assembly-2024-01": ("circuit-theory", ["maximum-power"]),
     "assembly-2024-02": ("electronic-circuits", ["active-filter", "opamp-operations"]),
@@ -384,7 +384,7 @@ ID_OVERRIDES = {
     "assembly-2025-19": ("electronic-circuits", ["electromagnetic-waves"]),
 
     "seoul-2014-03": ("digital-engineering", ["mux-demux"]),
-    "seoul-2014-07": ("semiconductor", ["mosfet-device"]),
+    "seoul-2014-07": ("electronic-circuits", ["fet-device"]),
     "seoul-2014-11": ("digital-engineering", ["boolean-gates"]),
     "seoul-2015-02": ("circuit-theory", ["sinusoidal-phasor"]),
     "seoul-2015-03": ("electronic-circuits", ["zener-regulator"]),
@@ -398,14 +398,14 @@ ID_OVERRIDES = {
     "seoul-2016-03": ("circuit-theory", ["node-analysis"]),
     "seoul-2016-06": ("electronic-circuits", ["bjt-amplifier", "bjt-bias"]),
     "seoul-2016-08": ("electronic-circuits", ["bjt-bias"]),
-    "seoul-2016-10": ("semiconductor", ["bjt-device"]),
-    "seoul-2016-11": ("semiconductor", ["pn-junction"]),
+    "seoul-2016-10": ("electronic-circuits", ["bjt-device"]),
+    "seoul-2016-11": ("electronic-circuits", ["diode-basics"]),
     "seoul-2016-12": ("electronic-circuits", ["opamp-operations"]),
     "seoul-2017-01": ("electronic-circuits", ["bjt-amplifier", "multistage-special"]),
     "seoul-2017-02": ("electronic-circuits", ["active-filter", "opamp-operations"]),
     "seoul-2017-07": ("circuit-theory", ["series-parallel"]),
     "seoul-2017-08": ("circuit-theory", ["series-parallel"]),
-    "seoul-2017-10": ("semiconductor", ["mosfet-device"]),
+    "seoul-2017-10": ("electronic-circuits", ["fet-device"]),
     "seoul-2017-11": ("electronic-circuits", ["bjt-amplifier"]),
     "seoul-2017-16": ("circuit-theory", ["dc-steady-state"]),
     "seoul-2014-14": ("circuit-theory", ["distributed-parameter"]),
@@ -417,16 +417,16 @@ ID_OVERRIDES = {
     "seoul-2018-16": ("circuit-theory", ["transient"]),
     "seoul-2018-17": ("electronic-circuits", ["signals-systems"]),
     "seoul-2018-18": ("electronic-circuits", ["signals-systems"]),
-    "seoul-2019-05": ("semiconductor", ["phenomena"]),
-    "seoul-2019-08": ("semiconductor", ["pn-junction"]),
+    "seoul-2019-05": ("electronic-circuits", ["semiconductor-basics"]),
+    "seoul-2019-08": ("electronic-circuits", ["diode-basics"]),
     "seoul-2019-09": ("digital-engineering", ["arithmetic-circuits"]),
     "seoul-2019-14": ("circuit-theory", ["transient"]),
     "seoul-2019-16": ("electronic-circuits", ["bjt-amplifier"]),
-    "seoul-2019-17": ("semiconductor", ["bjt-device"]),
+    "seoul-2019-17": ("electronic-circuits", ["bjt-device"]),
     "seoul-2020-08": ("electronic-circuits", ["opamp-operations"]),
     "seoul-2020-09": ("circuit-theory", ["transfer-response", "passive-filter"]),
     "seoul-2020-10": ("electronic-circuits", ["opamp-operations"]),
-    "seoul-2020-11": ("semiconductor", ["special-diodes"]),
+    "seoul-2020-11": ("electronic-circuits", ["special-devices"]),
     "seoul-2020-12": ("circuit-theory", ["series-parallel"]),
     "seoul-2020-15": ("electronic-circuits", ["opamp-operations"]),
     "seoul-2020-17": ("electronic-circuits", ["oscillator"]),
@@ -478,7 +478,7 @@ ID_OVERRIDES.update({
     "local-2012-08": ("electronic-circuits", ["limiter-clipper"]),
     "local-2012-14": ("electronic-circuits", ["opamp-operations"]),
     "national-2013-16": ("electronic-circuits", ["opamp-operations"]),
-    "national-2014-02": ("semiconductor", ["diode-model"]),
+    "national-2014-02": ("electronic-circuits", ["diode-basics"]),
     "assembly-2014-15": ("electronic-circuits", ["amplifier-frequency", "active-filter"]),
     "assembly-2015-16": ("electronic-circuits", ["opamp-operations"]),
     "national-2020-14": ("electronic-circuits", ["limiter-clipper", "opamp-operations"]),
@@ -489,16 +489,16 @@ ID_OVERRIDES.update({
 
     # BJT·FET 소자와 증폭회로의 경계 보정.
     "local-2009-01": ("digital-engineering", ["logic-families"]),
-    "national-2009-06": ("semiconductor", ["carriers", "bjt-device", "mosfet-device"]),
-    "national-2012-12": ("semiconductor", ["mosfet-device"]),
+    "national-2009-06": ("electronic-circuits", ["semiconductor-basics", "bjt-device", "fet-device"]),
+    "national-2012-12": ("electronic-circuits", ["fet-device"]),
     "national-2013-10": ("electronic-circuits", ["bjt-amplifier", "multistage-special"]),
-    "national-2013-11": ("semiconductor", ["bjt-device", "mosfet-device"]),
+    "national-2013-11": ("electronic-circuits", ["bjt-device", "fet-device"]),
     "national-2016-19": ("electronic-circuits", ["bjt-amplifier"]),
     "national-2018-07": ("electronic-circuits", ["differential-mirror"]),
     "national-2018-12": ("electronic-circuits", ["bjt-amplifier"]),
     "national-2018-19": ("electronic-circuits", ["fet-amplifier"]),
     "national-2020-17": ("electronic-circuits", ["oscillator"]),
-    "national-2021-14": ("semiconductor", ["bjt-device", "mosfet-device"]),
+    "national-2021-14": ("electronic-circuits", ["bjt-device", "fet-device"]),
     "national-2022-08": ("electronic-circuits", ["bjt-bias"]),
     "military-2023-10": ("electronic-circuits", ["fet-amplifier"]),
     "military-2024-10": ("electronic-circuits", ["bjt-bias"]),
@@ -508,7 +508,7 @@ ID_OVERRIDES.update({
     "national-2026-09": ("electronic-circuits", ["bjt-amplifier"]),
     "national-2026-17": ("electronic-circuits", ["fet-amplifier"]),
     "local-2026-18": ("electronic-circuits", ["bjt-bias"]),
-    "military-2026-07": ("semiconductor", ["bjt-device"]),
+    "military-2026-07": ("electronic-circuits", ["bjt-device"]),
 
     # CMOS 논리회로와 조합·순차회로.
     "national-2009-14": ("digital-engineering", ["logic-families", "boolean-gates"]),
@@ -517,7 +517,7 @@ ID_OVERRIDES.update({
     "assembly-2016-19": ("digital-engineering", ["logic-families", "boolean-gates"]),
     "assembly-2019-04": ("digital-engineering", ["logic-families", "boolean-gates"]),
     "national-2022-16": ("digital-engineering", ["logic-families", "boolean-gates"]),
-    "national-2023-07": ("semiconductor", ["mosfet-device"]),
+    "national-2023-07": ("electronic-circuits", ["fet-device"]),
     "military-2023-14": ("digital-engineering", ["logic-families", "boolean-gates"]),
     "local-2024-02": ("digital-engineering", ["counter", "latch-flipflop"]),
     "national-2024-19": ("digital-engineering", ["arithmetic-circuits", "encoder-decoder", "other-combinational"]),
@@ -566,11 +566,11 @@ def generic_fallback(text: str) -> tuple[str, list[str]] | None:
             return "electronic-circuits", ["bjt-bias"]
         return "electronic-circuits", ["bjt-amplifier"]
     if re.search(r"mos\s*커패시터|mos\s*구조", text):
-        return "semiconductor", ["mosfet-device"]
+        return "electronic-circuits", ["fet-device"]
     if re.search(r"다이오드", text):
         if re.search(r"파형|전달\s*특성|출력\s*전압", text):
             return "electronic-circuits", ["limiter-clipper"]
-        return "semiconductor", ["diode-model"]
+        return "electronic-circuits", ["diode-basics"]
     if re.search(r"플립|래치|상태표|현재상태|다음상태", text):
         return "digital-engineering", ["latch-flipflop"]
     if re.search(r"논리|로직|출력\s*[fyz].*입력|함수\s*[fyz]", text):
@@ -631,8 +631,6 @@ def classify(question: dict, topic_index: dict) -> dict:
                 topics = [topic]
             elif old.get("category") == "digital-engineering":
                 category, topics = "digital-engineering", ["boolean-gates"]
-            elif old.get("category") == "semiconductor":
-                category, topics = "semiconductor", ["carriers"]
             elif old.get("category") == "circuit-theory":
                 category, topics = "circuit-theory", ["elements-basics"]
             else:
