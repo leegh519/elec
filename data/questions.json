@@ -247,10 +247,9 @@
       "height": 534
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes",
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드",
@@ -1148,9 +1147,9 @@
       "height": 561
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "LED"
@@ -1986,7 +1985,7 @@
       "height": 1261
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -2466,7 +2465,7 @@
       "height": 1126
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -2706,11 +2705,11 @@
       "height": 903
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
+        "semiconductor-basics",
         "bjt-device",
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -3551,9 +3550,9 @@
       "height": 1107
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -3609,9 +3608,9 @@
       "height": 1025
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -4341,9 +4340,9 @@
       "height": 688
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -4400,7 +4399,7 @@
       "height": 431
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -4581,9 +4580,9 @@
       "height": 833
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -5607,9 +5606,9 @@
       "height": 653
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -5788,9 +5787,9 @@
       "height": 705
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -7873,9 +7872,9 @@
       "height": 542
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -8165,9 +8164,9 @@
       "height": 914
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -8344,11 +8343,10 @@
       "height": 670
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction",
-        "special-diodes",
-        "opto-devices"
+        "diode-basics",
+        "special-devices"
       ],
       "concepts": [
         "공핍층",
@@ -8827,9 +8825,9 @@
       "height": 449
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -8885,7 +8883,7 @@
       "height": 860
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -9188,9 +9186,9 @@
       "height": 673
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -9246,9 +9244,9 @@
       "height": 447
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -10511,9 +10509,9 @@
       "height": 555
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices",
+        "special-devices",
         "bjt-device"
       ],
       "concepts": [
@@ -10926,7 +10924,7 @@
       "height": 698
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -10985,9 +10983,9 @@
       "height": 674
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -11105,9 +11103,9 @@
       "height": 787
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -11466,9 +11464,9 @@
       "height": 722
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -11884,9 +11882,9 @@
       "height": 856
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "LED"
@@ -12243,9 +12241,9 @@
       "height": 692
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "LED"
@@ -12665,9 +12663,9 @@
       "height": 1067
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "LED"
@@ -12842,9 +12840,9 @@
       "height": 1011
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -13199,9 +13197,9 @@
       "height": 443
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -13315,9 +13313,9 @@
       "height": 267
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -13801,10 +13799,10 @@
       "height": 375
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device",
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "BJT 구조·동작",
@@ -14337,9 +14335,9 @@
       "height": 660
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -14454,9 +14452,9 @@
       "height": 1412
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -14512,9 +14510,9 @@
       "height": 706
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -14689,9 +14687,9 @@
       "height": 1088
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "jfet-device"
+        "fet-device"
       ],
       "concepts": [
         "JFET"
@@ -14990,9 +14988,9 @@
       "height": 697
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -15109,11 +15107,10 @@
       "height": 896
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "pn-junction",
-        "diode-model"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -15173,10 +15170,9 @@
       "height": 276
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bands",
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "에너지대",
@@ -17180,9 +17176,9 @@
       "height": 732
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -18557,9 +18553,9 @@
       "height": 1053
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -19035,9 +19031,9 @@
       "height": 577
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "phenomena",
+        "semiconductor-basics",
         "bjt-device"
       ],
       "concepts": [
@@ -19156,9 +19152,9 @@
       "height": 1085
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bands"
+        "semiconductor-basics"
       ],
       "concepts": [
         "에너지대"
@@ -19333,9 +19329,9 @@
       "height": 681
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -19816,9 +19812,9 @@
       "height": 901
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -20298,9 +20294,9 @@
       "height": 1099
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -20600,9 +20596,9 @@
       "height": 471
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -21444,10 +21440,10 @@
       "height": 377
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "pn-junction"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -21687,9 +21683,9 @@
       "height": 444
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -22349,10 +22345,10 @@
       "height": 378
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "mosfet-device"
+        "semiconductor-basics",
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -22833,9 +22829,9 @@
       "height": 1210
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -24604,7 +24600,7 @@
       "height": 522
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -24663,9 +24659,9 @@
       "height": 379
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -25553,10 +25549,10 @@
       "height": 357
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "mosfet-device"
+        "semiconductor-basics",
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -25616,9 +25612,9 @@
       "height": 1490
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -26032,9 +26028,9 @@
       "height": 694
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -26214,9 +26210,9 @@
       "height": 379
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -26701,9 +26697,9 @@
       "height": 628
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -27613,9 +27609,9 @@
       "height": 986
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -28221,9 +28217,9 @@
       "height": 538
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -28525,9 +28521,9 @@
       "height": 654
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -28705,9 +28701,9 @@
       "height": 812
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "jfet-device"
+        "fet-device"
       ],
       "concepts": [
         "JFET"
@@ -28950,11 +28946,11 @@
       "height": 509
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
+        "semiconductor-basics",
         "bjt-device",
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -29074,10 +29070,10 @@
       "height": 508
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction",
-        "special-diodes"
+        "diode-basics",
+        "special-devices"
       ],
       "concepts": [
         "공핍층",
@@ -29677,9 +29673,9 @@
       "height": 392
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -30094,9 +30090,9 @@
       "height": 969
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -31317,9 +31313,9 @@
       "height": 380
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "phenomena"
+        "semiconductor-basics"
       ],
       "concepts": [
         "확산·드리프트"
@@ -31494,9 +31490,9 @@
       "height": 743
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -32587,10 +32583,10 @@
       "height": 374
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "pn-junction"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -32828,9 +32824,9 @@
       "height": 660
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -33486,9 +33482,9 @@
       "height": 512
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "phenomena",
+        "semiconductor-basics",
         "bjt-device"
       ],
       "concepts": [
@@ -34153,9 +34149,9 @@
       "height": 459
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -34212,9 +34208,9 @@
       "height": 611
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "fabrication"
+        "semiconductor-basics"
       ],
       "concepts": [
         "웨이퍼·도핑"
@@ -34333,9 +34329,9 @@
       "height": 895
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -34892,9 +34888,9 @@
       "height": 842
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -35188,9 +35184,9 @@
       "height": 408
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "phenomena"
+        "semiconductor-basics"
       ],
       "concepts": [
         "확산·드리프트"
@@ -35370,9 +35366,9 @@
       "height": 508
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -35909,7 +35905,7 @@
       "height": 818
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -36447,9 +36443,9 @@
       "height": 576
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -36625,7 +36621,7 @@
       "height": 716
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -36746,9 +36742,9 @@
       "height": 792
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -37224,9 +37220,9 @@
       "height": 1075
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "power-devices"
+        "special-devices"
       ],
       "concepts": [
         "SCR·TRIAC·DIAC"
@@ -37344,9 +37340,9 @@
       "height": 555
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -38197,10 +38193,9 @@
       "height": 558
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction",
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층",
@@ -38384,9 +38379,9 @@
       "height": 1347
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -38631,9 +38626,9 @@
       "height": 412
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -38690,9 +38685,9 @@
       "height": 543
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -39169,9 +39164,9 @@
       "height": 409
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -40379,9 +40374,9 @@
       "height": 553
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -40556,10 +40551,10 @@
       "height": 487
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device",
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "BJT 구조·동작",
@@ -40617,9 +40612,9 @@
       "height": 405
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -40735,9 +40730,9 @@
       "height": 797
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -40794,7 +40789,7 @@
       "height": 850
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -41269,9 +41264,9 @@
       "height": 1131
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -42112,7 +42107,7 @@
       "height": 714
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -43445,11 +43440,10 @@
       "height": 610
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "phenomena",
-        "pn-junction"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -43508,9 +43502,9 @@
       "height": 1025
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -44116,9 +44110,9 @@
       "height": 1035
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -44423,9 +44417,9 @@
       "height": 873
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -45582,7 +45576,7 @@
       "height": 1023
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -46120,9 +46114,9 @@
       "height": 682
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "LED"
@@ -46712,9 +46706,9 @@
       "height": 481
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -46949,7 +46943,7 @@
       "height": 766
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -47188,9 +47182,9 @@
       "height": 902
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -47369,9 +47363,9 @@
       "height": 999
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -48381,10 +48375,9 @@
       "height": 406
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "bands"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -48562,9 +48555,9 @@
       "height": 1271
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -48684,9 +48677,9 @@
       "height": 574
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -49106,9 +49099,9 @@
       "height": 2136
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -49341,9 +49334,9 @@
       "height": 817
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -50076,7 +50069,7 @@
       "height": 580
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -50138,9 +50131,9 @@
       "height": 998
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -50379,9 +50372,9 @@
       "height": 1258
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "phenomena"
+        "semiconductor-basics"
       ],
       "concepts": [
         "확산·드리프트"
@@ -50978,9 +50971,9 @@
       "height": 651
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -51036,9 +51029,9 @@
       "height": 652
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -51094,9 +51087,9 @@
       "height": 528
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -51633,9 +51626,9 @@
       "height": 850
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -51870,9 +51863,9 @@
       "height": 579
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -52343,9 +52336,9 @@
       "height": 2059
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -52583,9 +52576,9 @@
       "height": 1109
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -53174,10 +53167,10 @@
       "height": 420
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "jfet-device"
+        "semiconductor-basics",
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -53659,9 +53652,9 @@
       "height": 466
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -53952,9 +53945,9 @@
       "height": 463
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "power-devices"
+        "special-devices"
       ],
       "concepts": [
         "SCR·TRIAC·DIAC"
@@ -55059,9 +55052,9 @@
       "height": 1076
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -55426,9 +55419,9 @@
       "height": 649
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -55484,9 +55477,9 @@
       "height": 720
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -55542,10 +55535,10 @@
       "height": 651
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device",
-        "carriers"
+        "fet-device",
+        "semiconductor-basics"
       ],
       "concepts": [
         "증가형·공핍형",
@@ -55605,7 +55598,7 @@
       "height": 724
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -55663,9 +55656,9 @@
       "height": 858
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -56800,7 +56793,7 @@
       "height": 998
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -58591,7 +58584,7 @@
       "height": 403
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -58951,9 +58944,9 @@
       "height": 405
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "special-diodes"
+        "special-devices"
       ],
       "concepts": [
         "제너 다이오드"
@@ -59674,9 +59667,9 @@
       "height": 682
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -60453,10 +60446,9 @@
       "height": 651
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
-        "phenomena"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -60696,9 +60688,9 @@
       "height": 426
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -63025,9 +63017,9 @@
       "height": 590
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "pn-junction"
+        "diode-basics"
       ],
       "concepts": [
         "공핍층"
@@ -63260,11 +63252,11 @@
       "height": 563
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers",
+        "semiconductor-basics",
         "bjt-device",
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "진성·불순물 반도체",
@@ -63326,9 +63318,9 @@
       "height": 1381
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "mosfet-device"
+        "fet-device"
       ],
       "concepts": [
         "증가형·공핍형"
@@ -63802,9 +63794,9 @@
       "height": 789
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "bands"
+        "semiconductor-basics"
       ],
       "concepts": [
         "에너지대"
@@ -63981,10 +63973,10 @@
       "height": 858
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device",
-        "opto-devices"
+        "special-devices"
       ],
       "concepts": [
         "BJT 구조·동작",
@@ -64170,7 +64162,7 @@
       "height": 1072
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
         "bjt-device"
       ],
@@ -64761,9 +64753,9 @@
       "height": 717
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "carriers"
+        "semiconductor-basics"
       ],
       "concepts": [
         "진성·불순물 반도체"
@@ -65303,9 +65295,9 @@
       "height": 402
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"
@@ -65725,9 +65717,9 @@
       "height": 1148
     },
     "classification": {
-      "category": "semiconductor",
+      "category": "electronic-circuits",
       "topics": [
-        "diode-model"
+        "diode-basics"
       ],
       "concepts": [
         "전류·전압 특성"

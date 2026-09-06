@@ -63,10 +63,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2007-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes",
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드",
@@ -319,9 +318,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2007-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "LED"
@@ -555,7 +554,7 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2008-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -691,7 +690,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2009-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -759,11 +758,11 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2009-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
+      "semiconductor-basics",
       "bjt-device",
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -1002,9 +1001,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2009-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -1017,9 +1016,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "assembly-2009-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -1221,9 +1220,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2009-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -1236,7 +1235,7 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2009-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -1285,9 +1284,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2009-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -1576,9 +1575,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2009-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -1628,9 +1627,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2009-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -2208,9 +2207,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2010-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -2285,9 +2284,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2010-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -2335,11 +2334,10 @@
     "method": "curriculum-v2:curated"
   },
   "local-2010-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction",
-      "special-diodes",
-      "opto-devices"
+      "diode-basics",
+      "special-devices"
     ],
     "concepts": [
       "공핍층",
@@ -2474,9 +2472,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2011-08": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -2489,7 +2487,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2011-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -2577,9 +2575,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2011-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -2592,9 +2590,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2011-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -2954,9 +2952,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2011-16": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices",
+      "special-devices",
       "bjt-device"
     ],
     "concepts": [
@@ -3068,7 +3066,7 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2012-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -3084,9 +3082,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2012-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -3118,9 +3116,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2012-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -3221,9 +3219,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2012-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -3338,9 +3336,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2012-19": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "LED"
@@ -3439,9 +3437,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "local-2012-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "LED"
@@ -3560,9 +3558,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2012-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "LED"
@@ -3608,9 +3606,9 @@
     "method": "curriculum-v2:curated"
   },
   "local-2012-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -3707,9 +3705,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2013-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -3737,9 +3735,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2013-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -3879,10 +3877,10 @@
     "method": "curriculum-v2:curated"
   },
   "national-2013-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device",
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "BJT 구조·동작",
@@ -4028,9 +4026,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2013-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -4059,9 +4057,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2014-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -4074,9 +4072,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2014-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -4122,9 +4120,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2014-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "jfet-device"
+      "fet-device"
     ],
     "concepts": [
       "JFET"
@@ -4208,9 +4206,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2014-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -4241,11 +4239,10 @@
     "method": "curriculum-v2:curated"
   },
   "national-2014-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "pn-junction",
-      "diode-model"
+      "semiconductor-basics",
+      "diode-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -4262,10 +4259,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2014-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "bands",
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "에너지대",
@@ -4824,9 +4820,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2014-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -5198,9 +5194,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2015-10": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -5332,9 +5328,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2015-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "phenomena",
+      "semiconductor-basics",
       "bjt-device"
     ],
     "concepts": [
@@ -5367,9 +5363,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2015-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "bands"
+      "semiconductor-basics"
     ],
     "concepts": [
       "에너지대"
@@ -5413,9 +5409,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2015-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -5544,9 +5540,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2015-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -5674,9 +5670,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2015-19": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -5756,9 +5752,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2015-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -5984,10 +5980,10 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "seoul-2015-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "pn-junction"
+      "semiconductor-basics",
+      "diode-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -6052,9 +6048,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2016-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -6230,10 +6226,10 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2016-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "mosfet-device"
+      "semiconductor-basics",
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -6370,9 +6366,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2016-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -6865,7 +6861,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "seoul-2016-10": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -6880,9 +6876,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2016-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -7115,10 +7111,10 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2017-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "mosfet-device"
+      "semiconductor-basics",
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -7135,9 +7131,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2017-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -7250,9 +7246,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2017-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -7303,9 +7299,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2017-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -7442,9 +7438,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2017-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -7694,9 +7690,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2017-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -7862,9 +7858,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "seoul-2017-10": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -7946,9 +7942,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "seoul-2017-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -7994,9 +7990,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2017-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "jfet-device"
+      "fet-device"
     ],
     "concepts": [
       "JFET"
@@ -8064,11 +8060,11 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2018-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
+      "semiconductor-basics",
       "bjt-device",
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -8102,10 +8098,10 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2018-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction",
-      "special-diodes"
+      "diode-basics",
+      "special-devices"
     ],
     "concepts": [
       "공핍층",
@@ -8275,9 +8271,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2018-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -8391,9 +8387,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "assembly-2018-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -8734,9 +8730,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2018-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "phenomena"
+      "semiconductor-basics"
     ],
     "concepts": [
       "확산·드리프트"
@@ -8779,9 +8775,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2018-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -9081,10 +9077,10 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2019-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "pn-junction"
+      "semiconductor-basics",
+      "diode-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -9150,9 +9146,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2019-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -9335,9 +9331,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2019-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "phenomena",
+      "semiconductor-basics",
       "bjt-device"
     ],
     "concepts": [
@@ -9522,9 +9518,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2019-08": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -9537,9 +9533,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2019-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "fabrication"
+      "semiconductor-basics"
     ],
     "concepts": [
       "웨이퍼·도핑"
@@ -9570,9 +9566,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2019-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -9733,9 +9729,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2019-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -9809,9 +9805,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2019-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "phenomena"
+      "semiconductor-basics"
     ],
     "concepts": [
       "확산·드리프트"
@@ -9859,9 +9855,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "seoul-2019-08": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -10002,7 +9998,7 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2019-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -10149,9 +10145,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2020-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -10198,7 +10194,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2020-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -10233,9 +10229,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2020-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -10367,9 +10363,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2020-19": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "power-devices"
+      "special-devices"
     ],
     "concepts": [
       "SCR·TRIAC·DIAC"
@@ -10401,9 +10397,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2020-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -10638,10 +10634,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2020-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction",
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층",
@@ -10693,9 +10688,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2020-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -10764,9 +10759,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2020-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -10779,9 +10774,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "seoul-2020-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -10906,9 +10901,9 @@
     "method": "curriculum-v2:curated"
   },
   "seoul-2020-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -11246,9 +11241,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2021-11": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -11294,10 +11289,10 @@
     "method": "curriculum-v2:curated"
   },
   "national-2021-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device",
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "BJT 구조·동작",
@@ -11312,9 +11307,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2021-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -11344,9 +11339,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2021-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -11360,7 +11355,7 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2021-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -11486,9 +11481,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2021-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -11713,7 +11708,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "assembly-2021-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -12079,11 +12074,10 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2022-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "phenomena",
-      "pn-junction"
+      "semiconductor-basics",
+      "diode-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -12099,9 +12093,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2022-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -12277,9 +12271,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2022-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -12369,9 +12363,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2022-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -12695,7 +12689,7 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2022-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -12842,9 +12836,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2022-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "LED"
@@ -13004,9 +12998,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2022-16": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -13069,7 +13063,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "military-2022-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -13136,9 +13130,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2022-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -13188,9 +13182,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2022-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -13469,10 +13463,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2023-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "bands"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -13521,9 +13514,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2023-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -13557,9 +13550,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2023-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -13678,9 +13671,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2023-16": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -13741,9 +13734,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2023-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -13949,7 +13942,7 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2023-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -13967,9 +13960,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2023-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -14032,9 +14025,9 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "assembly-2023-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "phenomena"
+      "semiconductor-basics"
     ],
     "concepts": [
       "확산·드리프트"
@@ -14197,9 +14190,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "military-2023-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -14212,9 +14205,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2023-08": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -14227,9 +14220,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2023-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -14379,9 +14372,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2023-18": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -14444,9 +14437,9 @@
     "method": "curriculum-v2:curated"
   },
   "local-2023-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -14573,9 +14566,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2023-10": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -14641,9 +14634,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2023-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -14802,10 +14795,10 @@
     "method": "curriculum-v2:curated"
   },
   "national-2024-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "jfet-device"
+      "semiconductor-basics",
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -14943,9 +14936,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2024-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -15021,9 +15014,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2024-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "power-devices"
+      "special-devices"
     ],
     "concepts": [
       "SCR·TRIAC·DIAC"
@@ -15340,9 +15333,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "assembly-2024-15": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -15443,9 +15436,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2024-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -15458,9 +15451,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2024-02": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -15473,10 +15466,10 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2024-03": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device",
-      "carriers"
+      "fet-device",
+      "semiconductor-basics"
     ],
     "concepts": [
       "증가형·공핍형",
@@ -15493,7 +15486,7 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2024-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -15508,9 +15501,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2024-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -15828,7 +15821,7 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "local-2024-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -16329,7 +16322,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2025-14": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -16431,9 +16424,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "national-2025-20": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "special-diodes"
+      "special-devices"
     ],
     "concepts": [
       "제너 다이오드"
@@ -16627,9 +16620,9 @@
     "method": "curriculum-v2:curated"
   },
   "assembly-2025-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -16838,10 +16831,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "military-2025-05": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
-      "phenomena"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -16909,9 +16901,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "military-2025-09": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -17561,9 +17553,9 @@
     "method": "curriculum-v2:curated"
   },
   "national-2026-08": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "pn-junction"
+      "diode-basics"
     ],
     "concepts": [
       "공핍층"
@@ -17624,11 +17616,11 @@
     "method": "curriculum-v2:generic-reviewed"
   },
   "national-2026-12": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers",
+      "semiconductor-basics",
       "bjt-device",
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "진성·불순물 반도체",
@@ -17647,9 +17639,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "national-2026-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "mosfet-device"
+      "fet-device"
     ],
     "concepts": [
       "증가형·공핍형"
@@ -17779,9 +17771,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2026-01": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "bands"
+      "semiconductor-basics"
     ],
     "concepts": [
       "에너지대"
@@ -17829,10 +17821,10 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "military-2026-04": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device",
-      "opto-devices"
+      "special-devices"
     ],
     "concepts": [
       "BJT 구조·동작",
@@ -17889,7 +17881,7 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "military-2026-07": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
       "bjt-device"
     ],
@@ -18050,9 +18042,9 @@
     "method": "curriculum-v2:curated"
   },
   "military-2026-17": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "carriers"
+      "semiconductor-basics"
     ],
     "concepts": [
       "진성·불순물 반도체"
@@ -18205,9 +18197,9 @@
     "method": "curriculum-v2:rule-candidate"
   },
   "local-2026-06": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"
@@ -18326,9 +18318,9 @@
     "method": "curriculum-v2:rule-reviewed"
   },
   "local-2026-13": {
-    "category": "semiconductor",
+    "category": "electronic-circuits",
     "topics": [
-      "diode-model"
+      "diode-basics"
     ],
     "concepts": [
       "전류·전압 특성"

@@ -35,23 +35,12 @@
       ]
     },
     {
-      "id": "semiconductor", "label": "반도체", "topics": [
-        {"id":"bands","label":"반도체 기초·에너지대","concepts":["도체·반도체·절연체","에너지대","페르미준위","밴드갭"]},
-        {"id":"carriers","label":"반도체 물성·캐리어","concepts":["진성·불순물 반도체","N형·P형","전자·정공","이동도·전도도"]},
-        {"id":"phenomena","label":"반도체 현상","concepts":["확산·드리프트","생성·재결합","홀효과","광전·열전효과"]},
-        {"id":"pn-junction","label":"PN 접합","concepts":["공핍층","확산전위","순·역방향 바이어스","항복","접합용량"]},
-        {"id":"diode-model","label":"다이오드 특성·등가모델","concepts":["전류·전압 특성","이상모델","정전압모델","소신호모델"]},
-        {"id":"special-diodes","label":"특수 다이오드","concepts":["제너 다이오드","쇼트키 다이오드","터널 다이오드","버랙터 다이오드"]},
-        {"id":"opto-devices","label":"광반도체 소자","concepts":["LED","포토다이오드","태양전지","광결합기"]},
-        {"id":"bjt-device","label":"BJT 소자이론","concepts":["BJT 구조·동작","전류 관계","동작영역","특성곡선"]},
-        {"id":"jfet-device","label":"JFET·MESFET 소자이론","concepts":["JFET","MESFET","핀치오프","전달특성"]},
-        {"id":"mosfet-device","label":"MOSFET 소자이론","concepts":["증가형·공핍형","문턱전압","채널","동작영역"]},
-        {"id":"power-devices","label":"전력반도체","concepts":["SCR·TRIAC·DIAC","UJT","IGBT","전력 MOSFET"]},
-        {"id":"fabrication","label":"반도체 공정·집적회로","concepts":["웨이퍼·도핑","산화·확산·이온주입","CMOS 공정","집적도·패키징"]}
-      ]
-    },
-    {
       "id": "electronic-circuits", "label": "전자회로", "topics": [
+        {"id":"semiconductor-basics","label":"반도체 기초·물성·공정","concepts":["도체·반도체·절연체","에너지대","페르미준위","밴드갭","진성·불순물 반도체","N형·P형","전자·정공","이동도·전도도","확산·드리프트","생성·재결합","홀효과","광전·열전효과","웨이퍼·도핑","산화·확산·이온주입","CMOS 공정","집적도·패키징"]},
+        {"id":"diode-basics","label":"PN 접합·다이오드 특성","concepts":["공핍층","확산전위","순·역방향 바이어스","항복","접합용량","전류·전압 특성","이상모델","정전압모델","소신호모델"]},
+        {"id":"special-devices","label":"특수·광·전력소자","concepts":["제너 다이오드","쇼트키 다이오드","터널 다이오드","버랙터 다이오드","LED","포토다이오드","태양전지","광결합기","SCR·TRIAC·DIAC","UJT","IGBT","전력 MOSFET"]},
+        {"id":"bjt-device","label":"BJT 소자이론","concepts":["BJT 구조·동작","전류 관계","동작영역","특성곡선"]},
+        {"id":"fet-device","label":"FET 소자이론","concepts":["JFET","MESFET","핀치오프","전달특성","증가형·공핍형","문턱전압","채널","동작영역"]},
         {"id":"rectifier-smoothing","label":"정류·평활회로","concepts":["반파정류","전파정류","브리지정류","리플","평활필터"]},
         {"id":"limiter-clipper","label":"리미터·클리퍼회로","concepts":["직렬·병렬 리미터","바이어스 리미터","양·음 리미터"]},
         {"id":"clamper-multiplier","label":"클램퍼·배전압회로","concepts":["양·음 클램퍼","배전압회로","첨두값 검출"]},
