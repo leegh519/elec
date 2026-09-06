@@ -406,7 +406,10 @@ def classify_question(raw_text: str) -> dict:
         ("electronic-circuits", "pulse-circuits", "펄스·파형회로", ["555", "멀티바이브레이터", "슈미트", "구형파 발생", "펄스 발생"]),
         ("electronic-circuits", "feedback", "부귀환 증폭기", ["부귀환", "음귀환", "feedback", "궤환 증폭"]),
         ("electronic-circuits", "power-amplifiers", "전력증폭기", ["전력증폭", "a급", "b급", "ab급", "c급", "푸시풀", "push-pull"]),
-        ("electronic-circuits", "diode-applications", "다이오드 응용", ["정류회로", "정류 회로", "클리퍼", "클램퍼", "평활회로", "배전압", "리플률", "전압변동률"]),
+        ("electronic-circuits", "smoothing", "리플", ["평활", "리플전압", "리플 전압", "리플률", "맥동률", "ripple voltage", "ripple factor", "커패시터 입력필터", "첨두값 검출", "피크 검출"]),
+        ("electronic-circuits", "rectifier", "반파정류", ["정류회로", "정류 회로", "정류기", "반파정류", "전파정류", "배전압"]),
+        ("electronic-circuits", "limiter-clamper", "직렬·병렬 리미터", ["리미터", "클리퍼", "클램퍼", "클램프", "limiter", "clipper", "clamper"]),
+        ("electronic-circuits", "zener-regulator", "제너 다이오드", ["제너", "zener"]),
         ("electronic-circuits", "fet-amplifiers", "FET 증폭기", ["fet 증폭", "mosfet 증폭", "공통 소스", "common source", "소스 팔로어"]),
         ("electronic-circuits", "bjt-bias", "BJT 바이어스", ["바이어스 회로", "동작점", "직류부하선", "고정 바이어스", "전압분배 바이어스"]),
         ("electronic-circuits", "bjt-amplifiers", "BJT 증폭기", ["트랜지스터 증폭", "소신호 증폭", "공통 이미터", "common-emitter", "h파라미터", "h 파라미터"]),
@@ -416,10 +419,10 @@ def classify_question(raw_text: str) -> dict:
         ("electronic-circuits", "semiconductor-basics", "반도체 현상", ["광전효과", "열전효과", "홀효과", "hall effect", "재결합"]),
         ("electronic-circuits", "diode-basics", "PN 접합", ["pn 접합", "공핍층", "확산전위", "순방향 바이어스", "역방향 바이어스"]),
         ("electronic-circuits", "special-devices", "특수·전력반도체", ["scr", "triac", "diac", "igbt", "thyristor", "사이리스터", "ujt"]),
-        ("electronic-circuits", "fet-device", "FET·MOSFET 소자이론", ["mosfet", "jfet", "전계효과", "문턱전압", "pinch-off", "핀치오프", "공핍형", "증가형"]),
+        ("electronic-circuits", "fet-device", "FET·MOSFET 소자이론", ["mos", "jfet", "mesfet", "전계효과", "문턱전압", "pinch-off", "핀치오프", "공핍형", "증가형"]),
         ("electronic-circuits", "bjt-device", "BJT 소자이론", ["bjt", "베이스 전류", "컬렉터 전류", "이미터 전류", "활성영역", "포화영역", "차단영역"]),
-        ("electronic-circuits", "diode-devices", "다이오드 소자", ["제너 다이오드", "터널 다이오드", "버랙터", "쇼트키", "led", "포토다이오드", "다이오드의 특성"]),
-        ("electronic-circuits", "semiconductor-basics", "집적회로·공정", ["웨이퍼", "도핑", "이온주입", "산화막", "반도체 공정", "집적도", "패키징"]),
+        ("electronic-circuits", "diode-devices", "다이오드 소자", ["터널 다이오드", "버랙터", "쇼트키", "led", "포토다이오드"]),
+        ("electronic-circuits", "fabrication", "집적회로·공정", ["웨이퍼", "이온주입", "반도체 공정", "패키징", "포토레지스트", "cmos 공정"]),
         ("circuit-theory", "network-theorems", "회로망 정리", ["테브난", "thevenin", "노턴", "norton", "중첩 정리", "최대전력", "밀만"]),
         ("circuit-theory", "two-port", "4단자망", ["4단자", "2단자쌍", "abcd", "전송 파라미터", "z파라미터", "y파라미터"]),
         ("circuit-theory", "transient", "과도현상", ["과도현상", "시정수", "초기값", "최종값", "스위치를 닫", "스위치를 열"]),
@@ -436,6 +439,8 @@ def classify_question(raw_text: str) -> dict:
 
     matches: list[tuple[int, tuple]] = []
     for rule in rules:
+        if rule[1] in {"semiconductor-basics", "materials"} and re.search(r"mos|jfet|mesfet|bjt|트랜지스터|바이폴라", text):
+            continue
         hits = sum(1 for keyword in rule[3] if keyword in text)
         if hits:
             matches.append((hits, rule))
@@ -480,7 +485,7 @@ def classify_question(raw_text: str) -> dict:
         "coupled": "coupled-transformer", "network-analysis": "kcl-kvl", "network-theorems": "thevenin",
         "non-sinusoidal": "non-sinusoidal-fourier", "transfer-function": "transfer-response",
         "diode-devices": "special-devices", "materials": "semiconductor-basics", "fet-device": "fet-device",
-        "diode-applications": "rectifier-smoothing", "bjt-amplifiers": "bjt-amplifier",
+        "diode-applications": "rectifier", "bjt-amplifiers": "bjt-amplifier",
         "fet-amplifiers": "fet-amplifier", "frequency-response": "amplifier-frequency",
         "power-amplifiers": "power-amplifier", "feedback": "feedback-amplifier", "op-amp": "opamp-operations",
         "oscillators": "oscillator", "pulse-circuits": "pulse-555", "mixed-signal": "signals-systems",
