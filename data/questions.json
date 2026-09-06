@@ -249,7 +249,8 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "special-devices",
+        "zener-regulator"
       ],
       "concepts": [
         "제너 다이오드",
@@ -1512,7 +1513,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -2228,7 +2229,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "limiter-clamper"
       ],
       "concepts": [
         "양·음 클램퍼"
@@ -2707,12 +2708,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "bjt-device",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
         "BJT 구조·동작",
         "증가형·공핍형"
       ],
@@ -2952,7 +2951,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -4280,7 +4279,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -4643,7 +4642,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -5666,7 +5665,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -6320,10 +6319,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "커패시터 입력필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -7754,7 +7754,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -8166,10 +8166,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체"
+        "공핍층",
+        "순·역방향 바이어스",
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -8346,7 +8348,8 @@
       "category": "electronic-circuits",
       "topics": [
         "diode-basics",
-        "special-devices"
+        "special-devices",
+        "zener-regulator"
       ],
       "concepts": [
         "공핍층",
@@ -8765,7 +8768,7 @@
       "category": "electronic-circuits",
       "topics": [
         "opamp-operations",
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "반전·비반전",
@@ -8946,10 +8949,13 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "comparator-schmitt",
+        "zener-regulator"
       ],
       "concepts": [
-        "양·음 클램퍼"
+        "슈미트 트리거",
+        "히스테리시스",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -9125,7 +9131,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper",
+        "limiter-clamper",
         "opamp-operations"
       ],
       "concepts": [
@@ -9188,10 +9194,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체"
+        "채널",
+        "문턱전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -9249,7 +9256,7 @@
         "special-devices"
       ],
       "concepts": [
-        "제너 다이오드"
+        "버랙터 다이오드"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -9664,10 +9671,13 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier",
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "전파정류",
+        "평활필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -10574,7 +10584,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -12422,7 +12432,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -12900,7 +12910,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -13318,7 +13328,7 @@
         "special-devices"
       ],
       "concepts": [
-        "제너 다이오드"
+        "버랙터 다이오드"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -13616,10 +13626,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "smoothing",
+        "opamp-operations"
       ],
       "concepts": [
-        "양·음 클램퍼"
+        "첨두값 검출",
+        "전압추종기"
       ],
       "auxiliaryTags": [
         "센서",
@@ -14217,7 +14229,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -14990,7 +15002,8 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "special-devices",
+        "zener-regulator"
       ],
       "concepts": [
         "제너 다이오드"
@@ -15109,12 +15122,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체",
         "공핍층",
+        "순·역방향 바이어스",
         "전류·전압 특성"
       ],
       "auxiliaryTags": [],
@@ -16142,7 +16154,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "limiter-clamper"
       ],
       "concepts": [
         "양·음 클램퍼"
@@ -17779,7 +17791,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -18555,10 +18567,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체"
+        "MOS 커패시터",
+        "축적·공핍·반전"
       ],
       "auxiliaryTags": [
         "RF·전파"
@@ -19033,12 +19046,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "bjt-device"
       ],
       "concepts": [
-        "확산·드리프트",
-        "BJT 구조·동작"
+        "BJT 구조·동작",
+        "전류 관계"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -19633,10 +19645,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper",
+        "zener-regulator"
       ],
       "concepts": [
-        "직렬·병렬 리미터"
+        "직렬·병렬 리미터",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -19814,10 +19828,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체"
+        "진성·불순물 반도체",
+        "공핍층"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -21442,12 +21458,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "공핍층"
+        "공핍층",
+        "순·역방향 바이어스",
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -22215,7 +22231,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -22347,12 +22363,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "증가형·공핍형"
+        "채널",
+        "문턱전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -22834,7 +22849,7 @@
         "special-devices"
       ],
       "concepts": [
-        "제너 다이오드"
+        "터널 다이오드"
       ],
       "auxiliaryTags": [
         "통신"
@@ -23995,7 +24010,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -25551,12 +25566,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "증가형·공핍형"
+        "전달컨덕턴스"
       ],
       "auxiliaryTags": [
         "신호처리"
@@ -25614,10 +25627,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "limiter-clamper",
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "바이어스 리미터",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -26448,7 +26463,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -27067,7 +27082,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -28948,12 +28963,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "bjt-device",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
         "BJT 구조·동작",
         "증가형·공핍형"
       ],
@@ -29073,7 +29086,8 @@
       "category": "electronic-circuits",
       "topics": [
         "diode-basics",
-        "special-devices"
+        "special-devices",
+        "zener-regulator"
       ],
       "concepts": [
         "공핍층",
@@ -30216,7 +30230,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -30341,7 +30355,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "limiter-clamper"
       ],
       "concepts": [
         "양·음 클램퍼"
@@ -30834,10 +30848,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper",
+        "zener-regulator"
       ],
       "concepts": [
-        "직렬·병렬 리미터"
+        "직렬·병렬 리미터",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -31673,7 +31689,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -32585,12 +32601,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "공핍층"
+        "공핍층",
+        "순·역방향 바이어스",
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -33240,10 +33256,13 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier",
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "전파정류",
+        "평활필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -33484,12 +33503,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "bjt-device"
       ],
       "concepts": [
-        "확산·드리프트",
-        "BJT 구조·동작"
+        "BJT 구조·동작",
+        "전류 관계"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -34210,10 +34228,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "fabrication"
       ],
       "concepts": [
-        "웨이퍼·도핑"
+        "포토레지스트"
       ],
       "auxiliaryTags": [
         "광전자"
@@ -34331,7 +34349,8 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "special-devices",
+        "zener-regulator"
       ],
       "concepts": [
         "제너 다이오드"
@@ -34643,7 +34662,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier"
+        "limiter-clamper"
       ],
       "concepts": [
         "양·음 클램퍼"
@@ -36924,12 +36943,14 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper",
-        "opamp-operations"
+        "limiter-clamper",
+        "opamp-operations",
+        "zener-regulator"
       ],
       "concepts": [
         "직렬·병렬 리미터",
-        "반전·비반전"
+        "반전·비반전",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -38132,7 +38153,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -38256,7 +38277,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing",
+        "rectifier",
         "power-supply-regulator"
       ],
       "concepts": [
@@ -38690,7 +38711,7 @@
         "special-devices"
       ],
       "concepts": [
-        "제너 다이오드"
+        "버랙터 다이오드"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -38864,7 +38885,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -39166,10 +39187,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -40376,10 +40398,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -41026,10 +41049,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "커패시터 입력필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "신호처리",
@@ -41987,10 +42011,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "LC 평활필터"
       ],
       "auxiliaryTags": [
         "전력전자"
@@ -43320,11 +43344,13 @@
       "category": "electronic-circuits",
       "topics": [
         "comparator-schmitt",
-        "limiter-clipper"
+        "limiter-clamper",
+        "zener-regulator"
       ],
       "concepts": [
         "비교기",
-        "직렬·병렬 리미터"
+        "직렬·병렬 리미터",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -43442,13 +43468,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "확산·드리프트",
-        "공핍층"
+        "공핍층",
+        "순·역방향 바이어스",
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -43626,7 +43651,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -44112,10 +44137,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -44601,7 +44627,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -45028,7 +45054,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper",
+        "limiter-clamper",
         "zener-regulator"
       ],
       "concepts": [
@@ -45153,7 +45179,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "clamper-multiplier",
+        "limiter-clamper",
         "opamp-operations"
       ],
       "concepts": [
@@ -47305,7 +47331,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -48083,7 +48109,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -49336,10 +49362,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -50133,10 +50160,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "semiconductor-basics",
+        "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체"
+        "진성·불순물 반도체",
+        "공핍층"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -51628,10 +51657,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -51687,7 +51717,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -52517,7 +52547,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -53169,12 +53199,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "JFET"
+        "JFET",
+        "핀치오프"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -54321,7 +54350,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -54502,7 +54531,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -54622,7 +54651,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -55537,12 +55566,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "fet-device",
-        "semiconductor-basics"
+        "fet-device"
       ],
       "concepts": [
-        "증가형·공핍형",
-        "진성·불순물 반도체"
+        "채널",
+        "문턱전압"
       ],
       "auxiliaryTags": [
         "통신"
@@ -56262,7 +56290,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -57273,7 +57301,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -57750,10 +57778,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "커패시터 입력필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "전력전자"
@@ -58225,7 +58254,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -58946,10 +58975,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "special-devices"
+        "zener-regulator"
       ],
       "concepts": [
-        "제너 다이오드"
+        "제너 다이오드",
+        "제너 정전압"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -60448,11 +60478,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics"
+        "diode-basics"
       ],
       "concepts": [
-        "진성·불순물 반도체",
-        "확산·드리프트"
+        "공핍층",
+        "순·역방향 바이어스",
+        "전류·전압 특성"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -60807,10 +60838,11 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "커패시터 입력필터",
+        "리플"
       ],
       "auxiliaryTags": [
         "전력전자"
@@ -61166,10 +61198,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper",
+        "zener-regulator"
       ],
       "concepts": [
-        "직렬·병렬 리미터"
+        "직렬·병렬 리미터",
+        "제너 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -61701,7 +61735,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
@@ -61882,10 +61916,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "smoothing"
       ],
       "concepts": [
-        "반파정류"
+        "맥동률"
       ],
       "auxiliaryTags": [
         "계측",
@@ -61943,7 +61977,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -62843,7 +62877,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "limiter-clipper"
+        "limiter-clamper"
       ],
       "concepts": [
         "직렬·병렬 리미터"
@@ -63019,10 +63053,12 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "diode-basics"
+        "diode-basics",
+        "zener-regulator"
       ],
       "concepts": [
-        "공핍층"
+        "공핍층",
+        "제너 다이오드"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -63254,12 +63290,10 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "semiconductor-basics",
         "bjt-device",
         "fet-device"
       ],
       "concepts": [
-        "진성·불순물 반도체",
         "BJT 구조·동작",
         "증가형·공핍형"
       ],
@@ -65236,7 +65270,7 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "rectifier-smoothing"
+        "rectifier"
       ],
       "concepts": [
         "반파정류"
