@@ -100,6 +100,8 @@ fieldset label, .check-label { display: flex; align-items: center; gap: 7px; whi
 .answer-note.success { color: var(--green); font-weight: 800; }
 .answer-note.error { color: var(--red); font-weight: 800; }
 .single-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 14px; }
+.previous-single { margin-right: auto; }
+.button:disabled { opacity: .45; cursor: not-allowed; }
 .batch-actions { position: sticky; bottom: 12px; display: flex; justify-content: flex-end; align-items: center; gap: 18px; margin-top: 22px; padding: 14px 16px; border: 1px solid #bad0e0; border-radius: 14px; background: rgba(240,248,253,.96); box-shadow: var(--shadow); }
 .batch-actions p { margin: 0; font-weight: 800; }
 .result-panel { margin-top: 20px; padding: 22px; border-radius: 16px; color: white; background: var(--navy); }

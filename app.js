@@ -26,6 +26,8 @@
   let activeQuestions = [];
   let singleIndex = 0;
   let answers = new Map();
+  let gradedQuestions = new Set();
+  let practiceSession = null;
   let metadataVisible = new Set();
   let allMetadataVisible = false;
   let batchGraded = false;
@@ -129,13 +131,15 @@
     activeQuestions = activeMode === "batch" ? ordered.slice(0, Math.min(Number(els.batchSize.value), ordered.length)) : ordered;
     singleIndex = 0;
     answers = new Map();
+    gradedQuestions = new Set();
+    practiceSession = `${Date.now()}-${Math.random()}`;
     metadataVisible = new Set();
     allMetadataVisible = false;
     batchGraded = false;
     els.toggleAllMeta.textContent = "전체 분류 표시";
     els.result.classList.add("is-hidden");
     els.result.innerHTML = "";
-    window.history.pushState({ [HISTORY_KEY]: "practice" }, "", window.location.href);
+    pushPracticeHistory();
     showPractice();
     renderPractice();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -153,16 +157,21 @@
   }
 
   function returnToSetup() {
-    if (window.history.state?.[HISTORY_KEY] === "practice") {
-      window.history.back();
+    if (window.history.state?.[HISTORY_KEY] === "practice" && window.history.state.session === practiceSession) {
+      window.history.go(-(singleIndex + 1));
       return;
     }
     showSetup();
   }
 
+  function pushPracticeHistory() {
+    window.history.pushState({ [HISTORY_KEY]: "practice", session: practiceSession, singleIndex }, "", window.location.href);
+  }
+
   function renderPractice() {
     els.list.innerHTML = "";
     if (activeMode === "single") {
+      els.result.classList.add("is-hidden");
       const question = activeQuestions[singleIndex];
       els.title.textContent = "한 문제씩 풀기";
       els.progress.textContent = `${singleIndex + 1} / ${activeQuestions.length}`;
@@ -173,6 +182,7 @@
       els.progress.textContent = "한 화면에서 답을 고른 뒤 일괄 채점하세요";
       activeQuestions.forEach(question => els.list.append(renderQuestion(question, true)));
       els.batchActions.classList.remove("is-hidden");
+      els.gradeBatch.disabled = batchGraded;
       updateBatchState();
     }
   }
@@ -211,7 +221,7 @@
           ${visibleChoiceLabels.map((label, index) => `<button class="choice ${selected === index + 1 ? "is-selected" : ""}" data-choice="${index + 1}" type="button">${label}</button>`).join("")}
         </div>
         <p class="answer-note">${question.answer?.choice ? "답을 선택하세요." : "정답 미확정 문제입니다. 선택은 저장되지만 채점에는 포함되지 않습니다."}</p>
-        ${isBatch ? "" : '<div class="single-actions"><button class="button button-primary grade-single" type="button">채점</button><button class="button button-secondary next-single is-hidden" type="button">다음 문제</button></div>'}
+        ${isBatch ? "" : `<div class="single-actions"><button class="button button-secondary previous-single" type="button" ${singleIndex === 0 ? "disabled" : ""}>이전 문제</button><button class="button button-primary grade-single" type="button">채점</button><button class="button button-secondary next-single is-hidden" type="button">다음 문제</button></div>`}
       </div>`;
 
     card.querySelectorAll(".choice").forEach(button => button.addEventListener("click", () => selectAnswer(question, Number(button.dataset.choice), card)));
@@ -219,9 +229,11 @@
     card.querySelector(".metadata-toggle").addEventListener("click", () => toggleMetadata(question.id, card));
     card.querySelector(".copy-image").addEventListener("click", event => copyQuestionImage(question, card.querySelector("img"), event.currentTarget));
     if (!isBatch) {
+      card.querySelector(".previous-single").addEventListener("click", previousSingle);
       card.querySelector(".grade-single").addEventListener("click", () => gradeQuestion(question, card));
       card.querySelector(".next-single").addEventListener("click", nextSingle);
     }
+    if (gradedQuestions.has(question.id)) renderGrade(question, card, selected);
     return card;
   }
 
@@ -233,33 +245,43 @@
   }
 
   function gradeQuestion(question, card) {
+    if (gradedQuestions.has(question.id)) return;
     const selected = answers.get(question.id);
     if (!selected) { toast("답을 먼저 선택하세요."); return; }
     applyGrade(question, card, selected);
-    card.querySelector(".grade-single").classList.add("is-hidden");
-    card.querySelector(".next-single").classList.remove("is-hidden");
   }
 
   function applyGrade(question, card, selected) {
+    if (gradedQuestions.has(question.id)) return;
+    const correct = question.answer?.choice;
+    const record = progressData[question.id] || { attempts: 0, correct: 0, wrong: 0, favorite: false };
+    record.attempts += 1;
+    record.lastAnswer = selected;
+    record.lastAttemptAt = new Date().toISOString();
+    if (correct) {
+      if (selected === correct) record.correct += 1;
+      else record.wrong += 1;
+    }
+    progressData[question.id] = record;
+    gradedQuestions.add(question.id);
+    saveProgress();
+    renderGrade(question, card, selected);
+  }
+
+  function renderGrade(question, card, selected) {
     card.dataset.graded = "true";
     const note = card.querySelector(".answer-note");
     const correct = question.answer?.choice;
     const verified = ["official", "cross-checked"].includes(question.answer?.status);
     const provisionalSuffix = correct && !verified ? " (잠정 정답 기준)" : "";
-    const record = progressData[question.id] || { attempts: 0, correct: 0, wrong: 0, favorite: false };
-    record.attempts += 1;
-    record.lastAnswer = selected;
-    record.lastAttemptAt = new Date().toISOString();
     if (!correct) {
       note.textContent = `선택 ${choiceLabels[selected - 1]} · 정답 미확정으로 채점에서 제외됩니다.`;
       note.className = "answer-note";
     } else if (selected === correct) {
-      record.correct += 1;
       card.classList.add("is-correct");
       note.textContent = `정답입니다. (${choiceLabels[correct - 1]})${provisionalSuffix}`;
       note.className = "answer-note success";
     } else {
-      record.wrong += 1;
       card.classList.add("is-wrong");
       note.textContent = `오답입니다. 정답은 ${choiceLabels[correct - 1]}입니다.${provisionalSuffix}`;
       note.className = "answer-note error";
@@ -270,8 +292,12 @@
       if (correct && value === correct) button.classList.add("is-answer");
       if (correct && value === selected && value !== correct) button.classList.add("is-incorrect");
     });
-    progressData[question.id] = record;
-    saveProgress();
+    card.querySelector(".grade-single")?.classList.add("is-hidden");
+    card.querySelector(".next-single")?.classList.remove("is-hidden");
+  }
+
+  function previousSingle() {
+    if (singleIndex > 0) window.history.back();
   }
 
   function nextSingle() {
@@ -280,6 +306,7 @@
       return;
     }
     singleIndex += 1;
+    pushPracticeHistory();
     renderPractice();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -436,9 +463,13 @@
   els.start.addEventListener("click", startPractice);
   els.back.addEventListener("click", returnToSetup);
   window.addEventListener("popstate", event => {
-    if (event.state?.[HISTORY_KEY] === "practice" && activeQuestions.length) {
+    const state = event.state;
+    if (state?.[HISTORY_KEY] === "practice" && state.session === practiceSession &&
+        Number.isInteger(state.singleIndex) && state.singleIndex >= 0 && state.singleIndex < activeQuestions.length) {
+      singleIndex = state.singleIndex;
       showPractice();
       renderPractice();
+      window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
     showSetup();
