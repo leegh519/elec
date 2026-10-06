@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""공식 사이버국가고시센터 정답을 문제은행 형식으로 반영한다."""
+"""검증된 공식 정답을 문제은행 형식으로 반영한다."""
 
 from __future__ import annotations
 
@@ -17,6 +17,7 @@ BASE = "https://gongmuwon.gosi.kr"
 
 
 ANSWERS = {
+    "assembly-2015": [3, 4, 5, 1, 1, 2, 3, 4, 2, 5, 4, 2, 5, 3, 2, 1, 1, 4, 4, 5],
     "national-2007": [2, 4, 4, 2, 1, 3, 4, 3, 1, 4, 1, 3, 3, 3, 4, 2, 2, 1, 1, 3],
     "national-2008": [1, 3, 1, 3, 1, 2, 4, 4, 4, 4, 2, 3, 1, 2, 4, 3, 1, 2, 3, 3],
     "national-2009": [4, 1, 4, 3, 3, 2, 1, 1, 2, 4, 3, 2, 3, 2, 3, 4, 1, 2, 4, 3],
@@ -91,6 +92,14 @@ BOOKTYPES = {
 def source_for(exam_id: str) -> dict:
     agency, raw_year = exam_id.split("-")
     year = int(raw_year)
+    if exam_id == "assembly-2015":
+        return {
+            "type": "official",
+            "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+            "path": "official-answers/2015-국회직-정답.pdf",
+            "url": "https://0gichul.com/y2015/54967207",
+            "booktype": "가",
+        }
     if agency == "military":
         booktype = None
         encoded_path = "%EA%B3%B5%EB%AC%B4%EC%9B%90/%EA%B5%B0%EB%AC%B4%EC%9B%90/9%EA%B8%89"
@@ -145,7 +154,8 @@ def main() -> None:
     mismatches = []
     result = {}
     for exam_id, choices in ANSWERS.items():
-        if len(choices) != 20 or any(choice not in {1, 2, 3, 4} for choice in choices):
+        max_choice = 5 if exam_id.startswith("assembly-") else 4
+        if len(choices) != 20 or any(choice not in range(1, max_choice + 1) for choice in choices):
             raise ValueError(f"invalid answer row: {exam_id}")
         source = source_for(exam_id)
         result[exam_id] = {}

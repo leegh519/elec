@@ -19238,13 +19238,14 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 5,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19297,13 +19298,14 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 1,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19357,13 +19359,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 5,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19417,13 +19420,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19479,13 +19483,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19546,6 +19551,7 @@
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19599,13 +19605,14 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 1,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19668,6 +19675,7 @@
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19722,13 +19730,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 5,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19782,13 +19791,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 5,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19843,13 +19853,14 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19902,13 +19913,14 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -19963,13 +19975,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
+      "choice": 5,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20025,13 +20038,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
+      "choice": 3,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20085,13 +20099,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 2,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20145,13 +20160,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20207,13 +20223,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 1,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20266,13 +20283,14 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 5,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20327,13 +20345,14 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 3,
+      "choice": 4,
       "status": "official",
       "sources": [
         {
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]
@@ -20394,6 +20413,7 @@
           "type": "official",
           "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
           "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
           "booktype": "가"
         }
       ]

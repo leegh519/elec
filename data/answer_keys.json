@@ -8226,5 +8226,267 @@
         }
       ]
     }
+  },
+  "assembly-2015": {
+    "1": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "2": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "3": {
+      "choice": 5,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "4": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "5": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "6": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "7": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "8": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "9": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "10": {
+      "choice": 5,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "11": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "12": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "13": {
+      "choice": 5,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "14": {
+      "choice": 3,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "15": {
+      "choice": 2,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "16": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "17": {
+      "choice": 1,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "18": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "19": {
+      "choice": 4,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    },
+    "20": {
+      "choice": 5,
+      "status": "official",
+      "sources": [
+        {
+          "type": "official",
+          "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+          "path": "official-answers/2015-국회직-정답.pdf",
+          "url": "https://0gichul.com/y2015/54967207",
+          "booktype": "가"
+        }
+      ]
+    }
   }
 }

@@ -18,7 +18,7 @@ SOURCE_ROOT = WORKSPACE / "공무원 기출" / "전자공학개론"
 
 # pdfplumber가 추출한 국회직 정답표 행에서 전자공학개론 열의 0 기반 위치.
 ASSEMBLY_SUBJECT_INDEX = {
-    2014: 15, 2015: 16, 2016: 13, 2017: 13, 2018: 12,
+    2014: 15, 2015: 15, 2016: 13, 2017: 13, 2018: 12,
     2019: 15, 2020: 13, 2021: 13, 2022: 12, 2023: 13,
     2024: 10, 2025: 13,
 }
@@ -74,6 +74,9 @@ def assembly_answers(year: int, path: Path) -> tuple[list[int], str]:
         rows = number_rows(text)[:20]
         answers = []
         for number, *values in rows:
+            # 2015 가형은 16과목이다. 잘못 저장됐던 17과목 정답표를 거부한다.
+            if year == 2015 and len(values) != 16:
+                raise ValueError(f"{path.name}: 2015 가형 정답표 과목 수 불일치")
             if number != len(answers) + 1 or len(values) <= index:
                 raise ValueError(f"{path.name}: {number}번 전자공학개론 열 추출 실패")
             answer = values[index]
@@ -101,6 +104,15 @@ def seoul_answers(year: int, path: Path) -> tuple[list[int], str]:
     return answers, booktype
 
 
+def answer_source(agency: str, year: int) -> Path:
+    filename = f"{year}-{agency}-정답.pdf"
+    # 교정된 2015 원본을 외부 폴더의 오래된 파일로 다시 덮어쓰지 않는다.
+    corrected = PROJECT / "official-answers" / filename
+    if agency == "국회직" and year == 2015 and corrected.exists():
+        return corrected
+    return SOURCE_ROOT / agency / filename
+
+
 def answer_map() -> dict[str, dict]:
     result = {}
     for agency, slug, years in (
@@ -108,7 +120,7 @@ def answer_map() -> dict[str, dict]:
         ("서울시", "seoul", range(2014, 2022)),
     ):
         for year in years:
-            source = SOURCE_ROOT / agency / f"{year}-{agency}-정답.pdf"
+            source = answer_source(agency, year)
             answers, booktype = (
                 assembly_answers(year, source) if agency == "국회직"
                 else seoul_answers(year, source)
@@ -163,8 +175,10 @@ def main() -> int:
         shutil.copy2(sheet, PROJECT / "review" / "contact-sheets" / sheet.name)
     for agency, years in (("국회직", [2009, *range(2014, 2026)]), ("서울시", range(2014, 2022))):
         for year in years:
-            source = SOURCE_ROOT / agency / f"{year}-{agency}-정답.pdf"
-            shutil.copy2(source, PROJECT / "official-answers" / source.name)
+            source = answer_source(agency, year)
+            destination = PROJECT / "official-answers" / source.name
+            if source.resolve() != destination.resolve():
+                shutil.copy2(source, destination)
 
     report = {
         "mergedAt": date.today().isoformat(),

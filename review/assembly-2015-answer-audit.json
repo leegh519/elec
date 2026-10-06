@@ -1,0 +1,138 @@
+{
+  "examId": "assembly-2015",
+  "booktype": "가",
+  "verifiedQuestionCount": 20,
+  "correctedAnswerCount": 17,
+  "source": {
+    "type": "official",
+    "label": "2015년 국회직 전자공학개론 공식 정답표 (가형)",
+    "path": "official-answers/2015-국회직-정답.pdf",
+    "url": "https://0gichul.com/y2015/54967207",
+    "booktype": "가"
+  },
+  "answerDownloadUrl": "https://0gichul.com/?module=file&act=procFileDownload&file_srl=38952389&sid=e381801ec2124d982c8db85fc1cca63a",
+  "cause": "Wrong answer PDF and subject-column index (17 subjects instead of 16).",
+  "verification": "Official 가형 answer table matched to all 20 stored question numbers; not independent solving.",
+  "questions": [
+    {
+      "number": 1,
+      "previousChoice": 5,
+      "officialChoice": 3,
+      "changed": true
+    },
+    {
+      "number": 2,
+      "previousChoice": 1,
+      "officialChoice": 4,
+      "changed": true
+    },
+    {
+      "number": 3,
+      "previousChoice": 3,
+      "officialChoice": 5,
+      "changed": true
+    },
+    {
+      "number": 4,
+      "previousChoice": 3,
+      "officialChoice": 1,
+      "changed": true
+    },
+    {
+      "number": 5,
+      "previousChoice": 2,
+      "officialChoice": 1,
+      "changed": true
+    },
+    {
+      "number": 6,
+      "previousChoice": 2,
+      "officialChoice": 2,
+      "changed": false
+    },
+    {
+      "number": 7,
+      "previousChoice": 1,
+      "officialChoice": 3,
+      "changed": true
+    },
+    {
+      "number": 8,
+      "previousChoice": 4,
+      "officialChoice": 4,
+      "changed": false
+    },
+    {
+      "number": 9,
+      "previousChoice": 5,
+      "officialChoice": 2,
+      "changed": true
+    },
+    {
+      "number": 10,
+      "previousChoice": 1,
+      "officialChoice": 5,
+      "changed": true
+    },
+    {
+      "number": 11,
+      "previousChoice": 3,
+      "officialChoice": 4,
+      "changed": true
+    },
+    {
+      "number": 12,
+      "previousChoice": 4,
+      "officialChoice": 2,
+      "changed": true
+    },
+    {
+      "number": 13,
+      "previousChoice": 1,
+      "officialChoice": 5,
+      "changed": true
+    },
+    {
+      "number": 14,
+      "previousChoice": 2,
+      "officialChoice": 3,
+      "changed": true
+    },
+    {
+      "number": 15,
+      "previousChoice": 4,
+      "officialChoice": 2,
+      "changed": true
+    },
+    {
+      "number": 16,
+      "previousChoice": 4,
+      "officialChoice": 1,
+      "changed": true
+    },
+    {
+      "number": 17,
+      "previousChoice": 3,
+      "officialChoice": 1,
+      "changed": true
+    },
+    {
+      "number": 18,
+      "previousChoice": 5,
+      "officialChoice": 4,
+      "changed": true
+    },
+    {
+      "number": 19,
+      "previousChoice": 3,
+      "officialChoice": 4,
+      "changed": true
+    },
+    {
+      "number": 20,
+      "previousChoice": 5,
+      "officialChoice": 5,
+      "changed": false
+    }
+  ]
+}
