@@ -136,6 +136,63 @@ fieldset label, .check-label { display: flex; align-items: center; gap: 7px; whi
   .batch-actions { justify-content: space-between; }
 }
 
+/* 풀이 화면은 문서 스크롤 없이 남은 높이에 이미지를 맞춘다. */
+body.practice-active { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 14px; height: 100vh; height: 100dvh; padding: 14px; overflow: hidden; }
+.practice-sidebar { min-width: 0; min-height: 0; display: flex; flex-direction: column; gap: 14px; overflow: auto; }
+.practice-sidebar .site-header { flex-direction: column; align-items: stretch; gap: 16px; padding: 18px; border-radius: 16px; }
+.practice-sidebar .site-header h1 { font-size: 23px; }
+.practice-sidebar .header-copy { font-size: 12px; line-height: 1.6; }
+.practice-sidebar .eyebrow { font-size: 10px; }
+.practice-sidebar .header-actions { display: grid; justify-content: stretch; }
+.practice-sidebar .button { min-height: 38px; padding: 8px 10px; font-size: 13px; }
+.practice-sidebar .dashboard { grid-template-columns: 1fr; margin: 0; gap: 6px; }
+.practice-sidebar .dashboard article { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; }
+.practice-sidebar .dashboard strong { font-size: 22px; }
+.practice-sidebar .practice-toolbar { position: static; flex-direction: column; align-items: stretch; gap: 12px; margin: 0; padding: 12px; }
+.practice-sidebar .toolbar-center { order: -1; gap: 4px; }
+.practice-sidebar .batch-actions { position: static; flex-direction: column; gap: 10px; margin: 0; padding: 12px; }
+.practice-sidebar .result-panel { margin: 0; padding: 14px; font-size: 12px; }
+.practice-sidebar .result-panel h3 { font-size: 15px; }
+.practice-active main { width: 100%; min-width: 0; min-height: 0; height: 100%; margin: 0; }
+.practice-active .practice-panel { height: 100%; min-height: 0; padding: 0; border: 0; background: transparent; box-shadow: none; }
+.practice-active .question-list { height: 100%; min-height: 0; gap: 14px; }
+.practice-single .question-list { grid-template-rows: minmax(0, 1fr); }
+.practice-single .question-card { display: flex; flex-direction: column; min-height: 0; height: 100%; }
+.practice-single .question-head, .practice-single .answer-area { flex: 0 0 auto; }
+.practice-single .problem-image-wrap { flex: 1 1 0; min-height: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 12px; }
+.practice-single .problem-image { width: 100%; height: 100%; max-height: none; object-fit: contain; }
+.practice-single .metadata { flex: 0 1 auto; min-height: 0; max-height: 18dvh; overflow: auto; padding: 8px 12px; }
+.practice-active .choices { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.practice-active .choices:has(.choice:last-child:nth-child(4)) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.practice-single .answer-area { padding: 10px 14px; }
+.practice-single .answer-note { margin-top: 8px; }
+.practice-single .single-actions { margin-top: 8px; }
+/* 여러 문제 모아풀기는 문제 목록 안에서만 스크롤한다. 메뉴/채점은 고정. */
+.practice-batch .question-list { display: block; overflow: auto; padding: 3px; }
+.practice-batch .question-card { margin-bottom: 14px; }
+@media (max-width: 700px) {
+  body.practice-active { grid-template-columns: 94px minmax(0, 1fr); gap: 6px; padding: 6px; }
+  .practice-sidebar { gap: 8px; }
+  .practice-sidebar .site-header { gap: 8px; padding: 8px; }
+  .practice-sidebar .site-header h1 { font-size: 14px; }
+  .practice-sidebar .header-copy, .practice-sidebar .eyebrow { display: none; }
+  .practice-sidebar .button { font-size: 11px; padding: 6px; }
+  .practice-sidebar .dashboard article { flex-direction: column; padding: 6px; }
+  .practice-sidebar .dashboard strong { font-size: 18px; }
+  .practice-sidebar .dashboard span, .practice-sidebar .toolbar-center { font-size: 11px; }
+  .practice-sidebar .practice-toolbar { padding: 6px; gap: 8px; }
+  .practice-active .question-head { gap: 6px; padding: 8px; flex-direction: column; align-items: flex-start; }
+  .practice-active .question-source { flex-wrap: wrap; gap: 5px; }
+  .practice-active .question-tools { justify-content: flex-start; gap: 4px; }
+  .practice-active .tool-button { font-size: 10px; min-height: 28px; padding: 4px 6px; }
+  .practice-single .problem-image-wrap { padding: 6px; }
+  .practice-single .answer-area { padding: 8px; }
+  .practice-active .choices { gap: 4px; }
+  .practice-active .choice { min-height: 36px; font-size: 16px; }
+  .practice-single .single-actions { gap: 6px; }
+  .practice-single .single-actions .button { min-height: 36px; padding: 5px 8px; font-size: 11px; }
+}
+
 .compact-header { padding-top: 25px; padding-bottom: 25px; }
 .compact-header h1 { font-size: clamp(26px, 3vw, 36px); }
 .review-controls { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)) auto; gap: 12px; align-items: end; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: white; box-shadow: var(--shadow); }

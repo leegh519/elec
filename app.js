@@ -21,6 +21,14 @@
     exportProgress: $("#export-progress"), importProgress: $("#import-progress")
   };
 
+  // 같은 요소를 이동시켜 기록/진행 상태와 이벤트를 유지하고 설정 화면에서 복원한다.
+  const practiceSidebar = $("#practice-sidebar");
+  const sidebarItems = [$(".site-header"), $(".dashboard"), $(".practice-toolbar"), els.batchActions, els.result].map(element => {
+    const anchor = document.createComment("sidebar element original position");
+    element.before(anchor);
+    return { element, anchor };
+  });
+
   let progressData = loadProgress();
   let activeMode = "single";
   let activeQuestions = [];
@@ -146,11 +154,17 @@
   }
 
   function showPractice() {
+    document.body.classList.add("practice-active");
+    practiceSidebar.classList.remove("is-hidden");
+    sidebarItems.forEach(({ element }) => practiceSidebar.append(element));
     els.setup.classList.add("is-hidden");
     els.practice.classList.remove("is-hidden");
   }
 
   function showSetup() {
+    document.body.classList.remove("practice-active", "practice-single", "practice-batch");
+    sidebarItems.forEach(({ element, anchor }) => anchor.after(element));
+    practiceSidebar.classList.add("is-hidden");
     els.practice.classList.add("is-hidden");
     els.setup.classList.remove("is-hidden");
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -169,6 +183,8 @@
   }
 
   function renderPractice() {
+    document.body.classList.toggle("practice-single", activeMode === "single");
+    document.body.classList.toggle("practice-batch", activeMode === "batch");
     els.list.innerHTML = "";
     if (activeMode === "single") {
       els.result.classList.add("is-hidden");
