@@ -8488,5 +8488,207 @@
         }
       ]
     }
+  },
+  "assembly-2014": {
+    "1": {
+      "choice": 5,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "2": {
+      "choice": 1,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "3": {
+      "choice": 3,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "4": {
+      "choice": 3,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "5": {
+      "choice": 2,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "6": {
+      "choice": 2,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "7": {
+      "choice": 1,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "8": {
+      "choice": 4,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "9": {
+      "choice": 5,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "10": {
+      "choice": 1,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "11": {
+      "choice": 3,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "12": {
+      "choice": 4,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "13": {
+      "choice": 1,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "14": {
+      "choice": 2,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "15": {
+      "choice": 4,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "16": {
+      "choice": 4,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "17": {
+      "choice": 3,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "18": {
+      "choice": 5,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "19": {
+      "choice": 3,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    },
+    "20": {
+      "choice": 5,
+      "status": "cross-checked",
+      "sources": [
+        {
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
+        }
+      ]
+    }
   }
 }

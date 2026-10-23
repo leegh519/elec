@@ -9,6 +9,7 @@ from datetime import date
 from pathlib import Path
 
 import pdfplumber
+from update_official_answers import ANSWERS, source_for
 
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -120,6 +121,15 @@ def answer_map() -> dict[str, dict]:
         ("서울시", "seoul", range(2014, 2022)),
     ):
         for year in years:
+            if slug == "assembly" and year == 2014:
+                # 문제와 맞지 않는 기존 PDF 대신 사용자가 지정한 교정값을 유지한다.
+                for number, choice in enumerate(ANSWERS["assembly-2014"], start=1):
+                    result[f"assembly-2014-{number:02d}"] = {
+                        "choice": choice,
+                        "status": "cross-checked",
+                        "sources": [source_for("assembly-2014")],
+                    }
+                continue
             source = answer_source(agency, year)
             answers, booktype = (
                 assembly_answers(year, source) if agency == "국회직"

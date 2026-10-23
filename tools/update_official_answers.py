@@ -17,6 +17,7 @@ BASE = "https://gongmuwon.gosi.kr"
 
 
 ANSWERS = {
+    "assembly-2014": [5, 1, 3, 3, 2, 2, 1, 4, 5, 1, 3, 4, 1, 2, 4, 4, 3, 5, 3, 5],
     "assembly-2015": [3, 4, 5, 1, 1, 2, 3, 4, 2, 5, 4, 2, 5, 3, 2, 1, 1, 4, 4, 5],
     "national-2007": [2, 4, 4, 2, 1, 3, 4, 3, 1, 4, 1, 3, 3, 3, 4, 2, 2, 1, 1, 3],
     "national-2008": [1, 3, 1, 3, 1, 2, 4, 4, 4, 4, 2, 3, 1, 2, 4, 3, 1, 2, 3, 3],
@@ -90,6 +91,11 @@ BOOKTYPES = {
 
 
 def source_for(exam_id: str) -> dict:
+    if exam_id == "assembly-2014":
+        return {
+            "type": "user-provided",
+            "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)",
+        }
     agency, raw_year = exam_id.split("-")
     year = int(raw_year)
     if exam_id == "assembly-2015":
@@ -169,7 +175,9 @@ def main() -> None:
                     "previousSources": previous.get("sources", []) if isinstance(previous, dict) else [],
                 })
             result[exam_id][str(number)] = {
-                "choice": choice, "status": "official", "sources": [source],
+                "choice": choice,
+                "status": "cross-checked" if exam_id == "assembly-2014" else "official",
+                "sources": [source],
             }
 
     KEY_FILE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

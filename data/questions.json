@@ -15617,14 +15617,12 @@
       "method": "curriculum-v2:generic-reviewed"
     },
     "answer": {
-      "choice": 3,
-      "status": "official",
+      "choice": 5,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15677,14 +15675,12 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 4,
-      "status": "official",
+      "choice": 1,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15737,14 +15733,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 5,
-      "status": "official",
+      "choice": 3,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15800,14 +15794,12 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
-      "status": "official",
+      "choice": 3,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15860,14 +15852,12 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 1,
-      "status": "official",
+      "choice": 2,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15925,13 +15915,11 @@
     },
     "answer": {
       "choice": 2,
-      "status": "official",
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -15984,14 +15972,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
-      "status": "official",
+      "choice": 1,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16048,13 +16034,11 @@
     },
     "answer": {
       "choice": 4,
-      "status": "official",
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16108,14 +16092,12 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 2,
-      "status": "official",
+      "choice": 5,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16168,14 +16150,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 5,
-      "status": "official",
+      "choice": 1,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16227,14 +16207,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
-      "status": "official",
+      "choice": 3,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16286,14 +16264,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 2,
-      "status": "official",
+      "choice": 4,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16346,14 +16322,12 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 5,
-      "status": "official",
+      "choice": 1,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16408,14 +16382,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 3,
-      "status": "official",
+      "choice": 2,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16472,14 +16444,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 2,
-      "status": "official",
+      "choice": 4,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16539,14 +16509,12 @@
       "method": "curriculum-v2:rule-candidate"
     },
     "answer": {
-      "choice": 1,
-      "status": "official",
+      "choice": 4,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16598,14 +16566,12 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 1,
-      "status": "official",
+      "choice": 3,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16660,14 +16626,12 @@
       "method": "curriculum-v2:rule-reviewed"
     },
     "answer": {
-      "choice": 4,
-      "status": "official",
+      "choice": 5,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16721,14 +16685,12 @@
       "method": "curriculum-v2:curated"
     },
     "answer": {
-      "choice": 4,
-      "status": "official",
+      "choice": 3,
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
@@ -16782,13 +16744,11 @@
     },
     "answer": {
       "choice": 5,
-      "status": "official",
+      "status": "cross-checked",
       "sources": [
         {
-          "type": "official",
-          "label": "2014년 국회직 전자공학개론 공식 정답표 (가형)",
-          "path": "official-answers/2014-국회직-정답.pdf",
-          "booktype": "가"
+          "type": "user-provided",
+          "label": "2014년 국회직 전자공학개론 사용자 지정 정답 (51332214513412443535)"
         }
       ]
     },
