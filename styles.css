@@ -50,6 +50,7 @@ label { display: grid; gap: 7px; color: #415269; font-size: 13px; font-weight: 7
 .topic-check { display: inline-flex; align-items: center; gap: 5px; padding: 6px 9px; border: 1px solid #cbd5e1; border-radius: 999px; color: #42566d; background: white; cursor: pointer; font-size: 12px; white-space: nowrap; }
 .topic-check input { width: 14px; height: 14px; margin: 0; accent-color: var(--blue); }
 .topic-check.is-selected { color: #124d92; border-color: #75a9e7; background: #eaf3ff; }
+.topic-group-heading { flex-basis: 100%; margin-top: 5px; color: #415269; font-size: 12px; font-weight: 700; }
 select, input[type="number"] { width: 100%; min-height: 44px; border: 1px solid #c9d4df; border-radius: 10px; padding: 0 12px; color: var(--ink); background: white; }
 select:focus, input:focus, button:focus-visible, a:focus-visible { outline: 3px solid rgba(31,111,235,.24); outline-offset: 2px; }
 

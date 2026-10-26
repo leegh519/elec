@@ -72,6 +72,26 @@ class ClassificationIntegrityTest(unittest.TestCase):
                 self.assertEqual(classifier.main(), 0)
                 self.assertEqual((data / 'questions.json').read_bytes(), first)
 
+    def test_organization_corrections_survive_regeneration(self):
+        _, topics = classifier.taxonomy_indexes(self.taxonomy)
+        questions = {q['id']: q for q in self.questions}
+        for key, correction in classifier.ORGANIZATION_CORRECTIONS.items():
+            q = questions[key]
+            self.assertEqual(q['classification']['category'], correction['category'], key)
+            self.assertEqual(q['classification']['topics'], correction['topics'], key)
+            self.assertEqual(classifier.classify(q, topics), q['classification'], key)
+
+    def test_study_groups_cover_electronic_and_digital_topics(self):
+        for category in self.taxonomy['categories']:
+            if category['id'] in {'electronic-circuits', 'digital-engineering'}:
+                self.assertTrue(all(topic.get('group') for topic in category['topics']))
+        questions = {q['id']: q for q in self.questions}
+        # 키워드 OCR 오염으로 대분류까지 잘못 들어갔던 실제 사례.
+        self.assertEqual(questions['national-2013-12']['classification']['category'], 'electronic-circuits')
+        self.assertEqual(questions['military-2022-03']['classification']['category'], 'circuit-theory')
+        self.assertIn('memory', questions['national-2021-04']['classification']['topics'])
+        self.assertNotIn('minimization-kmap', questions['national-2023-12']['classification']['topics'])
+
 
 if __name__ == '__main__':
     unittest.main()

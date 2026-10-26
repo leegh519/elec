@@ -1,0 +1,2508 @@
+{
+  "scope": "전자회로 증폭기 기초·슈미트 중복 정리와 디지털공학 268문항의 OCR/기존 분류 점검, 오분류 후보 원문 이미지 대조",
+  "policy": "관련 중분류는 삭제·강제 합병하지 않고 학습용 큰 묶음(group) 아래 유지. 실제 복수개념은 유지하고 보조 조건·선지·옆 문항 OCR로 인한 잘못된 중복은 제거.",
+  "questionCount": 1100,
+  "changedQuestionCount": 64,
+  "beforeCategoryCounts": {
+    "digital-engineering": 268,
+    "electronic-circuits": 559,
+    "circuit-theory": 273
+  },
+  "afterCategoryCounts": {
+    "digital-engineering": 263,
+    "electronic-circuits": 563,
+    "circuit-theory": 274
+  },
+  "renamedTopics": {
+    "amplifier-basics": "증폭도·dB·입출력 임피던스",
+    "number-systems": "진법변환·보수연산",
+    "codes-arithmetic": "디지털 코드·오류검출",
+    "digital-communication": "디지털 변복조·PCM·라인코드"
+  },
+  "changes": [
+    {
+      "id": "national-2007-06",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "mcu-interface"
+        ],
+        "concepts": [
+          "보수",
+          "MCU·Arduino"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "mcu-interface",
+          "information-data"
+        ],
+        "concepts": [
+          "MCU·Arduino",
+          "나이퀴스트율"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "ASCII는 문자 길이 조건이고 핵심은 RS-232 오버헤드와 처리율"
+    },
+    {
+      "id": "national-2008-01",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2008-09",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-bias"
+        ],
+        "concepts": [
+          "직류부하선"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "옆 문항의 NAND/NOR OCR이 섞였으나 실제 이미지는 BJT 바이어스 저항 문제"
+    },
+    {
+      "id": "national-2009-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2009-19",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "파형해석"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "counter",
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "동기·비동기 카운터",
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "파형해석",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "FF의 토글 접속을 통한 주파수 분주"
+    },
+    {
+      "id": "local-2009-16",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "adc-dac"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "분해능·양자화"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "adc-dac"
+        ],
+        "concepts": [
+          "분해능·양자화"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "2진수는 DAC 입력값이며 핵심은 변환기 출력전압"
+    },
+    {
+      "id": "national-2010-20",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "national-2011-02",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:generic-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "local-2011-01",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic",
+          "digital-communication"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+    },
+    {
+      "id": "local-2011-10",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "mux-demux",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "보수",
+          "MUX",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "mux-demux",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "MUX",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "멀티플렉서 구현 논리식 문제이며 코드 변환이 아님"
+    },
+    {
+      "id": "local-2011-13",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "other-combinational"
+        ],
+        "concepts": [
+          "디지털 비교기"
+        ],
+        "auxiliaryTags": [
+          "통신",
+          "제어",
+          "광전자"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "패리티·CRC"
+        ],
+        "auxiliaryTags": [
+          "통신",
+          "제어",
+          "광전자"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "패리티·CRC 오류검출 방식을 묻는 문항이며 비교기 등 조합회로 구현과 구분"
+    },
+    {
+      "id": "local-2012-07",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "local-2012-11",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "national-2013-12",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "memory"
+        ],
+        "concepts": [
+          "ROM·RAM"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "opamp-operations"
+        ],
+        "concepts": [
+          "반전·비반전"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "OCR의 rOm을 ROM으로 오인했으나 실제는 감산 연산증폭기"
+    },
+    {
+      "id": "national-2014-18",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2014-20",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "counter"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "동기·비동기 카운터"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "counter"
+        ],
+        "concepts": [
+          "동기·비동기 카운터"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "10진수는 카운트 순서의 표시이며 핵심은 동기식 카운터"
+    },
+    {
+      "id": "national-2015-01",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "national-2015-16",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "카르노맵",
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "무관항·전력소모 같은 보조 단어가 아닌 SR/JK FF 동작을 기준으로 분류"
+    },
+    {
+      "id": "assembly-2015-10",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "seoul-2015-07",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "number-systems"
+        ],
+        "concepts": [
+          "보수",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+    },
+    {
+      "id": "national-2016-08",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "logic-families"
+        ],
+        "concepts": [
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates",
+          "logic-families"
+        ],
+        "concepts": [
+          "불대수",
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+    },
+    {
+      "id": "assembly-2016-09",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:generic-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits"
+        ],
+        "concepts": [
+          "가산기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "합 S=XOR, 캐리 C=AND인 반가산기 진리표·구현"
+    },
+    {
+      "id": "assembly-2016-11",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "CE·CC·CB",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier"
+        ],
+        "concepts": [
+          "CE·CC·CB"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+    },
+    {
+      "id": "seoul-2016-15",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "assembly-2017-02",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier",
+          "amplifier-frequency",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "CE·CC·CB",
+          "결합·바이패스",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier"
+        ],
+        "concepts": [
+          "CE·CC·CB"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+    },
+    {
+      "id": "assembly-2017-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "logic-families"
+        ],
+        "concepts": [
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates",
+          "logic-families"
+        ],
+        "concepts": [
+          "불대수",
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+    },
+    {
+      "id": "assembly-2017-07",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "CE·CC·CB",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier"
+        ],
+        "concepts": [
+          "CE·CC·CB"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+    },
+    {
+      "id": "assembly-2017-08",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits"
+        ],
+        "concepts": [
+          "가산기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "other-combinational"
+        ],
+        "concepts": [
+          "디지털 비교기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "두 XOR 결과를 NOR로 묶은 2비트 등가비교기"
+    },
+    {
+      "id": "assembly-2017-13",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "assembly-2017-17",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "logic-families"
+        ],
+        "concepts": [
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates",
+          "logic-families"
+        ],
+        "concepts": [
+          "불대수",
+          "TTL·CMOS"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2018-01",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "adc-dac",
+          "digital-communication"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "분해능·양자화",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "adc-dac",
+          "digital-communication"
+        ],
+        "concepts": [
+          "분해능·양자화",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "2진 부호화는 PCM 비트수 조건이며 일반 진법변환이 아님"
+    },
+    {
+      "id": "national-2018-18",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "assembly-2018-20",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "number-systems"
+        ],
+        "concepts": [
+          "보수",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "seoul-2018-10",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2019-12",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "counter",
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "동기·비동기 카운터",
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "RF·전파"
+        ],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "FF의 토글 접속을 통한 주파수 분주"
+    },
+    {
+      "id": "seoul-2019-02",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "seoul-2019-20",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:generic-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2020-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "logic-families",
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "TTL·CMOS",
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "전달지연 무시 조건 때문에 논리군을 중복 분류. 실제는 D FF 출력 파형"
+    },
+    {
+      "id": "national-2020-10",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "opamp-basics",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "이상적 OP AMP",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "opamp-basics"
+        ],
+        "concepts": [
+          "이상적 OP AMP"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "슬루율·입출력저항 등 연산증폭기 자체 성질"
+    },
+    {
+      "id": "seoul-2020-14",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits",
+          "encoder-decoder"
+        ],
+        "concepts": [
+          "가산기",
+          "인코더"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits"
+        ],
+        "concepts": [
+          "가산기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "XOR와 FA로 구성된 가감산기이며 인코더·디코더가 아님"
+    },
+    {
+      "id": "national-2021-04",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "encoder-decoder"
+        ],
+        "concepts": [
+          "인코더"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "memory",
+          "encoder-decoder"
+        ],
+        "concepts": [
+          "ROM",
+          "디코더"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "디코더를 이용한 실제 ROM 읽기 문제로 메모리에도 분류"
+    },
+    {
+      "id": "assembly-2021-19",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "national-2022-04",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "계산형",
+          "파형해석"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "digital-communication"
+        ],
+        "concepts": [
+          "라인코드"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "계산형",
+          "파형해석"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "NRZ·RZ·맨체스터는 전송용 라인코드"
+    },
+    {
+      "id": "military-2022-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "memory"
+        ],
+        "concepts": [
+          "ROM·RAM"
+        ],
+        "auxiliaryTags": [
+          "컴퓨터·메모리"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "circuit-theory",
+        "topics": [
+          "elements-basics"
+        ],
+        "concepts": [
+          "배터리 특성"
+        ],
+        "auxiliaryTags": [
+          "컴퓨터·메모리"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "메모리 현상은 배터리 특성이며 디지털 메모리 소자가 아님"
+    },
+    {
+      "id": "local-2022-09",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "number-systems"
+        ],
+        "concepts": [
+          "보수",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "national-2023-12",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "adc-dac",
+          "digital-communication"
+        ],
+        "concepts": [
+          "카르노맵",
+          "분해능·양자화",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "통신",
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "adc-dac",
+          "digital-communication"
+        ],
+        "concepts": [
+          "분해능·양자화",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "통신",
+          "신호처리"
+        ],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "최소 표본화의 최소를 논리식 최소화로 오인. PCM 표본화·비트율 문제"
+    },
+    {
+      "id": "national-2023-14",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "digital-communication"
+        ],
+        "concepts": [
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "network-protocol"
+        ],
+        "concepts": [
+          "이더넷 프레임"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "이더넷 프레임 구성은 데이터링크 계층·네트워크 프로토콜"
+    },
+    {
+      "id": "assembly-2023-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "digital-communication"
+        ],
+        "concepts": [
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "digital-communication",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "채널 부호화",
+          "패리티·CRC"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "디지털 통신 블록 중 채널 부호화의 오류정정 기능"
+    },
+    {
+      "id": "military-2023-03",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "카르노맵",
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "전력전자"
+        ],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "latch-flipflop"
+        ],
+        "concepts": [
+          "RS·JK·D·T 플립플롭"
+        ],
+        "auxiliaryTags": [
+          "전력전자"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "무관항·전력소모 같은 보조 단어가 아닌 SR/JK FF 동작을 기준으로 분류"
+    },
+    {
+      "id": "military-2023-04",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits"
+        ],
+        "concepts": [
+          "가산기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "opamp-operations"
+        ],
+        "concepts": [
+          "반전·비반전"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "가감산기라는 단어를 디지털 산술회로로 오인했으나 실제는 저항·OP AMP 감산회로"
+    },
+    {
+      "id": "local-2023-11",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+    },
+    {
+      "id": "national-2024-07",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "comparator-schmitt",
+          "pulse-555"
+        ],
+        "concepts": [
+          "비교기",
+          "멀티바이브레이터"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "comparator-schmitt"
+        ],
+        "concepts": [
+          "슈미트 트리거",
+          "히스테리시스"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "슈미트 트리거 특성·응용이며 555 타이머 문제가 아님"
+    },
+    {
+      "id": "assembly-2024-04",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "multistage-special",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "다단증폭기",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "multistage-special",
+          "amplifier-frequency"
+        ],
+        "concepts": [
+          "다단증폭기",
+          "결합·바이패스"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "다단 이득과 합성 대역폭을 묻는 주파수특성 문제"
+    },
+    {
+      "id": "assembly-2024-09",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits",
+          "number-systems"
+        ],
+        "concepts": [
+          "가산기",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "arithmetic-circuits"
+        ],
+        "concepts": [
+          "가산기"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "전가산기의 기능 문제이며 진법변환이 아님"
+    },
+    {
+      "id": "assembly-2024-14",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "number-systems"
+        ],
+        "concepts": [
+          "보수",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "assembly-2025-05",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic",
+          "number-systems"
+        ],
+        "concepts": [
+          "보수",
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+    },
+    {
+      "id": "military-2025-04",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "local-2025-16",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "pulse-555"
+        ],
+        "concepts": [
+          "멀티바이브레이터"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-reviewed"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "comparator-schmitt"
+        ],
+        "concepts": [
+          "슈미트 트리거",
+          "히스테리시스"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "슈미트 트리거 특성·응용이며 555 타이머 문제가 아님"
+    },
+    {
+      "id": "national-2026-02",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+    },
+    {
+      "id": "national-2026-06",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "minimization-kmap",
+          "boolean-gates"
+        ],
+        "concepts": [
+          "카르노맵",
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "논리식·카르노맵",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+    },
+    {
+      "id": "military-2026-05",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems",
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "2·8·10·16진수",
+          "보수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "number-systems"
+        ],
+        "concepts": [
+          "2·8·10·16진수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+    },
+    {
+      "id": "local-2026-01",
+      "before": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier",
+          "amplifier-basics"
+        ],
+        "concepts": [
+          "CE·CC·CB",
+          "전압·전류·전력이득"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "bjt-amplifier"
+        ],
+        "concepts": [
+          "CE·CC·CB"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+    },
+    {
+      "id": "local-2026-08",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "other-combinational",
+          "digital-communication"
+        ],
+        "concepts": [
+          "디지털 비교기",
+          "ASK·FSK·PSK·QAM"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형",
+          "복수개념"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "digital-engineering",
+        "topics": [
+          "codes-arithmetic"
+        ],
+        "concepts": [
+          "패리티·CRC"
+        ],
+        "auxiliaryTags": [
+          "통신"
+        ],
+        "questionTypes": [
+          "개념형"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "패리티·CRC 오류검출 방식을 묻는 문항이며 비교기 등 조합회로 구현과 구분"
+    },
+    {
+      "id": "local-2026-14",
+      "before": {
+        "category": "digital-engineering",
+        "topics": [
+          "boolean-gates"
+        ],
+        "concepts": [
+          "불대수"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:rule-candidate"
+      },
+      "after": {
+        "category": "electronic-circuits",
+        "topics": [
+          "limiter-clamper"
+        ],
+        "concepts": [
+          "직렬·병렬 리미터"
+        ],
+        "auxiliaryTags": [],
+        "questionTypes": [
+          "계산형",
+          "회로도 포함",
+          "논리식·카르노맵"
+        ],
+        "status": "approved",
+        "method": "curriculum-v2:curated"
+      },
+      "reason": "옆 문항의 논리회로 OCR이 섞였으나 실제는 다이오드 리미터"
+    }
+  ],
+  "answersChanged": false,
+  "previousPdf": "기존 회로이론 273문항 PDF는 이전 분류의 스냅샷이며 변경하지 않음. 배터리 문항 추가로 현재 회로이론은 274문항."
+}

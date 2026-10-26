@@ -1,0 +1,510 @@
+{
+  "assembly-2016-11": {
+    "category": "electronic-circuits",
+    "topics": [
+      "bjt-amplifier"
+    ],
+    "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+  },
+  "assembly-2017-02": {
+    "category": "electronic-circuits",
+    "topics": [
+      "bjt-amplifier"
+    ],
+    "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+  },
+  "assembly-2017-07": {
+    "category": "electronic-circuits",
+    "topics": [
+      "bjt-amplifier"
+    ],
+    "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+  },
+  "local-2026-01": {
+    "category": "electronic-circuits",
+    "topics": [
+      "bjt-amplifier"
+    ],
+    "reason": "CE·CC·CB 특성 문제를 공통 증폭기 기초와 분리"
+  },
+  "national-2020-10": {
+    "category": "electronic-circuits",
+    "topics": [
+      "opamp-basics"
+    ],
+    "reason": "슬루율·입출력저항 등 연산증폭기 자체 성질"
+  },
+  "assembly-2024-04": {
+    "category": "electronic-circuits",
+    "topics": [
+      "multistage-special",
+      "amplifier-frequency"
+    ],
+    "reason": "다단 이득과 합성 대역폭을 묻는 주파수특성 문제"
+  },
+  "national-2024-07": {
+    "category": "electronic-circuits",
+    "topics": [
+      "comparator-schmitt"
+    ],
+    "reason": "슈미트 트리거 특성·응용이며 555 타이머 문제가 아님",
+    "concepts": [
+      "슈미트 트리거",
+      "히스테리시스"
+    ]
+  },
+  "local-2025-16": {
+    "category": "electronic-circuits",
+    "topics": [
+      "comparator-schmitt"
+    ],
+    "reason": "슈미트 트리거 특성·응용이며 555 타이머 문제가 아님",
+    "concepts": [
+      "슈미트 트리거",
+      "히스테리시스"
+    ]
+  },
+  "national-2008-09": {
+    "category": "electronic-circuits",
+    "topics": [
+      "bjt-bias"
+    ],
+    "reason": "옆 문항의 NAND/NOR OCR이 섞였으나 실제 이미지는 BJT 바이어스 저항 문제"
+  },
+  "national-2013-12": {
+    "category": "electronic-circuits",
+    "topics": [
+      "opamp-operations"
+    ],
+    "reason": "OCR의 rOm을 ROM으로 오인했으나 실제는 감산 연산증폭기"
+  },
+  "military-2023-04": {
+    "category": "electronic-circuits",
+    "topics": [
+      "opamp-operations"
+    ],
+    "reason": "가감산기라는 단어를 디지털 산술회로로 오인했으나 실제는 저항·OP AMP 감산회로"
+  },
+  "local-2026-14": {
+    "category": "electronic-circuits",
+    "topics": [
+      "limiter-clamper"
+    ],
+    "reason": "옆 문항의 논리회로 OCR이 섞였으나 실제는 다이오드 리미터"
+  },
+  "military-2022-03": {
+    "category": "circuit-theory",
+    "topics": [
+      "elements-basics"
+    ],
+    "reason": "메모리 현상은 배터리 특성이며 디지털 메모리 소자가 아님",
+    "concepts": [
+      "배터리 특성"
+    ]
+  },
+  "national-2010-20": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "local-2012-11": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "national-2015-01": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "assembly-2018-20": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "seoul-2019-02": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "local-2022-09": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "assembly-2024-14": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "assembly-2025-05": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "그레이·BCD·Excess-3·문자/오류검출 코드를 묻는 문항으로 일반 진법변환과 구분"
+  },
+  "local-2011-01": {
+    "category": "digital-engineering",
+    "topics": [
+      "number-systems"
+    ],
+    "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+  },
+  "seoul-2015-07": {
+    "category": "digital-engineering",
+    "topics": [
+      "number-systems"
+    ],
+    "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+  },
+  "local-2023-11": {
+    "category": "digital-engineering",
+    "topics": [
+      "number-systems"
+    ],
+    "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+  },
+  "national-2026-02": {
+    "category": "digital-engineering",
+    "topics": [
+      "number-systems"
+    ],
+    "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+  },
+  "military-2026-05": {
+    "category": "digital-engineering",
+    "topics": [
+      "number-systems"
+    ],
+    "reason": "보수 표현·덧셈·뺄셈·오버플로는 진법·보수연산에 모음"
+  },
+  "local-2009-16": {
+    "category": "digital-engineering",
+    "topics": [
+      "adc-dac"
+    ],
+    "reason": "2진수는 DAC 입력값이며 핵심은 변환기 출력전압"
+  },
+  "local-2011-10": {
+    "category": "digital-engineering",
+    "topics": [
+      "mux-demux",
+      "boolean-gates"
+    ],
+    "reason": "멀티플렉서 구현 논리식 문제이며 코드 변환이 아님"
+  },
+  "national-2007-06": {
+    "category": "digital-engineering",
+    "topics": [
+      "mcu-interface",
+      "information-data"
+    ],
+    "reason": "ASCII는 문자 길이 조건이고 핵심은 RS-232 오버헤드와 처리율"
+  },
+  "national-2014-20": {
+    "category": "digital-engineering",
+    "topics": [
+      "counter"
+    ],
+    "reason": "10진수는 카운트 순서의 표시이며 핵심은 동기식 카운터"
+  },
+  "assembly-2024-09": {
+    "category": "digital-engineering",
+    "topics": [
+      "arithmetic-circuits"
+    ],
+    "reason": "전가산기의 기능 문제이며 진법변환이 아님"
+  },
+  "national-2022-04": {
+    "category": "digital-engineering",
+    "topics": [
+      "digital-communication"
+    ],
+    "reason": "NRZ·RZ·맨체스터는 전송용 라인코드",
+    "concepts": [
+      "라인코드"
+    ]
+  },
+  "national-2023-14": {
+    "category": "digital-engineering",
+    "topics": [
+      "network-protocol"
+    ],
+    "reason": "이더넷 프레임 구성은 데이터링크 계층·네트워크 프로토콜",
+    "concepts": [
+      "이더넷 프레임"
+    ]
+  },
+  "national-2023-12": {
+    "category": "digital-engineering",
+    "topics": [
+      "adc-dac",
+      "digital-communication"
+    ],
+    "reason": "최소 표본화의 최소를 논리식 최소화로 오인. PCM 표본화·비트율 문제"
+  },
+  "national-2018-01": {
+    "category": "digital-engineering",
+    "topics": [
+      "adc-dac",
+      "digital-communication"
+    ],
+    "reason": "2진 부호화는 PCM 비트수 조건이며 일반 진법변환이 아님"
+  },
+  "local-2011-13": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "패리티·CRC 오류검출 방식을 묻는 문항이며 비교기 등 조합회로 구현과 구분",
+    "concepts": [
+      "패리티·CRC"
+    ]
+  },
+  "local-2026-08": {
+    "category": "digital-engineering",
+    "topics": [
+      "codes-arithmetic"
+    ],
+    "reason": "패리티·CRC 오류검출 방식을 묻는 문항이며 비교기 등 조합회로 구현과 구분",
+    "concepts": [
+      "패리티·CRC"
+    ]
+  },
+  "assembly-2023-03": {
+    "category": "digital-engineering",
+    "topics": [
+      "digital-communication",
+      "codes-arithmetic"
+    ],
+    "reason": "디지털 통신 블록 중 채널 부호화의 오류정정 기능",
+    "concepts": [
+      "채널 부호화",
+      "패리티·CRC"
+    ]
+  },
+  "national-2021-04": {
+    "category": "digital-engineering",
+    "topics": [
+      "memory",
+      "encoder-decoder"
+    ],
+    "reason": "디코더를 이용한 실제 ROM 읽기 문제로 메모리에도 분류",
+    "concepts": [
+      "ROM",
+      "디코더"
+    ]
+  },
+  "seoul-2020-14": {
+    "category": "digital-engineering",
+    "topics": [
+      "arithmetic-circuits"
+    ],
+    "reason": "XOR와 FA로 구성된 가감산기이며 인코더·디코더가 아님"
+  },
+  "assembly-2016-09": {
+    "category": "digital-engineering",
+    "topics": [
+      "arithmetic-circuits"
+    ],
+    "reason": "합 S=XOR, 캐리 C=AND인 반가산기 진리표·구현"
+  },
+  "assembly-2017-08": {
+    "category": "digital-engineering",
+    "topics": [
+      "other-combinational"
+    ],
+    "reason": "두 XOR 결과를 NOR로 묶은 2비트 등가비교기",
+    "concepts": [
+      "디지털 비교기"
+    ]
+  },
+  "national-2020-03": {
+    "category": "digital-engineering",
+    "topics": [
+      "latch-flipflop"
+    ],
+    "reason": "전달지연 무시 조건 때문에 논리군을 중복 분류. 실제는 D FF 출력 파형"
+  },
+  "national-2015-16": {
+    "category": "digital-engineering",
+    "topics": [
+      "latch-flipflop"
+    ],
+    "reason": "무관항·전력소모 같은 보조 단어가 아닌 SR/JK FF 동작을 기준으로 분류"
+  },
+  "military-2023-03": {
+    "category": "digital-engineering",
+    "topics": [
+      "latch-flipflop"
+    ],
+    "reason": "무관항·전력소모 같은 보조 단어가 아닌 SR/JK FF 동작을 기준으로 분류"
+  },
+  "national-2009-19": {
+    "category": "digital-engineering",
+    "topics": [
+      "counter",
+      "latch-flipflop"
+    ],
+    "reason": "FF의 토글 접속을 통한 주파수 분주"
+  },
+  "national-2019-12": {
+    "category": "digital-engineering",
+    "topics": [
+      "counter",
+      "latch-flipflop"
+    ],
+    "reason": "FF의 토글 접속을 통한 주파수 분주"
+  },
+  "national-2016-08": {
+    "category": "digital-engineering",
+    "topics": [
+      "boolean-gates",
+      "logic-families"
+    ],
+    "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+  },
+  "assembly-2017-03": {
+    "category": "digital-engineering",
+    "topics": [
+      "boolean-gates",
+      "logic-families"
+    ],
+    "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+  },
+  "assembly-2017-17": {
+    "category": "digital-engineering",
+    "topics": [
+      "boolean-gates",
+      "logic-families"
+    ],
+    "reason": "CMOS 소자 논리 구현과 게이트 기능 양쪽에서 검색 가능하게 보완"
+  },
+  "national-2008-01": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "national-2009-03": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "national-2011-02": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "local-2012-07": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "national-2014-18": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "assembly-2015-10": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "seoul-2016-15": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "assembly-2017-13": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "national-2018-18": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "seoul-2018-10": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "seoul-2019-20": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "assembly-2021-19": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "military-2025-04": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  },
+  "national-2026-06": {
+    "category": "digital-engineering",
+    "topics": [
+      "minimization-kmap",
+      "boolean-gates"
+    ],
+    "reason": "부울함수 간소화·최소표현 문제를 최소화 분류에서도 검색 가능하게 보완"
+  }
+}

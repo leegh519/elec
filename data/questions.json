@@ -313,12 +313,12 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
-        "mcu-interface"
+        "mcu-interface",
+        "information-data"
       ],
       "concepts": [
-        "보수",
-        "MCU·Arduino"
+        "MCU·Arduino",
+        "나이퀴스트율"
       ],
       "auxiliaryTags": [
         "통신"
@@ -328,7 +328,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -1213,18 +1213,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -1696,12 +1699,12 @@
       "height": 880
     },
     "classification": {
-      "category": "digital-engineering",
+      "category": "electronic-circuits",
       "topics": [
-        "boolean-gates"
+        "bjt-bias"
       ],
       "concepts": [
-        "불대수"
+        "직류부하선"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -1709,7 +1712,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -2532,17 +2535,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -3495,18 +3501,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "counter",
         "latch-flipflop"
       ],
       "concepts": [
+        "동기·비동기 카운터",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "파형해석"
+        "파형해석",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -5728,22 +5737,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
         "adc-dac"
       ],
       "concepts": [
-        "2·8·10·16진수",
         "분해능·양자화"
       ],
       "auxiliaryTags": [
         "신호처리"
       ],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -7161,20 +7167,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
         "codes-arithmetic"
       ],
       "concepts": [
-        "2·8·10·16진수",
         "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -8475,17 +8478,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:generic-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -9609,24 +9615,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
-        "codes-arithmetic",
-        "digital-communication"
+        "number-systems"
       ],
       "concepts": [
-        "2·8·10·16진수",
-        "보수",
-        "ASK·FSK·PSK·QAM"
+        "2·8·10·16진수"
       ],
       "auxiliaryTags": [
         "RF·전파"
       ],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -10162,12 +10163,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
         "mux-demux",
         "boolean-gates"
       ],
       "concepts": [
-        "보수",
         "MUX",
         "불대수"
       ],
@@ -10177,7 +10176,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -10345,10 +10344,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "other-combinational"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "디지털 비교기"
+        "패리티·CRC"
       ],
       "auxiliaryTags": [
         "통신",
@@ -10359,7 +10358,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -12377,17 +12376,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형"
+        "계산형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -12617,20 +12619,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
         "codes-arithmetic"
       ],
       "concepts": [
-        "2·8·10·16진수",
         "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -13875,19 +13874,19 @@
       "height": 1437
     },
     "classification": {
-      "category": "digital-engineering",
+      "category": "electronic-circuits",
       "topics": [
-        "memory"
+        "opamp-operations"
       ],
       "concepts": [
-        "ROM·RAM"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -15424,18 +15423,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -15544,21 +15546,18 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
         "counter"
       ],
       "concepts": [
-        "2·8·10·16진수",
         "동기·비동기 카운터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "회로도 포함",
-        "복수개념"
+        "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -17996,17 +17995,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -18888,21 +18887,18 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "minimization-kmap",
         "latch-flipflop"
       ],
       "concepts": [
-        "카르노맵",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵",
-        "복수개념"
+        "논리식·카르노맵"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -19743,18 +19739,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 5,
@@ -20783,17 +20782,14 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
         "number-systems"
       ],
       "concepts": [
-        "보수",
         "2·8·10·16진수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
       "method": "curriculum-v2:curated"
@@ -22041,18 +22037,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "boolean-gates",
         "logic-families"
       ],
       "concepts": [
+        "불대수",
         "TTL·CMOS"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -23322,10 +23321,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "boolean-gates"
+        "arithmetic-circuits"
       ],
       "concepts": [
-        "불대수"
+        "가산기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -23334,7 +23333,7 @@
         "논리식·카르노맵"
       ],
       "status": "approved",
-      "method": "curriculum-v2:generic-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -23445,20 +23444,17 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "bjt-amplifier",
-        "amplifier-basics"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "CE·CC·CB",
-        "전압·전류·전력이득"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -24900,17 +24896,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -26514,23 +26513,18 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "bjt-amplifier",
-        "amplifier-frequency",
-        "amplifier-basics"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "CE·CC·CB",
-        "결합·바이패스",
-        "전압·전류·전력이득"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "회로도 포함",
-        "복수개념"
+        "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -26579,9 +26573,11 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "boolean-gates",
         "logic-families"
       ],
       "concepts": [
+        "불대수",
         "TTL·CMOS"
       ],
       "auxiliaryTags": [
@@ -26589,10 +26585,11 @@
       ],
       "questionTypes": [
         "개념형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -26824,22 +26821,19 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "bjt-amplifier",
-        "amplifier-basics"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "CE·CC·CB",
-        "전압·전류·전력이득"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [
         "RF·전파"
       ],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -26888,10 +26882,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "arithmetic-circuits"
+        "other-combinational"
       ],
       "concepts": [
-        "가산기"
+        "디지털 비교기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -26899,7 +26893,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -27188,18 +27182,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -27431,15 +27428,18 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "boolean-gates",
         "logic-families"
       ],
       "concepts": [
+        "불대수",
         "TTL·CMOS"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
       "method": "curriculum-v2:curated"
@@ -28887,12 +28887,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
         "adc-dac",
         "digital-communication"
       ],
       "concepts": [
-        "2·8·10·16진수",
         "분해능·양자화",
         "ASK·FSK·PSK·QAM"
       ],
@@ -28904,7 +28902,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -29916,18 +29914,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -31258,17 +31259,14 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "보수",
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
       "method": "curriculum-v2:curated"
@@ -31860,17 +31858,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -33184,9 +33185,11 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "counter",
         "latch-flipflop"
       ],
       "concepts": [
+        "동기·비동기 카운터",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [
@@ -33194,10 +33197,11 @@
       ],
       "questionTypes": [
         "계산형",
-        "회로도 포함"
+        "회로도 포함",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -35017,17 +35021,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -36097,17 +36101,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:generic-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -36274,22 +36281,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "logic-families",
         "latch-flipflop"
       ],
       "concepts": [
-        "TTL·CMOS",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [
         "신호처리"
       ],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -36691,20 +36695,17 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "opamp-basics",
-        "amplifier-basics"
+        "opamp-basics"
       ],
       "concepts": [
-        "이상적 OP AMP",
-        "전압·전류·전력이득"
+        "이상적 OP AMP"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -39358,21 +39359,18 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "arithmetic-circuits",
-        "encoder-decoder"
+        "arithmetic-circuits"
       ],
       "concepts": [
-        "가산기",
-        "인코더"
+        "가산기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "회로도 포함",
-        "복수개념"
+        "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -39962,17 +39960,20 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "memory",
         "encoder-decoder"
       ],
       "concepts": [
-        "인코더"
+        "ROM",
+        "디코더"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -42062,18 +42063,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -43582,10 +43586,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems"
+        "digital-communication"
       ],
       "concepts": [
-        "2·8·10·16진수"
+        "라인코드"
       ],
       "auxiliaryTags": [
         "통신"
@@ -43595,7 +43599,7 @@
         "파형해석"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -45952,12 +45956,12 @@
       "height": 597
     },
     "classification": {
-      "category": "digital-engineering",
+      "category": "circuit-theory",
       "topics": [
-        "memory"
+        "elements-basics"
       ],
       "concepts": [
-        "ROM·RAM"
+        "배터리 특성"
       ],
       "auxiliaryTags": [
         "컴퓨터·메모리"
@@ -45966,7 +45970,7 @@
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -47499,22 +47503,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "보수",
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [
         "통신"
       ],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -48879,12 +48880,10 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "minimization-kmap",
         "adc-dac",
         "digital-communication"
       ],
       "concepts": [
-        "카르노맵",
         "분해능·양자화",
         "ASK·FSK·PSK·QAM"
       ],
@@ -48897,7 +48896,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 3,
@@ -49005,17 +49004,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "digital-communication"
+        "network-protocol"
       ],
       "concepts": [
-        "ASK·FSK·PSK·QAM"
+        "이더넷 프레임"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -49542,16 +49541,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "digital-communication"
+        "digital-communication",
+        "codes-arithmetic"
       ],
       "concepts": [
-        "ASK·FSK·PSK·QAM"
+        "채널 부호화",
+        "패리티·CRC"
       ],
       "auxiliaryTags": [
         "통신"
       ],
       "questionTypes": [
-        "개념형"
+        "개념형",
+        "복수개념"
       ],
       "status": "approved",
       "method": "curriculum-v2:curated"
@@ -50754,22 +50756,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "minimization-kmap",
         "latch-flipflop"
       ],
       "concepts": [
-        "카르노맵",
         "RS·JK·D·T 플립플롭"
       ],
       "auxiliaryTags": [
         "전력전자"
       ],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -50815,12 +50814,12 @@
       "height": 980
     },
     "classification": {
-      "category": "digital-engineering",
+      "category": "electronic-circuits",
       "topics": [
-        "arithmetic-circuits"
+        "opamp-operations"
       ],
       "concepts": [
-        "가산기"
+        "반전·비반전"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -50828,7 +50827,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -52422,20 +52421,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
-        "codes-arithmetic"
+        "number-systems"
       ],
       "concepts": [
-        "2·8·10·16진수",
-        "보수"
+        "2·8·10·16진수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -53375,21 +53371,19 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "comparator-schmitt",
-        "pulse-555"
+        "comparator-schmitt"
       ],
       "concepts": [
-        "비교기",
-        "멀티바이브레이터"
+        "슈미트 트리거",
+        "히스테리시스"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "회로도 포함",
-        "복수개념"
+        "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -54406,11 +54400,11 @@
       "category": "electronic-circuits",
       "topics": [
         "multistage-special",
-        "amplifier-basics"
+        "amplifier-frequency"
       ],
       "concepts": [
         "다단증폭기",
-        "전압·전류·전력이득"
+        "결합·바이패스"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -54418,7 +54412,7 @@
         "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -54708,20 +54702,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "arithmetic-circuits",
-        "number-systems"
+        "arithmetic-circuits"
       ],
       "concepts": [
-        "가산기",
-        "2·8·10·16진수"
+        "가산기"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 5,
@@ -55014,22 +55005,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "보수",
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [
         "통신"
       ],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -59276,20 +59264,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "codes-arithmetic",
-        "number-systems"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "보수",
-        "2·8·10·16진수"
+        "보수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -60418,18 +60403,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -62335,17 +62323,18 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "pulse-555"
+        "comparator-schmitt"
       ],
       "concepts": [
-        "멀티바이브레이터"
+        "슈미트 트리거",
+        "히스테리시스"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -62695,20 +62684,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
-        "codes-arithmetic"
+        "number-systems"
       ],
       "concepts": [
-        "2·8·10·16진수",
-        "보수"
+        "2·8·10·16진수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
@@ -62934,18 +62920,21 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
+        "minimization-kmap",
         "boolean-gates"
       ],
       "concepts": [
+        "카르노맵",
         "불대수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
         "계산형",
-        "논리식·카르노맵"
+        "논리식·카르노맵",
+        "복수개념"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -64077,20 +64066,17 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "number-systems",
-        "codes-arithmetic"
+        "number-systems"
       ],
       "concepts": [
-        "2·8·10·16진수",
-        "보수"
+        "2·8·10·16진수"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "계산형",
-        "복수개념"
+        "계산형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -65026,20 +65012,17 @@
     "classification": {
       "category": "electronic-circuits",
       "topics": [
-        "bjt-amplifier",
-        "amplifier-basics"
+        "bjt-amplifier"
       ],
       "concepts": [
-        "CE·CC·CB",
-        "전압·전류·전력이득"
+        "CE·CC·CB"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 4,
@@ -65455,22 +65438,19 @@
     "classification": {
       "category": "digital-engineering",
       "topics": [
-        "other-combinational",
-        "digital-communication"
+        "codes-arithmetic"
       ],
       "concepts": [
-        "디지털 비교기",
-        "ASK·FSK·PSK·QAM"
+        "패리티·CRC"
       ],
       "auxiliaryTags": [
         "통신"
       ],
       "questionTypes": [
-        "개념형",
-        "복수개념"
+        "개념형"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 1,
@@ -65812,12 +65792,12 @@
       "height": 864
     },
     "classification": {
-      "category": "digital-engineering",
+      "category": "electronic-circuits",
       "topics": [
-        "boolean-gates"
+        "limiter-clamper"
       ],
       "concepts": [
-        "불대수"
+        "직렬·병렬 리미터"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -65826,7 +65806,7 @@
         "논리식·카르노맵"
       ],
       "status": "approved",
-      "method": "curriculum-v2:rule-candidate"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,

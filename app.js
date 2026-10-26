@@ -78,7 +78,9 @@
   }
 
   function renderCheckGroup(container, items, selected) {
-    container.innerHTML = items.map(({ value, label }) => `
+    container.innerHTML = items.map(({ value, label, heading }) => heading
+      ? `<div class="topic-group-heading">${escapeHtml(label)}</div>`
+      : `
       <label class="topic-check ${selected.has(value) ? "is-selected" : ""}">
         <input type="checkbox" value="${escapeHtml(value)}" ${selected.has(value) ? "checked" : ""}>
         <span>${escapeHtml(label)}</span>
@@ -92,7 +94,19 @@
     const availableTopics = categories.flatMap(category => category.topics || []);
     const availableIds = new Set(availableTopics.map(topic => topic.id));
     [...selectedTopics].forEach(topic => { if (!availableIds.has(topic)) selectedTopics.delete(topic); });
-    renderCheckGroup(els.topic, availableTopics.map(topic => ({ value: topic.id, label: topic.label })), selectedTopics);
+    const items = [];
+    for (const category of categories) {
+      let previousGroup = null;
+      for (const topic of category.topics || []) {
+        const group = topic.group || category.label;
+        if (group !== previousGroup) {
+          items.push({ heading: true, label: group === category.label ? group : `${category.label} · ${group}` });
+          previousGroup = group;
+        }
+        items.push({ value: topic.id, label: topic.label });
+      }
+    }
+    renderCheckGroup(els.topic, items, selectedTopics);
     updateFilterCount();
   }
 

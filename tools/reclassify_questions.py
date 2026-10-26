@@ -839,6 +839,15 @@ CONCEPT_OVERRIDES = {
     "seoul-2021-20": ["비교기", "직렬·병렬 리미터", "제너 리미터"],
 }
 
+# 원문 대조로 확정한 교정은 키워드 점수보다 우선한다.
+ORGANIZATION_CORRECTIONS = json.loads((DATA / "classification_corrections.json").read_text(encoding="utf-8"))
+for question_id, correction in ORGANIZATION_CORRECTIONS.items():
+    ID_OVERRIDES[question_id] = (correction["category"], correction["topics"])
+    # 이전 분류용 개념이 새 분류에 남지 않도록 함께 교정한다.
+    CONCEPT_OVERRIDES.pop(question_id, None)
+    if "concepts" in correction:
+        CONCEPT_OVERRIDES[question_id] = correction["concepts"]
+
 QUESTION_TYPE_OVERRIDES = {
     "national-2011-05": ["개념형"],
 }
@@ -966,7 +975,7 @@ def classify(question: dict, topic_index: dict) -> dict:
     if len(topics) > 1:
         question_types = list(dict.fromkeys([*(old.get("questionTypes") or []), "복수개념"]))
     else:
-        question_types = old.get("questionTypes") or ["개념형"]
+        question_types = [kind for kind in old.get("questionTypes", []) if kind != "복수개념"] or ["개념형"]
     if question["id"] in QUESTION_TYPE_OVERRIDES:
         question_types = QUESTION_TYPE_OVERRIDES[question["id"]]
     return {
