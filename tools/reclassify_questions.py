@@ -664,7 +664,10 @@ ID_OVERRIDES.update({
     "seoul-2021-11": ("circuit-theory", ["series-parallel", "wye-delta"]),
 })
 
+ID_OVERRIDES["national-2025-12"] = ("circuit-theory", ["bridge"])
+
 CONCEPT_OVERRIDES = {
+    "national-2025-12": ["브리지 평형"],
     "local-2024-17": ["KCL", "KVL", "슈퍼메시"],
     "seoul-2021-11": ["등가회로", "Δ→Y 변환"],
     "national-2011-05": ["선형·직렬·병렬 조정기", "스위칭 전원"],

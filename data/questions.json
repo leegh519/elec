@@ -58497,10 +58497,10 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
-        "kcl-kvl"
+        "bridge"
       ],
       "concepts": [
-        "옴의 법칙"
+        "브리지 평형"
       ],
       "auxiliaryTags": [],
       "questionTypes": [
@@ -58508,7 +58508,7 @@
         "회로도 포함"
       ],
       "status": "approved",
-      "method": "curriculum-v2:generic-reviewed"
+      "method": "curriculum-v2:curated"
     },
     "answer": {
       "choice": 2,
