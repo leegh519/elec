@@ -2,6 +2,7 @@
 """전자공학개론 문제를 복수 중분류 체계로 재분류한다."""
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from collections import Counter, defaultdict
@@ -106,9 +107,7 @@ RULES = [
     rule("digital-engineering", "counter", "카운터", r"카운터", r"counter", r"계수기", r"분주", r"존슨\s*카운터", r"링\s*카운터"),
     rule("digital-engineering", "register", "레지스터", r"시프트\s*레지스터", r"shift\s*register", r"레지스터", r"직렬.*병렬\s*변환"),
     rule("digital-engineering", "memory", "메모리", r"메모리", r"memory", r"\brom\b", r"\bram\b", r"sram", r"dram", r"hbm", r"플래시"),
-    rule("digital-engineering", "pld-fpga", "PLD·FPGA", r"\bpld\b", r"\bpla\b", r"\bpal\b", r"cpld", r"fpga"),
     rule("digital-engineering", "adc-dac", "ADC·DAC", r"\badc\b", r"\bdac\b", r"a/d", r"d/a", r"양자화", r"분해능", r"r\s*-?\s*2r", r"아날로그.*디지털.*변환"),
-    rule("digital-engineering", "microprocessor", "마이크로프로세서", r"마이크로\s*프로세서", r"microprocessor", r"\bcpu\b", r"주소\s*버스", r"명령\s*처리"),
     rule("digital-engineering", "mcu-interface", "MCU·인터페이스", r"마이크로\s*컨트롤러", r"아두이노|arduino", r"rs\s*-?\s*232", r"uart", r"\bspi\b", r"i2c", r"직렬\s*통신", r"병렬\s*전송"),
     rule("digital-engineering", "digital-communication", "디지털 변복조·PCM", r"\bask\b", r"\bfsk\b", r"\bpsk\b", r"qpsk", r"bpsk", r"qam", r"펄스\s*코드\s*변조", r"\bpcm\b", r"심볼\s*(속도|전송률)", r"비트\s*오류", r"ber"),
     rule("digital-engineering", "information-data", "정보이론·데이터통신", r"채널\s*용량", r"샤논|shannon", r"나이퀴스트", r"신호대\s*잡음", r"snr", r"최소\s*비트율", r"데이터\s*(속도|전송률|전송속도)", r"화소.*전송"),
@@ -136,7 +135,7 @@ OLD_TOPIC_FALLBACK = {
     "boolean": ("digital-engineering", "boolean-gates"), "logic-families": ("digital-engineering", "logic-families"),
     "combinational": ("digital-engineering", "other-combinational"), "converters": ("digital-engineering", "adc-dac"),
     "sequential": ("digital-engineering", "latch-flipflop"), "registers-counters": ("digital-engineering", "register"),
-    "memory-pld": ("digital-engineering", "memory"), "processor": ("digital-engineering", "microprocessor"),
+    "memory-pld": ("digital-engineering", "memory"),
     "mcu-interface": ("digital-engineering", "mcu-interface"),
 }
 
@@ -653,7 +652,21 @@ ID_OVERRIDES.update({
     "national-2024-19": ("digital-engineering", ["arithmetic-circuits", "encoder-decoder", "other-combinational"]),
 })
 
+# OCR에 해석법 이름이 없어도 실제 회로에 적용되는 풀이 단위를 유지한다.
+# 판정 근거와 이전 분류는 review/empty-topic-audit.json에 기록한다.
+ID_OVERRIDES.update({
+    "national-2007-08": ("circuit-theory", ["node-analysis", "loop-analysis"]),
+    "national-2015-17": ("circuit-theory", ["kcl-kvl", "loop-analysis"]),
+    "assembly-2017-15": ("circuit-theory", ["node-analysis", "loop-analysis"]),
+    "national-2023-10": ("circuit-theory", ["kcl-kvl", "loop-analysis"]),
+    "local-2024-17": ("circuit-theory", ["kcl-kvl", "loop-analysis"]),
+    "national-2026-11": ("circuit-theory", ["kcl-kvl", "loop-analysis"]),
+    "seoul-2021-11": ("circuit-theory", ["series-parallel", "wye-delta"]),
+})
+
 CONCEPT_OVERRIDES = {
+    "local-2024-17": ["KCL", "KVL", "슈퍼메시"],
+    "seoul-2021-11": ["등가회로", "Δ→Y 변환"],
     "national-2011-05": ["선형·직렬·병렬 조정기", "스위칭 전원"],
     "national-2008-11": ["정상상태 등가회로"],
     "local-2009-12": ["정상상태 등가회로"],
@@ -965,15 +978,26 @@ def classify(question: dict, topic_index: dict) -> dict:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--only", nargs="+", metavar="QUESTION_ID",
+                        help="지정 문항만 교정하고 나머지 분류는 보존한다")
+    args = parser.parse_args()
     taxonomy = json.loads((DATA / "taxonomy.json").read_text(encoding="utf-8"))
     questions_path = DATA / "questions.json"
     questions = json.loads(questions_path.read_text(encoding="utf-8"))
+    selected = set(args.only) if args.only is not None else {q["id"] for q in questions}
+    unknown = selected - {q["id"] for q in questions}
+    if unknown:
+        parser.error(f"존재하지 않는 문항: {', '.join(sorted(unknown))}")
     _categories, topic_index = taxonomy_indexes(taxonomy)
     overrides = {}
     for question in questions:
-        classification = classify(question, topic_index)
-        question["classification"] = classification
-        question.setdefault("review", {})["classification"] = classification["status"]
+        if question["id"] in selected:
+            classification = classify(question, topic_index)
+            question["classification"] = classification
+            question.setdefault("review", {})["classification"] = classification["status"]
+        else:
+            classification = question["classification"]
         overrides[question["id"]] = classification
 
     questions_path.write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1001,7 +1025,7 @@ def main() -> int:
         "needsReview": [{"id": q["id"], "ocrText": q.get("ocrText", ""), "classification": q["classification"]} for q in uncertain],
     }
     (PROJECT / "review" / "classification-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"reclassified={len(questions)} multi={report['multiTopicQuestionCount']} needs-review={len(uncertain)}")
+    print(f"reclassified={len(selected)} multi={report['multiTopicQuestionCount']} needs-review={len(uncertain)}")
     return 0
 
 

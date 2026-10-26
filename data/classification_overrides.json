@@ -124,15 +124,18 @@
   "national-2007-08": {
     "category": "circuit-theory",
     "topics": [
-      "node-analysis"
+      "node-analysis",
+      "loop-analysis"
     ],
     "concepts": [
-      "노드전압"
+      "노드전압",
+      "루프전류"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "계산형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
     "method": "curriculum-v2:curated"
@@ -5327,18 +5330,21 @@
   "national-2015-17": {
     "category": "circuit-theory",
     "topics": [
-      "kcl-kvl"
+      "kcl-kvl",
+      "loop-analysis"
     ],
     "concepts": [
-      "옴의 법칙"
+      "옴의 법칙",
+      "루프전류"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "계산형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
-    "method": "curriculum-v2:generic-reviewed"
+    "method": "curriculum-v2:curated"
   },
   "national-2015-18": {
     "category": "electronic-circuits",
@@ -7624,15 +7630,18 @@
   "assembly-2017-15": {
     "category": "circuit-theory",
     "topics": [
-      "node-analysis"
+      "node-analysis",
+      "loop-analysis"
     ],
     "concepts": [
-      "노드전압"
+      "노드전압",
+      "루프전류"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "개념형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
     "method": "curriculum-v2:curated"
@@ -11913,14 +11922,17 @@
   "seoul-2021-11": {
     "category": "circuit-theory",
     "topics": [
-      "series-parallel"
+      "series-parallel",
+      "wye-delta"
     ],
     "concepts": [
-      "저항 직·병렬"
+      "등가회로",
+      "Δ→Y 변환"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
-      "계산형"
+      "계산형",
+      "복수개념"
     ],
     "status": "approved",
     "method": "curriculum-v2:curated"
@@ -13596,18 +13608,21 @@
   "national-2023-10": {
     "category": "circuit-theory",
     "topics": [
-      "kcl-kvl"
+      "kcl-kvl",
+      "loop-analysis"
     ],
     "concepts": [
-      "옴의 법칙"
+      "옴의 법칙",
+      "루프전류"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "계산형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
-    "method": "curriculum-v2:generic-reviewed"
+    "method": "curriculum-v2:curated"
   },
   "national-2023-11": {
     "category": "electronic-circuits",
@@ -16071,18 +16086,22 @@
   "local-2024-17": {
     "category": "circuit-theory",
     "topics": [
-      "kcl-kvl"
+      "kcl-kvl",
+      "loop-analysis"
     ],
     "concepts": [
-      "옴의 법칙"
+      "KCL",
+      "KVL",
+      "슈퍼메시"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "계산형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
-    "method": "curriculum-v2:generic-reviewed"
+    "method": "curriculum-v2:curated"
   },
   "local-2024-18": {
     "category": "electronic-circuits",
@@ -17638,18 +17657,21 @@
   "national-2026-11": {
     "category": "circuit-theory",
     "topics": [
-      "kcl-kvl"
+      "kcl-kvl",
+      "loop-analysis"
     ],
     "concepts": [
-      "옴의 법칙"
+      "옴의 법칙",
+      "루프전류"
     ],
     "auxiliaryTags": [],
     "questionTypes": [
       "계산형",
-      "회로도 포함"
+      "회로도 포함",
+      "복수개념"
     ],
     "status": "approved",
-    "method": "curriculum-v2:generic-reviewed"
+    "method": "curriculum-v2:curated"
   },
   "national-2026-12": {
     "category": "electronic-circuits",

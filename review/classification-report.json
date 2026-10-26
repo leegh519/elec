@@ -1,7 +1,7 @@
 {
   "taxonomyVersion": 2,
   "questionCount": 1100,
-  "multiTopicQuestionCount": 161,
+  "multiTopicQuestionCount": 168,
   "needsReviewCount": 0,
   "topicCounts": {
     "ac-power": 16,
@@ -41,6 +41,7 @@
     "latch-flipflop": 36,
     "limiter-clamper": 32,
     "logic-families": 20,
+    "loop-analysis": 6,
     "magnetic-circuit": 9,
     "maximum-power": 28,
     "mcu-interface": 1,
@@ -80,6 +81,7 @@
     "transfer-response": 21,
     "transient": 18,
     "two-port": 6,
+    "wye-delta": 1,
     "zener-regulator": 27
   },
   "needsReview": []

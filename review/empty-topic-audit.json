@@ -1,0 +1,117 @@
+{
+  "scope": "현재 1,100문항의 미필터 기준 0개 중분류 4개 점검",
+  "findings": [
+    {
+      "topic": "loop-analysis",
+      "label": "루프 해석",
+      "previousCount": 0,
+      "count": 6,
+      "action": "분류 누락 교정",
+      "reason": "OCR에 루프·메시라는 단어가 없어 기존 키워드 규칙이 포착하지 못했다. 실제 회로 그림을 읽고 메시/슈퍼메시 풀이가 적용되는 6문항에 복수분류를 추가했다."
+    },
+    {
+      "topic": "wye-delta",
+      "label": "Y－Δ 변환",
+      "previousCount": 0,
+      "count": 1,
+      "action": "분류 누락 교정",
+      "reason": "서울시 2021년 11번 비평형 브리지가 직·병렬회로로만 등록되어 있었다. Δ→Y 변환을 추가했다."
+    },
+    {
+      "topic": "pld-fpga",
+      "label": "PLD·FPGA",
+      "previousCount": 0,
+      "action": "삭제",
+      "reason": "전체 OCR과 디지털 분류에서 PLD·PLA·PAL·CPLD·FPGA에 해당하는 문항을 찾지 못했다. ROM·메모리와 일반 논리회로를 억지로 이 분류에 넣지 않는다."
+    },
+    {
+      "topic": "microprocessor",
+      "label": "마이크로프로세서",
+      "previousCount": 0,
+      "action": "삭제",
+      "reason": "전체 OCR과 디지털 분류에서 CPU 구조·주소버스·명령처리를 묻는 문항을 찾지 못했다. RS-232 처리율 문제(국가직 2007년 6번)는 인터페이스 분류에 유지하며, 아두이노 배경의 LED 스위칭 문제는 BJT 소자 문제로 유지한다."
+    }
+  ],
+  "questionChanges": [
+    {
+      "id": "national-2007-08",
+      "previousTopics": [
+        "node-analysis"
+      ],
+      "topics": [
+        "node-analysis",
+        "loop-analysis"
+      ],
+      "reason": "3Ω·9V 공통 가지를 공유하는 두 메시의 KVL 연립방정식으로 6Ω 전류를 구할 수 있다."
+    },
+    {
+      "id": "national-2015-17",
+      "previousTopics": [
+        "kcl-kvl"
+      ],
+      "topics": [
+        "kcl-kvl",
+        "loop-analysis"
+      ],
+      "reason": "오른쪽 메시 전류가 4A로 주어진다. 왼쪽 메시 KVL 60i+20(i+4)=100으로 구하는 루프 해석 문제다."
+    },
+    {
+      "id": "assembly-2017-15",
+      "previousTopics": [
+        "node-analysis"
+      ],
+      "topics": [
+        "node-analysis",
+        "loop-analysis"
+      ],
+      "reason": "전류원이 있는 왼쪽 메시와 9V 전압원이 있는 오른쪽 메시가 3Ω 저항을 공유한다."
+    },
+    {
+      "id": "seoul-2021-11",
+      "previousTopics": [
+        "series-parallel"
+      ],
+      "topics": [
+        "series-parallel",
+        "wye-delta"
+      ],
+      "reason": "28Ω·40Ω·40Ω 위쪽 Δ를 Y로 바꾸면 비평형 브리지의 합성저항이 54Ω이다. 46Ω 직렬을 더해 총100Ω, 전류2A. 단순 직·병렬만으로는 원래 브리지를 축약할 수 없다."
+    },
+    {
+      "id": "national-2023-10",
+      "previousTopics": [
+        "kcl-kvl"
+      ],
+      "topics": [
+        "kcl-kvl",
+        "loop-analysis"
+      ],
+      "reason": "오른쪽 메시 전류 5A를 이용해 왼쪽 루프 KVL과 공유 저항 전류 관계로 풀 수 있다."
+    },
+    {
+      "id": "local-2024-17",
+      "previousTopics": [
+        "kcl-kvl"
+      ],
+      "topics": [
+        "kcl-kvl",
+        "loop-analysis"
+      ],
+      "reason": "두 메시 사이의 3A 전류원을 건너뛰는 슈퍼메시 KVL과 메시전류 차 조건이 필요한 대표 유형이다."
+    },
+    {
+      "id": "national-2026-11",
+      "previousTopics": [
+        "kcl-kvl"
+      ],
+      "topics": [
+        "kcl-kvl",
+        "loop-analysis"
+      ],
+      "reason": "단락된 R1·R2를 제거한 뒤 84V·21V 두 메시가 R4를 공유한다. 두 KVL 식으로 R4 전류를 계산할 수 있다."
+    }
+  ],
+  "preservation": "7문항의 classification만 갱신했다. 문제 순서·이미지·OCR·정답·기존 사용자 지정 정답과 나머지 1,093문항의 분류는 변경하지 않았다.",
+  "regeneration": "tools/reclassify_questions.py --only national-2007-08 national-2015-17 assembly-2017-15 national-2023-10 local-2024-17 national-2026-11 seoul-2021-11",
+  "remainingEmptyTopics": []
+}
