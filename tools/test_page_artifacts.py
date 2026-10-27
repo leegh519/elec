@@ -6,6 +6,7 @@ from pathlib import Path
 
 from PIL import Image
 from clean_page_artifacts import clean_image
+from trim_image_margins import translate_mask
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,15 +25,22 @@ class PageArtifactTest(unittest.TestCase):
 
     def test_reviewed_assets_match_manifest_and_remain_clean(self):
         manifest = json.loads((ROOT / 'data/page_artifact_masks.json').read_text())
+        trims_path = ROOT / 'data/image_margin_trims.json'
+        trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
         self.assertEqual(len({r['id'] for r in manifest['images']}), len(manifest['images']))
         for row in manifest['images']:
             path = ROOT / row['src']
-            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), row['afterSha256'], row['id'])
+            final = trims.get(row['id'], row)
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
+            rectangles = row['rectangles']
+            if row['id'] in trims:
+                rectangles = [translate_mask(rect, final['cropPixels']) for rect in rectangles]
+                rectangles = [rect for rect in rectangles if rect is not None]
             with Image.open(path) as image:
-                self.assertEqual(list(image.size), row['size'], row['id'])
-                for rect in row['rectangles']:
+                self.assertEqual(list(image.size), final['size'], row['id'])
+                for rect in rectangles:
                     self.assertEqual(image.crop(rect).getextrema(), (255, 255), row['id'])
-                self.assertEqual(clean_image(image, row['rectangles']).tobytes(), image.tobytes())
+                self.assertEqual(clean_image(image, rectangles).tobytes(), image.tobytes())
 
 
 if __name__ == '__main__':

@@ -29,11 +29,13 @@ def main():
     args = parser.parse_args()
     path = ROOT / 'data/page_artifact_masks.json'
     manifest = json.loads(path.read_text())
+    trims_path = ROOT / 'data/image_margin_trims.json'
+    trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
     changed = 0
     for row in manifest['images']:
         source = ROOT / row['src']
         current = sha256(source)
-        if current == row.get('afterSha256'):
+        if current in (row.get('afterSha256'), trims.get(row['id'], {}).get('afterSha256')):
             continue
         if current != row['beforeSha256']:
             raise ValueError(f"검수 이후 이미지가 변경되었습니다: {row['id']}")

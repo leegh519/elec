@@ -31,9 +31,17 @@ class StudyTaxonomyTest(unittest.TestCase):
 
     def test_review_coverage_and_protected_content(self):
         rows = {r['id']: r for r in self.audit['questions']}
+        trims_path = ROOT / 'data/image_margin_trims.json'
+        trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
         self.assertEqual(set(rows), {q['id'] for q in self.questions})
         for q in self.questions:
             protected = {k: v for k, v in q.items() if k != 'classification'}
+            # The classification audit predates the authorized blank-margin trim.
+            # Restore only the recorded pre-trim dimensions when checking that audit;
+            # test_image_margins verifies current dimensions, hashes and coordinates.
+            if q['id'] in trims:
+                width, height = trims[q['id']]['originalSize']
+                protected['image'] = {**protected['image'], 'width': width, 'height': height}
             digest = hashlib.sha256(json.dumps(protected, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
             self.assertEqual(digest, rows[q['id']]['protectedContentSha256'], q['id'])
             self.assertEqual(q['classification']['primarySubtopic'], rows[q['id']]['after']['primarySubtopic'])

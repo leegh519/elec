@@ -3,18 +3,18 @@
   "groupBy": "subtopic",
   "questionCount": 1100,
   "uniqueQuestionCount": 1100,
-  "pages": 291,
+  "pages": 289,
   "covers": [
     {
       "page": 1,
       "category": "circuit-theory"
     },
     {
-      "page": 81,
+      "page": 80,
       "category": "electronic-circuits"
     },
     {
-      "page": 221,
+      "page": 219,
       "category": "digital-engineering"
     }
   ],
@@ -3430,7 +3430,7 @@
       ],
       "source": "2019 국회직 17번",
       "answer": 2,
-      "rowSpan": 1
+      "rowSpan": 2
     },
     {
       "sequence": 171,
@@ -3455,8 +3455,8 @@
     },
     {
       "sequence": 172,
-      "page": 46,
-      "slot": 3,
+      "page": 47,
+      "slot": 1,
       "id": "local-2022-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3476,7 +3476,7 @@
     {
       "sequence": 173,
       "page": 47,
-      "slot": 1,
+      "slot": 2,
       "id": "assembly-2022-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3496,7 +3496,7 @@
     {
       "sequence": 174,
       "page": 47,
-      "slot": 2,
+      "slot": 3,
       "id": "assembly-2024-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3517,7 +3517,7 @@
     {
       "sequence": 175,
       "page": 47,
-      "slot": 3,
+      "slot": 4,
       "id": "national-2025-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3536,8 +3536,8 @@
     },
     {
       "sequence": 176,
-      "page": 47,
-      "slot": 4,
+      "page": 48,
+      "slot": 1,
       "id": "national-2026-20",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3557,7 +3557,7 @@
     {
       "sequence": 177,
       "page": 48,
-      "slot": 1,
+      "slot": 2,
       "id": "assembly-2016-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3578,7 +3578,7 @@
     {
       "sequence": 178,
       "page": 48,
-      "slot": 2,
+      "slot": 3,
       "id": "national-2017-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3598,7 +3598,7 @@
     {
       "sequence": 179,
       "page": 48,
-      "slot": 3,
+      "slot": 4,
       "id": "military-2023-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3617,8 +3617,8 @@
     },
     {
       "sequence": 180,
-      "page": 48,
-      "slot": 4,
+      "page": 49,
+      "slot": 1,
       "id": "military-2025-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3638,7 +3638,7 @@
     {
       "sequence": 181,
       "page": 49,
-      "slot": 1,
+      "slot": 2,
       "id": "national-2008-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3659,7 +3659,7 @@
     {
       "sequence": 182,
       "page": 49,
-      "slot": 2,
+      "slot": 3,
       "id": "seoul-2019-11",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3679,7 +3679,7 @@
     {
       "sequence": 183,
       "page": 49,
-      "slot": 3,
+      "slot": 4,
       "id": "national-2022-11",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3699,8 +3699,8 @@
     },
     {
       "sequence": 184,
-      "page": 49,
-      "slot": 4,
+      "page": 50,
+      "slot": 1,
       "id": "national-2025-04",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3720,7 +3720,7 @@
     {
       "sequence": 185,
       "page": 50,
-      "slot": 1,
+      "slot": 2,
       "id": "local-2012-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3741,7 +3741,7 @@
     {
       "sequence": 186,
       "page": 50,
-      "slot": 2,
+      "slot": 3,
       "id": "national-2017-20",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -3761,7 +3761,7 @@
     {
       "sequence": 187,
       "page": 50,
-      "slot": 3,
+      "slot": 4,
       "id": "seoul-2020-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4304,8 +4304,8 @@
     },
     {
       "sequence": 214,
-      "page": 58,
-      "slot": 1,
+      "page": 57,
+      "slot": 4,
       "id": "assembly-2025-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4320,12 +4320,12 @@
       ],
       "source": "2025 국회직 7번",
       "answer": 1,
-      "rowSpan": 2
+      "rowSpan": 1
     },
     {
       "sequence": 215,
       "page": 58,
-      "slot": 2,
+      "slot": 1,
       "id": "national-2026-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4345,7 +4345,7 @@
     {
       "sequence": 216,
       "page": 58,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2015-14",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4364,8 +4364,8 @@
     },
     {
       "sequence": 217,
-      "page": 59,
-      "slot": 1,
+      "page": 58,
+      "slot": 3,
       "id": "seoul-2018-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4384,8 +4384,8 @@
     },
     {
       "sequence": 218,
-      "page": 59,
-      "slot": 2,
+      "page": 58,
+      "slot": 4,
       "id": "military-2022-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4405,7 +4405,7 @@
     {
       "sequence": 219,
       "page": 59,
-      "slot": 3,
+      "slot": 1,
       "id": "national-2008-19",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4425,7 +4425,7 @@
     {
       "sequence": 220,
       "page": 59,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2017-13",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4444,8 +4444,8 @@
     },
     {
       "sequence": 221,
-      "page": 60,
-      "slot": 1,
+      "page": 59,
+      "slot": 3,
       "id": "assembly-2020-10",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4464,8 +4464,8 @@
     },
     {
       "sequence": 222,
-      "page": 60,
-      "slot": 2,
+      "page": 59,
+      "slot": 4,
       "id": "military-2026-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4485,7 +4485,7 @@
     {
       "sequence": 223,
       "page": 60,
-      "slot": 3,
+      "slot": 1,
       "id": "national-2007-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4505,7 +4505,7 @@
     {
       "sequence": 224,
       "page": 60,
-      "slot": 4,
+      "slot": 2,
       "id": "national-2009-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4524,8 +4524,8 @@
     },
     {
       "sequence": 225,
-      "page": 61,
-      "slot": 1,
+      "page": 60,
+      "slot": 3,
       "id": "national-2009-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4544,8 +4544,8 @@
     },
     {
       "sequence": 226,
-      "page": 61,
-      "slot": 2,
+      "page": 60,
+      "slot": 4,
       "id": "seoul-2014-13",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4565,7 +4565,7 @@
     {
       "sequence": 227,
       "page": 61,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2019-14",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4585,7 +4585,7 @@
     {
       "sequence": 228,
       "page": 61,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2021-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4604,8 +4604,8 @@
     },
     {
       "sequence": 229,
-      "page": 62,
-      "slot": 1,
+      "page": 61,
+      "slot": 3,
       "id": "national-2024-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4624,8 +4624,8 @@
     },
     {
       "sequence": 230,
-      "page": 62,
-      "slot": 2,
+      "page": 61,
+      "slot": 4,
       "id": "assembly-2024-19",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4645,7 +4645,7 @@
     {
       "sequence": 231,
       "page": 62,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2021-01",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4665,7 +4665,7 @@
     {
       "sequence": 232,
       "page": 62,
-      "slot": 4,
+      "slot": 2,
       "id": "national-2010-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4684,8 +4684,8 @@
     },
     {
       "sequence": 233,
-      "page": 63,
-      "slot": 1,
+      "page": 62,
+      "slot": 3,
       "id": "seoul-2016-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4704,8 +4704,8 @@
     },
     {
       "sequence": 234,
-      "page": 63,
-      "slot": 2,
+      "page": 62,
+      "slot": 4,
       "id": "assembly-2019-13",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4726,7 +4726,7 @@
     {
       "sequence": 235,
       "page": 63,
-      "slot": 3,
+      "slot": 1,
       "id": "national-2022-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4747,7 +4747,7 @@
     {
       "sequence": 236,
       "page": 63,
-      "slot": 4,
+      "slot": 2,
       "id": "assembly-2022-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4766,8 +4766,8 @@
     },
     {
       "sequence": 237,
-      "page": 64,
-      "slot": 1,
+      "page": 63,
+      "slot": 3,
       "id": "local-2009-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4786,8 +4786,8 @@
     },
     {
       "sequence": 238,
-      "page": 64,
-      "slot": 2,
+      "page": 63,
+      "slot": 4,
       "id": "seoul-2014-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4807,7 +4807,7 @@
     {
       "sequence": 239,
       "page": 64,
-      "slot": 3,
+      "slot": 1,
       "id": "military-2024-11",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4827,7 +4827,7 @@
     {
       "sequence": 240,
       "page": 64,
-      "slot": 4,
+      "slot": 2,
       "id": "national-2007-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4846,8 +4846,8 @@
     },
     {
       "sequence": 241,
-      "page": 65,
-      "slot": 1,
+      "page": 64,
+      "slot": 3,
       "id": "assembly-2015-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4866,8 +4866,8 @@
     },
     {
       "sequence": 242,
-      "page": 65,
-      "slot": 2,
+      "page": 64,
+      "slot": 4,
       "id": "local-2009-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4887,7 +4887,7 @@
     {
       "sequence": 243,
       "page": 65,
-      "slot": 3,
+      "slot": 1,
       "id": "national-2013-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4907,7 +4907,7 @@
     {
       "sequence": 244,
       "page": 65,
-      "slot": 4,
+      "slot": 2,
       "id": "assembly-2022-06",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4926,8 +4926,8 @@
     },
     {
       "sequence": 245,
-      "page": 66,
-      "slot": 1,
+      "page": 65,
+      "slot": 3,
       "id": "assembly-2025-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4946,8 +4946,8 @@
     },
     {
       "sequence": 246,
-      "page": 66,
-      "slot": 2,
+      "page": 65,
+      "slot": 4,
       "id": "seoul-2018-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4967,7 +4967,7 @@
     {
       "sequence": 247,
       "page": 66,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2021-12",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -4987,7 +4987,7 @@
     {
       "sequence": 248,
       "page": 66,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2020-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5006,8 +5006,8 @@
     },
     {
       "sequence": 249,
-      "page": 67,
-      "slot": 1,
+      "page": 66,
+      "slot": 3,
       "id": "assembly-2025-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5026,8 +5026,8 @@
     },
     {
       "sequence": 250,
-      "page": 67,
-      "slot": 2,
+      "page": 66,
+      "slot": 4,
       "id": "assembly-2016-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5047,7 +5047,7 @@
     {
       "sequence": 251,
       "page": 67,
-      "slot": 3,
+      "slot": 1,
       "id": "assembly-2018-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5067,7 +5067,7 @@
     {
       "sequence": 252,
       "page": 67,
-      "slot": 4,
+      "slot": 2,
       "id": "military-2024-20",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5086,8 +5086,8 @@
     },
     {
       "sequence": 253,
-      "page": 68,
-      "slot": 1,
+      "page": 67,
+      "slot": 3,
       "id": "national-2011-20",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5107,8 +5107,8 @@
     },
     {
       "sequence": 254,
-      "page": 68,
-      "slot": 2,
+      "page": 67,
+      "slot": 4,
       "id": "local-2012-20",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5128,7 +5128,7 @@
     {
       "sequence": 255,
       "page": 68,
-      "slot": 3,
+      "slot": 1,
       "id": "national-2015-19",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5148,7 +5148,7 @@
     {
       "sequence": 256,
       "page": 68,
-      "slot": 4,
+      "slot": 2,
       "id": "national-2018-06",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5168,8 +5168,8 @@
     },
     {
       "sequence": 257,
-      "page": 69,
-      "slot": 1,
+      "page": 68,
+      "slot": 3,
       "id": "national-2019-15",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5188,8 +5188,8 @@
     },
     {
       "sequence": 258,
-      "page": 69,
-      "slot": 2,
+      "page": 68,
+      "slot": 4,
       "id": "national-2014-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5209,7 +5209,7 @@
     {
       "sequence": 259,
       "page": 69,
-      "slot": 3,
+      "slot": 1,
       "id": "assembly-2024-11",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5229,7 +5229,7 @@
     {
       "sequence": 260,
       "page": 69,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2018-12",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5249,8 +5249,8 @@
     },
     {
       "sequence": 261,
-      "page": 70,
-      "slot": 1,
+      "page": 69,
+      "slot": 3,
       "id": "seoul-2018-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5269,8 +5269,8 @@
     },
     {
       "sequence": 262,
-      "page": 70,
-      "slot": 2,
+      "page": 69,
+      "slot": 4,
       "id": "seoul-2021-06",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5292,7 +5292,7 @@
     {
       "sequence": 263,
       "page": 70,
-      "slot": 3,
+      "slot": 1,
       "id": "assembly-2024-12",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5313,7 +5313,7 @@
     {
       "sequence": 264,
       "page": 70,
-      "slot": 4,
+      "slot": 2,
       "id": "local-2022-12",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5333,8 +5333,8 @@
     },
     {
       "sequence": 265,
-      "page": 71,
-      "slot": 1,
+      "page": 70,
+      "slot": 3,
       "id": "national-2015-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5354,8 +5354,8 @@
     },
     {
       "sequence": 266,
-      "page": 71,
-      "slot": 2,
+      "page": 70,
+      "slot": 4,
       "id": "national-2019-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5375,7 +5375,7 @@
     {
       "sequence": 267,
       "page": 71,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2021-10",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5395,7 +5395,7 @@
     {
       "sequence": 268,
       "page": 71,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2015-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5414,8 +5414,8 @@
     },
     {
       "sequence": 269,
-      "page": 72,
-      "slot": 1,
+      "page": 71,
+      "slot": 3,
       "id": "military-2022-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5434,8 +5434,8 @@
     },
     {
       "sequence": 270,
-      "page": 72,
-      "slot": 2,
+      "page": 71,
+      "slot": 4,
       "id": "seoul-2018-03",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5455,7 +5455,7 @@
     {
       "sequence": 271,
       "page": 72,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2021-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5475,7 +5475,7 @@
     {
       "sequence": 272,
       "page": 72,
-      "slot": 4,
+      "slot": 2,
       "id": "national-2014-19",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5494,8 +5494,8 @@
     },
     {
       "sequence": 273,
-      "page": 73,
-      "slot": 1,
+      "page": 72,
+      "slot": 3,
       "id": "seoul-2018-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5514,8 +5514,8 @@
     },
     {
       "sequence": 274,
-      "page": 73,
-      "slot": 2,
+      "page": 72,
+      "slot": 4,
       "id": "military-2026-18",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5535,7 +5535,7 @@
     {
       "sequence": 275,
       "page": 73,
-      "slot": 3,
+      "slot": 1,
       "id": "assembly-2021-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5555,7 +5555,7 @@
     {
       "sequence": 276,
       "page": 73,
-      "slot": 4,
+      "slot": 2,
       "id": "assembly-2009-10",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5574,8 +5574,8 @@
     },
     {
       "sequence": 277,
-      "page": 74,
-      "slot": 1,
+      "page": 73,
+      "slot": 3,
       "id": "seoul-2018-14",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5594,8 +5594,8 @@
     },
     {
       "sequence": 278,
-      "page": 74,
-      "slot": 2,
+      "page": 73,
+      "slot": 4,
       "id": "assembly-2019-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5615,7 +5615,7 @@
     {
       "sequence": 279,
       "page": 74,
-      "slot": 3,
+      "slot": 1,
       "id": "local-2023-01",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5636,7 +5636,7 @@
     {
       "sequence": 280,
       "page": 74,
-      "slot": 4,
+      "slot": 2,
       "id": "local-2026-09",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5655,8 +5655,8 @@
     },
     {
       "sequence": 281,
-      "page": 75,
-      "slot": 1,
+      "page": 74,
+      "slot": 3,
       "id": "military-2026-13",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5675,8 +5675,8 @@
     },
     {
       "sequence": 282,
-      "page": 75,
-      "slot": 2,
+      "page": 74,
+      "slot": 4,
       "id": "assembly-2016-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5696,7 +5696,7 @@
     {
       "sequence": 283,
       "page": 75,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2016-01",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5716,7 +5716,7 @@
     {
       "sequence": 284,
       "page": 75,
-      "slot": 4,
+      "slot": 2,
       "id": "assembly-2019-06",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5735,8 +5735,8 @@
     },
     {
       "sequence": 285,
-      "page": 76,
-      "slot": 1,
+      "page": 75,
+      "slot": 3,
       "id": "seoul-2019-03",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5755,8 +5755,8 @@
     },
     {
       "sequence": 286,
-      "page": 76,
-      "slot": 2,
+      "page": 75,
+      "slot": 4,
       "id": "military-2025-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5776,7 +5776,7 @@
     {
       "sequence": 287,
       "page": 76,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2018-02",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5796,7 +5796,7 @@
     {
       "sequence": 288,
       "page": 76,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2014-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5815,8 +5815,8 @@
     },
     {
       "sequence": 289,
-      "page": 77,
-      "slot": 1,
+      "page": 76,
+      "slot": 3,
       "id": "seoul-2016-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5835,8 +5835,8 @@
     },
     {
       "sequence": 290,
-      "page": 77,
-      "slot": 2,
+      "page": 76,
+      "slot": 4,
       "id": "assembly-2019-07",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5856,7 +5856,7 @@
     {
       "sequence": 291,
       "page": 77,
-      "slot": 3,
+      "slot": 1,
       "id": "assembly-2023-15",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5876,7 +5876,7 @@
     {
       "sequence": 292,
       "page": 77,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2017-17",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5895,8 +5895,8 @@
     },
     {
       "sequence": 293,
-      "page": 78,
-      "slot": 1,
+      "page": 77,
+      "slot": 3,
       "id": "seoul-2015-11",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5915,8 +5915,8 @@
     },
     {
       "sequence": 294,
-      "page": 78,
-      "slot": 2,
+      "page": 77,
+      "slot": 4,
       "id": "assembly-2018-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5936,7 +5936,7 @@
     {
       "sequence": 295,
       "page": 78,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2019-04",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5956,7 +5956,7 @@
     {
       "sequence": 296,
       "page": 78,
-      "slot": 4,
+      "slot": 2,
       "id": "military-2025-03",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5975,8 +5975,8 @@
     },
     {
       "sequence": 297,
-      "page": 79,
-      "slot": 1,
+      "page": 78,
+      "slot": 3,
       "id": "military-2026-16",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -5995,8 +5995,8 @@
     },
     {
       "sequence": 298,
-      "page": 79,
-      "slot": 2,
+      "page": 78,
+      "slot": 4,
       "id": "assembly-2009-08",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -6016,7 +6016,7 @@
     {
       "sequence": 299,
       "page": 79,
-      "slot": 3,
+      "slot": 1,
       "id": "seoul-2020-05",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -6036,7 +6036,7 @@
     {
       "sequence": 300,
       "page": 79,
-      "slot": 4,
+      "slot": 2,
       "id": "seoul-2021-13",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -6055,8 +6055,8 @@
     },
     {
       "sequence": 301,
-      "page": 80,
-      "slot": 1,
+      "page": 79,
+      "slot": 3,
       "id": "military-2022-01",
       "category": "circuit-theory",
       "categoryLabel": "회로이론",
@@ -6075,7 +6075,7 @@
     },
     {
       "sequence": 302,
-      "page": 82,
+      "page": 81,
       "slot": 1,
       "id": "national-2014-14",
       "category": "electronic-circuits",
@@ -6095,7 +6095,7 @@
     },
     {
       "sequence": 303,
-      "page": 82,
+      "page": 81,
       "slot": 2,
       "id": "national-2015-20",
       "category": "electronic-circuits",
@@ -6115,7 +6115,7 @@
     },
     {
       "sequence": 304,
-      "page": 82,
+      "page": 81,
       "slot": 3,
       "id": "military-2023-09",
       "category": "electronic-circuits",
@@ -6135,7 +6135,7 @@
     },
     {
       "sequence": 305,
-      "page": 82,
+      "page": 81,
       "slot": 4,
       "id": "military-2026-01",
       "category": "electronic-circuits",
@@ -6156,7 +6156,7 @@
     },
     {
       "sequence": 306,
-      "page": 83,
+      "page": 82,
       "slot": 1,
       "id": "seoul-2015-04",
       "category": "electronic-circuits",
@@ -6176,7 +6176,7 @@
     },
     {
       "sequence": 307,
-      "page": 83,
+      "page": 82,
       "slot": 2,
       "id": "seoul-2018-01",
       "category": "electronic-circuits",
@@ -6196,7 +6196,7 @@
     },
     {
       "sequence": 308,
-      "page": 83,
+      "page": 82,
       "slot": 3,
       "id": "seoul-2019-05",
       "category": "electronic-circuits",
@@ -6216,7 +6216,7 @@
     },
     {
       "sequence": 309,
-      "page": 83,
+      "page": 82,
       "slot": 4,
       "id": "assembly-2023-17",
       "category": "electronic-circuits",
@@ -6238,7 +6238,7 @@
     },
     {
       "sequence": 310,
-      "page": 84,
+      "page": 83,
       "slot": 1,
       "id": "assembly-2019-08",
       "category": "electronic-circuits",
@@ -6259,7 +6259,7 @@
     },
     {
       "sequence": 311,
-      "page": 84,
+      "page": 83,
       "slot": 2,
       "id": "national-2011-08",
       "category": "electronic-circuits",
@@ -6280,7 +6280,7 @@
     },
     {
       "sequence": 312,
-      "page": 84,
+      "page": 83,
       "slot": 3,
       "id": "national-2013-01",
       "category": "electronic-circuits",
@@ -6300,7 +6300,7 @@
     },
     {
       "sequence": 313,
-      "page": 84,
+      "page": 83,
       "slot": 4,
       "id": "assembly-2015-11",
       "category": "electronic-circuits",
@@ -6320,7 +6320,7 @@
     },
     {
       "sequence": 314,
-      "page": 85,
+      "page": 84,
       "slot": 1,
       "id": "seoul-2017-15",
       "category": "electronic-circuits",
@@ -6340,7 +6340,7 @@
     },
     {
       "sequence": 315,
-      "page": 85,
+      "page": 84,
       "slot": 2,
       "id": "assembly-2020-01",
       "category": "electronic-circuits",
@@ -6360,7 +6360,7 @@
     },
     {
       "sequence": 316,
-      "page": 85,
+      "page": 84,
       "slot": 3,
       "id": "seoul-2020-02",
       "category": "electronic-circuits",
@@ -6380,7 +6380,7 @@
     },
     {
       "sequence": 317,
-      "page": 85,
+      "page": 84,
       "slot": 4,
       "id": "military-2022-16",
       "category": "electronic-circuits",
@@ -6401,7 +6401,7 @@
     },
     {
       "sequence": 318,
-      "page": 86,
+      "page": 85,
       "slot": 1,
       "id": "national-2023-04",
       "category": "electronic-circuits",
@@ -6421,7 +6421,7 @@
     },
     {
       "sequence": 319,
-      "page": 86,
+      "page": 85,
       "slot": 2,
       "id": "assembly-2023-13",
       "category": "electronic-circuits",
@@ -6441,7 +6441,7 @@
     },
     {
       "sequence": 320,
-      "page": 86,
+      "page": 85,
       "slot": 3,
       "id": "military-2024-01",
       "category": "electronic-circuits",
@@ -6461,7 +6461,7 @@
     },
     {
       "sequence": 321,
-      "page": 86,
+      "page": 85,
       "slot": 4,
       "id": "assembly-2024-15",
       "category": "electronic-circuits",
@@ -6481,7 +6481,7 @@
     },
     {
       "sequence": 322,
-      "page": 87,
+      "page": 86,
       "slot": 1,
       "id": "military-2025-09",
       "category": "electronic-circuits",
@@ -6501,7 +6501,7 @@
     },
     {
       "sequence": 323,
-      "page": 87,
+      "page": 86,
       "slot": 2,
       "id": "assembly-2025-12",
       "category": "electronic-circuits",
@@ -6521,7 +6521,7 @@
     },
     {
       "sequence": 324,
-      "page": 87,
+      "page": 86,
       "slot": 3,
       "id": "military-2026-17",
       "category": "electronic-circuits",
@@ -6541,7 +6541,7 @@
     },
     {
       "sequence": 325,
-      "page": 87,
+      "page": 86,
       "slot": 4,
       "id": "assembly-2009-01",
       "category": "electronic-circuits",
@@ -6561,7 +6561,7 @@
     },
     {
       "sequence": 326,
-      "page": 88,
+      "page": 87,
       "slot": 1,
       "id": "national-2012-04",
       "category": "electronic-circuits",
@@ -6581,7 +6581,7 @@
     },
     {
       "sequence": 327,
-      "page": 88,
+      "page": 87,
       "slot": 2,
       "id": "national-2013-20",
       "category": "electronic-circuits",
@@ -6601,7 +6601,7 @@
     },
     {
       "sequence": 328,
-      "page": 88,
+      "page": 87,
       "slot": 3,
       "id": "national-2020-06",
       "category": "electronic-circuits",
@@ -6621,7 +6621,7 @@
     },
     {
       "sequence": 329,
-      "page": 88,
+      "page": 87,
       "slot": 4,
       "id": "national-2021-17",
       "category": "electronic-circuits",
@@ -6641,7 +6641,7 @@
     },
     {
       "sequence": 330,
-      "page": 89,
+      "page": 88,
       "slot": 1,
       "id": "assembly-2021-06",
       "category": "electronic-circuits",
@@ -6661,7 +6661,7 @@
     },
     {
       "sequence": 331,
-      "page": 89,
+      "page": 88,
       "slot": 2,
       "id": "local-2022-04",
       "category": "electronic-circuits",
@@ -6681,7 +6681,7 @@
     },
     {
       "sequence": 332,
-      "page": 89,
+      "page": 88,
       "slot": 3,
       "id": "military-2025-05",
       "category": "electronic-circuits",
@@ -6702,7 +6702,7 @@
     },
     {
       "sequence": 333,
-      "page": 89,
+      "page": 88,
       "slot": 4,
       "id": "national-2026-08",
       "category": "electronic-circuits",
@@ -6724,7 +6724,7 @@
     },
     {
       "sequence": 334,
-      "page": 90,
+      "page": 89,
       "slot": 1,
       "id": "national-2014-13",
       "category": "electronic-circuits",
@@ -6744,7 +6744,7 @@
     },
     {
       "sequence": 335,
-      "page": 90,
+      "page": 89,
       "slot": 2,
       "id": "local-2009-14",
       "category": "electronic-circuits",
@@ -6764,7 +6764,7 @@
     },
     {
       "sequence": 336,
-      "page": 90,
+      "page": 89,
       "slot": 3,
       "id": "assembly-2009-13",
       "category": "electronic-circuits",
@@ -6784,7 +6784,7 @@
     },
     {
       "sequence": 337,
-      "page": 90,
+      "page": 89,
       "slot": 4,
       "id": "local-2010-12",
       "category": "electronic-circuits",
@@ -6804,7 +6804,7 @@
     },
     {
       "sequence": 338,
-      "page": 91,
+      "page": 90,
       "slot": 1,
       "id": "local-2010-17",
       "category": "electronic-circuits",
@@ -6824,7 +6824,7 @@
     },
     {
       "sequence": 339,
-      "page": 91,
+      "page": 90,
       "slot": 2,
       "id": "seoul-2015-18",
       "category": "electronic-circuits",
@@ -6844,7 +6844,7 @@
     },
     {
       "sequence": 340,
-      "page": 91,
+      "page": 90,
       "slot": 3,
       "id": "national-2016-02",
       "category": "electronic-circuits",
@@ -6864,7 +6864,7 @@
     },
     {
       "sequence": 341,
-      "page": 91,
+      "page": 90,
       "slot": 4,
       "id": "seoul-2016-11",
       "category": "electronic-circuits",
@@ -6884,7 +6884,7 @@
     },
     {
       "sequence": 342,
-      "page": 92,
+      "page": 91,
       "slot": 1,
       "id": "national-2019-02",
       "category": "electronic-circuits",
@@ -6905,7 +6905,7 @@
     },
     {
       "sequence": 343,
-      "page": 92,
+      "page": 91,
       "slot": 2,
       "id": "seoul-2019-08",
       "category": "electronic-circuits",
@@ -6925,7 +6925,7 @@
     },
     {
       "sequence": 344,
-      "page": 92,
+      "page": 91,
       "slot": 3,
       "id": "assembly-2020-15",
       "category": "electronic-circuits",
@@ -6945,7 +6945,7 @@
     },
     {
       "sequence": 345,
-      "page": 92,
+      "page": 91,
       "slot": 4,
       "id": "national-2022-02",
       "category": "electronic-circuits",
@@ -6965,7 +6965,7 @@
     },
     {
       "sequence": 346,
-      "page": 93,
+      "page": 92,
       "slot": 1,
       "id": "national-2023-16",
       "category": "electronic-circuits",
@@ -6985,7 +6985,7 @@
     },
     {
       "sequence": 347,
-      "page": 93,
+      "page": 92,
       "slot": 2,
       "id": "military-2023-07",
       "category": "electronic-circuits",
@@ -7005,7 +7005,7 @@
     },
     {
       "sequence": 348,
-      "page": 93,
+      "page": 92,
       "slot": 4,
       "id": "national-2024-12",
       "category": "electronic-circuits",
@@ -7026,7 +7026,7 @@
     },
     {
       "sequence": 349,
-      "page": 94,
+      "page": 93,
       "slot": 1,
       "id": "military-2024-02",
       "category": "electronic-circuits",
@@ -7047,7 +7047,7 @@
     },
     {
       "sequence": 350,
-      "page": 94,
+      "page": 93,
       "slot": 2,
       "id": "local-2026-06",
       "category": "electronic-circuits",
@@ -7067,7 +7067,7 @@
     },
     {
       "sequence": 351,
-      "page": 94,
+      "page": 93,
       "slot": 3,
       "id": "national-2007-20",
       "category": "electronic-circuits",
@@ -7087,7 +7087,7 @@
     },
     {
       "sequence": 352,
-      "page": 94,
+      "page": 93,
       "slot": 4,
       "id": "national-2012-19",
       "category": "electronic-circuits",
@@ -7108,7 +7108,7 @@
     },
     {
       "sequence": 353,
-      "page": 95,
+      "page": 94,
       "slot": 1,
       "id": "local-2012-05",
       "category": "electronic-circuits",
@@ -7128,7 +7128,7 @@
     },
     {
       "sequence": 354,
-      "page": 95,
+      "page": 94,
       "slot": 2,
       "id": "military-2022-06",
       "category": "electronic-circuits",
@@ -7148,7 +7148,7 @@
     },
     {
       "sequence": 355,
-      "page": 95,
+      "page": 94,
       "slot": 3,
       "id": "military-2024-05",
       "category": "electronic-circuits",
@@ -7169,7 +7169,7 @@
     },
     {
       "sequence": 356,
-      "page": 95,
+      "page": 94,
       "slot": 4,
       "id": "national-2020-19",
       "category": "electronic-circuits",
@@ -7189,7 +7189,7 @@
     },
     {
       "sequence": 357,
-      "page": 96,
+      "page": 95,
       "slot": 1,
       "id": "national-2024-17",
       "category": "electronic-circuits",
@@ -7209,7 +7209,7 @@
     },
     {
       "sequence": 358,
-      "page": 96,
+      "page": 95,
       "slot": 2,
       "id": "national-2011-15",
       "category": "electronic-circuits",
@@ -7229,7 +7229,7 @@
     },
     {
       "sequence": 359,
-      "page": 96,
+      "page": 95,
       "slot": 3,
       "id": "national-2013-03",
       "category": "electronic-circuits",
@@ -7249,7 +7249,7 @@
     },
     {
       "sequence": 360,
-      "page": 96,
+      "page": 95,
       "slot": 4,
       "id": "seoul-2020-03",
       "category": "electronic-circuits",
@@ -7269,7 +7269,7 @@
     },
     {
       "sequence": 361,
-      "page": 97,
+      "page": 96,
       "slot": 1,
       "id": "assembly-2016-01",
       "category": "electronic-circuits",
@@ -7289,7 +7289,7 @@
     },
     {
       "sequence": 362,
-      "page": 97,
+      "page": 96,
       "slot": 2,
       "id": "national-2007-05",
       "category": "electronic-circuits",
@@ -7309,7 +7309,7 @@
     },
     {
       "sequence": 363,
-      "page": 97,
+      "page": 96,
       "slot": 3,
       "id": "local-2010-20",
       "category": "electronic-circuits",
@@ -7329,7 +7329,7 @@
     },
     {
       "sequence": 364,
-      "page": 97,
+      "page": 96,
       "slot": 4,
       "id": "local-2011-16",
       "category": "electronic-circuits",
@@ -7350,7 +7350,7 @@
     },
     {
       "sequence": 365,
-      "page": 98,
+      "page": 97,
       "slot": 1,
       "id": "national-2014-11",
       "category": "electronic-circuits",
@@ -7370,7 +7370,7 @@
     },
     {
       "sequence": 366,
-      "page": 98,
+      "page": 97,
       "slot": 2,
       "id": "national-2018-04",
       "category": "electronic-circuits",
@@ -7391,7 +7391,7 @@
     },
     {
       "sequence": 367,
-      "page": 98,
+      "page": 97,
       "slot": 3,
       "id": "assembly-2019-11",
       "category": "electronic-circuits",
@@ -7411,7 +7411,7 @@
     },
     {
       "sequence": 368,
-      "page": 98,
+      "page": 97,
       "slot": 4,
       "id": "national-2013-08",
       "category": "electronic-circuits",
@@ -7431,7 +7431,7 @@
     },
     {
       "sequence": 369,
-      "page": 99,
+      "page": 98,
       "slot": 1,
       "id": "assembly-2022-10",
       "category": "electronic-circuits",
@@ -7452,7 +7452,7 @@
     },
     {
       "sequence": 370,
-      "page": 99,
+      "page": 98,
       "slot": 2,
       "id": "national-2008-06",
       "category": "electronic-circuits",
@@ -7472,7 +7472,7 @@
     },
     {
       "sequence": 371,
-      "page": 99,
+      "page": 98,
       "slot": 4,
       "id": "local-2010-10",
       "category": "electronic-circuits",
@@ -7492,7 +7492,7 @@
     },
     {
       "sequence": 372,
-      "page": 100,
+      "page": 99,
       "slot": 1,
       "id": "national-2011-07",
       "category": "electronic-circuits",
@@ -7512,7 +7512,7 @@
     },
     {
       "sequence": 373,
-      "page": 100,
+      "page": 99,
       "slot": 2,
       "id": "national-2012-06",
       "category": "electronic-circuits",
@@ -7532,7 +7532,7 @@
     },
     {
       "sequence": 374,
-      "page": 100,
+      "page": 99,
       "slot": 3,
       "id": "seoul-2020-06",
       "category": "electronic-circuits",
@@ -7552,7 +7552,7 @@
     },
     {
       "sequence": 375,
-      "page": 100,
+      "page": 99,
       "slot": 4,
       "id": "local-2025-06",
       "category": "electronic-circuits",
@@ -7572,7 +7572,7 @@
     },
     {
       "sequence": 376,
-      "page": 101,
+      "page": 100,
       "slot": 1,
       "id": "national-2010-06",
       "category": "electronic-circuits",
@@ -7592,7 +7592,7 @@
     },
     {
       "sequence": 377,
-      "page": 101,
+      "page": 100,
       "slot": 2,
       "id": "local-2011-02",
       "category": "electronic-circuits",
@@ -7612,7 +7612,7 @@
     },
     {
       "sequence": 378,
-      "page": 101,
+      "page": 100,
       "slot": 3,
       "id": "national-2019-13",
       "category": "electronic-circuits",
@@ -7632,7 +7632,7 @@
     },
     {
       "sequence": 379,
-      "page": 101,
+      "page": 100,
       "slot": 4,
       "id": "assembly-2021-02",
       "category": "electronic-circuits",
@@ -7652,7 +7652,7 @@
     },
     {
       "sequence": 380,
-      "page": 102,
+      "page": 101,
       "slot": 1,
       "id": "assembly-2021-18",
       "category": "electronic-circuits",
@@ -7672,7 +7672,7 @@
     },
     {
       "sequence": 381,
-      "page": 102,
+      "page": 101,
       "slot": 2,
       "id": "local-2024-20",
       "category": "electronic-circuits",
@@ -7692,7 +7692,7 @@
     },
     {
       "sequence": 382,
-      "page": 102,
+      "page": 101,
       "slot": 3,
       "id": "local-2025-09",
       "category": "electronic-circuits",
@@ -7713,7 +7713,7 @@
     },
     {
       "sequence": 383,
-      "page": 102,
+      "page": 101,
       "slot": 4,
       "id": "military-2025-11",
       "category": "electronic-circuits",
@@ -7733,7 +7733,7 @@
     },
     {
       "sequence": 384,
-      "page": 103,
+      "page": 102,
       "slot": 1,
       "id": "local-2009-15",
       "category": "electronic-circuits",
@@ -7753,7 +7753,7 @@
     },
     {
       "sequence": 385,
-      "page": 103,
+      "page": 102,
       "slot": 2,
       "id": "national-2016-11",
       "category": "electronic-circuits",
@@ -7773,7 +7773,7 @@
     },
     {
       "sequence": 386,
-      "page": 103,
+      "page": 102,
       "slot": 3,
       "id": "assembly-2018-03",
       "category": "electronic-circuits",
@@ -7795,7 +7795,7 @@
     },
     {
       "sequence": 387,
-      "page": 104,
+      "page": 103,
       "slot": 1,
       "id": "local-2023-13",
       "category": "electronic-circuits",
@@ -7815,7 +7815,7 @@
     },
     {
       "sequence": 388,
-      "page": 104,
+      "page": 103,
       "slot": 2,
       "id": "assembly-2024-03",
       "category": "electronic-circuits",
@@ -7835,7 +7835,7 @@
     },
     {
       "sequence": 389,
-      "page": 104,
+      "page": 103,
       "slot": 3,
       "id": "local-2026-05",
       "category": "electronic-circuits",
@@ -7855,7 +7855,7 @@
     },
     {
       "sequence": 390,
-      "page": 105,
+      "page": 104,
       "slot": 1,
       "id": "assembly-2017-01",
       "category": "electronic-circuits",
@@ -7875,7 +7875,7 @@
     },
     {
       "sequence": 391,
-      "page": 105,
+      "page": 104,
       "slot": 2,
       "id": "military-2024-15",
       "category": "electronic-circuits",
@@ -7895,7 +7895,7 @@
     },
     {
       "sequence": 392,
-      "page": 105,
+      "page": 104,
       "slot": 3,
       "id": "assembly-2024-08",
       "category": "electronic-circuits",
@@ -7917,7 +7917,7 @@
     },
     {
       "sequence": 393,
-      "page": 105,
+      "page": 104,
       "slot": 4,
       "id": "assembly-2009-12",
       "category": "electronic-circuits",
@@ -7937,7 +7937,7 @@
     },
     {
       "sequence": 394,
-      "page": 106,
+      "page": 105,
       "slot": 1,
       "id": "seoul-2018-07",
       "category": "electronic-circuits",
@@ -7957,7 +7957,7 @@
     },
     {
       "sequence": 395,
-      "page": 106,
+      "page": 105,
       "slot": 2,
       "id": "local-2022-06",
       "category": "electronic-circuits",
@@ -7977,7 +7977,7 @@
     },
     {
       "sequence": 396,
-      "page": 106,
+      "page": 105,
       "slot": 3,
       "id": "military-2023-19",
       "category": "electronic-circuits",
@@ -7997,7 +7997,7 @@
     },
     {
       "sequence": 397,
-      "page": 106,
+      "page": 105,
       "slot": 4,
       "id": "local-2024-12",
       "category": "electronic-circuits",
@@ -8017,7 +8017,7 @@
     },
     {
       "sequence": 398,
-      "page": 107,
+      "page": 106,
       "slot": 1,
       "id": "national-2025-08",
       "category": "electronic-circuits",
@@ -8038,7 +8038,7 @@
     },
     {
       "sequence": 399,
-      "page": 107,
+      "page": 106,
       "slot": 2,
       "id": "national-2013-18",
       "category": "electronic-circuits",
@@ -8058,7 +8058,7 @@
     },
     {
       "sequence": 400,
-      "page": 107,
+      "page": 106,
       "slot": 3,
       "id": "local-2012-16",
       "category": "electronic-circuits",
@@ -8078,7 +8078,7 @@
     },
     {
       "sequence": 401,
-      "page": 107,
+      "page": 106,
       "slot": 4,
       "id": "assembly-2015-08",
       "category": "electronic-circuits",
@@ -8098,7 +8098,7 @@
     },
     {
       "sequence": 402,
-      "page": 108,
+      "page": 107,
       "slot": 1,
       "id": "national-2017-07",
       "category": "electronic-circuits",
@@ -8118,7 +8118,7 @@
     },
     {
       "sequence": 403,
-      "page": 108,
+      "page": 107,
       "slot": 2,
       "id": "assembly-2018-13",
       "category": "electronic-circuits",
@@ -8134,11 +8134,11 @@
       ],
       "source": "2018 국회직 13번",
       "answer": 4,
-      "rowSpan": 1
+      "rowSpan": 2
     },
     {
       "sequence": 404,
-      "page": 108,
+      "page": 107,
       "slot": 3,
       "id": "national-2020-14",
       "category": "electronic-circuits",
@@ -8159,7 +8159,7 @@
     {
       "sequence": 405,
       "page": 108,
-      "slot": 4,
+      "slot": 1,
       "id": "assembly-2022-08",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -8178,8 +8178,8 @@
     },
     {
       "sequence": 406,
-      "page": 109,
-      "slot": 1,
+      "page": 108,
+      "slot": 2,
       "id": "military-2025-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -8198,8 +8198,8 @@
     },
     {
       "sequence": 407,
-      "page": 109,
-      "slot": 2,
+      "page": 108,
+      "slot": 3,
       "id": "national-2008-18",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -8218,8 +8218,8 @@
     },
     {
       "sequence": 408,
-      "page": 109,
-      "slot": 3,
+      "page": 108,
+      "slot": 4,
       "id": "assembly-2014-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -8238,7 +8238,7 @@
     },
     {
       "sequence": 409,
-      "page": 110,
+      "page": 109,
       "slot": 1,
       "id": "assembly-2018-05",
       "category": "electronic-circuits",
@@ -8258,7 +8258,7 @@
     },
     {
       "sequence": 410,
-      "page": 110,
+      "page": 109,
       "slot": 2,
       "id": "assembly-2019-16",
       "category": "electronic-circuits",
@@ -8278,7 +8278,7 @@
     },
     {
       "sequence": 411,
-      "page": 110,
+      "page": 109,
       "slot": 4,
       "id": "national-2009-10",
       "category": "electronic-circuits",
@@ -8299,7 +8299,7 @@
     },
     {
       "sequence": 412,
-      "page": 111,
+      "page": 110,
       "slot": 1,
       "id": "assembly-2009-18",
       "category": "electronic-circuits",
@@ -8319,7 +8319,7 @@
     },
     {
       "sequence": 413,
-      "page": 111,
+      "page": 110,
       "slot": 2,
       "id": "local-2011-17",
       "category": "electronic-circuits",
@@ -8339,7 +8339,7 @@
     },
     {
       "sequence": 414,
-      "page": 112,
+      "page": 111,
       "slot": 1,
       "id": "local-2012-08",
       "category": "electronic-circuits",
@@ -8359,7 +8359,7 @@
     },
     {
       "sequence": 415,
-      "page": 112,
+      "page": 111,
       "slot": 2,
       "id": "seoul-2014-17",
       "category": "electronic-circuits",
@@ -8379,7 +8379,7 @@
     },
     {
       "sequence": 416,
-      "page": 112,
+      "page": 111,
       "slot": 4,
       "id": "assembly-2016-20",
       "category": "electronic-circuits",
@@ -8399,7 +8399,7 @@
     },
     {
       "sequence": 417,
-      "page": 113,
+      "page": 112,
       "slot": 1,
       "id": "assembly-2017-11",
       "category": "electronic-circuits",
@@ -8419,7 +8419,7 @@
     },
     {
       "sequence": 418,
-      "page": 113,
+      "page": 112,
       "slot": 2,
       "id": "assembly-2020-14",
       "category": "electronic-circuits",
@@ -8439,7 +8439,7 @@
     },
     {
       "sequence": 419,
-      "page": 113,
+      "page": 112,
       "slot": 3,
       "id": "national-2022-05",
       "category": "electronic-circuits",
@@ -8459,7 +8459,7 @@
     },
     {
       "sequence": 420,
-      "page": 113,
+      "page": 112,
       "slot": 4,
       "id": "local-2022-19",
       "category": "electronic-circuits",
@@ -8479,7 +8479,7 @@
     },
     {
       "sequence": 421,
-      "page": 114,
+      "page": 113,
       "slot": 1,
       "id": "assembly-2022-01",
       "category": "electronic-circuits",
@@ -8499,7 +8499,7 @@
     },
     {
       "sequence": 422,
-      "page": 114,
+      "page": 113,
       "slot": 2,
       "id": "assembly-2024-06",
       "category": "electronic-circuits",
@@ -8519,7 +8519,7 @@
     },
     {
       "sequence": 423,
-      "page": 114,
+      "page": 113,
       "slot": 3,
       "id": "local-2025-10",
       "category": "electronic-circuits",
@@ -8539,7 +8539,7 @@
     },
     {
       "sequence": 424,
-      "page": 114,
+      "page": 113,
       "slot": 4,
       "id": "national-2026-05",
       "category": "electronic-circuits",
@@ -8559,7 +8559,7 @@
     },
     {
       "sequence": 425,
-      "page": 115,
+      "page": 114,
       "slot": 1,
       "id": "local-2026-14",
       "category": "electronic-circuits",
@@ -8579,7 +8579,7 @@
     },
     {
       "sequence": 426,
-      "page": 115,
+      "page": 114,
       "slot": 2,
       "id": "national-2011-13",
       "category": "electronic-circuits",
@@ -8599,7 +8599,7 @@
     },
     {
       "sequence": 427,
-      "page": 115,
+      "page": 114,
       "slot": 3,
       "id": "national-2014-02",
       "category": "electronic-circuits",
@@ -8619,7 +8619,7 @@
     },
     {
       "sequence": 428,
-      "page": 115,
+      "page": 114,
       "slot": 4,
       "id": "national-2016-20",
       "category": "electronic-circuits",
@@ -8639,7 +8639,7 @@
     },
     {
       "sequence": 429,
-      "page": 116,
+      "page": 115,
       "slot": 1,
       "id": "local-2023-10",
       "category": "electronic-circuits",
@@ -8659,7 +8659,7 @@
     },
     {
       "sequence": 430,
-      "page": 116,
+      "page": 115,
       "slot": 2,
       "id": "local-2026-13",
       "category": "electronic-circuits",
@@ -8680,7 +8680,7 @@
     },
     {
       "sequence": 431,
-      "page": 116,
+      "page": 115,
       "slot": 4,
       "id": "assembly-2014-08",
       "category": "electronic-circuits",
@@ -8700,7 +8700,7 @@
     },
     {
       "sequence": 432,
-      "page": 117,
+      "page": 116,
       "slot": 1,
       "id": "assembly-2020-16",
       "category": "electronic-circuits",
@@ -8720,7 +8720,7 @@
     },
     {
       "sequence": 433,
-      "page": 117,
+      "page": 116,
       "slot": 2,
       "id": "national-2024-03",
       "category": "electronic-circuits",
@@ -8740,7 +8740,7 @@
     },
     {
       "sequence": 434,
-      "page": 117,
+      "page": 116,
       "slot": 3,
       "id": "national-2011-05",
       "category": "electronic-circuits",
@@ -8760,7 +8760,7 @@
     },
     {
       "sequence": 435,
-      "page": 117,
+      "page": 116,
       "slot": 4,
       "id": "national-2018-10",
       "category": "electronic-circuits",
@@ -8780,7 +8780,7 @@
     },
     {
       "sequence": 436,
-      "page": 118,
+      "page": 117,
       "slot": 1,
       "id": "national-2007-09",
       "category": "electronic-circuits",
@@ -8800,7 +8800,7 @@
     },
     {
       "sequence": 437,
-      "page": 118,
+      "page": 117,
       "slot": 2,
       "id": "assembly-2016-15",
       "category": "electronic-circuits",
@@ -8820,7 +8820,7 @@
     },
     {
       "sequence": 438,
-      "page": 118,
+      "page": 117,
       "slot": 3,
       "id": "national-2017-18",
       "category": "electronic-circuits",
@@ -8840,7 +8840,7 @@
     },
     {
       "sequence": 439,
-      "page": 118,
+      "page": 117,
       "slot": 4,
       "id": "national-2020-05",
       "category": "electronic-circuits",
@@ -8860,7 +8860,7 @@
     },
     {
       "sequence": 440,
-      "page": 119,
+      "page": 118,
       "slot": 1,
       "id": "local-2022-20",
       "category": "electronic-circuits",
@@ -8880,7 +8880,7 @@
     },
     {
       "sequence": 441,
-      "page": 119,
+      "page": 118,
       "slot": 2,
       "id": "national-2023-06",
       "category": "electronic-circuits",
@@ -8900,7 +8900,7 @@
     },
     {
       "sequence": 442,
-      "page": 119,
+      "page": 118,
       "slot": 3,
       "id": "national-2024-08",
       "category": "electronic-circuits",
@@ -8920,7 +8920,7 @@
     },
     {
       "sequence": 443,
-      "page": 119,
+      "page": 118,
       "slot": 4,
       "id": "national-2008-02",
       "category": "electronic-circuits",
@@ -8940,7 +8940,7 @@
     },
     {
       "sequence": 444,
-      "page": 120,
+      "page": 119,
       "slot": 1,
       "id": "national-2010-05",
       "category": "electronic-circuits",
@@ -8960,7 +8960,7 @@
     },
     {
       "sequence": 445,
-      "page": 120,
+      "page": 119,
       "slot": 2,
       "id": "seoul-2015-03",
       "category": "electronic-circuits",
@@ -8980,7 +8980,7 @@
     },
     {
       "sequence": 446,
-      "page": 120,
+      "page": 119,
       "slot": 3,
       "id": "national-2016-09",
       "category": "electronic-circuits",
@@ -9000,7 +9000,7 @@
     },
     {
       "sequence": 447,
-      "page": 120,
+      "page": 119,
       "slot": 4,
       "id": "seoul-2020-11",
       "category": "electronic-circuits",
@@ -9020,7 +9020,7 @@
     },
     {
       "sequence": 448,
-      "page": 121,
+      "page": 120,
       "slot": 1,
       "id": "national-2021-11",
       "category": "electronic-circuits",
@@ -9040,7 +9040,7 @@
     },
     {
       "sequence": 449,
-      "page": 121,
+      "page": 120,
       "slot": 2,
       "id": "assembly-2021-13",
       "category": "electronic-circuits",
@@ -9060,7 +9060,7 @@
     },
     {
       "sequence": 450,
-      "page": 121,
+      "page": 120,
       "slot": 3,
       "id": "national-2022-13",
       "category": "electronic-circuits",
@@ -9080,7 +9080,7 @@
     },
     {
       "sequence": 451,
-      "page": 121,
+      "page": 120,
       "slot": 4,
       "id": "national-2023-20",
       "category": "electronic-circuits",
@@ -9100,7 +9100,7 @@
     },
     {
       "sequence": 452,
-      "page": 122,
+      "page": 121,
       "slot": 1,
       "id": "military-2023-18",
       "category": "electronic-circuits",
@@ -9120,7 +9120,7 @@
     },
     {
       "sequence": 453,
-      "page": 122,
+      "page": 121,
       "slot": 2,
       "id": "national-2025-20",
       "category": "electronic-circuits",
@@ -9140,7 +9140,7 @@
     },
     {
       "sequence": 454,
-      "page": 122,
+      "page": 121,
       "slot": 3,
       "id": "local-2025-12",
       "category": "electronic-circuits",
@@ -9160,7 +9160,7 @@
     },
     {
       "sequence": 455,
-      "page": 122,
+      "page": 121,
       "slot": 4,
       "id": "assembly-2025-18",
       "category": "electronic-circuits",
@@ -9180,7 +9180,7 @@
     },
     {
       "sequence": 456,
-      "page": 123,
+      "page": 122,
       "slot": 1,
       "id": "national-2009-06",
       "category": "electronic-circuits",
@@ -9200,7 +9200,7 @@
     },
     {
       "sequence": 457,
-      "page": 123,
+      "page": 122,
       "slot": 2,
       "id": "national-2013-11",
       "category": "electronic-circuits",
@@ -9220,7 +9220,7 @@
     },
     {
       "sequence": 458,
-      "page": 123,
+      "page": 122,
       "slot": 3,
       "id": "national-2018-02",
       "category": "electronic-circuits",
@@ -9240,7 +9240,7 @@
     },
     {
       "sequence": 459,
-      "page": 123,
+      "page": 122,
       "slot": 4,
       "id": "national-2021-14",
       "category": "electronic-circuits",
@@ -9261,7 +9261,7 @@
     },
     {
       "sequence": 460,
-      "page": 124,
+      "page": 123,
       "slot": 1,
       "id": "national-2025-14",
       "category": "electronic-circuits",
@@ -9281,7 +9281,7 @@
     },
     {
       "sequence": 461,
-      "page": 124,
+      "page": 123,
       "slot": 2,
       "id": "national-2026-12",
       "category": "electronic-circuits",
@@ -9301,7 +9301,7 @@
     },
     {
       "sequence": 462,
-      "page": 124,
+      "page": 123,
       "slot": 3,
       "id": "local-2012-12",
       "category": "electronic-circuits",
@@ -9321,7 +9321,7 @@
     },
     {
       "sequence": 463,
-      "page": 124,
+      "page": 123,
       "slot": 4,
       "id": "seoul-2019-17",
       "category": "electronic-circuits",
@@ -9341,7 +9341,7 @@
     },
     {
       "sequence": 464,
-      "page": 125,
+      "page": 124,
       "slot": 1,
       "id": "national-2020-09",
       "category": "electronic-circuits",
@@ -9361,7 +9361,7 @@
     },
     {
       "sequence": 465,
-      "page": 125,
+      "page": 124,
       "slot": 2,
       "id": "military-2026-04",
       "category": "electronic-circuits",
@@ -9381,7 +9381,7 @@
     },
     {
       "sequence": 466,
-      "page": 125,
+      "page": 124,
       "slot": 3,
       "id": "national-2009-02",
       "category": "electronic-circuits",
@@ -9401,7 +9401,7 @@
     },
     {
       "sequence": 467,
-      "page": 125,
+      "page": 124,
       "slot": 4,
       "id": "assembly-2009-14",
       "category": "electronic-circuits",
@@ -9421,7 +9421,7 @@
     },
     {
       "sequence": 468,
-      "page": 126,
+      "page": 125,
       "slot": 1,
       "id": "national-2011-09",
       "category": "electronic-circuits",
@@ -9441,7 +9441,7 @@
     },
     {
       "sequence": 469,
-      "page": 126,
+      "page": 125,
       "slot": 2,
       "id": "seoul-2016-10",
       "category": "electronic-circuits",
@@ -9461,7 +9461,7 @@
     },
     {
       "sequence": 470,
-      "page": 126,
+      "page": 125,
       "slot": 3,
       "id": "local-2024-04",
       "category": "electronic-circuits",
@@ -9481,7 +9481,7 @@
     },
     {
       "sequence": 471,
-      "page": 126,
+      "page": 125,
       "slot": 4,
       "id": "military-2026-07",
       "category": "electronic-circuits",
@@ -9501,7 +9501,7 @@
     },
     {
       "sequence": 472,
-      "page": 127,
+      "page": 126,
       "slot": 1,
       "id": "national-2008-14",
       "category": "electronic-circuits",
@@ -9522,7 +9522,7 @@
     },
     {
       "sequence": 473,
-      "page": 127,
+      "page": 126,
       "slot": 2,
       "id": "assembly-2014-12",
       "category": "electronic-circuits",
@@ -9543,7 +9543,7 @@
     },
     {
       "sequence": 474,
-      "page": 127,
+      "page": 126,
       "slot": 3,
       "id": "national-2015-18",
       "category": "electronic-circuits",
@@ -9563,7 +9563,7 @@
     },
     {
       "sequence": 475,
-      "page": 127,
+      "page": 126,
       "slot": 4,
       "id": "national-2019-17",
       "category": "electronic-circuits",
@@ -9583,7 +9583,7 @@
     },
     {
       "sequence": 476,
-      "page": 128,
+      "page": 127,
       "slot": 1,
       "id": "national-2021-18",
       "category": "electronic-circuits",
@@ -9603,7 +9603,7 @@
     },
     {
       "sequence": 477,
-      "page": 128,
+      "page": 127,
       "slot": 2,
       "id": "assembly-2021-20",
       "category": "electronic-circuits",
@@ -9624,7 +9624,7 @@
     },
     {
       "sequence": 478,
-      "page": 128,
+      "page": 127,
       "slot": 3,
       "id": "local-2022-07",
       "category": "electronic-circuits",
@@ -9644,7 +9644,7 @@
     },
     {
       "sequence": 479,
-      "page": 128,
+      "page": 127,
       "slot": 4,
       "id": "assembly-2022-17",
       "category": "electronic-circuits",
@@ -9664,7 +9664,7 @@
     },
     {
       "sequence": 480,
-      "page": 129,
+      "page": 128,
       "slot": 1,
       "id": "assembly-2023-12",
       "category": "electronic-circuits",
@@ -9684,7 +9684,7 @@
     },
     {
       "sequence": 481,
-      "page": 129,
+      "page": 128,
       "slot": 2,
       "id": "military-2024-04",
       "category": "electronic-circuits",
@@ -9705,7 +9705,7 @@
     },
     {
       "sequence": 482,
-      "page": 129,
+      "page": 128,
       "slot": 3,
       "id": "seoul-2015-09",
       "category": "electronic-circuits",
@@ -9725,7 +9725,7 @@
     },
     {
       "sequence": 483,
-      "page": 129,
+      "page": 128,
       "slot": 4,
       "id": "local-2026-04",
       "category": "electronic-circuits",
@@ -9747,7 +9747,7 @@
     },
     {
       "sequence": 484,
-      "page": 130,
+      "page": 129,
       "slot": 1,
       "id": "seoul-2015-17",
       "category": "electronic-circuits",
@@ -9767,7 +9767,7 @@
     },
     {
       "sequence": 485,
-      "page": 130,
+      "page": 129,
       "slot": 2,
       "id": "seoul-2018-05",
       "category": "electronic-circuits",
@@ -9787,7 +9787,7 @@
     },
     {
       "sequence": 486,
-      "page": 130,
+      "page": 129,
       "slot": 3,
       "id": "local-2023-09",
       "category": "electronic-circuits",
@@ -9808,7 +9808,7 @@
     },
     {
       "sequence": 487,
-      "page": 130,
+      "page": 129,
       "slot": 4,
       "id": "national-2007-19",
       "category": "electronic-circuits",
@@ -9828,7 +9828,7 @@
     },
     {
       "sequence": 488,
-      "page": 131,
+      "page": 130,
       "slot": 1,
       "id": "national-2008-09",
       "category": "electronic-circuits",
@@ -9849,7 +9849,7 @@
     },
     {
       "sequence": 489,
-      "page": 131,
+      "page": 130,
       "slot": 2,
       "id": "national-2009-17",
       "category": "electronic-circuits",
@@ -9870,7 +9870,7 @@
     },
     {
       "sequence": 490,
-      "page": 131,
+      "page": 130,
       "slot": 3,
       "id": "assembly-2009-04",
       "category": "electronic-circuits",
@@ -9890,7 +9890,7 @@
     },
     {
       "sequence": 491,
-      "page": 131,
+      "page": 130,
       "slot": 4,
       "id": "national-2010-02",
       "category": "electronic-circuits",
@@ -9911,7 +9911,7 @@
     },
     {
       "sequence": 492,
-      "page": 132,
+      "page": 131,
       "slot": 1,
       "id": "national-2010-03",
       "category": "electronic-circuits",
@@ -9932,7 +9932,7 @@
     },
     {
       "sequence": 493,
-      "page": 132,
+      "page": 131,
       "slot": 2,
       "id": "local-2010-02",
       "category": "electronic-circuits",
@@ -9952,7 +9952,7 @@
     },
     {
       "sequence": 494,
-      "page": 132,
+      "page": 131,
       "slot": 3,
       "id": "local-2011-15",
       "category": "electronic-circuits",
@@ -9972,7 +9972,7 @@
     },
     {
       "sequence": 495,
-      "page": 132,
+      "page": 131,
       "slot": 4,
       "id": "national-2012-03",
       "category": "electronic-circuits",
@@ -9993,7 +9993,7 @@
     },
     {
       "sequence": 496,
-      "page": 133,
+      "page": 132,
       "slot": 1,
       "id": "national-2012-10",
       "category": "electronic-circuits",
@@ -10014,7 +10014,7 @@
     },
     {
       "sequence": 497,
-      "page": 133,
+      "page": 132,
       "slot": 2,
       "id": "local-2012-15",
       "category": "electronic-circuits",
@@ -10035,7 +10035,7 @@
     },
     {
       "sequence": 498,
-      "page": 133,
+      "page": 132,
       "slot": 3,
       "id": "assembly-2015-18",
       "category": "electronic-circuits",
@@ -10055,7 +10055,7 @@
     },
     {
       "sequence": 499,
-      "page": 133,
+      "page": 132,
       "slot": 4,
       "id": "seoul-2016-08",
       "category": "electronic-circuits",
@@ -10076,7 +10076,7 @@
     },
     {
       "sequence": 500,
-      "page": 134,
+      "page": 133,
       "slot": 1,
       "id": "national-2017-19",
       "category": "electronic-circuits",
@@ -10096,7 +10096,7 @@
     },
     {
       "sequence": 501,
-      "page": 134,
+      "page": 133,
       "slot": 2,
       "id": "assembly-2018-15",
       "category": "electronic-circuits",
@@ -10116,7 +10116,7 @@
     },
     {
       "sequence": 502,
-      "page": 134,
+      "page": 133,
       "slot": 3,
       "id": "national-2019-04",
       "category": "electronic-circuits",
@@ -10137,7 +10137,7 @@
     },
     {
       "sequence": 503,
-      "page": 134,
+      "page": 133,
       "slot": 4,
       "id": "national-2020-18",
       "category": "electronic-circuits",
@@ -10157,7 +10157,7 @@
     },
     {
       "sequence": 504,
-      "page": 135,
+      "page": 134,
       "slot": 1,
       "id": "assembly-2020-03",
       "category": "electronic-circuits",
@@ -10178,7 +10178,7 @@
     },
     {
       "sequence": 505,
-      "page": 135,
+      "page": 134,
       "slot": 2,
       "id": "assembly-2020-12",
       "category": "electronic-circuits",
@@ -10199,7 +10199,7 @@
     },
     {
       "sequence": 506,
-      "page": 135,
+      "page": 134,
       "slot": 3,
       "id": "assembly-2021-10",
       "category": "electronic-circuits",
@@ -10220,7 +10220,7 @@
     },
     {
       "sequence": 507,
-      "page": 135,
+      "page": 134,
       "slot": 4,
       "id": "national-2022-08",
       "category": "electronic-circuits",
@@ -10241,7 +10241,7 @@
     },
     {
       "sequence": 508,
-      "page": 136,
+      "page": 135,
       "slot": 1,
       "id": "military-2022-14",
       "category": "electronic-circuits",
@@ -10261,7 +10261,7 @@
     },
     {
       "sequence": 509,
-      "page": 136,
+      "page": 135,
       "slot": 2,
       "id": "military-2022-20",
       "category": "electronic-circuits",
@@ -10282,7 +10282,7 @@
     },
     {
       "sequence": 510,
-      "page": 136,
+      "page": 135,
       "slot": 4,
       "id": "assembly-2022-12",
       "category": "electronic-circuits",
@@ -10303,7 +10303,7 @@
     },
     {
       "sequence": 511,
-      "page": 137,
+      "page": 136,
       "slot": 1,
       "id": "local-2023-14",
       "category": "electronic-circuits",
@@ -10324,7 +10324,7 @@
     },
     {
       "sequence": 512,
-      "page": 137,
+      "page": 136,
       "slot": 2,
       "id": "military-2023-13",
       "category": "electronic-circuits",
@@ -10345,7 +10345,7 @@
     },
     {
       "sequence": 513,
-      "page": 137,
+      "page": 136,
       "slot": 3,
       "id": "local-2024-11",
       "category": "electronic-circuits",
@@ -10366,7 +10366,7 @@
     },
     {
       "sequence": 514,
-      "page": 137,
+      "page": 136,
       "slot": 4,
       "id": "military-2024-10",
       "category": "electronic-circuits",
@@ -10387,7 +10387,7 @@
     },
     {
       "sequence": 515,
-      "page": 138,
+      "page": 137,
       "slot": 1,
       "id": "national-2025-01",
       "category": "electronic-circuits",
@@ -10408,7 +10408,7 @@
     },
     {
       "sequence": 516,
-      "page": 138,
+      "page": 137,
       "slot": 2,
       "id": "national-2025-06",
       "category": "electronic-circuits",
@@ -10429,7 +10429,7 @@
     },
     {
       "sequence": 517,
-      "page": 138,
+      "page": 137,
       "slot": 3,
       "id": "military-2025-18",
       "category": "electronic-circuits",
@@ -10450,8 +10450,8 @@
     },
     {
       "sequence": 518,
-      "page": 139,
-      "slot": 1,
+      "page": 137,
+      "slot": 4,
       "id": "assembly-2025-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10467,12 +10467,12 @@
       ],
       "source": "2025 국회직 17번",
       "answer": 4,
-      "rowSpan": 2
+      "rowSpan": 1
     },
     {
       "sequence": 519,
-      "page": 139,
-      "slot": 2,
+      "page": 138,
+      "slot": 1,
       "id": "local-2026-18",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10492,8 +10492,8 @@
     },
     {
       "sequence": 520,
-      "page": 139,
-      "slot": 4,
+      "page": 138,
+      "slot": 2,
       "id": "assembly-2009-15",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10512,8 +10512,8 @@
     },
     {
       "sequence": 521,
-      "page": 140,
-      "slot": 1,
+      "page": 138,
+      "slot": 3,
       "id": "local-2011-07",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10532,8 +10532,8 @@
     },
     {
       "sequence": 522,
-      "page": 140,
-      "slot": 2,
+      "page": 138,
+      "slot": 4,
       "id": "seoul-2015-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10555,8 +10555,8 @@
     },
     {
       "sequence": 523,
-      "page": 140,
-      "slot": 3,
+      "page": 139,
+      "slot": 1,
       "id": "assembly-2016-11",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10575,8 +10575,8 @@
     },
     {
       "sequence": 524,
-      "page": 140,
-      "slot": 4,
+      "page": 139,
+      "slot": 2,
       "id": "national-2018-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10597,8 +10597,8 @@
     },
     {
       "sequence": 525,
-      "page": 141,
-      "slot": 1,
+      "page": 139,
+      "slot": 3,
       "id": "local-2022-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10618,8 +10618,8 @@
     },
     {
       "sequence": 526,
-      "page": 141,
-      "slot": 2,
+      "page": 139,
+      "slot": 4,
       "id": "local-2025-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10639,8 +10639,8 @@
     },
     {
       "sequence": 527,
-      "page": 141,
-      "slot": 3,
+      "page": 140,
+      "slot": 1,
       "id": "national-2026-01",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10659,8 +10659,8 @@
     },
     {
       "sequence": 528,
-      "page": 141,
-      "slot": 4,
+      "page": 140,
+      "slot": 2,
       "id": "assembly-2021-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10681,8 +10681,8 @@
     },
     {
       "sequence": 529,
-      "page": 142,
-      "slot": 1,
+      "page": 140,
+      "slot": 3,
       "id": "local-2026-01",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10702,8 +10702,8 @@
     },
     {
       "sequence": 530,
-      "page": 142,
-      "slot": 2,
+      "page": 140,
+      "slot": 4,
       "id": "national-2007-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10722,8 +10722,8 @@
     },
     {
       "sequence": 531,
-      "page": 142,
-      "slot": 3,
+      "page": 141,
+      "slot": 1,
       "id": "assembly-2015-02",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10742,8 +10742,8 @@
     },
     {
       "sequence": 532,
-      "page": 142,
-      "slot": 4,
+      "page": 141,
+      "slot": 2,
       "id": "assembly-2017-07",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10764,8 +10764,8 @@
     },
     {
       "sequence": 533,
-      "page": 143,
-      "slot": 1,
+      "page": 141,
+      "slot": 3,
       "id": "assembly-2022-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10784,8 +10784,8 @@
     },
     {
       "sequence": 534,
-      "page": 143,
-      "slot": 2,
+      "page": 141,
+      "slot": 4,
       "id": "national-2024-09",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10805,8 +10805,8 @@
     },
     {
       "sequence": 535,
-      "page": 143,
-      "slot": 3,
+      "page": 142,
+      "slot": 1,
       "id": "local-2009-02",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10825,8 +10825,8 @@
     },
     {
       "sequence": 536,
-      "page": 143,
-      "slot": 4,
+      "page": 142,
+      "slot": 2,
       "id": "local-2012-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10845,8 +10845,8 @@
     },
     {
       "sequence": 537,
-      "page": 144,
-      "slot": 1,
+      "page": 142,
+      "slot": 3,
       "id": "seoul-2017-11",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10865,8 +10865,8 @@
     },
     {
       "sequence": 538,
-      "page": 144,
-      "slot": 2,
+      "page": 142,
+      "slot": 4,
       "id": "assembly-2020-19",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10885,8 +10885,8 @@
     },
     {
       "sequence": 539,
-      "page": 144,
-      "slot": 3,
+      "page": 143,
+      "slot": 1,
       "id": "seoul-2021-05",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10905,8 +10905,8 @@
     },
     {
       "sequence": 540,
-      "page": 144,
-      "slot": 4,
+      "page": 143,
+      "slot": 2,
       "id": "local-2022-15",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10925,8 +10925,8 @@
     },
     {
       "sequence": 541,
-      "page": 145,
-      "slot": 1,
+      "page": 143,
+      "slot": 3,
       "id": "assembly-2025-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10945,8 +10945,8 @@
     },
     {
       "sequence": 542,
-      "page": 145,
-      "slot": 2,
+      "page": 143,
+      "slot": 4,
       "id": "assembly-2016-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10965,8 +10965,8 @@
     },
     {
       "sequence": 543,
-      "page": 145,
-      "slot": 3,
+      "page": 144,
+      "slot": 1,
       "id": "seoul-2016-06",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -10985,8 +10985,8 @@
     },
     {
       "sequence": 544,
-      "page": 145,
-      "slot": 4,
+      "page": 144,
+      "slot": 2,
       "id": "national-2017-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11005,8 +11005,8 @@
     },
     {
       "sequence": 545,
-      "page": 146,
-      "slot": 1,
+      "page": 144,
+      "slot": 3,
       "id": "assembly-2017-02",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11025,8 +11025,8 @@
     },
     {
       "sequence": 546,
-      "page": 146,
-      "slot": 2,
+      "page": 144,
+      "slot": 4,
       "id": "assembly-2018-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11046,8 +11046,8 @@
     },
     {
       "sequence": 547,
-      "page": 146,
-      "slot": 3,
+      "page": 145,
+      "slot": 1,
       "id": "national-2020-20",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11067,8 +11067,8 @@
     },
     {
       "sequence": 548,
-      "page": 146,
-      "slot": 4,
+      "page": 145,
+      "slot": 2,
       "id": "local-2026-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11089,8 +11089,8 @@
     },
     {
       "sequence": 549,
-      "page": 147,
-      "slot": 1,
+      "page": 145,
+      "slot": 3,
       "id": "national-2009-05",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11109,8 +11109,8 @@
     },
     {
       "sequence": 550,
-      "page": 147,
-      "slot": 2,
+      "page": 145,
+      "slot": 4,
       "id": "local-2009-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11129,8 +11129,8 @@
     },
     {
       "sequence": 551,
-      "page": 147,
-      "slot": 3,
+      "page": 146,
+      "slot": 1,
       "id": "national-2014-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11149,8 +11149,8 @@
     },
     {
       "sequence": 552,
-      "page": 147,
-      "slot": 4,
+      "page": 146,
+      "slot": 2,
       "id": "assembly-2014-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11170,8 +11170,8 @@
     },
     {
       "sequence": 553,
-      "page": 148,
-      "slot": 1,
+      "page": 146,
+      "slot": 3,
       "id": "national-2016-19",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11190,8 +11190,8 @@
     },
     {
       "sequence": 554,
-      "page": 148,
-      "slot": 2,
+      "page": 146,
+      "slot": 4,
       "id": "assembly-2018-07",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11211,8 +11211,8 @@
     },
     {
       "sequence": 555,
-      "page": 148,
-      "slot": 3,
+      "page": 147,
+      "slot": 1,
       "id": "seoul-2019-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11231,8 +11231,8 @@
     },
     {
       "sequence": 556,
-      "page": 148,
-      "slot": 4,
+      "page": 147,
+      "slot": 2,
       "id": "military-2023-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11254,8 +11254,8 @@
     },
     {
       "sequence": 557,
-      "page": 149,
-      "slot": 1,
+      "page": 147,
+      "slot": 3,
       "id": "national-2024-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11274,8 +11274,8 @@
     },
     {
       "sequence": 558,
-      "page": 149,
-      "slot": 2,
+      "page": 147,
+      "slot": 4,
       "id": "national-2026-09",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11295,8 +11295,8 @@
     },
     {
       "sequence": 559,
-      "page": 149,
-      "slot": 3,
+      "page": 148,
+      "slot": 1,
       "id": "national-2009-20",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11315,8 +11315,8 @@
     },
     {
       "sequence": 560,
-      "page": 149,
-      "slot": 4,
+      "page": 148,
+      "slot": 2,
       "id": "national-2015-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11335,8 +11335,8 @@
     },
     {
       "sequence": 561,
-      "page": 150,
-      "slot": 1,
+      "page": 148,
+      "slot": 3,
       "id": "national-2016-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11355,8 +11355,8 @@
     },
     {
       "sequence": 562,
-      "page": 150,
-      "slot": 2,
+      "page": 148,
+      "slot": 4,
       "id": "national-2014-06",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11375,8 +11375,8 @@
     },
     {
       "sequence": 563,
-      "page": 150,
-      "slot": 3,
+      "page": 149,
+      "slot": 1,
       "id": "national-2017-06",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11395,8 +11395,8 @@
     },
     {
       "sequence": 564,
-      "page": 150,
-      "slot": 4,
+      "page": 149,
+      "slot": 2,
       "id": "national-2022-18",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11415,8 +11415,8 @@
     },
     {
       "sequence": 565,
-      "page": 151,
-      "slot": 1,
+      "page": 149,
+      "slot": 3,
       "id": "seoul-2017-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11435,8 +11435,8 @@
     },
     {
       "sequence": 566,
-      "page": 151,
-      "slot": 2,
+      "page": 149,
+      "slot": 4,
       "id": "seoul-2017-18",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11455,8 +11455,8 @@
     },
     {
       "sequence": 567,
-      "page": 151,
-      "slot": 3,
+      "page": 150,
+      "slot": 1,
       "id": "assembly-2018-01",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11476,8 +11476,8 @@
     },
     {
       "sequence": 568,
-      "page": 151,
-      "slot": 4,
+      "page": 150,
+      "slot": 2,
       "id": "seoul-2018-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11496,8 +11496,8 @@
     },
     {
       "sequence": 569,
-      "page": 152,
-      "slot": 1,
+      "page": 150,
+      "slot": 3,
       "id": "national-2024-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11516,8 +11516,8 @@
     },
     {
       "sequence": 570,
-      "page": 152,
-      "slot": 2,
+      "page": 150,
+      "slot": 4,
       "id": "local-2009-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11537,8 +11537,8 @@
     },
     {
       "sequence": 571,
-      "page": 152,
-      "slot": 3,
+      "page": 151,
+      "slot": 1,
       "id": "national-2018-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11557,8 +11557,8 @@
     },
     {
       "sequence": 572,
-      "page": 152,
-      "slot": 4,
+      "page": 151,
+      "slot": 2,
       "id": "military-2023-08",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11577,8 +11577,8 @@
     },
     {
       "sequence": 573,
-      "page": 153,
-      "slot": 1,
+      "page": 151,
+      "slot": 3,
       "id": "national-2011-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11597,8 +11597,8 @@
     },
     {
       "sequence": 574,
-      "page": 153,
-      "slot": 2,
+      "page": 151,
+      "slot": 4,
       "id": "national-2017-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11617,8 +11617,8 @@
     },
     {
       "sequence": 575,
-      "page": 153,
-      "slot": 3,
+      "page": 152,
+      "slot": 1,
       "id": "assembly-2020-18",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11637,8 +11637,8 @@
     },
     {
       "sequence": 576,
-      "page": 153,
-      "slot": 4,
+      "page": 152,
+      "slot": 2,
       "id": "national-2021-15",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11657,8 +11657,8 @@
     },
     {
       "sequence": 577,
-      "page": 154,
-      "slot": 1,
+      "page": 152,
+      "slot": 3,
       "id": "national-2022-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11677,8 +11677,8 @@
     },
     {
       "sequence": 578,
-      "page": 154,
-      "slot": 2,
+      "page": 152,
+      "slot": 4,
       "id": "local-2023-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11697,8 +11697,8 @@
     },
     {
       "sequence": 579,
-      "page": 154,
-      "slot": 3,
+      "page": 153,
+      "slot": 1,
       "id": "assembly-2009-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11717,8 +11717,8 @@
     },
     {
       "sequence": 580,
-      "page": 154,
-      "slot": 4,
+      "page": 153,
+      "slot": 2,
       "id": "national-2012-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11737,8 +11737,8 @@
     },
     {
       "sequence": 581,
-      "page": 155,
-      "slot": 1,
+      "page": 153,
+      "slot": 3,
       "id": "national-2014-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11757,8 +11757,8 @@
     },
     {
       "sequence": 582,
-      "page": 155,
-      "slot": 2,
+      "page": 153,
+      "slot": 4,
       "id": "seoul-2014-07",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11777,8 +11777,8 @@
     },
     {
       "sequence": 583,
-      "page": 155,
-      "slot": 3,
+      "page": 154,
+      "slot": 1,
       "id": "assembly-2015-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11797,8 +11797,8 @@
     },
     {
       "sequence": 584,
-      "page": 155,
-      "slot": 4,
+      "page": 154,
+      "slot": 2,
       "id": "assembly-2015-19",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11817,8 +11817,8 @@
     },
     {
       "sequence": 585,
-      "page": 156,
-      "slot": 1,
+      "page": 154,
+      "slot": 3,
       "id": "national-2017-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11837,8 +11837,8 @@
     },
     {
       "sequence": 586,
-      "page": 156,
-      "slot": 2,
+      "page": 154,
+      "slot": 4,
       "id": "assembly-2017-05",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11857,8 +11857,8 @@
     },
     {
       "sequence": 587,
-      "page": 156,
-      "slot": 3,
+      "page": 155,
+      "slot": 1,
       "id": "assembly-2017-20",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11877,8 +11877,8 @@
     },
     {
       "sequence": 588,
-      "page": 156,
-      "slot": 4,
+      "page": 155,
+      "slot": 2,
       "id": "national-2019-06",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11897,8 +11897,8 @@
     },
     {
       "sequence": 589,
-      "page": 157,
-      "slot": 1,
+      "page": 155,
+      "slot": 3,
       "id": "assembly-2019-20",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11917,8 +11917,8 @@
     },
     {
       "sequence": 590,
-      "page": 157,
-      "slot": 2,
+      "page": 155,
+      "slot": 4,
       "id": "national-2020-11",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11937,8 +11937,8 @@
     },
     {
       "sequence": 591,
-      "page": 157,
-      "slot": 3,
+      "page": 156,
+      "slot": 1,
       "id": "national-2023-09",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11957,8 +11957,8 @@
     },
     {
       "sequence": 592,
-      "page": 157,
-      "slot": 4,
+      "page": 156,
+      "slot": 2,
       "id": "local-2023-02",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11977,8 +11977,8 @@
     },
     {
       "sequence": 593,
-      "page": 158,
-      "slot": 1,
+      "page": 156,
+      "slot": 3,
       "id": "military-2024-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -11997,8 +11997,8 @@
     },
     {
       "sequence": 594,
-      "page": 158,
-      "slot": 2,
+      "page": 156,
+      "slot": 4,
       "id": "national-2026-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12017,8 +12017,8 @@
     },
     {
       "sequence": 595,
-      "page": 158,
-      "slot": 3,
+      "page": 157,
+      "slot": 1,
       "id": "national-2016-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12037,8 +12037,8 @@
     },
     {
       "sequence": 596,
-      "page": 158,
-      "slot": 4,
+      "page": 157,
+      "slot": 2,
       "id": "local-2022-08",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12057,8 +12057,8 @@
     },
     {
       "sequence": 597,
-      "page": 159,
-      "slot": 1,
+      "page": 157,
+      "slot": 3,
       "id": "national-2010-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12079,8 +12079,8 @@
     },
     {
       "sequence": 598,
-      "page": 159,
-      "slot": 2,
+      "page": 157,
+      "slot": 4,
       "id": "national-2021-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12101,8 +12101,8 @@
     },
     {
       "sequence": 599,
-      "page": 159,
-      "slot": 3,
+      "page": 158,
+      "slot": 1,
       "id": "local-2011-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12121,8 +12121,8 @@
     },
     {
       "sequence": 600,
-      "page": 159,
-      "slot": 4,
+      "page": 158,
+      "slot": 2,
       "id": "national-2015-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12141,8 +12141,8 @@
     },
     {
       "sequence": 601,
-      "page": 160,
-      "slot": 1,
+      "page": 158,
+      "slot": 3,
       "id": "assembly-2015-09",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12163,8 +12163,8 @@
     },
     {
       "sequence": 602,
-      "page": 160,
-      "slot": 2,
+      "page": 158,
+      "slot": 4,
       "id": "assembly-2016-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12184,8 +12184,8 @@
     },
     {
       "sequence": 603,
-      "page": 160,
-      "slot": 3,
+      "page": 159,
+      "slot": 1,
       "id": "assembly-2016-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12204,8 +12204,8 @@
     },
     {
       "sequence": 604,
-      "page": 160,
-      "slot": 4,
+      "page": 159,
+      "slot": 2,
       "id": "national-2018-19",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12224,8 +12224,8 @@
     },
     {
       "sequence": 605,
-      "page": 161,
-      "slot": 1,
+      "page": 159,
+      "slot": 3,
       "id": "national-2019-08",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12245,8 +12245,8 @@
     },
     {
       "sequence": 606,
-      "page": 161,
-      "slot": 2,
+      "page": 159,
+      "slot": 4,
       "id": "assembly-2021-14",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12267,8 +12267,8 @@
     },
     {
       "sequence": 607,
-      "page": 161,
-      "slot": 3,
+      "page": 160,
+      "slot": 1,
       "id": "assembly-2021-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12287,8 +12287,8 @@
     },
     {
       "sequence": 608,
-      "page": 161,
-      "slot": 4,
+      "page": 160,
+      "slot": 2,
       "id": "national-2023-05",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12307,8 +12307,8 @@
     },
     {
       "sequence": 609,
-      "page": 162,
-      "slot": 1,
+      "page": 160,
+      "slot": 3,
       "id": "military-2023-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12327,8 +12327,8 @@
     },
     {
       "sequence": 610,
-      "page": 162,
-      "slot": 2,
+      "page": 160,
+      "slot": 4,
       "id": "national-2026-17",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12347,8 +12347,8 @@
     },
     {
       "sequence": 611,
-      "page": 162,
-      "slot": 3,
+      "page": 161,
+      "slot": 1,
       "id": "local-2010-01",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12368,8 +12368,8 @@
     },
     {
       "sequence": 612,
-      "page": 162,
-      "slot": 4,
+      "page": 161,
+      "slot": 2,
       "id": "assembly-2019-10",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12389,8 +12389,8 @@
     },
     {
       "sequence": 613,
-      "page": 163,
-      "slot": 1,
+      "page": 161,
+      "slot": 3,
       "id": "local-2010-03",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12409,8 +12409,8 @@
     },
     {
       "sequence": 614,
-      "page": 163,
-      "slot": 2,
+      "page": 161,
+      "slot": 4,
       "id": "local-2012-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12429,8 +12429,8 @@
     },
     {
       "sequence": 615,
-      "page": 163,
-      "slot": 3,
+      "page": 162,
+      "slot": 1,
       "id": "national-2017-02",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12449,8 +12449,8 @@
     },
     {
       "sequence": 616,
-      "page": 163,
-      "slot": 4,
+      "page": 162,
+      "slot": 2,
       "id": "assembly-2018-06",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12470,8 +12470,8 @@
     },
     {
       "sequence": 617,
-      "page": 164,
-      "slot": 1,
+      "page": 162,
+      "slot": 3,
       "id": "military-2022-04",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12490,8 +12490,8 @@
     },
     {
       "sequence": 618,
-      "page": 164,
-      "slot": 2,
+      "page": 162,
+      "slot": 4,
       "id": "military-2024-12",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12511,8 +12511,8 @@
     },
     {
       "sequence": 619,
-      "page": 164,
-      "slot": 3,
+      "page": 163,
+      "slot": 1,
       "id": "national-2007-16",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12531,8 +12531,8 @@
     },
     {
       "sequence": 620,
-      "page": 164,
-      "slot": 4,
+      "page": 163,
+      "slot": 2,
       "id": "seoul-2017-01",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12551,8 +12551,8 @@
     },
     {
       "sequence": 621,
-      "page": 165,
-      "slot": 1,
+      "page": 163,
+      "slot": 3,
       "id": "local-2022-11",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12571,8 +12571,8 @@
     },
     {
       "sequence": 622,
-      "page": 165,
-      "slot": 2,
+      "page": 163,
+      "slot": 4,
       "id": "national-2025-13",
       "category": "electronic-circuits",
       "categoryLabel": "전자회로",
@@ -12593,7 +12593,7 @@
     },
     {
       "sequence": 623,
-      "page": 166,
+      "page": 164,
       "slot": 1,
       "id": "local-2011-20",
       "category": "electronic-circuits",
@@ -12613,7 +12613,7 @@
     },
     {
       "sequence": 624,
-      "page": 166,
+      "page": 164,
       "slot": 2,
       "id": "assembly-2018-11",
       "category": "electronic-circuits",
@@ -12633,7 +12633,7 @@
     },
     {
       "sequence": 625,
-      "page": 166,
+      "page": 164,
       "slot": 4,
       "id": "local-2009-06",
       "category": "electronic-circuits",
@@ -12653,7 +12653,7 @@
     },
     {
       "sequence": 626,
-      "page": 167,
+      "page": 165,
       "slot": 1,
       "id": "national-2013-10",
       "category": "electronic-circuits",
@@ -12673,7 +12673,7 @@
     },
     {
       "sequence": 627,
-      "page": 167,
+      "page": 165,
       "slot": 2,
       "id": "assembly-2014-09",
       "category": "electronic-circuits",
@@ -12694,7 +12694,7 @@
     },
     {
       "sequence": 628,
-      "page": 167,
+      "page": 165,
       "slot": 3,
       "id": "local-2023-15",
       "category": "electronic-circuits",
@@ -12714,7 +12714,7 @@
     },
     {
       "sequence": 629,
-      "page": 167,
+      "page": 165,
       "slot": 4,
       "id": "assembly-2024-04",
       "category": "electronic-circuits",
@@ -12735,7 +12735,7 @@
     },
     {
       "sequence": 630,
-      "page": 168,
+      "page": 166,
       "slot": 1,
       "id": "national-2018-08",
       "category": "electronic-circuits",
@@ -12756,7 +12756,7 @@
     },
     {
       "sequence": 631,
-      "page": 168,
+      "page": 166,
       "slot": 2,
       "id": "assembly-2018-08",
       "category": "electronic-circuits",
@@ -12776,7 +12776,7 @@
     },
     {
       "sequence": 632,
-      "page": 168,
+      "page": 166,
       "slot": 3,
       "id": "national-2024-14",
       "category": "electronic-circuits",
@@ -12796,7 +12796,7 @@
     },
     {
       "sequence": 633,
-      "page": 168,
+      "page": 166,
       "slot": 4,
       "id": "national-2026-15",
       "category": "electronic-circuits",
@@ -12817,7 +12817,7 @@
     },
     {
       "sequence": 634,
-      "page": 169,
+      "page": 167,
       "slot": 1,
       "id": "national-2020-07",
       "category": "electronic-circuits",
@@ -12838,7 +12838,7 @@
     },
     {
       "sequence": 635,
-      "page": 169,
+      "page": 167,
       "slot": 2,
       "id": "national-2022-19",
       "category": "electronic-circuits",
@@ -12858,7 +12858,7 @@
     },
     {
       "sequence": 636,
-      "page": 169,
+      "page": 167,
       "slot": 3,
       "id": "military-2022-10",
       "category": "electronic-circuits",
@@ -12879,7 +12879,7 @@
     },
     {
       "sequence": 637,
-      "page": 169,
+      "page": 167,
       "slot": 4,
       "id": "local-2023-08",
       "category": "electronic-circuits",
@@ -12900,7 +12900,7 @@
     },
     {
       "sequence": 638,
-      "page": 170,
+      "page": 168,
       "slot": 1,
       "id": "seoul-2017-12",
       "category": "electronic-circuits",
@@ -12920,7 +12920,7 @@
     },
     {
       "sequence": 639,
-      "page": 170,
+      "page": 168,
       "slot": 2,
       "id": "seoul-2015-06",
       "category": "electronic-circuits",
@@ -12940,7 +12940,7 @@
     },
     {
       "sequence": 640,
-      "page": 170,
+      "page": 168,
       "slot": 3,
       "id": "military-2023-15",
       "category": "electronic-circuits",
@@ -12960,7 +12960,7 @@
     },
     {
       "sequence": 641,
-      "page": 170,
+      "page": 168,
       "slot": 4,
       "id": "national-2010-12",
       "category": "electronic-circuits",
@@ -12980,7 +12980,7 @@
     },
     {
       "sequence": 642,
-      "page": 171,
+      "page": 169,
       "slot": 1,
       "id": "assembly-2017-19",
       "category": "electronic-circuits",
@@ -13002,7 +13002,7 @@
     },
     {
       "sequence": 643,
-      "page": 171,
+      "page": 169,
       "slot": 2,
       "id": "military-2023-11",
       "category": "electronic-circuits",
@@ -13022,7 +13022,7 @@
     },
     {
       "sequence": 644,
-      "page": 171,
+      "page": 169,
       "slot": 3,
       "id": "assembly-2017-16",
       "category": "electronic-circuits",
@@ -13042,7 +13042,7 @@
     },
     {
       "sequence": 645,
-      "page": 171,
+      "page": 169,
       "slot": 4,
       "id": "national-2021-20",
       "category": "electronic-circuits",
@@ -13062,7 +13062,7 @@
     },
     {
       "sequence": 646,
-      "page": 172,
+      "page": 170,
       "slot": 1,
       "id": "local-2025-11",
       "category": "electronic-circuits",
@@ -13082,7 +13082,7 @@
     },
     {
       "sequence": 647,
-      "page": 172,
+      "page": 170,
       "slot": 2,
       "id": "assembly-2016-06",
       "category": "electronic-circuits",
@@ -13103,7 +13103,7 @@
     },
     {
       "sequence": 648,
-      "page": 172,
+      "page": 170,
       "slot": 3,
       "id": "assembly-2017-14",
       "category": "electronic-circuits",
@@ -13124,7 +13124,7 @@
     },
     {
       "sequence": 649,
-      "page": 172,
+      "page": 170,
       "slot": 4,
       "id": "assembly-2022-19",
       "category": "electronic-circuits",
@@ -13145,7 +13145,7 @@
     },
     {
       "sequence": 650,
-      "page": 173,
+      "page": 171,
       "slot": 1,
       "id": "military-2024-14",
       "category": "electronic-circuits",
@@ -13165,7 +13165,7 @@
     },
     {
       "sequence": 651,
-      "page": 173,
+      "page": 171,
       "slot": 2,
       "id": "local-2025-04",
       "category": "electronic-circuits",
@@ -13186,7 +13186,7 @@
     },
     {
       "sequence": 652,
-      "page": 173,
+      "page": 171,
       "slot": 3,
       "id": "seoul-2021-09",
       "category": "electronic-circuits",
@@ -13206,7 +13206,7 @@
     },
     {
       "sequence": 653,
-      "page": 173,
+      "page": 171,
       "slot": 4,
       "id": "local-2009-13",
       "category": "electronic-circuits",
@@ -13226,7 +13226,7 @@
     },
     {
       "sequence": 654,
-      "page": 174,
+      "page": 172,
       "slot": 1,
       "id": "assembly-2015-12",
       "category": "electronic-circuits",
@@ -13246,7 +13246,7 @@
     },
     {
       "sequence": 655,
-      "page": 174,
+      "page": 172,
       "slot": 2,
       "id": "assembly-2017-18",
       "category": "electronic-circuits",
@@ -13266,7 +13266,7 @@
     },
     {
       "sequence": 656,
-      "page": 174,
+      "page": 172,
       "slot": 3,
       "id": "assembly-2020-08",
       "category": "electronic-circuits",
@@ -13286,7 +13286,7 @@
     },
     {
       "sequence": 657,
-      "page": 174,
+      "page": 172,
       "slot": 4,
       "id": "local-2025-07",
       "category": "electronic-circuits",
@@ -13306,7 +13306,7 @@
     },
     {
       "sequence": 658,
-      "page": 175,
+      "page": 173,
       "slot": 1,
       "id": "national-2026-18",
       "category": "electronic-circuits",
@@ -13326,7 +13326,7 @@
     },
     {
       "sequence": 659,
-      "page": 175,
+      "page": 173,
       "slot": 2,
       "id": "national-2016-05",
       "category": "electronic-circuits",
@@ -13346,7 +13346,7 @@
     },
     {
       "sequence": 660,
-      "page": 175,
+      "page": 173,
       "slot": 3,
       "id": "seoul-2017-20",
       "category": "electronic-circuits",
@@ -13366,7 +13366,7 @@
     },
     {
       "sequence": 661,
-      "page": 175,
+      "page": 173,
       "slot": 4,
       "id": "national-2018-07",
       "category": "electronic-circuits",
@@ -13387,7 +13387,7 @@
     },
     {
       "sequence": 662,
-      "page": 176,
+      "page": 174,
       "slot": 1,
       "id": "national-2022-07",
       "category": "electronic-circuits",
@@ -13407,7 +13407,7 @@
     },
     {
       "sequence": 663,
-      "page": 176,
+      "page": 174,
       "slot": 2,
       "id": "national-2007-15",
       "category": "electronic-circuits",
@@ -13427,7 +13427,7 @@
     },
     {
       "sequence": 664,
-      "page": 176,
+      "page": 174,
       "slot": 3,
       "id": "local-2011-03",
       "category": "electronic-circuits",
@@ -13447,7 +13447,7 @@
     },
     {
       "sequence": 665,
-      "page": 176,
+      "page": 174,
       "slot": 4,
       "id": "seoul-2015-10",
       "category": "electronic-circuits",
@@ -13467,7 +13467,7 @@
     },
     {
       "sequence": 666,
-      "page": 177,
+      "page": 175,
       "slot": 1,
       "id": "seoul-2016-14",
       "category": "electronic-circuits",
@@ -13487,7 +13487,7 @@
     },
     {
       "sequence": 667,
-      "page": 177,
+      "page": 175,
       "slot": 2,
       "id": "national-2019-01",
       "category": "electronic-circuits",
@@ -13507,7 +13507,7 @@
     },
     {
       "sequence": 668,
-      "page": 177,
+      "page": 175,
       "slot": 3,
       "id": "assembly-2022-16",
       "category": "electronic-circuits",
@@ -13527,7 +13527,7 @@
     },
     {
       "sequence": 669,
-      "page": 177,
+      "page": 175,
       "slot": 4,
       "id": "assembly-2025-01",
       "category": "electronic-circuits",
@@ -13547,7 +13547,7 @@
     },
     {
       "sequence": 670,
-      "page": 178,
+      "page": 176,
       "slot": 1,
       "id": "national-2020-10",
       "category": "electronic-circuits",
@@ -13567,7 +13567,7 @@
     },
     {
       "sequence": 671,
-      "page": 178,
+      "page": 176,
       "slot": 2,
       "id": "national-2008-08",
       "category": "electronic-circuits",
@@ -13587,7 +13587,7 @@
     },
     {
       "sequence": 672,
-      "page": 178,
+      "page": 176,
       "slot": 3,
       "id": "national-2011-06",
       "category": "electronic-circuits",
@@ -13607,7 +13607,7 @@
     },
     {
       "sequence": 673,
-      "page": 178,
+      "page": 176,
       "slot": 4,
       "id": "local-2011-11",
       "category": "electronic-circuits",
@@ -13627,7 +13627,7 @@
     },
     {
       "sequence": 674,
-      "page": 179,
+      "page": 177,
       "slot": 1,
       "id": "national-2013-16",
       "category": "electronic-circuits",
@@ -13647,7 +13647,7 @@
     },
     {
       "sequence": 675,
-      "page": 179,
+      "page": 177,
       "slot": 2,
       "id": "local-2026-16",
       "category": "electronic-circuits",
@@ -13667,7 +13667,7 @@
     },
     {
       "sequence": 676,
-      "page": 179,
+      "page": 177,
       "slot": 3,
       "id": "assembly-2009-05",
       "category": "electronic-circuits",
@@ -13687,7 +13687,7 @@
     },
     {
       "sequence": 677,
-      "page": 179,
+      "page": 177,
       "slot": 4,
       "id": "national-2010-01",
       "category": "electronic-circuits",
@@ -13707,7 +13707,7 @@
     },
     {
       "sequence": 678,
-      "page": 180,
+      "page": 178,
       "slot": 1,
       "id": "local-2010-05",
       "category": "electronic-circuits",
@@ -13727,7 +13727,7 @@
     },
     {
       "sequence": 679,
-      "page": 180,
+      "page": 178,
       "slot": 2,
       "id": "national-2013-13",
       "category": "electronic-circuits",
@@ -13747,7 +13747,7 @@
     },
     {
       "sequence": 680,
-      "page": 180,
+      "page": 178,
       "slot": 3,
       "id": "assembly-2019-14",
       "category": "electronic-circuits",
@@ -13767,7 +13767,7 @@
     },
     {
       "sequence": 681,
-      "page": 180,
+      "page": 178,
       "slot": 4,
       "id": "seoul-2020-10",
       "category": "electronic-circuits",
@@ -13787,7 +13787,7 @@
     },
     {
       "sequence": 682,
-      "page": 181,
+      "page": 179,
       "slot": 1,
       "id": "assembly-2021-11",
       "category": "electronic-circuits",
@@ -13807,7 +13807,7 @@
     },
     {
       "sequence": 683,
-      "page": 181,
+      "page": 179,
       "slot": 2,
       "id": "local-2024-03",
       "category": "electronic-circuits",
@@ -13827,7 +13827,7 @@
     },
     {
       "sequence": 684,
-      "page": 181,
+      "page": 179,
       "slot": 3,
       "id": "national-2007-13",
       "category": "electronic-circuits",
@@ -13847,7 +13847,7 @@
     },
     {
       "sequence": 685,
-      "page": 181,
+      "page": 179,
       "slot": 4,
       "id": "local-2022-13",
       "category": "electronic-circuits",
@@ -13867,7 +13867,7 @@
     },
     {
       "sequence": 686,
-      "page": 182,
+      "page": 180,
       "slot": 1,
       "id": "national-2023-11",
       "category": "electronic-circuits",
@@ -13887,7 +13887,7 @@
     },
     {
       "sequence": 687,
-      "page": 182,
+      "page": 180,
       "slot": 2,
       "id": "assembly-2023-07",
       "category": "electronic-circuits",
@@ -13907,7 +13907,7 @@
     },
     {
       "sequence": 688,
-      "page": 182,
+      "page": 180,
       "slot": 3,
       "id": "military-2025-15",
       "category": "electronic-circuits",
@@ -13927,7 +13927,7 @@
     },
     {
       "sequence": 689,
-      "page": 182,
+      "page": 180,
       "slot": 4,
       "id": "assembly-2025-13",
       "category": "electronic-circuits",
@@ -13947,7 +13947,7 @@
     },
     {
       "sequence": 690,
-      "page": 183,
+      "page": 181,
       "slot": 1,
       "id": "military-2026-02",
       "category": "electronic-circuits",
@@ -13967,7 +13967,7 @@
     },
     {
       "sequence": 691,
-      "page": 183,
+      "page": 181,
       "slot": 2,
       "id": "national-2007-12",
       "category": "electronic-circuits",
@@ -13987,7 +13987,7 @@
     },
     {
       "sequence": 692,
-      "page": 183,
+      "page": 181,
       "slot": 3,
       "id": "national-2010-04",
       "category": "electronic-circuits",
@@ -14007,7 +14007,7 @@
     },
     {
       "sequence": 693,
-      "page": 183,
+      "page": 181,
       "slot": 4,
       "id": "local-2010-08",
       "category": "electronic-circuits",
@@ -14027,7 +14027,7 @@
     },
     {
       "sequence": 694,
-      "page": 184,
+      "page": 182,
       "slot": 1,
       "id": "national-2013-12",
       "category": "electronic-circuits",
@@ -14047,7 +14047,7 @@
     },
     {
       "sequence": 695,
-      "page": 184,
+      "page": 182,
       "slot": 2,
       "id": "seoul-2015-15",
       "category": "electronic-circuits",
@@ -14067,7 +14067,7 @@
     },
     {
       "sequence": 696,
-      "page": 184,
+      "page": 182,
       "slot": 3,
       "id": "assembly-2016-05",
       "category": "electronic-circuits",
@@ -14087,7 +14087,7 @@
     },
     {
       "sequence": 697,
-      "page": 184,
+      "page": 182,
       "slot": 4,
       "id": "seoul-2016-12",
       "category": "electronic-circuits",
@@ -14107,7 +14107,7 @@
     },
     {
       "sequence": 698,
-      "page": 185,
+      "page": 183,
       "slot": 1,
       "id": "seoul-2016-13",
       "category": "electronic-circuits",
@@ -14127,7 +14127,7 @@
     },
     {
       "sequence": 699,
-      "page": 185,
+      "page": 183,
       "slot": 2,
       "id": "national-2017-03",
       "category": "electronic-circuits",
@@ -14147,7 +14147,7 @@
     },
     {
       "sequence": 700,
-      "page": 185,
+      "page": 183,
       "slot": 3,
       "id": "national-2019-03",
       "category": "electronic-circuits",
@@ -14167,7 +14167,7 @@
     },
     {
       "sequence": 701,
-      "page": 185,
+      "page": 183,
       "slot": 4,
       "id": "seoul-2019-15",
       "category": "electronic-circuits",
@@ -14187,7 +14187,7 @@
     },
     {
       "sequence": 702,
-      "page": 186,
+      "page": 184,
       "slot": 1,
       "id": "assembly-2020-04",
       "category": "electronic-circuits",
@@ -14207,7 +14207,7 @@
     },
     {
       "sequence": 703,
-      "page": 186,
+      "page": 184,
       "slot": 2,
       "id": "seoul-2020-15",
       "category": "electronic-circuits",
@@ -14227,7 +14227,7 @@
     },
     {
       "sequence": 704,
-      "page": 186,
+      "page": 184,
       "slot": 3,
       "id": "military-2022-08",
       "category": "electronic-circuits",
@@ -14247,7 +14247,7 @@
     },
     {
       "sequence": 705,
-      "page": 186,
+      "page": 184,
       "slot": 4,
       "id": "military-2023-04",
       "category": "electronic-circuits",
@@ -14267,7 +14267,7 @@
     },
     {
       "sequence": 706,
-      "page": 187,
+      "page": 185,
       "slot": 1,
       "id": "military-2024-13",
       "category": "electronic-circuits",
@@ -14287,7 +14287,7 @@
     },
     {
       "sequence": 707,
-      "page": 187,
+      "page": 185,
       "slot": 2,
       "id": "assembly-2024-07",
       "category": "electronic-circuits",
@@ -14307,7 +14307,7 @@
     },
     {
       "sequence": 708,
-      "page": 187,
+      "page": 185,
       "slot": 3,
       "id": "national-2025-15",
       "category": "electronic-circuits",
@@ -14327,7 +14327,7 @@
     },
     {
       "sequence": 709,
-      "page": 187,
+      "page": 185,
       "slot": 4,
       "id": "military-2025-19",
       "category": "electronic-circuits",
@@ -14347,7 +14347,7 @@
     },
     {
       "sequence": 710,
-      "page": 188,
+      "page": 186,
       "slot": 1,
       "id": "national-2011-17",
       "category": "electronic-circuits",
@@ -14367,7 +14367,7 @@
     },
     {
       "sequence": 711,
-      "page": 188,
+      "page": 186,
       "slot": 2,
       "id": "seoul-2020-08",
       "category": "electronic-circuits",
@@ -14387,7 +14387,7 @@
     },
     {
       "sequence": 712,
-      "page": 188,
+      "page": 186,
       "slot": 3,
       "id": "national-2023-19",
       "category": "electronic-circuits",
@@ -14407,7 +14407,7 @@
     },
     {
       "sequence": 713,
-      "page": 188,
+      "page": 186,
       "slot": 4,
       "id": "national-2012-16",
       "category": "electronic-circuits",
@@ -14427,7 +14427,7 @@
     },
     {
       "sequence": 714,
-      "page": 189,
+      "page": 187,
       "slot": 1,
       "id": "national-2015-15",
       "category": "electronic-circuits",
@@ -14447,7 +14447,7 @@
     },
     {
       "sequence": 715,
-      "page": 189,
+      "page": 187,
       "slot": 2,
       "id": "national-2016-12",
       "category": "electronic-circuits",
@@ -14467,7 +14467,7 @@
     },
     {
       "sequence": 716,
-      "page": 189,
+      "page": 187,
       "slot": 3,
       "id": "national-2018-20",
       "category": "electronic-circuits",
@@ -14487,7 +14487,7 @@
     },
     {
       "sequence": 717,
-      "page": 189,
+      "page": 187,
       "slot": 4,
       "id": "national-2022-10",
       "category": "electronic-circuits",
@@ -14507,7 +14507,7 @@
     },
     {
       "sequence": 718,
-      "page": 190,
+      "page": 188,
       "slot": 1,
       "id": "local-2025-18",
       "category": "electronic-circuits",
@@ -14527,7 +14527,7 @@
     },
     {
       "sequence": 719,
-      "page": 190,
+      "page": 188,
       "slot": 2,
       "id": "national-2009-13",
       "category": "electronic-circuits",
@@ -14547,7 +14547,7 @@
     },
     {
       "sequence": 720,
-      "page": 191,
+      "page": 189,
       "slot": 1,
       "id": "local-2012-14",
       "category": "electronic-circuits",
@@ -14567,7 +14567,7 @@
     },
     {
       "sequence": 721,
-      "page": 191,
+      "page": 189,
       "slot": 2,
       "id": "national-2014-10",
       "category": "electronic-circuits",
@@ -14587,7 +14587,7 @@
     },
     {
       "sequence": 722,
-      "page": 191,
+      "page": 189,
       "slot": 4,
       "id": "assembly-2014-01",
       "category": "electronic-circuits",
@@ -14607,7 +14607,7 @@
     },
     {
       "sequence": 723,
-      "page": 192,
+      "page": 190,
       "slot": 1,
       "id": "national-2015-04",
       "category": "electronic-circuits",
@@ -14627,7 +14627,7 @@
     },
     {
       "sequence": 724,
-      "page": 192,
+      "page": 190,
       "slot": 2,
       "id": "assembly-2015-07",
       "category": "electronic-circuits",
@@ -14647,7 +14647,7 @@
     },
     {
       "sequence": 725,
-      "page": 192,
+      "page": 190,
       "slot": 3,
       "id": "national-2016-04",
       "category": "electronic-circuits",
@@ -14667,7 +14667,7 @@
     },
     {
       "sequence": 726,
-      "page": 192,
+      "page": 190,
       "slot": 4,
       "id": "national-2021-19",
       "category": "electronic-circuits",
@@ -14687,7 +14687,7 @@
     },
     {
       "sequence": 727,
-      "page": 193,
+      "page": 191,
       "slot": 1,
       "id": "assembly-2021-03",
       "category": "electronic-circuits",
@@ -14707,7 +14707,7 @@
     },
     {
       "sequence": 728,
-      "page": 193,
+      "page": 191,
       "slot": 2,
       "id": "national-2023-18",
       "category": "electronic-circuits",
@@ -14727,7 +14727,7 @@
     },
     {
       "sequence": 729,
-      "page": 193,
+      "page": 191,
       "slot": 3,
       "id": "local-2023-17",
       "category": "electronic-circuits",
@@ -14747,7 +14747,7 @@
     },
     {
       "sequence": 730,
-      "page": 193,
+      "page": 191,
       "slot": 4,
       "id": "assembly-2023-16",
       "category": "electronic-circuits",
@@ -14767,7 +14767,7 @@
     },
     {
       "sequence": 731,
-      "page": 194,
+      "page": 192,
       "slot": 1,
       "id": "local-2024-06",
       "category": "electronic-circuits",
@@ -14787,7 +14787,7 @@
     },
     {
       "sequence": 732,
-      "page": 194,
+      "page": 192,
       "slot": 2,
       "id": "assembly-2025-02",
       "category": "electronic-circuits",
@@ -14803,11 +14803,11 @@
       ],
       "source": "2025 국회직 2번",
       "answer": 3,
-      "rowSpan": 2
+      "rowSpan": 1
     },
     {
       "sequence": 733,
-      "page": 194,
+      "page": 192,
       "slot": 3,
       "id": "national-2015-13",
       "category": "electronic-circuits",
@@ -14827,7 +14827,7 @@
     },
     {
       "sequence": 734,
-      "page": 195,
+      "page": 193,
       "slot": 1,
       "id": "assembly-2015-16",
       "category": "electronic-circuits",
@@ -14847,7 +14847,7 @@
     },
     {
       "sequence": 735,
-      "page": 195,
+      "page": 193,
       "slot": 2,
       "id": "seoul-2016-05",
       "category": "electronic-circuits",
@@ -14868,7 +14868,7 @@
     },
     {
       "sequence": 736,
-      "page": 195,
+      "page": 193,
       "slot": 4,
       "id": "assembly-2020-07",
       "category": "electronic-circuits",
@@ -14888,7 +14888,7 @@
     },
     {
       "sequence": 737,
-      "page": 196,
+      "page": 194,
       "slot": 1,
       "id": "seoul-2020-19",
       "category": "electronic-circuits",
@@ -14909,7 +14909,7 @@
     },
     {
       "sequence": 738,
-      "page": 196,
+      "page": 194,
       "slot": 2,
       "id": "assembly-2022-11",
       "category": "electronic-circuits",
@@ -14929,7 +14929,7 @@
     },
     {
       "sequence": 739,
-      "page": 196,
+      "page": 194,
       "slot": 3,
       "id": "military-2025-06",
       "category": "electronic-circuits",
@@ -14949,7 +14949,7 @@
     },
     {
       "sequence": 740,
-      "page": 196,
+      "page": 194,
       "slot": 4,
       "id": "national-2023-15",
       "category": "electronic-circuits",
@@ -14969,7 +14969,7 @@
     },
     {
       "sequence": 741,
-      "page": 197,
+      "page": 195,
       "slot": 1,
       "id": "local-2024-14",
       "category": "electronic-circuits",
@@ -14989,7 +14989,7 @@
     },
     {
       "sequence": 742,
-      "page": 197,
+      "page": 195,
       "slot": 2,
       "id": "military-2024-07",
       "category": "electronic-circuits",
@@ -15010,7 +15010,7 @@
     },
     {
       "sequence": 743,
-      "page": 197,
+      "page": 195,
       "slot": 3,
       "id": "local-2023-04",
       "category": "electronic-circuits",
@@ -15030,7 +15030,7 @@
     },
     {
       "sequence": 744,
-      "page": 197,
+      "page": 195,
       "slot": 4,
       "id": "national-2009-08",
       "category": "electronic-circuits",
@@ -15050,7 +15050,7 @@
     },
     {
       "sequence": 745,
-      "page": 198,
+      "page": 196,
       "slot": 1,
       "id": "national-2011-10",
       "category": "electronic-circuits",
@@ -15070,7 +15070,7 @@
     },
     {
       "sequence": 746,
-      "page": 198,
+      "page": 196,
       "slot": 2,
       "id": "national-2012-05",
       "category": "electronic-circuits",
@@ -15090,7 +15090,7 @@
     },
     {
       "sequence": 747,
-      "page": 198,
+      "page": 196,
       "slot": 3,
       "id": "national-2019-19",
       "category": "electronic-circuits",
@@ -15110,7 +15110,7 @@
     },
     {
       "sequence": 748,
-      "page": 198,
+      "page": 196,
       "slot": 4,
       "id": "national-2020-12",
       "category": "electronic-circuits",
@@ -15130,7 +15130,7 @@
     },
     {
       "sequence": 749,
-      "page": 199,
+      "page": 197,
       "slot": 1,
       "id": "local-2022-05",
       "category": "electronic-circuits",
@@ -15150,7 +15150,7 @@
     },
     {
       "sequence": 750,
-      "page": 199,
+      "page": 197,
       "slot": 2,
       "id": "national-2024-07",
       "category": "electronic-circuits",
@@ -15170,7 +15170,7 @@
     },
     {
       "sequence": 751,
-      "page": 199,
+      "page": 197,
       "slot": 3,
       "id": "local-2024-18",
       "category": "electronic-circuits",
@@ -15190,7 +15190,7 @@
     },
     {
       "sequence": 752,
-      "page": 199,
+      "page": 197,
       "slot": 4,
       "id": "local-2025-16",
       "category": "electronic-circuits",
@@ -15210,7 +15210,7 @@
     },
     {
       "sequence": 753,
-      "page": 200,
+      "page": 198,
       "slot": 1,
       "id": "national-2014-08",
       "category": "electronic-circuits",
@@ -15230,7 +15230,7 @@
     },
     {
       "sequence": 754,
-      "page": 200,
+      "page": 198,
       "slot": 2,
       "id": "national-2023-17",
       "category": "electronic-circuits",
@@ -15250,7 +15250,7 @@
     },
     {
       "sequence": 755,
-      "page": 200,
+      "page": 198,
       "slot": 3,
       "id": "local-2023-19",
       "category": "electronic-circuits",
@@ -15270,7 +15270,7 @@
     },
     {
       "sequence": 756,
-      "page": 200,
+      "page": 198,
       "slot": 4,
       "id": "national-2025-07",
       "category": "electronic-circuits",
@@ -15290,7 +15290,7 @@
     },
     {
       "sequence": 757,
-      "page": 201,
+      "page": 199,
       "slot": 1,
       "id": "seoul-2021-16",
       "category": "electronic-circuits",
@@ -15310,7 +15310,7 @@
     },
     {
       "sequence": 758,
-      "page": 201,
+      "page": 199,
       "slot": 2,
       "id": "seoul-2021-20",
       "category": "electronic-circuits",
@@ -15330,7 +15330,7 @@
     },
     {
       "sequence": 759,
-      "page": 201,
+      "page": 199,
       "slot": 3,
       "id": "assembly-2023-06",
       "category": "electronic-circuits",
@@ -15350,7 +15350,7 @@
     },
     {
       "sequence": 760,
-      "page": 201,
+      "page": 199,
       "slot": 4,
       "id": "national-2024-15",
       "category": "electronic-circuits",
@@ -15370,7 +15370,7 @@
     },
     {
       "sequence": 761,
-      "page": 202,
+      "page": 200,
       "slot": 1,
       "id": "national-2011-01",
       "category": "electronic-circuits",
@@ -15390,7 +15390,7 @@
     },
     {
       "sequence": 762,
-      "page": 202,
+      "page": 200,
       "slot": 2,
       "id": "national-2021-10",
       "category": "electronic-circuits",
@@ -15411,7 +15411,7 @@
     },
     {
       "sequence": 763,
-      "page": 202,
+      "page": 200,
       "slot": 3,
       "id": "local-2025-15",
       "category": "electronic-circuits",
@@ -15431,7 +15431,7 @@
     },
     {
       "sequence": 764,
-      "page": 202,
+      "page": 200,
       "slot": 4,
       "id": "national-2016-16",
       "category": "electronic-circuits",
@@ -15451,7 +15451,7 @@
     },
     {
       "sequence": 765,
-      "page": 203,
+      "page": 201,
       "slot": 1,
       "id": "national-2013-19",
       "category": "electronic-circuits",
@@ -15471,7 +15471,7 @@
     },
     {
       "sequence": 766,
-      "page": 203,
+      "page": 201,
       "slot": 2,
       "id": "assembly-2014-19",
       "category": "electronic-circuits",
@@ -15491,7 +15491,7 @@
     },
     {
       "sequence": 767,
-      "page": 203,
+      "page": 201,
       "slot": 3,
       "id": "assembly-2017-04",
       "category": "electronic-circuits",
@@ -15511,7 +15511,7 @@
     },
     {
       "sequence": 768,
-      "page": 203,
+      "page": 201,
       "slot": 4,
       "id": "seoul-2019-18",
       "category": "electronic-circuits",
@@ -15531,7 +15531,7 @@
     },
     {
       "sequence": 769,
-      "page": 204,
+      "page": 202,
       "slot": 1,
       "id": "assembly-2021-12",
       "category": "electronic-circuits",
@@ -15551,7 +15551,7 @@
     },
     {
       "sequence": 770,
-      "page": 204,
+      "page": 202,
       "slot": 2,
       "id": "military-2026-20",
       "category": "electronic-circuits",
@@ -15571,7 +15571,7 @@
     },
     {
       "sequence": 771,
-      "page": 204,
+      "page": 202,
       "slot": 3,
       "id": "national-2010-08",
       "category": "electronic-circuits",
@@ -15591,7 +15591,7 @@
     },
     {
       "sequence": 772,
-      "page": 204,
+      "page": 202,
       "slot": 4,
       "id": "assembly-2016-10",
       "category": "electronic-circuits",
@@ -15611,7 +15611,7 @@
     },
     {
       "sequence": 773,
-      "page": 205,
+      "page": 203,
       "slot": 1,
       "id": "national-2026-19",
       "category": "electronic-circuits",
@@ -15632,7 +15632,7 @@
     },
     {
       "sequence": 774,
-      "page": 205,
+      "page": 203,
       "slot": 2,
       "id": "national-2007-03",
       "category": "electronic-circuits",
@@ -15652,7 +15652,7 @@
     },
     {
       "sequence": 775,
-      "page": 205,
+      "page": 203,
       "slot": 3,
       "id": "local-2009-05",
       "category": "electronic-circuits",
@@ -15672,7 +15672,7 @@
     },
     {
       "sequence": 776,
-      "page": 205,
+      "page": 203,
       "slot": 4,
       "id": "local-2010-09",
       "category": "electronic-circuits",
@@ -15692,7 +15692,7 @@
     },
     {
       "sequence": 777,
-      "page": 206,
+      "page": 204,
       "slot": 1,
       "id": "local-2011-06",
       "category": "electronic-circuits",
@@ -15713,7 +15713,7 @@
     },
     {
       "sequence": 778,
-      "page": 206,
+      "page": 204,
       "slot": 2,
       "id": "national-2012-02",
       "category": "electronic-circuits",
@@ -15733,7 +15733,7 @@
     },
     {
       "sequence": 779,
-      "page": 206,
+      "page": 204,
       "slot": 3,
       "id": "national-2020-17",
       "category": "electronic-circuits",
@@ -15753,7 +15753,7 @@
     },
     {
       "sequence": 780,
-      "page": 206,
+      "page": 204,
       "slot": 4,
       "id": "seoul-2020-17",
       "category": "electronic-circuits",
@@ -15774,7 +15774,7 @@
     },
     {
       "sequence": 781,
-      "page": 207,
+      "page": 205,
       "slot": 1,
       "id": "national-2021-08",
       "category": "electronic-circuits",
@@ -15794,7 +15794,7 @@
     },
     {
       "sequence": 782,
-      "page": 207,
+      "page": 205,
       "slot": 2,
       "id": "national-2023-13",
       "category": "electronic-circuits",
@@ -15814,7 +15814,7 @@
     },
     {
       "sequence": 783,
-      "page": 207,
+      "page": 205,
       "slot": 3,
       "id": "local-2024-08",
       "category": "electronic-circuits",
@@ -15834,7 +15834,7 @@
     },
     {
       "sequence": 784,
-      "page": 207,
+      "page": 205,
       "slot": 4,
       "id": "military-2024-17",
       "category": "electronic-circuits",
@@ -15855,7 +15855,7 @@
     },
     {
       "sequence": 785,
-      "page": 208,
+      "page": 206,
       "slot": 1,
       "id": "national-2026-14",
       "category": "electronic-circuits",
@@ -15875,7 +15875,7 @@
     },
     {
       "sequence": 786,
-      "page": 208,
+      "page": 206,
       "slot": 2,
       "id": "local-2026-10",
       "category": "electronic-circuits",
@@ -15895,7 +15895,7 @@
     },
     {
       "sequence": 787,
-      "page": 208,
+      "page": 206,
       "slot": 3,
       "id": "national-2010-09",
       "category": "electronic-circuits",
@@ -15915,7 +15915,7 @@
     },
     {
       "sequence": 788,
-      "page": 208,
+      "page": 206,
       "slot": 4,
       "id": "local-2011-18",
       "category": "electronic-circuits",
@@ -15935,7 +15935,7 @@
     },
     {
       "sequence": 789,
-      "page": 209,
+      "page": 207,
       "slot": 1,
       "id": "national-2018-13",
       "category": "electronic-circuits",
@@ -15955,7 +15955,7 @@
     },
     {
       "sequence": 790,
-      "page": 209,
+      "page": 207,
       "slot": 2,
       "id": "national-2019-05",
       "category": "electronic-circuits",
@@ -15975,7 +15975,7 @@
     },
     {
       "sequence": 791,
-      "page": 209,
+      "page": 207,
       "slot": 3,
       "id": "national-2021-07",
       "category": "electronic-circuits",
@@ -15995,7 +15995,7 @@
     },
     {
       "sequence": 792,
-      "page": 209,
+      "page": 207,
       "slot": 4,
       "id": "national-2022-15",
       "category": "electronic-circuits",
@@ -16016,7 +16016,7 @@
     },
     {
       "sequence": 793,
-      "page": 210,
+      "page": 208,
       "slot": 1,
       "id": "local-2023-16",
       "category": "electronic-circuits",
@@ -16036,7 +16036,7 @@
     },
     {
       "sequence": 794,
-      "page": 210,
+      "page": 208,
       "slot": 2,
       "id": "local-2024-07",
       "category": "electronic-circuits",
@@ -16056,7 +16056,7 @@
     },
     {
       "sequence": 795,
-      "page": 210,
+      "page": 208,
       "slot": 3,
       "id": "national-2025-10",
       "category": "electronic-circuits",
@@ -16076,7 +16076,7 @@
     },
     {
       "sequence": 796,
-      "page": 210,
+      "page": 208,
       "slot": 4,
       "id": "military-2025-08",
       "category": "electronic-circuits",
@@ -16097,7 +16097,7 @@
     },
     {
       "sequence": 797,
-      "page": 211,
+      "page": 209,
       "slot": 1,
       "id": "local-2026-12",
       "category": "electronic-circuits",
@@ -16117,7 +16117,7 @@
     },
     {
       "sequence": 798,
-      "page": 211,
+      "page": 209,
       "slot": 2,
       "id": "national-2017-16",
       "category": "electronic-circuits",
@@ -16137,7 +16137,7 @@
     },
     {
       "sequence": 799,
-      "page": 211,
+      "page": 209,
       "slot": 3,
       "id": "local-2023-05",
       "category": "electronic-circuits",
@@ -16157,7 +16157,7 @@
     },
     {
       "sequence": 800,
-      "page": 211,
+      "page": 209,
       "slot": 4,
       "id": "national-2025-11",
       "category": "electronic-circuits",
@@ -16177,7 +16177,7 @@
     },
     {
       "sequence": 801,
-      "page": 212,
+      "page": 210,
       "slot": 1,
       "id": "seoul-2020-07",
       "category": "electronic-circuits",
@@ -16197,7 +16197,7 @@
     },
     {
       "sequence": 802,
-      "page": 212,
+      "page": 210,
       "slot": 2,
       "id": "national-2024-02",
       "category": "electronic-circuits",
@@ -16217,7 +16217,7 @@
     },
     {
       "sequence": 803,
-      "page": 212,
+      "page": 210,
       "slot": 3,
       "id": "assembly-2019-09",
       "category": "electronic-circuits",
@@ -16237,7 +16237,7 @@
     },
     {
       "sequence": 804,
-      "page": 212,
+      "page": 210,
       "slot": 4,
       "id": "national-2018-05",
       "category": "electronic-circuits",
@@ -16257,7 +16257,7 @@
     },
     {
       "sequence": 805,
-      "page": 213,
+      "page": 211,
       "slot": 1,
       "id": "national-2020-13",
       "category": "electronic-circuits",
@@ -16277,7 +16277,7 @@
     },
     {
       "sequence": 806,
-      "page": 213,
+      "page": 211,
       "slot": 2,
       "id": "national-2026-04",
       "category": "electronic-circuits",
@@ -16297,7 +16297,7 @@
     },
     {
       "sequence": 807,
-      "page": 213,
+      "page": 211,
       "slot": 3,
       "id": "national-2010-07",
       "category": "electronic-circuits",
@@ -16317,7 +16317,7 @@
     },
     {
       "sequence": 808,
-      "page": 213,
+      "page": 211,
       "slot": 4,
       "id": "local-2010-04",
       "category": "electronic-circuits",
@@ -16338,7 +16338,7 @@
     },
     {
       "sequence": 809,
-      "page": 214,
+      "page": 212,
       "slot": 1,
       "id": "national-2007-17",
       "category": "electronic-circuits",
@@ -16358,7 +16358,7 @@
     },
     {
       "sequence": 810,
-      "page": 214,
+      "page": 212,
       "slot": 2,
       "id": "national-2009-15",
       "category": "electronic-circuits",
@@ -16379,7 +16379,7 @@
     },
     {
       "sequence": 811,
-      "page": 214,
+      "page": 212,
       "slot": 3,
       "id": "local-2011-09",
       "category": "electronic-circuits",
@@ -16399,7 +16399,7 @@
     },
     {
       "sequence": 812,
-      "page": 215,
+      "page": 213,
       "slot": 1,
       "id": "national-2012-20",
       "category": "electronic-circuits",
@@ -16421,7 +16421,7 @@
     },
     {
       "sequence": 813,
-      "page": 215,
+      "page": 213,
       "slot": 2,
       "id": "seoul-2014-20",
       "category": "electronic-circuits",
@@ -16441,7 +16441,7 @@
     },
     {
       "sequence": 814,
-      "page": 215,
+      "page": 213,
       "slot": 3,
       "id": "national-2019-16",
       "category": "electronic-circuits",
@@ -16461,7 +16461,7 @@
     },
     {
       "sequence": 815,
-      "page": 215,
+      "page": 213,
       "slot": 4,
       "id": "local-2024-10",
       "category": "electronic-circuits",
@@ -16481,7 +16481,7 @@
     },
     {
       "sequence": 816,
-      "page": 216,
+      "page": 214,
       "slot": 1,
       "id": "local-2026-15",
       "category": "electronic-circuits",
@@ -16501,7 +16501,7 @@
     },
     {
       "sequence": 817,
-      "page": 216,
+      "page": 214,
       "slot": 2,
       "id": "national-2017-13",
       "category": "electronic-circuits",
@@ -16522,7 +16522,7 @@
     },
     {
       "sequence": 818,
-      "page": 216,
+      "page": 214,
       "slot": 3,
       "id": "local-2025-14",
       "category": "electronic-circuits",
@@ -16542,7 +16542,7 @@
     },
     {
       "sequence": 819,
-      "page": 216,
+      "page": 214,
       "slot": 4,
       "id": "assembly-2020-06",
       "category": "electronic-circuits",
@@ -16562,7 +16562,7 @@
     },
     {
       "sequence": 820,
-      "page": 217,
+      "page": 215,
       "slot": 1,
       "id": "assembly-2022-18",
       "category": "electronic-circuits",
@@ -16582,7 +16582,7 @@
     },
     {
       "sequence": 821,
-      "page": 217,
+      "page": 215,
       "slot": 2,
       "id": "assembly-2025-19",
       "category": "electronic-circuits",
@@ -16602,7 +16602,7 @@
     },
     {
       "sequence": 822,
-      "page": 217,
+      "page": 215,
       "slot": 3,
       "id": "national-2011-12",
       "category": "electronic-circuits",
@@ -16622,7 +16622,7 @@
     },
     {
       "sequence": 823,
-      "page": 217,
+      "page": 215,
       "slot": 4,
       "id": "seoul-2014-14",
       "category": "electronic-circuits",
@@ -16642,7 +16642,7 @@
     },
     {
       "sequence": 824,
-      "page": 218,
+      "page": 216,
       "slot": 1,
       "id": "national-2015-11",
       "category": "electronic-circuits",
@@ -16662,7 +16662,7 @@
     },
     {
       "sequence": 825,
-      "page": 218,
+      "page": 216,
       "slot": 2,
       "id": "assembly-2022-20",
       "category": "electronic-circuits",
@@ -16683,7 +16683,7 @@
     },
     {
       "sequence": 826,
-      "page": 218,
+      "page": 216,
       "slot": 3,
       "id": "military-2024-16",
       "category": "electronic-circuits",
@@ -16704,7 +16704,7 @@
     },
     {
       "sequence": 827,
-      "page": 218,
+      "page": 216,
       "slot": 4,
       "id": "local-2009-11",
       "category": "electronic-circuits",
@@ -16724,7 +16724,7 @@
     },
     {
       "sequence": 828,
-      "page": 219,
+      "page": 217,
       "slot": 1,
       "id": "local-2010-16",
       "category": "electronic-circuits",
@@ -16744,7 +16744,7 @@
     },
     {
       "sequence": 829,
-      "page": 219,
+      "page": 217,
       "slot": 2,
       "id": "local-2012-09",
       "category": "electronic-circuits",
@@ -16764,7 +16764,7 @@
     },
     {
       "sequence": 830,
-      "page": 219,
+      "page": 217,
       "slot": 3,
       "id": "seoul-2014-02",
       "category": "electronic-circuits",
@@ -16784,7 +16784,7 @@
     },
     {
       "sequence": 831,
-      "page": 219,
+      "page": 217,
       "slot": 4,
       "id": "military-2022-02",
       "category": "electronic-circuits",
@@ -16804,7 +16804,7 @@
     },
     {
       "sequence": 832,
-      "page": 220,
+      "page": 218,
       "slot": 1,
       "id": "assembly-2014-04",
       "category": "electronic-circuits",
@@ -16824,7 +16824,7 @@
     },
     {
       "sequence": 833,
-      "page": 220,
+      "page": 218,
       "slot": 2,
       "id": "assembly-2016-12",
       "category": "electronic-circuits",
@@ -16845,7 +16845,7 @@
     },
     {
       "sequence": 834,
-      "page": 222,
+      "page": 220,
       "slot": 1,
       "id": "local-2011-01",
       "category": "digital-engineering",
@@ -16865,7 +16865,7 @@
     },
     {
       "sequence": 835,
-      "page": 222,
+      "page": 220,
       "slot": 2,
       "id": "local-2012-03",
       "category": "digital-engineering",
@@ -16885,7 +16885,7 @@
     },
     {
       "sequence": 836,
-      "page": 222,
+      "page": 220,
       "slot": 3,
       "id": "seoul-2015-07",
       "category": "digital-engineering",
@@ -16905,7 +16905,7 @@
     },
     {
       "sequence": 837,
-      "page": 222,
+      "page": 220,
       "slot": 4,
       "id": "assembly-2017-06",
       "category": "digital-engineering",
@@ -16926,7 +16926,7 @@
     },
     {
       "sequence": 838,
-      "page": 223,
+      "page": 221,
       "slot": 1,
       "id": "national-2021-02",
       "category": "digital-engineering",
@@ -16946,7 +16946,7 @@
     },
     {
       "sequence": 839,
-      "page": 223,
+      "page": 221,
       "slot": 2,
       "id": "local-2023-11",
       "category": "digital-engineering",
@@ -16966,7 +16966,7 @@
     },
     {
       "sequence": 840,
-      "page": 223,
+      "page": 221,
       "slot": 3,
       "id": "national-2026-02",
       "category": "digital-engineering",
@@ -16986,7 +16986,7 @@
     },
     {
       "sequence": 841,
-      "page": 223,
+      "page": 221,
       "slot": 4,
       "id": "military-2026-05",
       "category": "digital-engineering",
@@ -17006,7 +17006,7 @@
     },
     {
       "sequence": 842,
-      "page": 224,
+      "page": 222,
       "slot": 1,
       "id": "assembly-2009-03",
       "category": "digital-engineering",
@@ -17026,7 +17026,7 @@
     },
     {
       "sequence": 843,
-      "page": 224,
+      "page": 222,
       "slot": 2,
       "id": "local-2012-02",
       "category": "digital-engineering",
@@ -17046,7 +17046,7 @@
     },
     {
       "sequence": 844,
-      "page": 224,
+      "page": 222,
       "slot": 3,
       "id": "national-2014-01",
       "category": "digital-engineering",
@@ -17067,7 +17067,7 @@
     },
     {
       "sequence": 845,
-      "page": 224,
+      "page": 222,
       "slot": 4,
       "id": "assembly-2014-18",
       "category": "digital-engineering",
@@ -17088,7 +17088,7 @@
     },
     {
       "sequence": 846,
-      "page": 225,
+      "page": 223,
       "slot": 1,
       "id": "assembly-2017-12",
       "category": "digital-engineering",
@@ -17109,7 +17109,7 @@
     },
     {
       "sequence": 847,
-      "page": 225,
+      "page": 223,
       "slot": 2,
       "id": "seoul-2017-05",
       "category": "digital-engineering",
@@ -17130,7 +17130,7 @@
     },
     {
       "sequence": 848,
-      "page": 225,
+      "page": 223,
       "slot": 3,
       "id": "seoul-2020-20",
       "category": "digital-engineering",
@@ -17150,7 +17150,7 @@
     },
     {
       "sequence": 849,
-      "page": 225,
+      "page": 223,
       "slot": 4,
       "id": "military-2022-12",
       "category": "digital-engineering",
@@ -17170,7 +17170,7 @@
     },
     {
       "sequence": 850,
-      "page": 226,
+      "page": 224,
       "slot": 1,
       "id": "local-2023-03",
       "category": "digital-engineering",
@@ -17191,7 +17191,7 @@
     },
     {
       "sequence": 851,
-      "page": 226,
+      "page": 224,
       "slot": 2,
       "id": "assembly-2023-18",
       "category": "digital-engineering",
@@ -17211,7 +17211,7 @@
     },
     {
       "sequence": 852,
-      "page": 226,
+      "page": 224,
       "slot": 3,
       "id": "national-2025-03",
       "category": "digital-engineering",
@@ -17231,7 +17231,7 @@
     },
     {
       "sequence": 853,
-      "page": 226,
+      "page": 224,
       "slot": 4,
       "id": "assembly-2025-10",
       "category": "digital-engineering",
@@ -17252,7 +17252,7 @@
     },
     {
       "sequence": 854,
-      "page": 227,
+      "page": 225,
       "slot": 1,
       "id": "military-2026-15",
       "category": "digital-engineering",
@@ -17272,7 +17272,7 @@
     },
     {
       "sequence": 855,
-      "page": 227,
+      "page": 225,
       "slot": 2,
       "id": "national-2010-20",
       "category": "digital-engineering",
@@ -17292,7 +17292,7 @@
     },
     {
       "sequence": 856,
-      "page": 227,
+      "page": 225,
       "slot": 3,
       "id": "local-2012-11",
       "category": "digital-engineering",
@@ -17312,7 +17312,7 @@
     },
     {
       "sequence": 857,
-      "page": 227,
+      "page": 225,
       "slot": 4,
       "id": "seoul-2014-10",
       "category": "digital-engineering",
@@ -17332,7 +17332,7 @@
     },
     {
       "sequence": 858,
-      "page": 228,
+      "page": 226,
       "slot": 1,
       "id": "national-2015-01",
       "category": "digital-engineering",
@@ -17352,7 +17352,7 @@
     },
     {
       "sequence": 859,
-      "page": 228,
+      "page": 226,
       "slot": 2,
       "id": "assembly-2018-20",
       "category": "digital-engineering",
@@ -17372,7 +17372,7 @@
     },
     {
       "sequence": 860,
-      "page": 228,
+      "page": 226,
       "slot": 3,
       "id": "seoul-2019-12",
       "category": "digital-engineering",
@@ -17392,7 +17392,7 @@
     },
     {
       "sequence": 861,
-      "page": 228,
+      "page": 226,
       "slot": 4,
       "id": "seoul-2019-02",
       "category": "digital-engineering",
@@ -17412,7 +17412,7 @@
     },
     {
       "sequence": 862,
-      "page": 229,
+      "page": 227,
       "slot": 1,
       "id": "assembly-2014-06",
       "category": "digital-engineering",
@@ -17432,7 +17432,7 @@
     },
     {
       "sequence": 863,
-      "page": 229,
+      "page": 227,
       "slot": 2,
       "id": "national-2020-04",
       "category": "digital-engineering",
@@ -17453,7 +17453,7 @@
     },
     {
       "sequence": 864,
-      "page": 229,
+      "page": 227,
       "slot": 3,
       "id": "local-2022-09",
       "category": "digital-engineering",
@@ -17474,7 +17474,7 @@
     },
     {
       "sequence": 865,
-      "page": 229,
+      "page": 227,
       "slot": 4,
       "id": "assembly-2024-14",
       "category": "digital-engineering",
@@ -17495,7 +17495,7 @@
     },
     {
       "sequence": 866,
-      "page": 230,
+      "page": 228,
       "slot": 1,
       "id": "assembly-2025-05",
       "category": "digital-engineering",
@@ -17516,7 +17516,7 @@
     },
     {
       "sequence": 867,
-      "page": 230,
+      "page": 228,
       "slot": 2,
       "id": "local-2010-14",
       "category": "digital-engineering",
@@ -17536,7 +17536,7 @@
     },
     {
       "sequence": 868,
-      "page": 230,
+      "page": 228,
       "slot": 3,
       "id": "seoul-2014-11",
       "category": "digital-engineering",
@@ -17556,7 +17556,7 @@
     },
     {
       "sequence": 869,
-      "page": 230,
+      "page": 228,
       "slot": 4,
       "id": "national-2015-05",
       "category": "digital-engineering",
@@ -17576,7 +17576,7 @@
     },
     {
       "sequence": 870,
-      "page": 231,
+      "page": 229,
       "slot": 1,
       "id": "national-2016-01",
       "category": "digital-engineering",
@@ -17596,7 +17596,7 @@
     },
     {
       "sequence": 871,
-      "page": 231,
+      "page": 229,
       "slot": 2,
       "id": "assembly-2018-19",
       "category": "digital-engineering",
@@ -17616,7 +17616,7 @@
     },
     {
       "sequence": 872,
-      "page": 231,
+      "page": 229,
       "slot": 3,
       "id": "assembly-2020-20",
       "category": "digital-engineering",
@@ -17636,7 +17636,7 @@
     },
     {
       "sequence": 873,
-      "page": 231,
+      "page": 229,
       "slot": 4,
       "id": "seoul-2020-04",
       "category": "digital-engineering",
@@ -17656,7 +17656,7 @@
     },
     {
       "sequence": 874,
-      "page": 232,
+      "page": 230,
       "slot": 1,
       "id": "national-2021-01",
       "category": "digital-engineering",
@@ -17676,7 +17676,7 @@
     },
     {
       "sequence": 875,
-      "page": 232,
+      "page": 230,
       "slot": 2,
       "id": "military-2024-19",
       "category": "digital-engineering",
@@ -17696,7 +17696,7 @@
     },
     {
       "sequence": 876,
-      "page": 232,
+      "page": 230,
       "slot": 3,
       "id": "national-2008-12",
       "category": "digital-engineering",
@@ -17716,7 +17716,7 @@
     },
     {
       "sequence": 877,
-      "page": 232,
+      "page": 230,
       "slot": 4,
       "id": "seoul-2014-15",
       "category": "digital-engineering",
@@ -17736,7 +17736,7 @@
     },
     {
       "sequence": 878,
-      "page": 233,
+      "page": 231,
       "slot": 1,
       "id": "military-2022-11",
       "category": "digital-engineering",
@@ -17756,7 +17756,7 @@
     },
     {
       "sequence": 879,
-      "page": 233,
+      "page": 231,
       "slot": 2,
       "id": "assembly-2024-13",
       "category": "digital-engineering",
@@ -17776,7 +17776,7 @@
     },
     {
       "sequence": 880,
-      "page": 233,
+      "page": 231,
       "slot": 3,
       "id": "assembly-2009-20",
       "category": "digital-engineering",
@@ -17796,7 +17796,7 @@
     },
     {
       "sequence": 881,
-      "page": 233,
+      "page": 231,
       "slot": 4,
       "id": "national-2010-14",
       "category": "digital-engineering",
@@ -17816,7 +17816,7 @@
     },
     {
       "sequence": 882,
-      "page": 234,
+      "page": 232,
       "slot": 1,
       "id": "assembly-2014-13",
       "category": "digital-engineering",
@@ -17836,7 +17836,7 @@
     },
     {
       "sequence": 883,
-      "page": 234,
+      "page": 232,
       "slot": 2,
       "id": "assembly-2015-17",
       "category": "digital-engineering",
@@ -17856,7 +17856,7 @@
     },
     {
       "sequence": 884,
-      "page": 234,
+      "page": 232,
       "slot": 3,
       "id": "seoul-2016-18",
       "category": "digital-engineering",
@@ -17876,7 +17876,7 @@
     },
     {
       "sequence": 885,
-      "page": 234,
+      "page": 232,
       "slot": 4,
       "id": "national-2017-01",
       "category": "digital-engineering",
@@ -17896,7 +17896,7 @@
     },
     {
       "sequence": 886,
-      "page": 235,
+      "page": 233,
       "slot": 1,
       "id": "national-2017-11",
       "category": "digital-engineering",
@@ -17916,7 +17916,7 @@
     },
     {
       "sequence": 887,
-      "page": 235,
+      "page": 233,
       "slot": 2,
       "id": "seoul-2018-08",
       "category": "digital-engineering",
@@ -17936,7 +17936,7 @@
     },
     {
       "sequence": 888,
-      "page": 235,
+      "page": 233,
       "slot": 3,
       "id": "assembly-2020-17",
       "category": "digital-engineering",
@@ -17956,7 +17956,7 @@
     },
     {
       "sequence": 889,
-      "page": 235,
+      "page": 233,
       "slot": 4,
       "id": "local-2022-10",
       "category": "digital-engineering",
@@ -17976,7 +17976,7 @@
     },
     {
       "sequence": 890,
-      "page": 236,
+      "page": 234,
       "slot": 1,
       "id": "national-2023-03",
       "category": "digital-engineering",
@@ -17996,7 +17996,7 @@
     },
     {
       "sequence": 891,
-      "page": 236,
+      "page": 234,
       "slot": 2,
       "id": "local-2025-01",
       "category": "digital-engineering",
@@ -18016,7 +18016,7 @@
     },
     {
       "sequence": 892,
-      "page": 236,
+      "page": 234,
       "slot": 3,
       "id": "assembly-2025-11",
       "category": "digital-engineering",
@@ -18037,7 +18037,7 @@
     },
     {
       "sequence": 893,
-      "page": 236,
+      "page": 234,
       "slot": 4,
       "id": "national-2013-17",
       "category": "digital-engineering",
@@ -18057,7 +18057,7 @@
     },
     {
       "sequence": 894,
-      "page": 237,
+      "page": 235,
       "slot": 1,
       "id": "seoul-2015-20",
       "category": "digital-engineering",
@@ -18077,7 +18077,7 @@
     },
     {
       "sequence": 895,
-      "page": 237,
+      "page": 235,
       "slot": 2,
       "id": "seoul-2016-17",
       "category": "digital-engineering",
@@ -18097,7 +18097,7 @@
     },
     {
       "sequence": 896,
-      "page": 237,
+      "page": 235,
       "slot": 3,
       "id": "seoul-2018-19",
       "category": "digital-engineering",
@@ -18117,7 +18117,7 @@
     },
     {
       "sequence": 897,
-      "page": 237,
+      "page": 235,
       "slot": 4,
       "id": "seoul-2021-17",
       "category": "digital-engineering",
@@ -18137,7 +18137,7 @@
     },
     {
       "sequence": 898,
-      "page": 238,
+      "page": 236,
       "slot": 1,
       "id": "assembly-2025-04",
       "category": "digital-engineering",
@@ -18157,7 +18157,7 @@
     },
     {
       "sequence": 899,
-      "page": 238,
+      "page": 236,
       "slot": 2,
       "id": "national-2007-04",
       "category": "digital-engineering",
@@ -18177,7 +18177,7 @@
     },
     {
       "sequence": 900,
-      "page": 238,
+      "page": 236,
       "slot": 3,
       "id": "national-2008-10",
       "category": "digital-engineering",
@@ -18197,7 +18197,7 @@
     },
     {
       "sequence": 901,
-      "page": 238,
+      "page": 236,
       "slot": 4,
       "id": "national-2013-15",
       "category": "digital-engineering",
@@ -18217,7 +18217,7 @@
     },
     {
       "sequence": 902,
-      "page": 239,
+      "page": 237,
       "slot": 1,
       "id": "national-2014-12",
       "category": "digital-engineering",
@@ -18233,11 +18233,11 @@
       ],
       "source": "2014 국가직 12번",
       "answer": 2,
-      "rowSpan": 1
+      "rowSpan": 2
     },
     {
       "sequence": 903,
-      "page": 239,
+      "page": 237,
       "slot": 2,
       "id": "assembly-2015-20",
       "category": "digital-engineering",
@@ -18257,8 +18257,8 @@
     },
     {
       "sequence": 904,
-      "page": 239,
-      "slot": 3,
+      "page": 237,
+      "slot": 4,
       "id": "seoul-2017-19",
       "category": "digital-engineering",
       "categoryLabel": "디지털회로",
@@ -18277,8 +18277,8 @@
     },
     {
       "sequence": 905,
-      "page": 239,
-      "slot": 4,
+      "page": 238,
+      "slot": 1,
       "id": "national-2018-17",
       "category": "digital-engineering",
       "categoryLabel": "디지털회로",
@@ -18297,8 +18297,8 @@
     },
     {
       "sequence": 906,
-      "page": 240,
-      "slot": 1,
+      "page": 238,
+      "slot": 2,
       "id": "national-2019-10",
       "category": "digital-engineering",
       "categoryLabel": "디지털회로",
@@ -18317,8 +18317,8 @@
     },
     {
       "sequence": 907,
-      "page": 240,
-      "slot": 2,
+      "page": 238,
+      "slot": 3,
       "id": "national-2019-20",
       "category": "digital-engineering",
       "categoryLabel": "디지털회로",
@@ -18337,8 +18337,8 @@
     },
     {
       "sequence": 908,
-      "page": 240,
-      "slot": 3,
+      "page": 238,
+      "slot": 4,
       "id": "seoul-2019-10",
       "category": "digital-engineering",
       "categoryLabel": "디지털회로",
@@ -18357,7 +18357,7 @@
     },
     {
       "sequence": 909,
-      "page": 241,
+      "page": 239,
       "slot": 1,
       "id": "national-2020-16",
       "category": "digital-engineering",
@@ -18377,7 +18377,7 @@
     },
     {
       "sequence": 910,
-      "page": 241,
+      "page": 239,
       "slot": 2,
       "id": "national-2022-06",
       "category": "digital-engineering",
@@ -18397,7 +18397,7 @@
     },
     {
       "sequence": 911,
-      "page": 241,
+      "page": 239,
       "slot": 4,
       "id": "local-2022-01",
       "category": "digital-engineering",
@@ -18417,7 +18417,7 @@
     },
     {
       "sequence": 912,
-      "page": 242,
+      "page": 240,
       "slot": 1,
       "id": "assembly-2022-14",
       "category": "digital-engineering",
@@ -18437,7 +18437,7 @@
     },
     {
       "sequence": 913,
-      "page": 242,
+      "page": 240,
       "slot": 2,
       "id": "assembly-2022-15",
       "category": "digital-engineering",
@@ -18457,7 +18457,7 @@
     },
     {
       "sequence": 914,
-      "page": 242,
+      "page": 240,
       "slot": 3,
       "id": "national-2024-20",
       "category": "digital-engineering",
@@ -18477,7 +18477,7 @@
     },
     {
       "sequence": 915,
-      "page": 242,
+      "page": 240,
       "slot": 4,
       "id": "local-2024-09",
       "category": "digital-engineering",
@@ -18497,7 +18497,7 @@
     },
     {
       "sequence": 916,
-      "page": 243,
+      "page": 241,
       "slot": 1,
       "id": "local-2024-13",
       "category": "digital-engineering",
@@ -18517,7 +18517,7 @@
     },
     {
       "sequence": 917,
-      "page": 243,
+      "page": 241,
       "slot": 2,
       "id": "national-2025-02",
       "category": "digital-engineering",
@@ -18537,7 +18537,7 @@
     },
     {
       "sequence": 918,
-      "page": 243,
+      "page": 241,
       "slot": 3,
       "id": "local-2025-20",
       "category": "digital-engineering",
@@ -18557,7 +18557,7 @@
     },
     {
       "sequence": 919,
-      "page": 243,
+      "page": 241,
       "slot": 4,
       "id": "local-2026-17",
       "category": "digital-engineering",
@@ -18577,7 +18577,7 @@
     },
     {
       "sequence": 920,
-      "page": 244,
+      "page": 242,
       "slot": 1,
       "id": "local-2010-07",
       "category": "digital-engineering",
@@ -18597,7 +18597,7 @@
     },
     {
       "sequence": 921,
-      "page": 244,
+      "page": 242,
       "slot": 2,
       "id": "local-2011-19",
       "category": "digital-engineering",
@@ -18617,7 +18617,7 @@
     },
     {
       "sequence": 922,
-      "page": 244,
+      "page": 242,
       "slot": 3,
       "id": "assembly-2014-02",
       "category": "digital-engineering",
@@ -18637,7 +18637,7 @@
     },
     {
       "sequence": 923,
-      "page": 245,
+      "page": 243,
       "slot": 1,
       "id": "national-2015-07",
       "category": "digital-engineering",
@@ -18657,7 +18657,7 @@
     },
     {
       "sequence": 924,
-      "page": 245,
+      "page": 243,
       "slot": 2,
       "id": "assembly-2016-14",
       "category": "digital-engineering",
@@ -18677,7 +18677,7 @@
     },
     {
       "sequence": 925,
-      "page": 245,
+      "page": 243,
       "slot": 4,
       "id": "national-2026-06",
       "category": "digital-engineering",
@@ -18697,7 +18697,7 @@
     },
     {
       "sequence": 926,
-      "page": 246,
+      "page": 244,
       "slot": 1,
       "id": "seoul-2019-20",
       "category": "digital-engineering",
@@ -18717,7 +18717,7 @@
     },
     {
       "sequence": 927,
-      "page": 246,
+      "page": 244,
       "slot": 2,
       "id": "national-2024-06",
       "category": "digital-engineering",
@@ -18737,7 +18737,7 @@
     },
     {
       "sequence": 928,
-      "page": 246,
+      "page": 244,
       "slot": 3,
       "id": "assembly-2025-09",
       "category": "digital-engineering",
@@ -18757,7 +18757,7 @@
     },
     {
       "sequence": 929,
-      "page": 246,
+      "page": 244,
       "slot": 4,
       "id": "national-2007-10",
       "category": "digital-engineering",
@@ -18777,7 +18777,7 @@
     },
     {
       "sequence": 930,
-      "page": 247,
+      "page": 245,
       "slot": 1,
       "id": "national-2010-13",
       "category": "digital-engineering",
@@ -18797,7 +18797,7 @@
     },
     {
       "sequence": 931,
-      "page": 247,
+      "page": 245,
       "slot": 2,
       "id": "local-2010-11",
       "category": "digital-engineering",
@@ -18817,7 +18817,7 @@
     },
     {
       "sequence": 932,
-      "page": 247,
+      "page": 245,
       "slot": 3,
       "id": "national-2011-19",
       "category": "digital-engineering",
@@ -18837,7 +18837,7 @@
     },
     {
       "sequence": 933,
-      "page": 247,
+      "page": 245,
       "slot": 4,
       "id": "national-2012-11",
       "category": "digital-engineering",
@@ -18857,7 +18857,7 @@
     },
     {
       "sequence": 934,
-      "page": 248,
+      "page": 246,
       "slot": 1,
       "id": "national-2013-05",
       "category": "digital-engineering",
@@ -18877,7 +18877,7 @@
     },
     {
       "sequence": 935,
-      "page": 248,
+      "page": 246,
       "slot": 2,
       "id": "national-2016-06",
       "category": "digital-engineering",
@@ -18897,7 +18897,7 @@
     },
     {
       "sequence": 936,
-      "page": 248,
+      "page": 246,
       "slot": 3,
       "id": "assembly-2018-14",
       "category": "digital-engineering",
@@ -18917,7 +18917,7 @@
     },
     {
       "sequence": 937,
-      "page": 248,
+      "page": 246,
       "slot": 4,
       "id": "assembly-2019-01",
       "category": "digital-engineering",
@@ -18937,7 +18937,7 @@
     },
     {
       "sequence": 938,
-      "page": 249,
+      "page": 247,
       "slot": 1,
       "id": "seoul-2019-01",
       "category": "digital-engineering",
@@ -18957,7 +18957,7 @@
     },
     {
       "sequence": 939,
-      "page": 249,
+      "page": 247,
       "slot": 2,
       "id": "assembly-2021-17",
       "category": "digital-engineering",
@@ -18977,7 +18977,7 @@
     },
     {
       "sequence": 940,
-      "page": 249,
+      "page": 247,
       "slot": 3,
       "id": "local-2022-02",
       "category": "digital-engineering",
@@ -18997,7 +18997,7 @@
     },
     {
       "sequence": 941,
-      "page": 249,
+      "page": 247,
       "slot": 4,
       "id": "assembly-2022-13",
       "category": "digital-engineering",
@@ -19017,7 +19017,7 @@
     },
     {
       "sequence": 942,
-      "page": 250,
+      "page": 248,
       "slot": 1,
       "id": "local-2023-20",
       "category": "digital-engineering",
@@ -19037,7 +19037,7 @@
     },
     {
       "sequence": 943,
-      "page": 250,
+      "page": 248,
       "slot": 2,
       "id": "local-2024-05",
       "category": "digital-engineering",
@@ -19057,7 +19057,7 @@
     },
     {
       "sequence": 944,
-      "page": 250,
+      "page": 248,
       "slot": 3,
       "id": "assembly-2024-18",
       "category": "digital-engineering",
@@ -19077,7 +19077,7 @@
     },
     {
       "sequence": 945,
-      "page": 250,
+      "page": 248,
       "slot": 4,
       "id": "national-2025-19",
       "category": "digital-engineering",
@@ -19097,7 +19097,7 @@
     },
     {
       "sequence": 946,
-      "page": 251,
+      "page": 249,
       "slot": 1,
       "id": "national-2008-01",
       "category": "digital-engineering",
@@ -19117,7 +19117,7 @@
     },
     {
       "sequence": 947,
-      "page": 251,
+      "page": 249,
       "slot": 2,
       "id": "national-2009-03",
       "category": "digital-engineering",
@@ -19137,7 +19137,7 @@
     },
     {
       "sequence": 948,
-      "page": 251,
+      "page": 249,
       "slot": 3,
       "id": "local-2009-07",
       "category": "digital-engineering",
@@ -19157,7 +19157,7 @@
     },
     {
       "sequence": 949,
-      "page": 251,
+      "page": 249,
       "slot": 4,
       "id": "assembly-2009-09",
       "category": "digital-engineering",
@@ -19177,7 +19177,7 @@
     },
     {
       "sequence": 950,
-      "page": 252,
+      "page": 250,
       "slot": 1,
       "id": "national-2011-02",
       "category": "digital-engineering",
@@ -19197,7 +19197,7 @@
     },
     {
       "sequence": 951,
-      "page": 252,
+      "page": 250,
       "slot": 2,
       "id": "national-2012-18",
       "category": "digital-engineering",
@@ -19217,7 +19217,7 @@
     },
     {
       "sequence": 952,
-      "page": 252,
+      "page": 250,
       "slot": 3,
       "id": "local-2012-07",
       "category": "digital-engineering",
@@ -19237,7 +19237,7 @@
     },
     {
       "sequence": 953,
-      "page": 252,
+      "page": 250,
       "slot": 4,
       "id": "national-2014-18",
       "category": "digital-engineering",
@@ -19257,7 +19257,7 @@
     },
     {
       "sequence": 954,
-      "page": 253,
+      "page": 251,
       "slot": 1,
       "id": "assembly-2015-10",
       "category": "digital-engineering",
@@ -19277,7 +19277,7 @@
     },
     {
       "sequence": 955,
-      "page": 253,
+      "page": 251,
       "slot": 2,
       "id": "seoul-2016-15",
       "category": "digital-engineering",
@@ -19297,7 +19297,7 @@
     },
     {
       "sequence": 956,
-      "page": 253,
+      "page": 251,
       "slot": 3,
       "id": "assembly-2017-13",
       "category": "digital-engineering",
@@ -19317,7 +19317,7 @@
     },
     {
       "sequence": 957,
-      "page": 253,
+      "page": 251,
       "slot": 4,
       "id": "national-2018-18",
       "category": "digital-engineering",
@@ -19337,7 +19337,7 @@
     },
     {
       "sequence": 958,
-      "page": 254,
+      "page": 252,
       "slot": 1,
       "id": "seoul-2018-10",
       "category": "digital-engineering",
@@ -19357,7 +19357,7 @@
     },
     {
       "sequence": 959,
-      "page": 254,
+      "page": 252,
       "slot": 2,
       "id": "assembly-2021-19",
       "category": "digital-engineering",
@@ -19377,7 +19377,7 @@
     },
     {
       "sequence": 960,
-      "page": 254,
+      "page": 252,
       "slot": 3,
       "id": "seoul-2021-15",
       "category": "digital-engineering",
@@ -19397,7 +19397,7 @@
     },
     {
       "sequence": 961,
-      "page": 254,
+      "page": 252,
       "slot": 4,
       "id": "military-2025-04",
       "category": "digital-engineering",
@@ -19417,7 +19417,7 @@
     },
     {
       "sequence": 962,
-      "page": 255,
+      "page": 253,
       "slot": 1,
       "id": "local-2026-02",
       "category": "digital-engineering",
@@ -19437,7 +19437,7 @@
     },
     {
       "sequence": 963,
-      "page": 255,
+      "page": 253,
       "slot": 2,
       "id": "local-2009-10",
       "category": "digital-engineering",
@@ -19457,7 +19457,7 @@
     },
     {
       "sequence": 964,
-      "page": 255,
+      "page": 253,
       "slot": 3,
       "id": "national-2017-05",
       "category": "digital-engineering",
@@ -19477,7 +19477,7 @@
     },
     {
       "sequence": 965,
-      "page": 255,
+      "page": 253,
       "slot": 4,
       "id": "national-2007-02",
       "category": "digital-engineering",
@@ -19497,7 +19497,7 @@
     },
     {
       "sequence": 966,
-      "page": 256,
+      "page": 254,
       "slot": 1,
       "id": "assembly-2016-04",
       "category": "digital-engineering",
@@ -19517,7 +19517,7 @@
     },
     {
       "sequence": 967,
-      "page": 256,
+      "page": 254,
       "slot": 2,
       "id": "national-2023-02",
       "category": "digital-engineering",
@@ -19537,7 +19537,7 @@
     },
     {
       "sequence": 968,
-      "page": 256,
+      "page": 254,
       "slot": 3,
       "id": "local-2009-01",
       "category": "digital-engineering",
@@ -19557,7 +19557,7 @@
     },
     {
       "sequence": 969,
-      "page": 257,
+      "page": 255,
       "slot": 1,
       "id": "seoul-2015-16",
       "category": "digital-engineering",
@@ -19577,7 +19577,7 @@
     },
     {
       "sequence": 970,
-      "page": 257,
+      "page": 255,
       "slot": 2,
       "id": "assembly-2025-03",
       "category": "digital-engineering",
@@ -19597,7 +19597,7 @@
     },
     {
       "sequence": 971,
-      "page": 257,
+      "page": 255,
       "slot": 3,
       "id": "national-2008-20",
       "category": "digital-engineering",
@@ -19617,7 +19617,7 @@
     },
     {
       "sequence": 972,
-      "page": 257,
+      "page": 255,
       "slot": 4,
       "id": "national-2009-14",
       "category": "digital-engineering",
@@ -19637,7 +19637,7 @@
     },
     {
       "sequence": 973,
-      "page": 258,
+      "page": 256,
       "slot": 1,
       "id": "assembly-2009-07",
       "category": "digital-engineering",
@@ -19657,7 +19657,7 @@
     },
     {
       "sequence": 974,
-      "page": 258,
+      "page": 256,
       "slot": 2,
       "id": "local-2011-12",
       "category": "digital-engineering",
@@ -19677,7 +19677,7 @@
     },
     {
       "sequence": 975,
-      "page": 258,
+      "page": 256,
       "slot": 3,
       "id": "national-2012-17",
       "category": "digital-engineering",
@@ -19697,7 +19697,7 @@
     },
     {
       "sequence": 976,
-      "page": 258,
+      "page": 256,
       "slot": 4,
       "id": "national-2016-08",
       "category": "digital-engineering",
@@ -19717,7 +19717,7 @@
     },
     {
       "sequence": 977,
-      "page": 259,
+      "page": 257,
       "slot": 1,
       "id": "assembly-2016-19",
       "category": "digital-engineering",
@@ -19737,7 +19737,7 @@
     },
     {
       "sequence": 978,
-      "page": 259,
+      "page": 257,
       "slot": 2,
       "id": "assembly-2017-03",
       "category": "digital-engineering",
@@ -19757,7 +19757,7 @@
     },
     {
       "sequence": 979,
-      "page": 259,
+      "page": 257,
       "slot": 3,
       "id": "assembly-2017-17",
       "category": "digital-engineering",
@@ -19777,7 +19777,7 @@
     },
     {
       "sequence": 980,
-      "page": 259,
+      "page": 257,
       "slot": 4,
       "id": "national-2018-11",
       "category": "digital-engineering",
@@ -19797,7 +19797,7 @@
     },
     {
       "sequence": 981,
-      "page": 260,
+      "page": 258,
       "slot": 1,
       "id": "assembly-2018-09",
       "category": "digital-engineering",
@@ -19817,7 +19817,7 @@
     },
     {
       "sequence": 982,
-      "page": 260,
+      "page": 258,
       "slot": 2,
       "id": "national-2019-07",
       "category": "digital-engineering",
@@ -19837,7 +19837,7 @@
     },
     {
       "sequence": 983,
-      "page": 260,
+      "page": 258,
       "slot": 3,
       "id": "assembly-2019-04",
       "category": "digital-engineering",
@@ -19857,7 +19857,7 @@
     },
     {
       "sequence": 984,
-      "page": 260,
+      "page": 258,
       "slot": 4,
       "id": "national-2022-16",
       "category": "digital-engineering",
@@ -19877,7 +19877,7 @@
     },
     {
       "sequence": 985,
-      "page": 261,
+      "page": 259,
       "slot": 1,
       "id": "national-2023-07",
       "category": "digital-engineering",
@@ -19897,7 +19897,7 @@
     },
     {
       "sequence": 986,
-      "page": 261,
+      "page": 259,
       "slot": 2,
       "id": "military-2023-14",
       "category": "digital-engineering",
@@ -19917,7 +19917,7 @@
     },
     {
       "sequence": 987,
-      "page": 261,
+      "page": 259,
       "slot": 3,
       "id": "local-2024-19",
       "category": "digital-engineering",
@@ -19937,7 +19937,7 @@
     },
     {
       "sequence": 988,
-      "page": 261,
+      "page": 259,
       "slot": 4,
       "id": "national-2025-16",
       "category": "digital-engineering",
@@ -19957,7 +19957,7 @@
     },
     {
       "sequence": 989,
-      "page": 262,
+      "page": 260,
       "slot": 1,
       "id": "national-2011-18",
       "category": "digital-engineering",
@@ -19977,7 +19977,7 @@
     },
     {
       "sequence": 990,
-      "page": 262,
+      "page": 260,
       "slot": 2,
       "id": "assembly-2016-09",
       "category": "digital-engineering",
@@ -19997,7 +19997,7 @@
     },
     {
       "sequence": 991,
-      "page": 262,
+      "page": 260,
       "slot": 4,
       "id": "national-2022-12",
       "category": "digital-engineering",
@@ -20017,7 +20017,7 @@
     },
     {
       "sequence": 992,
-      "page": 263,
+      "page": 261,
       "slot": 1,
       "id": "military-2025-14",
       "category": "digital-engineering",
@@ -20037,7 +20037,7 @@
     },
     {
       "sequence": 993,
-      "page": 263,
+      "page": 261,
       "slot": 2,
       "id": "seoul-2019-09",
       "category": "digital-engineering",
@@ -20057,7 +20057,7 @@
     },
     {
       "sequence": 994,
-      "page": 263,
+      "page": 261,
       "slot": 3,
       "id": "assembly-2023-11",
       "category": "digital-engineering",
@@ -20077,7 +20077,7 @@
     },
     {
       "sequence": 995,
-      "page": 263,
+      "page": 261,
       "slot": 4,
       "id": "assembly-2024-09",
       "category": "digital-engineering",
@@ -20097,7 +20097,7 @@
     },
     {
       "sequence": 996,
-      "page": 264,
+      "page": 262,
       "slot": 1,
       "id": "seoul-2020-14",
       "category": "digital-engineering",
@@ -20117,7 +20117,7 @@
     },
     {
       "sequence": 997,
-      "page": 264,
+      "page": 262,
       "slot": 2,
       "id": "assembly-2023-01",
       "category": "digital-engineering",
@@ -20137,7 +20137,7 @@
     },
     {
       "sequence": 998,
-      "page": 264,
+      "page": 262,
       "slot": 3,
       "id": "assembly-2017-08",
       "category": "digital-engineering",
@@ -20157,7 +20157,7 @@
     },
     {
       "sequence": 999,
-      "page": 264,
+      "page": 262,
       "slot": 4,
       "id": "national-2020-08",
       "category": "digital-engineering",
@@ -20177,7 +20177,7 @@
     },
     {
       "sequence": 1000,
-      "page": 265,
+      "page": 263,
       "slot": 1,
       "id": "local-2026-19",
       "category": "digital-engineering",
@@ -20197,7 +20197,7 @@
     },
     {
       "sequence": 1001,
-      "page": 265,
+      "page": 263,
       "slot": 2,
       "id": "national-2024-19",
       "category": "digital-engineering",
@@ -20217,7 +20217,7 @@
     },
     {
       "sequence": 1002,
-      "page": 265,
+      "page": 263,
       "slot": 3,
       "id": "national-2007-01",
       "category": "digital-engineering",
@@ -20237,7 +20237,7 @@
     },
     {
       "sequence": 1003,
-      "page": 265,
+      "page": 263,
       "slot": 4,
       "id": "national-2009-09",
       "category": "digital-engineering",
@@ -20257,7 +20257,7 @@
     },
     {
       "sequence": 1004,
-      "page": 266,
+      "page": 264,
       "slot": 1,
       "id": "local-2011-10",
       "category": "digital-engineering",
@@ -20277,7 +20277,7 @@
     },
     {
       "sequence": 1005,
-      "page": 266,
+      "page": 264,
       "slot": 2,
       "id": "seoul-2014-03",
       "category": "digital-engineering",
@@ -20297,7 +20297,7 @@
     },
     {
       "sequence": 1006,
-      "page": 266,
+      "page": 264,
       "slot": 3,
       "id": "national-2024-01",
       "category": "digital-engineering",
@@ -20317,7 +20317,7 @@
     },
     {
       "sequence": 1007,
-      "page": 266,
+      "page": 264,
       "slot": 4,
       "id": "national-2026-10",
       "category": "digital-engineering",
@@ -20337,7 +20337,7 @@
     },
     {
       "sequence": 1008,
-      "page": 267,
+      "page": 265,
       "slot": 1,
       "id": "seoul-2021-19",
       "category": "digital-engineering",
@@ -20357,7 +20357,7 @@
     },
     {
       "sequence": 1009,
-      "page": 267,
+      "page": 265,
       "slot": 2,
       "id": "local-2009-19",
       "category": "digital-engineering",
@@ -20377,7 +20377,7 @@
     },
     {
       "sequence": 1010,
-      "page": 267,
+      "page": 265,
       "slot": 3,
       "id": "national-2011-04",
       "category": "digital-engineering",
@@ -20397,7 +20397,7 @@
     },
     {
       "sequence": 1011,
-      "page": 267,
+      "page": 265,
       "slot": 4,
       "id": "military-2023-03",
       "category": "digital-engineering",
@@ -20417,7 +20417,7 @@
     },
     {
       "sequence": 1012,
-      "page": 268,
+      "page": 266,
       "slot": 1,
       "id": "national-2026-16",
       "category": "digital-engineering",
@@ -20437,7 +20437,7 @@
     },
     {
       "sequence": 1013,
-      "page": 268,
+      "page": 266,
       "slot": 2,
       "id": "local-2010-18",
       "category": "digital-engineering",
@@ -20458,7 +20458,7 @@
     },
     {
       "sequence": 1014,
-      "page": 268,
+      "page": 266,
       "slot": 3,
       "id": "seoul-2014-04",
       "category": "digital-engineering",
@@ -20478,7 +20478,7 @@
     },
     {
       "sequence": 1015,
-      "page": 268,
+      "page": 266,
       "slot": 4,
       "id": "national-2015-16",
       "category": "digital-engineering",
@@ -20499,7 +20499,7 @@
     },
     {
       "sequence": 1016,
-      "page": 269,
+      "page": 267,
       "slot": 1,
       "id": "assembly-2023-20",
       "category": "digital-engineering",
@@ -20519,7 +20519,7 @@
     },
     {
       "sequence": 1017,
-      "page": 269,
+      "page": 267,
       "slot": 2,
       "id": "national-2016-03",
       "category": "digital-engineering",
@@ -20539,7 +20539,7 @@
     },
     {
       "sequence": 1018,
-      "page": 269,
+      "page": 267,
       "slot": 3,
       "id": "national-2018-03",
       "category": "digital-engineering",
@@ -20560,7 +20560,7 @@
     },
     {
       "sequence": 1019,
-      "page": 269,
+      "page": 267,
       "slot": 4,
       "id": "national-2022-14",
       "category": "digital-engineering",
@@ -20580,7 +20580,7 @@
     },
     {
       "sequence": 1020,
-      "page": 270,
+      "page": 268,
       "slot": 1,
       "id": "local-2025-02",
       "category": "digital-engineering",
@@ -20600,7 +20600,7 @@
     },
     {
       "sequence": 1021,
-      "page": 270,
+      "page": 268,
       "slot": 2,
       "id": "assembly-2025-20",
       "category": "digital-engineering",
@@ -20620,7 +20620,7 @@
     },
     {
       "sequence": 1022,
-      "page": 270,
+      "page": 268,
       "slot": 3,
       "id": "military-2026-14",
       "category": "digital-engineering",
@@ -20640,7 +20640,7 @@
     },
     {
       "sequence": 1023,
-      "page": 271,
+      "page": 269,
       "slot": 1,
       "id": "national-2017-12",
       "category": "digital-engineering",
@@ -20660,7 +20660,7 @@
     },
     {
       "sequence": 1024,
-      "page": 271,
+      "page": 269,
       "slot": 2,
       "id": "national-2020-03",
       "category": "digital-engineering",
@@ -20680,7 +20680,7 @@
     },
     {
       "sequence": 1025,
-      "page": 271,
+      "page": 269,
       "slot": 3,
       "id": "seoul-2020-13",
       "category": "digital-engineering",
@@ -20700,7 +20700,7 @@
     },
     {
       "sequence": 1026,
-      "page": 272,
+      "page": 270,
       "slot": 1,
       "id": "national-2021-16",
       "category": "digital-engineering",
@@ -20721,7 +20721,7 @@
     },
     {
       "sequence": 1027,
-      "page": 272,
+      "page": 270,
       "slot": 2,
       "id": "military-2024-18",
       "category": "digital-engineering",
@@ -20741,7 +20741,7 @@
     },
     {
       "sequence": 1028,
-      "page": 273,
+      "page": 271,
       "slot": 1,
       "id": "local-2026-20",
       "category": "digital-engineering",
@@ -20761,7 +20761,7 @@
     },
     {
       "sequence": 1029,
-      "page": 273,
+      "page": 271,
       "slot": 2,
       "id": "local-2023-06",
       "category": "digital-engineering",
@@ -20781,7 +20781,7 @@
     },
     {
       "sequence": 1030,
-      "page": 273,
+      "page": 271,
       "slot": 4,
       "id": "national-2010-19",
       "category": "digital-engineering",
@@ -20801,7 +20801,7 @@
     },
     {
       "sequence": 1031,
-      "page": 274,
+      "page": 272,
       "slot": 1,
       "id": "local-2011-14",
       "category": "digital-engineering",
@@ -20821,7 +20821,7 @@
     },
     {
       "sequence": 1032,
-      "page": 274,
+      "page": 272,
       "slot": 2,
       "id": "national-2014-09",
       "category": "digital-engineering",
@@ -20842,7 +20842,7 @@
     },
     {
       "sequence": 1033,
-      "page": 274,
+      "page": 272,
       "slot": 3,
       "id": "national-2020-15",
       "category": "digital-engineering",
@@ -20862,7 +20862,7 @@
     },
     {
       "sequence": 1034,
-      "page": 274,
+      "page": 272,
       "slot": 4,
       "id": "assembly-2021-09",
       "category": "digital-engineering",
@@ -20882,7 +20882,7 @@
     },
     {
       "sequence": 1035,
-      "page": 275,
+      "page": 273,
       "slot": 1,
       "id": "assembly-2023-09",
       "category": "digital-engineering",
@@ -20902,7 +20902,7 @@
     },
     {
       "sequence": 1036,
-      "page": 275,
+      "page": 273,
       "slot": 2,
       "id": "assembly-2024-17",
       "category": "digital-engineering",
@@ -20922,7 +20922,7 @@
     },
     {
       "sequence": 1037,
-      "page": 275,
+      "page": 273,
       "slot": 3,
       "id": "national-2013-14",
       "category": "digital-engineering",
@@ -20942,7 +20942,7 @@
     },
     {
       "sequence": 1038,
-      "page": 275,
+      "page": 273,
       "slot": 4,
       "id": "national-2023-01",
       "category": "digital-engineering",
@@ -20962,7 +20962,7 @@
     },
     {
       "sequence": 1039,
-      "page": 276,
+      "page": 274,
       "slot": 1,
       "id": "local-2024-02",
       "category": "digital-engineering",
@@ -20982,7 +20982,7 @@
     },
     {
       "sequence": 1040,
-      "page": 276,
+      "page": 274,
       "slot": 2,
       "id": "national-2009-19",
       "category": "digital-engineering",
@@ -21002,7 +21002,7 @@
     },
     {
       "sequence": 1041,
-      "page": 276,
+      "page": 274,
       "slot": 3,
       "id": "national-2019-12",
       "category": "digital-engineering",
@@ -21023,7 +21023,7 @@
     },
     {
       "sequence": 1042,
-      "page": 276,
+      "page": 274,
       "slot": 4,
       "id": "assembly-2020-02",
       "category": "digital-engineering",
@@ -21044,7 +21044,7 @@
     },
     {
       "sequence": 1043,
-      "page": 277,
+      "page": 275,
       "slot": 1,
       "id": "national-2014-20",
       "category": "digital-engineering",
@@ -21064,7 +21064,7 @@
     },
     {
       "sequence": 1044,
-      "page": 277,
+      "page": 275,
       "slot": 2,
       "id": "assembly-2019-03",
       "category": "digital-engineering",
@@ -21084,7 +21084,7 @@
     },
     {
       "sequence": 1045,
-      "page": 277,
+      "page": 275,
       "slot": 3,
       "id": "assembly-2023-02",
       "category": "digital-engineering",
@@ -21104,7 +21104,7 @@
     },
     {
       "sequence": 1046,
-      "page": 277,
+      "page": 275,
       "slot": 4,
       "id": "national-2010-15",
       "category": "digital-engineering",
@@ -21124,7 +21124,7 @@
     },
     {
       "sequence": 1047,
-      "page": 278,
+      "page": 276,
       "slot": 1,
       "id": "assembly-2020-09",
       "category": "digital-engineering",
@@ -21145,7 +21145,7 @@
     },
     {
       "sequence": 1048,
-      "page": 278,
+      "page": 276,
       "slot": 2,
       "id": "assembly-2023-10",
       "category": "digital-engineering",
@@ -21165,7 +21165,7 @@
     },
     {
       "sequence": 1049,
-      "page": 278,
+      "page": 276,
       "slot": 3,
       "id": "local-2025-03",
       "category": "digital-engineering",
@@ -21185,7 +21185,7 @@
     },
     {
       "sequence": 1050,
-      "page": 278,
+      "page": 276,
       "slot": 4,
       "id": "national-2012-07",
       "category": "digital-engineering",
@@ -21205,7 +21205,7 @@
     },
     {
       "sequence": 1051,
-      "page": 279,
+      "page": 277,
       "slot": 1,
       "id": "assembly-2014-05",
       "category": "digital-engineering",
@@ -21226,7 +21226,7 @@
     },
     {
       "sequence": 1052,
-      "page": 279,
+      "page": 277,
       "slot": 2,
       "id": "national-2025-18",
       "category": "digital-engineering",
@@ -21246,7 +21246,7 @@
     },
     {
       "sequence": 1053,
-      "page": 279,
+      "page": 277,
       "slot": 3,
       "id": "national-2021-04",
       "category": "digital-engineering",
@@ -21266,7 +21266,7 @@
     },
     {
       "sequence": 1054,
-      "page": 279,
+      "page": 277,
       "slot": 4,
       "id": "military-2026-03",
       "category": "digital-engineering",
@@ -21287,7 +21287,7 @@
     },
     {
       "sequence": 1055,
-      "page": 280,
+      "page": 278,
       "slot": 1,
       "id": "national-2012-09",
       "category": "digital-engineering",
@@ -21307,7 +21307,7 @@
     },
     {
       "sequence": 1056,
-      "page": 280,
+      "page": 278,
       "slot": 2,
       "id": "local-2009-16",
       "category": "digital-engineering",
@@ -21327,7 +21327,7 @@
     },
     {
       "sequence": 1057,
-      "page": 280,
+      "page": 278,
       "slot": 3,
       "id": "assembly-2019-02",
       "category": "digital-engineering",
@@ -21347,7 +21347,7 @@
     },
     {
       "sequence": 1058,
-      "page": 280,
+      "page": 278,
       "slot": 4,
       "id": "assembly-2021-07",
       "category": "digital-engineering",
@@ -21367,7 +21367,7 @@
     },
     {
       "sequence": 1059,
-      "page": 281,
+      "page": 279,
       "slot": 1,
       "id": "local-2026-08",
       "category": "digital-engineering",
@@ -21387,7 +21387,7 @@
     },
     {
       "sequence": 1060,
-      "page": 281,
+      "page": 279,
       "slot": 2,
       "id": "assembly-2023-03",
       "category": "digital-engineering",
@@ -21407,7 +21407,7 @@
     },
     {
       "sequence": 1061,
-      "page": 281,
+      "page": 279,
       "slot": 3,
       "id": "local-2011-13",
       "category": "digital-engineering",
@@ -21427,7 +21427,7 @@
     },
     {
       "sequence": 1062,
-      "page": 281,
+      "page": 279,
       "slot": 4,
       "id": "national-2009-04",
       "category": "digital-engineering",
@@ -21447,7 +21447,7 @@
     },
     {
       "sequence": 1063,
-      "page": 282,
+      "page": 280,
       "slot": 1,
       "id": "national-2012-15",
       "category": "digital-engineering",
@@ -21467,7 +21467,7 @@
     },
     {
       "sequence": 1064,
-      "page": 282,
+      "page": 280,
       "slot": 2,
       "id": "local-2012-06",
       "category": "digital-engineering",
@@ -21488,7 +21488,7 @@
     },
     {
       "sequence": 1065,
-      "page": 282,
+      "page": 280,
       "slot": 3,
       "id": "national-2013-04",
       "category": "digital-engineering",
@@ -21508,7 +21508,7 @@
     },
     {
       "sequence": 1066,
-      "page": 282,
+      "page": 280,
       "slot": 4,
       "id": "national-2017-15",
       "category": "digital-engineering",
@@ -21528,7 +21528,7 @@
     },
     {
       "sequence": 1067,
-      "page": 283,
+      "page": 281,
       "slot": 1,
       "id": "national-2018-01",
       "category": "digital-engineering",
@@ -21548,7 +21548,7 @@
     },
     {
       "sequence": 1068,
-      "page": 283,
+      "page": 281,
       "slot": 2,
       "id": "assembly-2018-02",
       "category": "digital-engineering",
@@ -21568,7 +21568,7 @@
     },
     {
       "sequence": 1069,
-      "page": 283,
+      "page": 281,
       "slot": 3,
       "id": "national-2023-12",
       "category": "digital-engineering",
@@ -21588,7 +21588,7 @@
     },
     {
       "sequence": 1070,
-      "page": 283,
+      "page": 281,
       "slot": 4,
       "id": "national-2022-04",
       "category": "digital-engineering",
@@ -21608,7 +21608,7 @@
     },
     {
       "sequence": 1071,
-      "page": 284,
+      "page": 282,
       "slot": 1,
       "id": "assembly-2023-04",
       "category": "digital-engineering",
@@ -21628,7 +21628,7 @@
     },
     {
       "sequence": 1072,
-      "page": 284,
+      "page": 282,
       "slot": 2,
       "id": "local-2011-08",
       "category": "digital-engineering",
@@ -21648,7 +21648,7 @@
     },
     {
       "sequence": 1073,
-      "page": 284,
+      "page": 282,
       "slot": 3,
       "id": "national-2015-14",
       "category": "digital-engineering",
@@ -21668,7 +21668,7 @@
     },
     {
       "sequence": 1074,
-      "page": 284,
+      "page": 282,
       "slot": 4,
       "id": "local-2024-15",
       "category": "digital-engineering",
@@ -21688,7 +21688,7 @@
     },
     {
       "sequence": 1075,
-      "page": 285,
+      "page": 283,
       "slot": 1,
       "id": "local-2025-17",
       "category": "digital-engineering",
@@ -21709,7 +21709,7 @@
     },
     {
       "sequence": 1076,
-      "page": 285,
+      "page": 283,
       "slot": 2,
       "id": "local-2009-18",
       "category": "digital-engineering",
@@ -21729,7 +21729,7 @@
     },
     {
       "sequence": 1077,
-      "page": 285,
+      "page": 283,
       "slot": 3,
       "id": "national-2012-01",
       "category": "digital-engineering",
@@ -21749,7 +21749,7 @@
     },
     {
       "sequence": 1078,
-      "page": 285,
+      "page": 283,
       "slot": 4,
       "id": "local-2012-19",
       "category": "digital-engineering",
@@ -21770,7 +21770,7 @@
     },
     {
       "sequence": 1079,
-      "page": 286,
+      "page": 284,
       "slot": 1,
       "id": "seoul-2014-05",
       "category": "digital-engineering",
@@ -21790,7 +21790,7 @@
     },
     {
       "sequence": 1080,
-      "page": 286,
+      "page": 284,
       "slot": 2,
       "id": "national-2021-09",
       "category": "digital-engineering",
@@ -21810,7 +21810,7 @@
     },
     {
       "sequence": 1081,
-      "page": 286,
+      "page": 284,
       "slot": 3,
       "id": "national-2022-01",
       "category": "digital-engineering",
@@ -21830,7 +21830,7 @@
     },
     {
       "sequence": 1082,
-      "page": 286,
+      "page": 284,
       "slot": 4,
       "id": "assembly-2024-10",
       "category": "digital-engineering",
@@ -21850,7 +21850,7 @@
     },
     {
       "sequence": 1083,
-      "page": 287,
+      "page": 285,
       "slot": 1,
       "id": "assembly-2015-13",
       "category": "digital-engineering",
@@ -21870,7 +21870,7 @@
     },
     {
       "sequence": 1084,
-      "page": 287,
+      "page": 285,
       "slot": 2,
       "id": "national-2010-16",
       "category": "digital-engineering",
@@ -21891,7 +21891,7 @@
     },
     {
       "sequence": 1085,
-      "page": 287,
+      "page": 285,
       "slot": 3,
       "id": "national-2016-15",
       "category": "digital-engineering",
@@ -21911,7 +21911,7 @@
     },
     {
       "sequence": 1086,
-      "page": 287,
+      "page": 285,
       "slot": 4,
       "id": "national-2008-07",
       "category": "digital-engineering",
@@ -21931,7 +21931,7 @@
     },
     {
       "sequence": 1087,
-      "page": 288,
+      "page": 286,
       "slot": 1,
       "id": "national-2011-11",
       "category": "digital-engineering",
@@ -21951,7 +21951,7 @@
     },
     {
       "sequence": 1088,
-      "page": 288,
+      "page": 286,
       "slot": 2,
       "id": "seoul-2014-06",
       "category": "digital-engineering",
@@ -21971,7 +21971,7 @@
     },
     {
       "sequence": 1089,
-      "page": 288,
+      "page": 286,
       "slot": 3,
       "id": "national-2014-17",
       "category": "digital-engineering",
@@ -21991,7 +21991,7 @@
     },
     {
       "sequence": 1090,
-      "page": 288,
+      "page": 286,
       "slot": 4,
       "id": "national-2016-18",
       "category": "digital-engineering",
@@ -22011,7 +22011,7 @@
     },
     {
       "sequence": 1091,
-      "page": 289,
+      "page": 287,
       "slot": 1,
       "id": "national-2007-06",
       "category": "digital-engineering",
@@ -22031,7 +22031,7 @@
     },
     {
       "sequence": 1092,
-      "page": 289,
+      "page": 287,
       "slot": 2,
       "id": "local-2010-13",
       "category": "digital-engineering",
@@ -22051,7 +22051,7 @@
     },
     {
       "sequence": 1093,
-      "page": 289,
+      "page": 287,
       "slot": 3,
       "id": "national-2020-01",
       "category": "digital-engineering",
@@ -22071,7 +22071,7 @@
     },
     {
       "sequence": 1094,
-      "page": 289,
+      "page": 287,
       "slot": 4,
       "id": "national-2026-03",
       "category": "digital-engineering",
@@ -22091,7 +22091,7 @@
     },
     {
       "sequence": 1095,
-      "page": 290,
+      "page": 288,
       "slot": 1,
       "id": "local-2022-14",
       "category": "digital-engineering",
@@ -22111,7 +22111,7 @@
     },
     {
       "sequence": 1096,
-      "page": 290,
+      "page": 288,
       "slot": 2,
       "id": "local-2023-18",
       "category": "digital-engineering",
@@ -22131,7 +22131,7 @@
     },
     {
       "sequence": 1097,
-      "page": 290,
+      "page": 288,
       "slot": 3,
       "id": "national-2024-05",
       "category": "digital-engineering",
@@ -22151,7 +22151,7 @@
     },
     {
       "sequence": 1098,
-      "page": 290,
+      "page": 288,
       "slot": 4,
       "id": "national-2023-14",
       "category": "digital-engineering",
@@ -22171,7 +22171,7 @@
     },
     {
       "sequence": 1099,
-      "page": 291,
+      "page": 289,
       "slot": 1,
       "id": "national-2021-13",
       "category": "digital-engineering",
@@ -22191,7 +22191,7 @@
     },
     {
       "sequence": 1100,
-      "page": 291,
+      "page": 289,
       "slot": 2,
       "id": "national-2025-17",
       "category": "digital-engineering",

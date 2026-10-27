@@ -75,7 +75,7 @@
     "image": {
       "src": "assets/questions/national/2007/q02.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 788,
       "height": 716
     },
     "classification": {
@@ -142,7 +142,7 @@
     "image": {
       "src": "assets/questions/national/2007/q03.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 788,
       "height": 649
     },
     "classification": {
@@ -209,7 +209,7 @@
     "image": {
       "src": "assets/questions/national/2007/q04.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 685,
       "height": 1027
     },
     "classification": {
@@ -479,7 +479,7 @@
     "image": {
       "src": "assets/questions/national/2007/q08.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 839,
       "height": 538
     },
     "classification": {
@@ -683,7 +683,7 @@
     "image": {
       "src": "assets/questions/national/2007/q11.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 852,
       "height": 486
     },
     "classification": {
@@ -750,7 +750,7 @@
     "image": {
       "src": "assets/questions/national/2007/q12.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 829,
       "height": 625
     },
     "classification": {
@@ -1966,7 +1966,7 @@
     "image": {
       "src": "assets/questions/national/2008/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1046,
       "height": 1552
     },
     "classification": {
@@ -2102,7 +2102,7 @@
     "image": {
       "src": "assets/questions/national/2008/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 1017
     },
     "classification": {
@@ -2576,7 +2576,7 @@
     "image": {
       "src": "assets/questions/national/2008/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 857
     },
     "classification": {
@@ -4067,7 +4067,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1001,
       "height": 1025
     },
     "classification": {
@@ -4136,7 +4136,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1001,
       "height": 975
     },
     "classification": {
@@ -4204,8 +4204,8 @@
     "image": {
       "src": "assets/questions/assembly/2009/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 423
+      "width": 833,
+      "height": 248
     },
     "classification": {
       "category": "digital-engineering",
@@ -4272,7 +4272,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 865,
       "height": 1137
     },
     "classification": {
@@ -4341,7 +4341,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 945,
       "height": 871
     },
     "classification": {
@@ -4409,8 +4409,8 @@
     "image": {
       "src": "assets/questions/assembly/2009/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 658
+      "width": 1000,
+      "height": 368
     },
     "classification": {
       "category": "circuit-theory",
@@ -4478,7 +4478,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 781,
       "height": 1064
     },
     "classification": {
@@ -4547,7 +4547,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1001,
       "height": 674
     },
     "classification": {
@@ -4615,7 +4615,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 906,
       "height": 365
     },
     "classification": {
@@ -4684,7 +4684,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1002,
       "height": 573
     },
     "classification": {
@@ -4752,7 +4752,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 941,
       "height": 932
     },
     "classification": {
@@ -4820,7 +4820,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 889,
       "height": 624
     },
     "classification": {
@@ -4889,7 +4889,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1002,
       "height": 688
     },
     "classification": {
@@ -4957,7 +4957,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q14.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1001,
       "height": 431
     },
     "classification": {
@@ -5025,7 +5025,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q15.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 962,
       "height": 870
     },
     "classification": {
@@ -5094,7 +5094,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 792,
       "height": 641
     },
     "classification": {
@@ -5163,8 +5163,8 @@
     "image": {
       "src": "assets/questions/assembly/2009/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 833
+      "width": 1001,
+      "height": 626
     },
     "classification": {
       "category": "electronic-circuits",
@@ -5231,7 +5231,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 999,
       "height": 893
     },
     "classification": {
@@ -5300,7 +5300,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 999,
       "height": 901
     },
     "classification": {
@@ -5369,7 +5369,7 @@
     "image": {
       "src": "assets/questions/assembly/2009/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 994,
       "height": 742
     },
     "classification": {
@@ -5707,7 +5707,7 @@
     "image": {
       "src": "assets/questions/local/2009/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 557,
       "height": 357
     },
     "classification": {
@@ -5775,7 +5775,7 @@
     "image": {
       "src": "assets/questions/local/2009/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 847
     },
     "classification": {
@@ -5842,7 +5842,7 @@
     "image": {
       "src": "assets/questions/local/2009/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1143,
       "height": 486
     },
     "classification": {
@@ -5910,7 +5910,7 @@
     "image": {
       "src": "assets/questions/local/2009/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 862
     },
     "classification": {
@@ -6045,7 +6045,7 @@
     "image": {
       "src": "assets/questions/local/2009/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1124,
       "height": 1024
     },
     "classification": {
@@ -6734,7 +6734,7 @@
     "image": {
       "src": "assets/questions/local/2009/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 954,
       "height": 716
     },
     "classification": {
@@ -7008,7 +7008,7 @@
     "image": {
       "src": "assets/questions/national/2010/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 985,
       "height": 793
     },
     "classification": {
@@ -7211,7 +7211,7 @@
     "image": {
       "src": "assets/questions/national/2010/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1145,
       "height": 631
     },
     "classification": {
@@ -7961,7 +7961,7 @@
     "image": {
       "src": "assets/questions/national/2010/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1073,
       "height": 997
     },
     "classification": {
@@ -8101,8 +8101,8 @@
     "image": {
       "src": "assets/questions/national/2010/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 489
+      "width": 1074,
+      "height": 443
     },
     "classification": {
       "category": "digital-engineering",
@@ -8305,7 +8305,7 @@
     "image": {
       "src": "assets/questions/local/2010/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1045,
       "height": 432
     },
     "classification": {
@@ -8711,7 +8711,7 @@
     "image": {
       "src": "assets/questions/local/2010/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 834,
       "height": 1171
     },
     "classification": {
@@ -8915,7 +8915,7 @@
     "image": {
       "src": "assets/questions/local/2010/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1027,
       "height": 542
     },
     "classification": {
@@ -9049,7 +9049,7 @@
     "image": {
       "src": "assets/questions/local/2010/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1139,
       "height": 651
     },
     "classification": {
@@ -9116,7 +9116,7 @@
     "image": {
       "src": "assets/questions/local/2010/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1040,
       "height": 669
     },
     "classification": {
@@ -9386,7 +9386,7 @@
     "image": {
       "src": "assets/questions/local/2010/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 982,
       "height": 908
     },
     "classification": {
@@ -9455,7 +9455,7 @@
       "src": "assets/questions/local/2010/q20.png",
       "mimeType": "image/png",
       "width": 1182,
-      "height": 670
+      "height": 624
     },
     "classification": {
       "category": "electronic-circuits",
@@ -10137,7 +10137,7 @@
     "image": {
       "src": "assets/questions/national/2011/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 993,
       "height": 738
     },
     "classification": {
@@ -10542,7 +10542,7 @@
     "image": {
       "src": "assets/questions/national/2011/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 1970
     },
     "classification": {
@@ -10812,7 +10812,7 @@
     "image": {
       "src": "assets/questions/national/2011/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1139,
       "height": 582
     },
     "classification": {
@@ -12034,7 +12034,7 @@
     "image": {
       "src": "assets/questions/local/2011/q18.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 806,
       "height": 199
     },
     "classification": {
@@ -12170,7 +12170,7 @@
       "src": "assets/questions/local/2011/q20.png",
       "mimeType": "image/png",
       "width": 960,
-      "height": 1553
+      "height": 1253
     },
     "classification": {
       "category": "electronic-circuits",
@@ -12303,7 +12303,7 @@
     "image": {
       "src": "assets/questions/national/2012/q02.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 848,
       "height": 706
     },
     "classification": {
@@ -12710,7 +12710,7 @@
     "image": {
       "src": "assets/questions/national/2012/q08.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 911,
       "height": 482
     },
     "classification": {
@@ -13659,7 +13659,7 @@
     "image": {
       "src": "assets/questions/local/2012/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 817,
       "height": 215
     },
     "classification": {
@@ -13860,7 +13860,7 @@
     "image": {
       "src": "assets/questions/local/2012/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1052,
       "height": 692
     },
     "classification": {
@@ -13995,7 +13995,7 @@
     "image": {
       "src": "assets/questions/local/2012/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1139,
       "height": 355
     },
     "classification": {
@@ -14198,7 +14198,7 @@
     "image": {
       "src": "assets/questions/local/2012/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1117,
       "height": 499
     },
     "classification": {
@@ -15081,7 +15081,7 @@
     "image": {
       "src": "assets/questions/national/2013/q03.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 848,
       "height": 267
     },
     "classification": {
@@ -15894,7 +15894,7 @@
     "image": {
       "src": "assets/questions/national/2013/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 872,
       "height": 540
     },
     "classification": {
@@ -16165,7 +16165,7 @@
     "image": {
       "src": "assets/questions/national/2013/q19.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 869,
       "height": 1027
     },
     "classification": {
@@ -16918,7 +16918,7 @@
     "image": {
       "src": "assets/questions/national/2014/q10.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 874,
       "height": 895
     },
     "classification": {
@@ -17053,7 +17053,7 @@
     "image": {
       "src": "assets/questions/national/2014/q12.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 564,
       "height": 937
     },
     "classification": {
@@ -17255,7 +17255,7 @@
     "image": {
       "src": "assets/questions/national/2014/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 868,
       "height": 640
     },
     "classification": {
@@ -17457,7 +17457,7 @@
     "image": {
       "src": "assets/questions/national/2014/q18.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 834,
       "height": 192
     },
     "classification": {
@@ -17525,7 +17525,7 @@
     "image": {
       "src": "assets/questions/national/2014/q19.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 891,
       "height": 614
     },
     "classification": {
@@ -17660,7 +17660,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 946
     },
     "classification": {
@@ -17727,7 +17727,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 661
     },
     "classification": {
@@ -17794,7 +17794,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 957,
       "height": 690
     },
     "classification": {
@@ -17861,7 +17861,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 645
     },
     "classification": {
@@ -17928,7 +17928,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 867
     },
     "classification": {
@@ -17996,7 +17996,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 1061
     },
     "classification": {
@@ -18062,7 +18062,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1152
     },
     "classification": {
@@ -18129,7 +18129,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 405
     },
     "classification": {
@@ -18196,7 +18196,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 403
     },
     "classification": {
@@ -18263,7 +18263,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 687
     },
     "classification": {
@@ -18330,7 +18330,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 599
     },
     "classification": {
@@ -18397,7 +18397,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1207
     },
     "classification": {
@@ -18464,7 +18464,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 799
     },
     "classification": {
@@ -18531,7 +18531,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q14.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 944
     },
     "classification": {
@@ -18598,7 +18598,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q15.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1530
     },
     "classification": {
@@ -18665,7 +18665,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1161
     },
     "classification": {
@@ -18736,7 +18736,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1493
     },
     "classification": {
@@ -18803,7 +18803,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 477
     },
     "classification": {
@@ -18874,7 +18874,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1257
     },
     "classification": {
@@ -18940,7 +18940,7 @@
     "image": {
       "src": "assets/questions/assembly/2014/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 894
     },
     "classification": {
@@ -19007,7 +19007,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 726
     },
     "classification": {
@@ -19075,7 +19075,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 565
     },
     "classification": {
@@ -19143,7 +19143,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 265
     },
     "classification": {
@@ -19211,7 +19211,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 992,
       "height": 539
     },
     "classification": {
@@ -19279,8 +19279,8 @@
     "image": {
       "src": "assets/questions/seoul/2014/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 599
+      "width": 991,
+      "height": 524
     },
     "classification": {
       "category": "digital-engineering",
@@ -19347,7 +19347,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 950,
       "height": 321
     },
     "classification": {
@@ -19415,7 +19415,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 951,
       "height": 732
     },
     "classification": {
@@ -19483,7 +19483,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 898,
       "height": 413
     },
     "classification": {
@@ -19552,7 +19552,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 946,
       "height": 332
     },
     "classification": {
@@ -19620,8 +19620,8 @@
     "image": {
       "src": "assets/questions/seoul/2014/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 690
+      "width": 954,
+      "height": 621
     },
     "classification": {
       "category": "digital-engineering",
@@ -19688,7 +19688,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 784,
       "height": 404
     },
     "classification": {
@@ -19756,7 +19756,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 267
     },
     "classification": {
@@ -19824,7 +19824,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 492
     },
     "classification": {
@@ -19893,7 +19893,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 380
     },
     "classification": {
@@ -19961,7 +19961,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 458
     },
     "classification": {
@@ -20029,7 +20029,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 539
     },
     "classification": {
@@ -20097,7 +20097,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 1246
     },
     "classification": {
@@ -20167,7 +20167,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 628
     },
     "classification": {
@@ -20235,7 +20235,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 330
     },
     "classification": {
@@ -20304,7 +20304,7 @@
     "image": {
       "src": "assets/questions/seoul/2014/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 379
     },
     "classification": {
@@ -20372,7 +20372,7 @@
     "image": {
       "src": "assets/questions/national/2015/q01.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 736,
       "height": 280
     },
     "classification": {
@@ -20642,7 +20642,7 @@
     "image": {
       "src": "assets/questions/national/2015/q05.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 689,
       "height": 300
     },
     "classification": {
@@ -21453,7 +21453,7 @@
     "image": {
       "src": "assets/questions/national/2015/q17.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 811,
       "height": 733
     },
     "classification": {
@@ -21722,7 +21722,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1018
     },
     "classification": {
@@ -21793,7 +21793,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 786
     },
     "classification": {
@@ -21862,7 +21862,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 681
     },
     "classification": {
@@ -21931,7 +21931,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 986,
       "height": 823
     },
     "classification": {
@@ -22001,7 +22001,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 976,
       "height": 1018
     },
     "classification": {
@@ -22071,7 +22071,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1014
     },
     "classification": {
@@ -22141,7 +22141,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1065
     },
     "classification": {
@@ -22211,7 +22211,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 1070
     },
     "classification": {
@@ -22281,7 +22281,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1200
     },
     "classification": {
@@ -22353,7 +22353,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 509
     },
     "classification": {
@@ -22423,7 +22423,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 901
     },
     "classification": {
@@ -22496,7 +22496,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 499
     },
     "classification": {
@@ -22565,7 +22565,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 987,
       "height": 403
     },
     "classification": {
@@ -22634,7 +22634,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 862
     },
     "classification": {
@@ -22704,7 +22704,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1109,
       "height": 999
     },
     "classification": {
@@ -22774,7 +22774,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 2385
     },
     "classification": {
@@ -22844,7 +22844,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 1382
     },
     "classification": {
@@ -22914,7 +22914,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1319
     },
     "classification": {
@@ -22983,7 +22983,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1099
     },
     "classification": {
@@ -23054,7 +23054,7 @@
     "image": {
       "src": "assets/questions/assembly/2015/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1093
     },
     "classification": {
@@ -23124,7 +23124,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 321
     },
     "classification": {
@@ -23192,7 +23192,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 600
     },
     "classification": {
@@ -23260,7 +23260,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 845
     },
     "classification": {
@@ -23329,7 +23329,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 992,
       "height": 471
     },
     "classification": {
@@ -23397,8 +23397,8 @@
     "image": {
       "src": "assets/questions/seoul/2015/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 556
+      "width": 991,
+      "height": 480
     },
     "classification": {
       "category": "circuit-theory",
@@ -23466,7 +23466,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 264
     },
     "classification": {
@@ -23534,7 +23534,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 883,
       "height": 207
     },
     "classification": {
@@ -23602,7 +23602,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 786,
       "height": 718
     },
     "classification": {
@@ -23670,7 +23670,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 806
     },
     "classification": {
@@ -23739,8 +23739,8 @@
     "image": {
       "src": "assets/questions/seoul/2015/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 368
+      "width": 878,
+      "height": 298
     },
     "classification": {
       "category": "electronic-circuits",
@@ -23807,7 +23807,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 444
     },
     "classification": {
@@ -23875,7 +23875,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 854
     },
     "classification": {
@@ -23946,7 +23946,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 737,
       "height": 389
     },
     "classification": {
@@ -24015,7 +24015,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 612
     },
     "classification": {
@@ -24084,8 +24084,8 @@
     "image": {
       "src": "assets/questions/seoul/2015/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 566
+      "width": 953,
+      "height": 458
     },
     "classification": {
       "category": "electronic-circuits",
@@ -24152,7 +24152,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 952,
       "height": 401
     },
     "classification": {
@@ -24220,7 +24220,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 759
     },
     "classification": {
@@ -24289,7 +24289,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 377
     },
     "classification": {
@@ -24357,7 +24357,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 702
     },
     "classification": {
@@ -24426,7 +24426,7 @@
     "image": {
       "src": "assets/questions/seoul/2015/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 807,
       "height": 516
     },
     "classification": {
@@ -24495,7 +24495,7 @@
     "image": {
       "src": "assets/questions/national/2016/q01.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 206
     },
     "classification": {
@@ -24970,7 +24970,7 @@
       "src": "assets/questions/national/2016/q08.png",
       "mimeType": "image/png",
       "width": 960,
-      "height": 1056
+      "height": 999
     },
     "classification": {
       "category": "digital-engineering",
@@ -25173,7 +25173,7 @@
       "src": "assets/questions/national/2016/q11.png",
       "mimeType": "image/png",
       "width": 960,
-      "height": 2549
+      "height": 2491
     },
     "classification": {
       "category": "electronic-circuits",
@@ -25859,7 +25859,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1210
     },
     "classification": {
@@ -25927,7 +25927,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1143
     },
     "classification": {
@@ -25995,7 +25995,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 1047
     },
     "classification": {
@@ -26065,7 +26065,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1035,
       "height": 473
     },
     "classification": {
@@ -26134,8 +26134,8 @@
     "image": {
       "src": "assets/questions/assembly/2016/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 1367
+      "width": 886,
+      "height": 1241
     },
     "classification": {
       "category": "electronic-circuits",
@@ -26203,7 +26203,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 404
     },
     "classification": {
@@ -26273,7 +26273,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1126
     },
     "classification": {
@@ -26341,7 +26341,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1041,
       "height": 910
     },
     "classification": {
@@ -26410,7 +26410,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 1738
     },
     "classification": {
@@ -26480,8 +26480,8 @@
     "image": {
       "src": "assets/questions/assembly/2016/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 1257
+      "width": 1112,
+      "height": 1123
     },
     "classification": {
       "category": "electronic-circuits",
@@ -26549,7 +26549,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 459
     },
     "classification": {
@@ -26617,7 +26617,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1138
     },
     "classification": {
@@ -26687,8 +26687,8 @@
     "image": {
       "src": "assets/questions/assembly/2016/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 1317
+      "width": 1111,
+      "height": 1200
     },
     "classification": {
       "category": "electronic-circuits",
@@ -26756,7 +26756,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 914
     },
     "classification": {
@@ -26825,7 +26825,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1087,
       "height": 1040
     },
     "classification": {
@@ -26894,7 +26894,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 514
     },
     "classification": {
@@ -26963,7 +26963,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1246
     },
     "classification": {
@@ -27032,7 +27032,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 833
     },
     "classification": {
@@ -27100,7 +27100,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 1258
     },
     "classification": {
@@ -27170,7 +27170,7 @@
     "image": {
       "src": "assets/questions/assembly/2016/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 978,
       "height": 843
     },
     "classification": {
@@ -27239,7 +27239,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 291
     },
     "classification": {
@@ -27307,7 +27307,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 352
     },
     "classification": {
@@ -27376,7 +27376,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 591
     },
     "classification": {
@@ -27445,7 +27445,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 992,
       "height": 567
     },
     "classification": {
@@ -27516,8 +27516,8 @@
     "image": {
       "src": "assets/questions/seoul/2016/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1150
+      "width": 991,
+      "height": 1025
     },
     "classification": {
       "category": "electronic-circuits",
@@ -27587,7 +27587,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 833
     },
     "classification": {
@@ -27655,7 +27655,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 540
     },
     "classification": {
@@ -27723,7 +27723,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 487
     },
     "classification": {
@@ -27793,7 +27793,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 485
     },
     "classification": {
@@ -27862,8 +27862,8 @@
     "image": {
       "src": "assets/questions/seoul/2016/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 522
+      "width": 725,
+      "height": 365
     },
     "classification": {
       "category": "electronic-circuits",
@@ -27930,7 +27930,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 379
     },
     "classification": {
@@ -27998,7 +27998,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 571
     },
     "classification": {
@@ -28067,7 +28067,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 692
     },
     "classification": {
@@ -28136,7 +28136,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 736,
       "height": 321
     },
     "classification": {
@@ -28204,7 +28204,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 494
     },
     "classification": {
@@ -28272,7 +28272,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 470
     },
     "classification": {
@@ -28340,7 +28340,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 439
     },
     "classification": {
@@ -28409,7 +28409,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 529
     },
     "classification": {
@@ -28478,7 +28478,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 832,
       "height": 623
     },
     "classification": {
@@ -28546,7 +28546,7 @@
     "image": {
       "src": "assets/questions/seoul/2016/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 708
     },
     "classification": {
@@ -28817,7 +28817,7 @@
     "image": {
       "src": "assets/questions/national/2017/q04.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 891,
       "height": 787
     },
     "classification": {
@@ -29288,7 +29288,7 @@
     "image": {
       "src": "assets/questions/national/2017/q11.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 916,
       "height": 896
     },
     "classification": {
@@ -29894,7 +29894,7 @@
     "image": {
       "src": "assets/questions/national/2017/q20.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 892,
       "height": 885
     },
     "classification": {
@@ -29961,7 +29961,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1223
     },
     "classification": {
@@ -30031,7 +30031,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1064,
       "height": 1186
     },
     "classification": {
@@ -30100,7 +30100,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 1638
     },
     "classification": {
@@ -30169,7 +30169,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1200
     },
     "classification": {
@@ -30237,7 +30237,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 628
     },
     "classification": {
@@ -30305,7 +30305,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 680
     },
     "classification": {
@@ -30374,7 +30374,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 723
     },
     "classification": {
@@ -30444,7 +30444,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 924,
       "height": 898
     },
     "classification": {
@@ -30513,7 +30513,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 975
     },
     "classification": {
@@ -30582,7 +30582,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1109,
       "height": 459
     },
     "classification": {
@@ -30651,7 +30651,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 1715
     },
     "classification": {
@@ -30721,7 +30721,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 983,
       "height": 405
     },
     "classification": {
@@ -30790,7 +30790,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 944,
       "height": 508
     },
     "classification": {
@@ -30859,7 +30859,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1035,
       "height": 810
     },
     "classification": {
@@ -30928,7 +30928,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 965,
       "height": 780
     },
     "classification": {
@@ -30997,7 +30997,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 894,
       "height": 1089
     },
     "classification": {
@@ -31065,7 +31065,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 990,
       "height": 1456
     },
     "classification": {
@@ -31134,7 +31134,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 511
     },
     "classification": {
@@ -31202,7 +31202,7 @@
     "image": {
       "src": "assets/questions/assembly/2017/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1111,
       "height": 561
     },
     "classification": {
@@ -31273,8 +31273,8 @@
     "image": {
       "src": "assets/questions/assembly/2017/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 986
+      "width": 1112,
+      "height": 941
     },
     "classification": {
       "category": "electronic-circuits",
@@ -31341,7 +31341,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 730
     },
     "classification": {
@@ -31409,7 +31409,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 725
     },
     "classification": {
@@ -31477,7 +31477,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 494
     },
     "classification": {
@@ -31546,7 +31546,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 895,
       "height": 440
     },
     "classification": {
@@ -31615,8 +31615,8 @@
     "image": {
       "src": "assets/questions/seoul/2017/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 310
+      "width": 733,
+      "height": 184
     },
     "classification": {
       "category": "digital-engineering",
@@ -31684,7 +31684,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 949,
       "height": 539
     },
     "classification": {
@@ -31752,7 +31752,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 684
     },
     "classification": {
@@ -31821,7 +31821,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 780,
       "height": 468
     },
     "classification": {
@@ -31890,7 +31890,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 946,
       "height": 463
     },
     "classification": {
@@ -31959,7 +31959,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 951,
       "height": 538
     },
     "classification": {
@@ -32027,7 +32027,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 531
     },
     "classification": {
@@ -32096,7 +32096,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 724
     },
     "classification": {
@@ -32164,7 +32164,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 510
     },
     "classification": {
@@ -32233,7 +32233,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 269
     },
     "classification": {
@@ -32302,7 +32302,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 654
     },
     "classification": {
@@ -32370,7 +32370,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 435
     },
     "classification": {
@@ -32439,7 +32439,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 314
     },
     "classification": {
@@ -32507,7 +32507,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 812
     },
     "classification": {
@@ -32576,7 +32576,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 822,
       "height": 421
     },
     "classification": {
@@ -32645,7 +32645,7 @@
     "image": {
       "src": "assets/questions/seoul/2017/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 949,
       "height": 801
     },
     "classification": {
@@ -33669,7 +33669,7 @@
     "image": {
       "src": "assets/questions/national/2018/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 887,
       "height": 603
     },
     "classification": {
@@ -33806,7 +33806,7 @@
     "image": {
       "src": "assets/questions/national/2018/q17.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 906,
       "height": 590
     },
     "classification": {
@@ -34079,7 +34079,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q01.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 969
     },
     "classification": {
@@ -34148,7 +34148,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q02.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 511
     },
     "classification": {
@@ -34216,7 +34216,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1112,
       "height": 1487
     },
     "classification": {
@@ -34288,7 +34288,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1114,
       "height": 1120
     },
     "classification": {
@@ -34357,7 +34357,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 1977
     },
     "classification": {
@@ -34427,7 +34427,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 518
     },
     "classification": {
@@ -34496,7 +34496,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1112,
       "height": 1253
     },
     "classification": {
@@ -34566,7 +34566,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1113,
       "height": 1082
     },
     "classification": {
@@ -34635,7 +34635,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 1199
     },
     "classification": {
@@ -34704,7 +34704,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1328
     },
     "classification": {
@@ -34773,7 +34773,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1109,
       "height": 1510
     },
     "classification": {
@@ -34841,7 +34841,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1113,
       "height": 940
     },
     "classification": {
@@ -34910,7 +34910,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1852
     },
     "classification": {
@@ -34979,7 +34979,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 731
     },
     "classification": {
@@ -35048,7 +35048,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1112,
       "height": 1021
     },
     "classification": {
@@ -35117,7 +35117,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1112,
       "height": 545
     },
     "classification": {
@@ -35185,7 +35185,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1109,
       "height": 716
     },
     "classification": {
@@ -35253,7 +35253,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1158
     },
     "classification": {
@@ -35322,7 +35322,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 511
     },
     "classification": {
@@ -35391,7 +35391,7 @@
     "image": {
       "src": "assets/questions/assembly/2018/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 404
     },
     "classification": {
@@ -35459,7 +35459,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 380
     },
     "classification": {
@@ -35527,7 +35527,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 364
     },
     "classification": {
@@ -35595,7 +35595,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 991,
       "height": 517
     },
     "classification": {
@@ -35663,7 +35663,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 992,
       "height": 743
     },
     "classification": {
@@ -35731,8 +35731,8 @@
     "image": {
       "src": "assets/questions/seoul/2018/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 831
+      "width": 991,
+      "height": 792
     },
     "classification": {
       "category": "electronic-circuits",
@@ -35799,7 +35799,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 768
     },
     "classification": {
@@ -35868,7 +35868,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 593
     },
     "classification": {
@@ -35937,7 +35937,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 589
     },
     "classification": {
@@ -36006,7 +36006,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 954,
       "height": 531
     },
     "classification": {
@@ -36074,7 +36074,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 371
     },
     "classification": {
@@ -36142,7 +36142,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 379
     },
     "classification": {
@@ -36210,7 +36210,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 918
     },
     "classification": {
@@ -36279,7 +36279,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 588
     },
     "classification": {
@@ -36348,7 +36348,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 990,
       "height": 460
     },
     "classification": {
@@ -36416,8 +36416,8 @@
     "image": {
       "src": "assets/questions/seoul/2018/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 344
+      "width": 990,
+      "height": 305
     },
     "classification": {
       "category": "circuit-theory",
@@ -36485,7 +36485,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 955,
       "height": 809
     },
     "classification": {
@@ -36555,7 +36555,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 948,
       "height": 384
     },
     "classification": {
@@ -36623,7 +36623,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 952,
       "height": 434
     },
     "classification": {
@@ -36691,7 +36691,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 424
     },
     "classification": {
@@ -36760,7 +36760,7 @@
     "image": {
       "src": "assets/questions/seoul/2018/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 953,
       "height": 594
     },
     "classification": {
@@ -38185,7 +38185,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 759
     },
     "classification": {
@@ -38254,7 +38254,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1031
     },
     "classification": {
@@ -38322,7 +38322,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 990
     },
     "classification": {
@@ -38390,7 +38390,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 1389
     },
     "classification": {
@@ -38459,7 +38459,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 875
     },
     "classification": {
@@ -38527,7 +38527,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1278
     },
     "classification": {
@@ -38595,7 +38595,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 575
     },
     "classification": {
@@ -38663,7 +38663,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 459
     },
     "classification": {
@@ -38732,7 +38732,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 611
     },
     "classification": {
@@ -38800,7 +38800,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 780
     },
     "classification": {
@@ -38870,7 +38870,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 895
     },
     "classification": {
@@ -38938,7 +38938,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 853
     },
     "classification": {
@@ -39007,7 +39007,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1011
     },
     "classification": {
@@ -39077,7 +39077,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 933
     },
     "classification": {
@@ -39146,7 +39146,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 919,
       "height": 799
     },
     "classification": {
@@ -39215,7 +39215,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 615
     },
     "classification": {
@@ -39285,7 +39285,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1880
     },
     "classification": {
@@ -39355,7 +39355,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 809
     },
     "classification": {
@@ -39424,7 +39424,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 2031
     },
     "classification": {
@@ -39494,7 +39494,7 @@
     "image": {
       "src": "assets/questions/assembly/2019/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1108,
       "height": 842
     },
     "classification": {
@@ -39562,7 +39562,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 698
     },
     "classification": {
@@ -39631,7 +39631,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 282
     },
     "classification": {
@@ -39699,7 +39699,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 748
     },
     "classification": {
@@ -39767,7 +39767,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 499
     },
     "classification": {
@@ -39835,7 +39835,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 408
     },
     "classification": {
@@ -39903,7 +39903,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 930,
       "height": 385
     },
     "classification": {
@@ -39972,7 +39972,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 809
     },
     "classification": {
@@ -40041,7 +40041,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 508
     },
     "classification": {
@@ -40109,7 +40109,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 542
     },
     "classification": {
@@ -40177,7 +40177,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 573
     },
     "classification": {
@@ -40246,7 +40246,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 791,
       "height": 598
     },
     "classification": {
@@ -40315,7 +40315,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 343
     },
     "classification": {
@@ -40383,7 +40383,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 281
     },
     "classification": {
@@ -40451,7 +40451,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 614
     },
     "classification": {
@@ -40520,7 +40520,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 620
     },
     "classification": {
@@ -40589,7 +40589,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 715
     },
     "classification": {
@@ -40657,7 +40657,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 818
     },
     "classification": {
@@ -40725,7 +40725,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 455
     },
     "classification": {
@@ -40794,7 +40794,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 508
     },
     "classification": {
@@ -40863,7 +40863,7 @@
     "image": {
       "src": "assets/questions/seoul/2019/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 300
     },
     "classification": {
@@ -41812,7 +41812,7 @@
       "src": "assets/questions/national/2020/q14.png",
       "mimeType": "image/png",
       "width": 960,
-      "height": 813
+      "height": 758
     },
     "classification": {
       "category": "electronic-circuits",
@@ -42217,7 +42217,7 @@
       "src": "assets/questions/national/2020/q20.png",
       "mimeType": "image/png",
       "width": 960,
-      "height": 799
+      "height": 758
     },
     "classification": {
       "category": "electronic-circuits",
@@ -42285,7 +42285,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 555
     },
     "classification": {
@@ -42353,7 +42353,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 720
     },
     "classification": {
@@ -42423,7 +42423,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 985
     },
     "classification": {
@@ -42493,7 +42493,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1001
     },
     "classification": {
@@ -42562,7 +42562,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1108,
       "height": 966
     },
     "classification": {
@@ -42631,7 +42631,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 559
     },
     "classification": {
@@ -42699,7 +42699,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1113
     },
     "classification": {
@@ -42768,7 +42768,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 520
     },
     "classification": {
@@ -42836,7 +42836,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 660
     },
     "classification": {
@@ -42905,7 +42905,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1108,
       "height": 992
     },
     "classification": {
@@ -42974,7 +42974,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 865
     },
     "classification": {
@@ -43043,7 +43043,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1344
     },
     "classification": {
@@ -43113,7 +43113,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 988,
       "height": 857
     },
     "classification": {
@@ -43182,7 +43182,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1237
     },
     "classification": {
@@ -43252,7 +43252,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 558
     },
     "classification": {
@@ -43320,7 +43320,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 687
     },
     "classification": {
@@ -43388,7 +43388,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 974
     },
     "classification": {
@@ -43457,7 +43457,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1347
     },
     "classification": {
@@ -43526,7 +43526,7 @@
     "image": {
       "src": "assets/questions/assembly/2020/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1139
     },
     "classification": {
@@ -43594,8 +43594,8 @@
     "image": {
       "src": "assets/questions/assembly/2020/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 1887
+      "width": 1114,
+      "height": 426
     },
     "classification": {
       "category": "digital-engineering",
@@ -43663,7 +43663,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 470
     },
     "classification": {
@@ -43731,7 +43731,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 412
     },
     "classification": {
@@ -43799,7 +43799,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 543
     },
     "classification": {
@@ -43867,7 +43867,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 414
     },
     "classification": {
@@ -43935,7 +43935,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 535
     },
     "classification": {
@@ -44003,7 +44003,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 1513
     },
     "classification": {
@@ -44072,7 +44072,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 409
     },
     "classification": {
@@ -44140,7 +44140,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 738
     },
     "classification": {
@@ -44209,7 +44209,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 1032
     },
     "classification": {
@@ -44278,7 +44278,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 925
     },
     "classification": {
@@ -44346,7 +44346,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 409
     },
     "classification": {
@@ -44414,7 +44414,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 825
     },
     "classification": {
@@ -44482,7 +44482,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 1172
     },
     "classification": {
@@ -44551,7 +44551,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 787
     },
     "classification": {
@@ -44620,7 +44620,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 1214
     },
     "classification": {
@@ -44689,7 +44689,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 418
     },
     "classification": {
@@ -44757,7 +44757,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 1188
     },
     "classification": {
@@ -44826,7 +44826,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 1105
     },
     "classification": {
@@ -44895,7 +44895,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 1388
     },
     "classification": {
@@ -44966,7 +44966,7 @@
     "image": {
       "src": "assets/questions/seoul/2020/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 744,
       "height": 346
     },
     "classification": {
@@ -46397,7 +46397,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 946
     },
     "classification": {
@@ -46466,7 +46466,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1101
     },
     "classification": {
@@ -46534,7 +46534,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 895
     },
     "classification": {
@@ -46603,7 +46603,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 953,
       "height": 1162
     },
     "classification": {
@@ -46673,7 +46673,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1079
     },
     "classification": {
@@ -46741,7 +46741,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1131
     },
     "classification": {
@@ -46810,7 +46810,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1253
     },
     "classification": {
@@ -46878,7 +46878,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 1092
     },
     "classification": {
@@ -46947,7 +46947,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1367
     },
     "classification": {
@@ -47021,7 +47021,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1240
     },
     "classification": {
@@ -47091,7 +47091,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 928
     },
     "classification": {
@@ -47160,7 +47160,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 1179
     },
     "classification": {
@@ -47228,7 +47228,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1175
     },
     "classification": {
@@ -47297,7 +47297,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q14.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1380
     },
     "classification": {
@@ -47367,7 +47367,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 951
     },
     "classification": {
@@ -47436,7 +47436,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 1090
     },
     "classification": {
@@ -47504,7 +47504,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1173
     },
     "classification": {
@@ -47574,7 +47574,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1131
     },
     "classification": {
@@ -47643,7 +47643,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 886,
       "height": 573
     },
     "classification": {
@@ -47712,7 +47712,7 @@
     "image": {
       "src": "assets/questions/assembly/2021/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 714
     },
     "classification": {
@@ -47781,7 +47781,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 415
     },
     "classification": {
@@ -47849,7 +47849,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 461
     },
     "classification": {
@@ -47917,7 +47917,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 577
     },
     "classification": {
@@ -47986,7 +47986,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 784
     },
     "classification": {
@@ -48054,7 +48054,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 566
     },
     "classification": {
@@ -48123,7 +48123,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 943
     },
     "classification": {
@@ -48193,7 +48193,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 968
     },
     "classification": {
@@ -48262,7 +48262,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 346
     },
     "classification": {
@@ -48331,7 +48331,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 836
     },
     "classification": {
@@ -48400,7 +48400,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 415
     },
     "classification": {
@@ -48468,7 +48468,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 581
     },
     "classification": {
@@ -48539,7 +48539,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 553
     },
     "classification": {
@@ -48607,7 +48607,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 798
     },
     "classification": {
@@ -48675,7 +48675,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 973,
       "height": 651
     },
     "classification": {
@@ -48744,7 +48744,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 422
     },
     "classification": {
@@ -48812,7 +48812,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 972,
       "height": 839
     },
     "classification": {
@@ -48881,7 +48881,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 644
     },
     "classification": {
@@ -48950,7 +48950,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 813
     },
     "classification": {
@@ -49019,7 +49019,7 @@
     "image": {
       "src": "assets/questions/seoul/2021/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 971,
       "height": 840
     },
     "classification": {
@@ -49088,8 +49088,8 @@
     "image": {
       "src": "assets/questions/seoul/2021/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1030
+      "width": 972,
+      "height": 987
     },
     "classification": {
       "category": "electronic-circuits",
@@ -49495,7 +49495,7 @@
     "image": {
       "src": "assets/questions/national/2022/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1139,
       "height": 593
     },
     "classification": {
@@ -49564,7 +49564,7 @@
     "image": {
       "src": "assets/questions/national/2022/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1147,
       "height": 1031
     },
     "classification": {
@@ -50517,7 +50517,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1151
     },
     "classification": {
@@ -50587,7 +50587,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 930
     },
     "classification": {
@@ -50655,7 +50655,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1183
     },
     "classification": {
@@ -50723,7 +50723,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 511
     },
     "classification": {
@@ -50791,7 +50791,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1104
     },
     "classification": {
@@ -50859,7 +50859,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1103
     },
     "classification": {
@@ -50927,7 +50927,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1209
     },
     "classification": {
@@ -50996,7 +50996,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1304
     },
     "classification": {
@@ -51065,7 +51065,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 920
     },
     "classification": {
@@ -51134,8 +51134,8 @@
     "image": {
       "src": "assets/questions/assembly/2022/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 2093
+      "width": 1112,
+      "height": 1912
     },
     "classification": {
       "category": "electronic-circuits",
@@ -51205,7 +51205,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1107,
       "height": 1107
     },
     "classification": {
@@ -51273,7 +51273,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1111,
       "height": 1030
     },
     "classification": {
@@ -51343,7 +51343,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 910,
       "height": 754
     },
     "classification": {
@@ -51412,7 +51412,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q14.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 940,
       "height": 710
     },
     "classification": {
@@ -51481,7 +51481,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q15.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 820,
       "height": 784
     },
     "classification": {
@@ -51550,7 +51550,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1112,
       "height": 921
     },
     "classification": {
@@ -51618,7 +51618,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 1023
     },
     "classification": {
@@ -51687,7 +51687,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q18.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 840
     },
     "classification": {
@@ -51755,7 +51755,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 821
     },
     "classification": {
@@ -51824,7 +51824,7 @@
     "image": {
       "src": "assets/questions/assembly/2022/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 562
     },
     "classification": {
@@ -51893,7 +51893,7 @@
     "image": {
       "src": "assets/questions/military/2022/q01.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 484
     },
     "classification": {
@@ -51960,7 +51960,7 @@
     "image": {
       "src": "assets/questions/military/2022/q02.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 370
     },
     "classification": {
@@ -52028,7 +52028,7 @@
     "image": {
       "src": "assets/questions/military/2022/q03.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 597
     },
     "classification": {
@@ -52095,8 +52095,8 @@
     "image": {
       "src": "assets/questions/military/2022/q04.png",
       "mimeType": "image/png",
-      "width": 960,
-      "height": 484
+      "width": 825,
+      "height": 340
     },
     "classification": {
       "category": "electronic-circuits",
@@ -52162,7 +52162,7 @@
     "image": {
       "src": "assets/questions/military/2022/q05.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 821,
       "height": 826
     },
     "classification": {
@@ -52229,7 +52229,7 @@
     "image": {
       "src": "assets/questions/military/2022/q06.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 821,
       "height": 682
     },
     "classification": {
@@ -52297,8 +52297,8 @@
     "image": {
       "src": "assets/questions/military/2022/q07.png",
       "mimeType": "image/png",
-      "width": 960,
-      "height": 485
+      "width": 821,
+      "height": 346
     },
     "classification": {
       "category": "circuit-theory",
@@ -52365,7 +52365,7 @@
     "image": {
       "src": "assets/questions/military/2022/q08.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 753
     },
     "classification": {
@@ -52433,7 +52433,7 @@
     "image": {
       "src": "assets/questions/military/2022/q09.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 613
     },
     "classification": {
@@ -52501,7 +52501,7 @@
     "image": {
       "src": "assets/questions/military/2022/q10.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 827,
       "height": 710
     },
     "classification": {
@@ -52569,7 +52569,7 @@
     "image": {
       "src": "assets/questions/military/2022/q11.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 821,
       "height": 742
     },
     "classification": {
@@ -52636,7 +52636,7 @@
     "image": {
       "src": "assets/questions/military/2022/q12.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 821,
       "height": 371
     },
     "classification": {
@@ -52703,7 +52703,7 @@
     "image": {
       "src": "assets/questions/military/2022/q13.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 820,
       "height": 635
     },
     "classification": {
@@ -52771,7 +52771,7 @@
     "image": {
       "src": "assets/questions/military/2022/q14.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 1983
     },
     "classification": {
@@ -52838,7 +52838,7 @@
     "image": {
       "src": "assets/questions/military/2022/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 480
     },
     "classification": {
@@ -52905,7 +52905,7 @@
     "image": {
       "src": "assets/questions/military/2022/q16.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 816,
       "height": 481
     },
     "classification": {
@@ -52973,7 +52973,7 @@
     "image": {
       "src": "assets/questions/military/2022/q17.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 820,
       "height": 369
     },
     "classification": {
@@ -53040,7 +53040,7 @@
     "image": {
       "src": "assets/questions/military/2022/q18.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 816,
       "height": 610
     },
     "classification": {
@@ -53107,7 +53107,7 @@
     "image": {
       "src": "assets/questions/military/2022/q19.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 425
     },
     "classification": {
@@ -53174,7 +53174,7 @@
     "image": {
       "src": "assets/questions/military/2022/q20.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 766
     },
     "classification": {
@@ -53718,7 +53718,7 @@
     "image": {
       "src": "assets/questions/local/2022/q08.png",
       "mimeType": "image/png",
-      "width": 1148,
+      "width": 1108,
       "height": 964
     },
     "classification": {
@@ -53992,7 +53992,7 @@
     "image": {
       "src": "assets/questions/local/2022/q12.png",
       "mimeType": "image/png",
-      "width": 1148,
+      "width": 1112,
       "height": 1371
     },
     "classification": {
@@ -54602,7 +54602,7 @@
     "image": {
       "src": "assets/questions/national/2023/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 412
     },
     "classification": {
@@ -54669,7 +54669,7 @@
     "image": {
       "src": "assets/questions/national/2023/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1133,
       "height": 2336
     },
     "classification": {
@@ -54737,7 +54737,7 @@
     "image": {
       "src": "assets/questions/national/2023/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 944
     },
     "classification": {
@@ -55006,7 +55006,7 @@
     "image": {
       "src": "assets/questions/national/2023/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1134,
       "height": 1271
     },
     "classification": {
@@ -55073,7 +55073,7 @@
     "image": {
       "src": "assets/questions/national/2023/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1133,
       "height": 599
     },
     "classification": {
@@ -55141,7 +55141,7 @@
     "image": {
       "src": "assets/questions/national/2023/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1133,
       "height": 574
     },
     "classification": {
@@ -55960,7 +55960,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1299
     },
     "classification": {
@@ -56029,8 +56029,8 @@
     "image": {
       "src": "assets/questions/assembly/2023/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 1355
+      "width": 1115,
+      "height": 1237
     },
     "classification": {
       "category": "digital-engineering",
@@ -56097,7 +56097,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1135,
       "height": 1112
     },
     "classification": {
@@ -56165,7 +56165,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 835
     },
     "classification": {
@@ -56234,8 +56234,8 @@
     "image": {
       "src": "assets/questions/assembly/2023/q05.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 926
+      "width": 1114,
+      "height": 809
     },
     "classification": {
       "category": "circuit-theory",
@@ -56303,7 +56303,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1712
     },
     "classification": {
@@ -56371,7 +56371,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1063
     },
     "classification": {
@@ -56440,7 +56440,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 1058
     },
     "classification": {
@@ -56509,7 +56509,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1115,
       "height": 682
     },
     "classification": {
@@ -56577,7 +56577,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1116,
       "height": 527
     },
     "classification": {
@@ -56645,7 +56645,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 883
     },
     "classification": {
@@ -56713,7 +56713,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 580
     },
     "classification": {
@@ -56781,7 +56781,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 998
     },
     "classification": {
@@ -56853,7 +56853,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 1032
     },
     "classification": {
@@ -56922,7 +56922,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q15.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1113,
       "height": 725
     },
     "classification": {
@@ -56990,7 +56990,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1115
     },
     "classification": {
@@ -57059,7 +57059,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1258
     },
     "classification": {
@@ -57129,7 +57129,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 914,
       "height": 564
     },
     "classification": {
@@ -57197,7 +57197,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 1174
     },
     "classification": {
@@ -57266,7 +57266,7 @@
     "image": {
       "src": "assets/questions/assembly/2023/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1075,
       "height": 996
     },
     "classification": {
@@ -57334,7 +57334,7 @@
     "image": {
       "src": "assets/questions/military/2023/q01.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 839
     },
     "classification": {
@@ -57401,7 +57401,7 @@
     "image": {
       "src": "assets/questions/military/2023/q02.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 765
     },
     "classification": {
@@ -57468,7 +57468,7 @@
     "image": {
       "src": "assets/questions/military/2023/q03.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 488
     },
     "classification": {
@@ -57535,7 +57535,7 @@
     "image": {
       "src": "assets/questions/military/2023/q04.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 820,
       "height": 980
     },
     "classification": {
@@ -57603,7 +57603,7 @@
     "image": {
       "src": "assets/questions/military/2023/q05.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 818,
       "height": 935
     },
     "classification": {
@@ -57671,7 +57671,7 @@
     "image": {
       "src": "assets/questions/military/2023/q06.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 780,
       "height": 640
     },
     "classification": {
@@ -57738,7 +57738,7 @@
     "image": {
       "src": "assets/questions/military/2023/q07.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 651
     },
     "classification": {
@@ -57805,7 +57805,7 @@
     "image": {
       "src": "assets/questions/military/2023/q08.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 652
     },
     "classification": {
@@ -57872,7 +57872,7 @@
     "image": {
       "src": "assets/questions/military/2023/q09.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 528
     },
     "classification": {
@@ -57939,7 +57939,7 @@
     "image": {
       "src": "assets/questions/military/2023/q10.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 790,
       "height": 699
     },
     "classification": {
@@ -58007,7 +58007,7 @@
     "image": {
       "src": "assets/questions/military/2023/q11.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 820,
       "height": 370
     },
     "classification": {
@@ -58074,7 +58074,7 @@
     "image": {
       "src": "assets/questions/military/2023/q12.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 709
     },
     "classification": {
@@ -58141,7 +58141,7 @@
     "image": {
       "src": "assets/questions/military/2023/q13.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 653,
       "height": 677
     },
     "classification": {
@@ -58210,7 +58210,7 @@
     "image": {
       "src": "assets/questions/military/2023/q14.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 761,
       "height": 841
     },
     "classification": {
@@ -58278,7 +58278,7 @@
     "image": {
       "src": "assets/questions/military/2023/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 822,
       "height": 1084
     },
     "classification": {
@@ -58345,7 +58345,7 @@
     "image": {
       "src": "assets/questions/military/2023/q16.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 822,
       "height": 552
     },
     "classification": {
@@ -58415,7 +58415,7 @@
     "image": {
       "src": "assets/questions/military/2023/q17.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 817,
       "height": 573
     },
     "classification": {
@@ -58483,7 +58483,7 @@
     "image": {
       "src": "assets/questions/military/2023/q18.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 821,
       "height": 850
     },
     "classification": {
@@ -58551,7 +58551,7 @@
     "image": {
       "src": "assets/questions/military/2023/q19.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 814,
       "height": 690
     },
     "classification": {
@@ -58619,7 +58619,7 @@
     "image": {
       "src": "assets/questions/military/2023/q20.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 780
     },
     "classification": {
@@ -58686,7 +58686,7 @@
     "image": {
       "src": "assets/questions/local/2023/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 1037
     },
     "classification": {
@@ -58755,7 +58755,7 @@
     "image": {
       "src": "assets/questions/local/2023/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1130,
       "height": 579
     },
     "classification": {
@@ -58822,7 +58822,7 @@
     "image": {
       "src": "assets/questions/local/2023/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1130,
       "height": 538
     },
     "classification": {
@@ -59036,7 +59036,7 @@
     "image": {
       "src": "assets/questions/local/2023/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1130,
       "height": 1454
     },
     "classification": {
@@ -59104,7 +59104,7 @@
     "image": {
       "src": "assets/questions/local/2023/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1130,
       "height": 849
     },
     "classification": {
@@ -59377,7 +59377,7 @@
     "image": {
       "src": "assets/questions/local/2023/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 908,
       "height": 349
     },
     "classification": {
@@ -59716,7 +59716,7 @@
     "image": {
       "src": "assets/questions/local/2023/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1018,
       "height": 349
     },
     "classification": {
@@ -59985,7 +59985,7 @@
     "image": {
       "src": "assets/questions/local/2023/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 950,
       "height": 1033
     },
     "classification": {
@@ -60053,7 +60053,7 @@
     "image": {
       "src": "assets/questions/national/2024/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1129,
       "height": 488
     },
     "classification": {
@@ -60120,7 +60120,7 @@
     "image": {
       "src": "assets/questions/national/2024/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 404
     },
     "classification": {
@@ -60187,7 +60187,7 @@
     "image": {
       "src": "assets/questions/national/2024/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 402
     },
     "classification": {
@@ -60254,7 +60254,7 @@
     "image": {
       "src": "assets/questions/national/2024/q04.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1132,
       "height": 420
     },
     "classification": {
@@ -60321,7 +60321,7 @@
     "image": {
       "src": "assets/questions/national/2024/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 834,
       "height": 341
     },
     "classification": {
@@ -60388,7 +60388,7 @@
     "image": {
       "src": "assets/questions/national/2024/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1146,
       "height": 597
     },
     "classification": {
@@ -60455,7 +60455,7 @@
     "image": {
       "src": "assets/questions/national/2024/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 816,
       "height": 343
     },
     "classification": {
@@ -60590,7 +60590,7 @@
     "image": {
       "src": "assets/questions/national/2024/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 590
     },
     "classification": {
@@ -61066,7 +61066,7 @@
     "image": {
       "src": "assets/questions/national/2024/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1102,
       "height": 898
     },
     "classification": {
@@ -61343,7 +61343,7 @@
     "image": {
       "src": "assets/questions/national/2024/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1139,
       "height": 772
     },
     "classification": {
@@ -61412,7 +61412,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1060
     },
     "classification": {
@@ -61481,7 +61481,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1195
     },
     "classification": {
@@ -61551,7 +61551,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 1969
     },
     "classification": {
@@ -61620,7 +61620,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 735
     },
     "classification": {
@@ -61693,7 +61693,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1109
     },
     "classification": {
@@ -61761,7 +61761,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 1088
     },
     "classification": {
@@ -61830,7 +61830,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 1134
     },
     "classification": {
@@ -61899,7 +61899,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1114,
       "height": 1674
     },
     "classification": {
@@ -61970,7 +61970,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1115,
       "height": 576
     },
     "classification": {
@@ -62038,7 +62038,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 471
     },
     "classification": {
@@ -62106,7 +62106,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q11.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 529
     },
     "classification": {
@@ -62174,7 +62174,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1110,
       "height": 815
     },
     "classification": {
@@ -62243,7 +62243,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1089,
       "height": 804
     },
     "classification": {
@@ -62312,7 +62312,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q14.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1115,
       "height": 673
     },
     "classification": {
@@ -62385,7 +62385,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q15.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 1076
     },
     "classification": {
@@ -62453,7 +62453,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q16.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1067,
       "height": 866
     },
     "classification": {
@@ -62522,7 +62522,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q17.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1112,
       "height": 631
     },
     "classification": {
@@ -62591,7 +62591,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 887,
       "height": 1067
     },
     "classification": {
@@ -62660,7 +62660,7 @@
     "image": {
       "src": "assets/questions/assembly/2024/q19.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1115,
       "height": 1066
     },
     "classification": {
@@ -62729,8 +62729,8 @@
     "image": {
       "src": "assets/questions/assembly/2024/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
-      "height": 1109
+      "width": 1115,
+      "height": 1065
     },
     "classification": {
       "category": "circuit-theory",
@@ -62798,7 +62798,7 @@
     "image": {
       "src": "assets/questions/military/2024/q01.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 649
     },
     "classification": {
@@ -62865,7 +62865,7 @@
     "image": {
       "src": "assets/questions/military/2024/q02.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1008,
       "height": 720
     },
     "classification": {
@@ -62933,7 +62933,7 @@
     "image": {
       "src": "assets/questions/military/2024/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1009,
       "height": 651
     },
     "classification": {
@@ -63000,7 +63000,7 @@
     "image": {
       "src": "assets/questions/military/2024/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1008,
       "height": 724
     },
     "classification": {
@@ -63068,7 +63068,7 @@
     "image": {
       "src": "assets/questions/military/2024/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1008,
       "height": 858
     },
     "classification": {
@@ -63136,7 +63136,7 @@
     "image": {
       "src": "assets/questions/military/2024/q06.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1008,
       "height": 837
     },
     "classification": {
@@ -63204,7 +63204,7 @@
     "image": {
       "src": "assets/questions/military/2024/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1009,
       "height": 1410
     },
     "classification": {
@@ -63273,7 +63273,7 @@
     "image": {
       "src": "assets/questions/military/2024/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1003,
       "height": 848
     },
     "classification": {
@@ -63340,7 +63340,7 @@
     "image": {
       "src": "assets/questions/military/2024/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1009,
       "height": 463
     },
     "classification": {
@@ -63407,7 +63407,7 @@
     "image": {
       "src": "assets/questions/military/2024/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1011,
       "height": 1053
     },
     "classification": {
@@ -63476,7 +63476,7 @@
     "image": {
       "src": "assets/questions/military/2024/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 978
     },
     "classification": {
@@ -63544,7 +63544,7 @@
     "image": {
       "src": "assets/questions/military/2024/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 237
     },
     "classification": {
@@ -63612,7 +63612,7 @@
     "image": {
       "src": "assets/questions/military/2024/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 715
     },
     "classification": {
@@ -63680,7 +63680,7 @@
     "image": {
       "src": "assets/questions/military/2024/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1009,
       "height": 512
     },
     "classification": {
@@ -63747,7 +63747,7 @@
     "image": {
       "src": "assets/questions/military/2024/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1009,
       "height": 1323
     },
     "classification": {
@@ -63814,7 +63814,7 @@
     "image": {
       "src": "assets/questions/military/2024/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 581
     },
     "classification": {
@@ -63882,7 +63882,7 @@
     "image": {
       "src": "assets/questions/military/2024/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 1182
     },
     "classification": {
@@ -63951,7 +63951,7 @@
     "image": {
       "src": "assets/questions/military/2024/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1007,
       "height": 446
     },
     "classification": {
@@ -64018,7 +64018,7 @@
     "image": {
       "src": "assets/questions/military/2024/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1009,
       "height": 448
     },
     "classification": {
@@ -64085,7 +64085,7 @@
     "image": {
       "src": "assets/questions/military/2024/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1009,
       "height": 634
     },
     "classification": {
@@ -64152,7 +64152,7 @@
     "image": {
       "src": "assets/questions/local/2024/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1129,
       "height": 555
     },
     "classification": {
@@ -64219,7 +64219,7 @@
     "image": {
       "src": "assets/questions/local/2024/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 401
     },
     "classification": {
@@ -64286,7 +64286,7 @@
     "image": {
       "src": "assets/questions/local/2024/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 840
     },
     "classification": {
@@ -64489,7 +64489,7 @@
     "image": {
       "src": "assets/questions/local/2024/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 894
     },
     "classification": {
@@ -64557,7 +64557,7 @@
     "image": {
       "src": "assets/questions/local/2024/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 695
     },
     "classification": {
@@ -64625,7 +64625,7 @@
     "image": {
       "src": "assets/questions/local/2024/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 869
     },
     "classification": {
@@ -64693,7 +64693,7 @@
     "image": {
       "src": "assets/questions/local/2024/q09.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1139,
       "height": 642
     },
     "classification": {
@@ -65507,7 +65507,7 @@
     "image": {
       "src": "assets/questions/national/2025/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1129,
       "height": 956
     },
     "classification": {
@@ -65576,7 +65576,7 @@
     "image": {
       "src": "assets/questions/national/2025/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 693
     },
     "classification": {
@@ -65645,7 +65645,7 @@
     "image": {
       "src": "assets/questions/national/2025/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 642,
       "height": 341
     },
     "classification": {
@@ -65712,7 +65712,7 @@
     "image": {
       "src": "assets/questions/national/2025/q04.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1132,
       "height": 736
     },
     "classification": {
@@ -65984,7 +65984,7 @@
     "image": {
       "src": "assets/questions/national/2025/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 996
     },
     "classification": {
@@ -66052,7 +66052,7 @@
     "image": {
       "src": "assets/questions/national/2025/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 1072
     },
     "classification": {
@@ -66255,7 +66255,7 @@
     "image": {
       "src": "assets/questions/national/2025/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1138,
       "height": 801
     },
     "classification": {
@@ -66323,7 +66323,7 @@
     "image": {
       "src": "assets/questions/national/2025/q13.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1138,
       "height": 936
     },
     "classification": {
@@ -66870,8 +66870,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q01.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 671
+      "width": 745,
+      "height": 388
     },
     "classification": {
       "category": "electronic-circuits",
@@ -66938,8 +66938,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q02.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 2087
+      "width": 1126,
+      "height": 979
     },
     "classification": {
       "category": "electronic-circuits",
@@ -67007,7 +67007,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q03.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1066,
       "height": 469
     },
     "classification": {
@@ -67075,7 +67075,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q04.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 845,
       "height": 1103
     },
     "classification": {
@@ -67143,7 +67143,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q05.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1067,
       "height": 573
     },
     "classification": {
@@ -67216,8 +67216,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q06.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1162
+      "width": 1126,
+      "height": 881
     },
     "classification": {
       "category": "circuit-theory",
@@ -67285,8 +67285,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q07.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 2002
+      "width": 1123,
+      "height": 1230
     },
     "classification": {
       "category": "circuit-theory",
@@ -67354,7 +67354,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q08.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1064,
       "height": 1321
     },
     "classification": {
@@ -67422,7 +67422,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q09.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1064,
       "height": 691
     },
     "classification": {
@@ -67490,8 +67490,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q10.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 592
+      "width": 742,
+      "height": 390
     },
     "classification": {
       "category": "digital-engineering",
@@ -67559,8 +67559,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q11.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1050
+      "width": 1112,
+      "height": 746
     },
     "classification": {
       "category": "digital-engineering",
@@ -67629,8 +67629,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q12.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 682
+      "width": 573,
+      "height": 395
     },
     "classification": {
       "category": "electronic-circuits",
@@ -67697,8 +67697,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q13.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1427
+      "width": 1040,
+      "height": 998
     },
     "classification": {
       "category": "electronic-circuits",
@@ -67766,7 +67766,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q14.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1011,
       "height": 733
     },
     "classification": {
@@ -67834,7 +67834,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q15.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1065,
       "height": 1129
     },
     "classification": {
@@ -67902,8 +67902,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q16.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1206
+      "width": 1005,
+      "height": 923
     },
     "classification": {
       "category": "circuit-theory",
@@ -67972,8 +67972,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q17.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 1952
+      "width": 1126,
+      "height": 1171
     },
     "classification": {
       "category": "electronic-circuits",
@@ -68042,7 +68042,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q18.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1061,
       "height": 1353
     },
     "classification": {
@@ -68111,7 +68111,7 @@
     "image": {
       "src": "assets/questions/assembly/2025/q19.png",
       "mimeType": "image/png",
-      "width": 1183,
+      "width": 1065,
       "height": 1170
     },
     "classification": {
@@ -68179,8 +68179,8 @@
     "image": {
       "src": "assets/questions/assembly/2025/q20.png",
       "mimeType": "image/png",
-      "width": 1183,
-      "height": 2157
+      "width": 1136,
+      "height": 2034
     },
     "classification": {
       "category": "digital-engineering",
@@ -68248,7 +68248,7 @@
     "image": {
       "src": "assets/questions/military/2025/q01.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 888
     },
     "classification": {
@@ -68316,7 +68316,7 @@
     "image": {
       "src": "assets/questions/military/2025/q02.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 824
     },
     "classification": {
@@ -68383,7 +68383,7 @@
     "image": {
       "src": "assets/questions/military/2025/q03.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 1261
     },
     "classification": {
@@ -68450,7 +68450,7 @@
     "image": {
       "src": "assets/questions/military/2025/q04.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 627
     },
     "classification": {
@@ -68518,7 +68518,7 @@
     "image": {
       "src": "assets/questions/military/2025/q05.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 651
     },
     "classification": {
@@ -68586,7 +68586,7 @@
     "image": {
       "src": "assets/questions/military/2025/q06.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 825,
       "height": 1151
     },
     "classification": {
@@ -68654,7 +68654,7 @@
     "image": {
       "src": "assets/questions/military/2025/q07.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 495
     },
     "classification": {
@@ -68721,7 +68721,7 @@
     "image": {
       "src": "assets/questions/military/2025/q08.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 819,
       "height": 483
     },
     "classification": {
@@ -68789,7 +68789,7 @@
     "image": {
       "src": "assets/questions/military/2025/q09.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 426
     },
     "classification": {
@@ -68856,8 +68856,8 @@
     "image": {
       "src": "assets/questions/military/2025/q10.png",
       "mimeType": "image/png",
-      "width": 960,
-      "height": 1111
+      "width": 831,
+      "height": 943
     },
     "classification": {
       "category": "circuit-theory",
@@ -68924,7 +68924,7 @@
     "image": {
       "src": "assets/questions/military/2025/q11.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 915
     },
     "classification": {
@@ -68992,7 +68992,7 @@
     "image": {
       "src": "assets/questions/military/2025/q12.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 685
     },
     "classification": {
@@ -69060,7 +69060,7 @@
     "image": {
       "src": "assets/questions/military/2025/q13.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 540
     },
     "classification": {
@@ -69128,7 +69128,7 @@
     "image": {
       "src": "assets/questions/military/2025/q14.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 660
     },
     "classification": {
@@ -69195,7 +69195,7 @@
     "image": {
       "src": "assets/questions/military/2025/q15.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 782
     },
     "classification": {
@@ -69263,7 +69263,7 @@
     "image": {
       "src": "assets/questions/military/2025/q16.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 709
     },
     "classification": {
@@ -69330,7 +69330,7 @@
     "image": {
       "src": "assets/questions/military/2025/q17.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 831,
       "height": 771
     },
     "classification": {
@@ -69397,7 +69397,7 @@
     "image": {
       "src": "assets/questions/military/2025/q18.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 787,
       "height": 711
     },
     "classification": {
@@ -69465,7 +69465,7 @@
     "image": {
       "src": "assets/questions/military/2025/q19.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 823,
       "height": 724
     },
     "classification": {
@@ -69533,7 +69533,7 @@
     "image": {
       "src": "assets/questions/military/2025/q20.png",
       "mimeType": "image/png",
-      "width": 960,
+      "width": 824,
       "height": 855
     },
     "classification": {
@@ -69600,7 +69600,7 @@
     "image": {
       "src": "assets/questions/local/2025/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1129,
       "height": 768
     },
     "classification": {
@@ -69668,7 +69668,7 @@
     "image": {
       "src": "assets/questions/local/2025/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 406
     },
     "classification": {
@@ -69735,7 +69735,7 @@
     "image": {
       "src": "assets/questions/local/2025/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 466
     },
     "classification": {
@@ -69938,7 +69938,7 @@
     "image": {
       "src": "assets/questions/local/2025/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 829
     },
     "classification": {
@@ -70006,7 +70006,7 @@
     "image": {
       "src": "assets/questions/local/2025/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 403
     },
     "classification": {
@@ -70073,7 +70073,7 @@
     "image": {
       "src": "assets/questions/local/2025/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 469
     },
     "classification": {
@@ -70343,7 +70343,7 @@
     "image": {
       "src": "assets/questions/local/2025/q12.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1062,
       "height": 341
     },
     "classification": {
@@ -70884,7 +70884,7 @@
     "image": {
       "src": "assets/questions/local/2025/q20.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1138,
       "height": 820
     },
     "classification": {
@@ -70953,7 +70953,7 @@
     "image": {
       "src": "assets/questions/national/2026/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1129,
       "height": 405
     },
     "classification": {
@@ -71020,7 +71020,7 @@
     "image": {
       "src": "assets/questions/national/2026/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 856,
       "height": 338
     },
     "classification": {
@@ -71087,7 +71087,7 @@
     "image": {
       "src": "assets/questions/national/2026/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 468
     },
     "classification": {
@@ -71154,7 +71154,7 @@
     "image": {
       "src": "assets/questions/national/2026/q04.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1132,
       "height": 524
     },
     "classification": {
@@ -71221,7 +71221,7 @@
     "image": {
       "src": "assets/questions/national/2026/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 782
     },
     "classification": {
@@ -71356,7 +71356,7 @@
     "image": {
       "src": "assets/questions/national/2026/q07.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1143,
       "height": 933
     },
     "classification": {
@@ -71424,7 +71424,7 @@
     "image": {
       "src": "assets/questions/national/2026/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 590
     },
     "classification": {
@@ -71493,7 +71493,7 @@
     "image": {
       "src": "assets/questions/national/2026/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 1371
     },
     "classification": {
@@ -71630,7 +71630,7 @@
     "image": {
       "src": "assets/questions/national/2026/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1138,
       "height": 883
     },
     "classification": {
@@ -72245,7 +72245,7 @@
       "src": "assets/questions/national/2026/q20.png",
       "mimeType": "image/png",
       "width": 1182,
-      "height": 941
+      "height": 895
     },
     "classification": {
       "category": "circuit-theory",
@@ -72311,7 +72311,7 @@
     "image": {
       "src": "assets/questions/military/2026/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1007,
       "height": 789
     },
     "classification": {
@@ -72379,7 +72379,7 @@
     "image": {
       "src": "assets/questions/military/2026/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1008,
       "height": 1154
     },
     "classification": {
@@ -72447,7 +72447,7 @@
     "image": {
       "src": "assets/questions/military/2026/q03.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1011,
       "height": 858
     },
     "classification": {
@@ -72515,7 +72515,7 @@
     "image": {
       "src": "assets/questions/military/2026/q04.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1011,
       "height": 858
     },
     "classification": {
@@ -72582,7 +72582,7 @@
     "image": {
       "src": "assets/questions/military/2026/q05.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1009,
       "height": 449
     },
     "classification": {
@@ -72649,7 +72649,7 @@
     "image": {
       "src": "assets/questions/military/2026/q06.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1009,
       "height": 580
     },
     "classification": {
@@ -72717,7 +72717,7 @@
     "image": {
       "src": "assets/questions/military/2026/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1010,
       "height": 1072
     },
     "classification": {
@@ -72784,8 +72784,8 @@
     "image": {
       "src": "assets/questions/military/2026/q08.png",
       "mimeType": "image/png",
-      "width": 1182,
-      "height": 2206
+      "width": 872,
+      "height": 2164
     },
     "classification": {
       "category": "circuit-theory",
@@ -72852,7 +72852,7 @@
     "image": {
       "src": "assets/questions/military/2026/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1009,
       "height": 894
     },
     "classification": {
@@ -72920,7 +72920,7 @@
     "image": {
       "src": "assets/questions/military/2026/q10.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1007,
       "height": 898
     },
     "classification": {
@@ -72987,7 +72987,7 @@
     "image": {
       "src": "assets/questions/military/2026/q11.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1012,
       "height": 856
     },
     "classification": {
@@ -73054,7 +73054,7 @@
     "image": {
       "src": "assets/questions/military/2026/q12.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1012,
       "height": 793
     },
     "classification": {
@@ -73121,7 +73121,7 @@
     "image": {
       "src": "assets/questions/military/2026/q13.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1030,
       "height": 877
     },
     "classification": {
@@ -73188,7 +73188,7 @@
     "image": {
       "src": "assets/questions/military/2026/q14.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1018,
       "height": 514
     },
     "classification": {
@@ -73255,7 +73255,7 @@
     "image": {
       "src": "assets/questions/military/2026/q15.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1018,
       "height": 457
     },
     "classification": {
@@ -73322,7 +73322,7 @@
     "image": {
       "src": "assets/questions/military/2026/q16.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1011,
       "height": 856
     },
     "classification": {
@@ -73389,7 +73389,7 @@
     "image": {
       "src": "assets/questions/military/2026/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1011,
       "height": 717
     },
     "classification": {
@@ -73456,7 +73456,7 @@
     "image": {
       "src": "assets/questions/military/2026/q18.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1005,
       "height": 604
     },
     "classification": {
@@ -73523,7 +73523,7 @@
     "image": {
       "src": "assets/questions/military/2026/q19.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1018,
       "height": 1172
     },
     "classification": {
@@ -73590,7 +73590,7 @@
     "image": {
       "src": "assets/questions/military/2026/q20.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1019,
       "height": 581
     },
     "classification": {
@@ -73657,7 +73657,7 @@
     "image": {
       "src": "assets/questions/local/2026/q01.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 958,
       "height": 343
     },
     "classification": {
@@ -73725,7 +73725,7 @@
     "image": {
       "src": "assets/questions/local/2026/q02.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 868,
       "height": 379
     },
     "classification": {
@@ -73793,7 +73793,7 @@
     "image": {
       "src": "assets/questions/local/2026/q03.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 1268
     },
     "classification": {
@@ -74068,7 +74068,7 @@
     "image": {
       "src": "assets/questions/local/2026/q07.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1038,
       "height": 341
     },
     "classification": {
@@ -74135,7 +74135,7 @@
     "image": {
       "src": "assets/questions/local/2026/q08.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 467
     },
     "classification": {
@@ -74202,7 +74202,7 @@
     "image": {
       "src": "assets/questions/local/2026/q09.png",
       "mimeType": "image/png",
-      "width": 1181,
+      "width": 1131,
       "height": 937
     },
     "classification": {
@@ -74270,7 +74270,7 @@
     "image": {
       "src": "assets/questions/local/2026/q10.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 951,
       "height": 341
     },
     "classification": {
@@ -74474,7 +74474,7 @@
       "src": "assets/questions/local/2026/q13.png",
       "mimeType": "image/png",
       "width": 1181,
-      "height": 1148
+      "height": 1112
     },
     "classification": {
       "category": "electronic-circuits",
@@ -74745,7 +74745,7 @@
     "image": {
       "src": "assets/questions/local/2026/q17.png",
       "mimeType": "image/png",
-      "width": 1182,
+      "width": 1138,
       "height": 741
     },
     "classification": {
@@ -74949,7 +74949,7 @@
       "src": "assets/questions/local/2026/q20.png",
       "mimeType": "image/png",
       "width": 1182,
-      "height": 2272
+      "height": 2227
     },
     "classification": {
       "category": "digital-engineering",

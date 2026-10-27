@@ -289,6 +289,8 @@ def main():
         if args.adaptive_sizing:
             byid = {q['id']: q for q in questions}
             image_crops = load_image_crops()
+            overrides_path = ROOT / 'data/print_layout_overrides.json'
+            overrides = json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
             for item in plan:
                 image = byid[item['id']]['image']
                 crop = image_crops.get(item['id'])
@@ -296,7 +298,10 @@ def main():
                 if crop:
                     left, top, right, bottom = crop['rect']
                     iw, ih = right - left, bottom - top
-                item['rowSpan'] = 2 if ih / iw > 1.6 else 1
+                minimum_span = overrides.get(item['id'], {}).get('minimumRowSpan', 1)
+                if minimum_span not in (1, 2):
+                    raise ValueError(f"잘못된 최소 배치 크기: {item['id']}")
+                item['rowSpan'] = max(minimum_span, 2 if ih / iw > 1.6 else 1)
         if not plan:
             raise ValueError('조건에 맞는 문항이 없습니다')
         args.output.parent.mkdir(parents=True, exist_ok=True)
