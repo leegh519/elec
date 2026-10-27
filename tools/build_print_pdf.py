@@ -54,7 +54,7 @@ def save_plan(path, plan, taxonomy, group_by, layout=None):
                 'questions': plan}
     path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     with path.with_suffix('.csv').open('w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(['새번호', '페이지', '칸', '문항ID', '대분류', '중분류', '소분류', '정렬묶음', '출처', '정답'])
         for row in plan:
             writer.writerow([row[k] for k in ['sequence', 'page', 'slot', 'id', 'categoryLabel', 'topicLabel',
