@@ -2,5 +2,25 @@
   "local-2011-20": {
     "minimumRowSpan": 2,
     "reason": "623번: 여백 정리 후 세로/가로 비율이 줄어도 기존 확대 배치를 유지해 글자 크기 감소 방지"
+  },
+  "assembly-2014-15": {
+    "minimumRowSpan": 2,
+    "minimumColumnSpan": 2,
+    "reason": "165번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+  },
+  "national-2007-18": {
+    "minimumRowSpan": 2,
+    "minimumColumnSpan": 2,
+    "reason": "223번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+  },
+  "national-2013-10": {
+    "minimumRowSpan": 2,
+    "minimumColumnSpan": 2,
+    "reason": "626번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+  },
+  "assembly-2023-06": {
+    "minimumRowSpan": 2,
+    "minimumColumnSpan": 2,
+    "reason": "759번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
   }
 }

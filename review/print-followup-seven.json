@@ -1,0 +1,170 @@
+{
+  "baseCommit": "730891c00e8b889abe75f2ae538c137360610d9c",
+  "enlargedNumbers": [
+    165,
+    223,
+    626,
+    759
+  ],
+  "cleanedPngNumbers": [
+    276,
+    512,
+    565
+  ],
+  "retainedProblemPixelsUnchanged": true,
+  "imageChanges": [
+    {
+      "number": 276,
+      "id": "assembly-2009-10",
+      "source": "2009 국회직 10번",
+      "reason": "276번 하단 조각 제거 후 생긴 순백 여백 정리",
+      "beforeSha256": "bf0628540b2fb53c19a4d84b9e7d8a22bacc144a12730f0b1d54395f3a807e36",
+      "cleanedSha256": "61b21762cebc0f9cfe8abbf383f14da303dd1cc057139c2fe6abfa16ace1c97f",
+      "afterSha256": "44b20683762d0c10feeb723b70f44414d6f02769a6b8b5bc43363032cb9d854a",
+      "cleanupRectangles": [
+        [
+          0,
+          430,
+          1002,
+          573
+        ]
+      ],
+      "cropPixels": [
+        0,
+        0,
+        1002,
+        399
+      ],
+      "size": [
+        1002,
+        399
+      ],
+      "numberMaskPixels": [
+        0,
+        11,
+        106,
+        50
+      ]
+    },
+    {
+      "number": 512,
+      "id": "military-2023-13",
+      "source": "2023 군무원 13번",
+      "reason": "512번 하단 조각 제거 후 생긴 순백 여백 정리",
+      "beforeSha256": "d8699a9bde28e3aa564184e5342d256bfae36c5f36ef8367ab10e2cddfe1f4e2",
+      "cleanedSha256": "493425bef13d21c14c28b637c12220fccf97f27d31c90fff82fbf53be260294c",
+      "afterSha256": "e59d1f6162b348b72fe8e56da6d0611934d5ee3bab499a24a3772a5e46acb2d7",
+      "cleanupRectangles": [
+        [
+          0,
+          590,
+          653,
+          677
+        ]
+      ],
+      "cropPixels": [
+        0,
+        0,
+        653,
+        550
+      ],
+      "size": [
+        653,
+        550
+      ],
+      "numberMaskPixels": [
+        0,
+        12,
+        53,
+        51
+      ]
+    },
+    {
+      "number": 565,
+      "id": "seoul-2017-10",
+      "source": "2017 서울시 10번",
+      "reason": "565번 하단 조각 제거 후 생긴 순백 여백 정리",
+      "beforeSha256": "10cb1df00f038c59d2800b77948e50ab3740a74feb9270d4fa05865b1d617095",
+      "cleanedSha256": "7132a06ac0720a78de06a63c8004d62e0a0f0f0c600717782c03a0d13f384b07",
+      "afterSha256": "4db0ed05d7c37d9722796834afd6e1d0c2916d811d0ca68f7a89535b6444c5b5",
+      "cleanupRectangles": [
+        [
+          0,
+          450,
+          951,
+          538
+        ]
+      ],
+      "cropPixels": [
+        0,
+        0,
+        951,
+        408
+      ],
+      "size": [
+        951,
+        408
+      ],
+      "numberMaskPixels": [
+        0,
+        15,
+        53,
+        52
+      ]
+    }
+  ],
+  "pdfPages": 293,
+  "pdfQuestionCount": 1100,
+  "noQuestionSmallerThanPreviousPdf": true,
+  "verifiedPages": [
+    {
+      "number": 165,
+      "page": 44,
+      "id": "assembly-2014-15",
+      "gainFromPreviousPdf": 2.25,
+      "action": "enlarged"
+    },
+    {
+      "number": 223,
+      "page": 61,
+      "id": "national-2007-18",
+      "gainFromPreviousPdf": 2.25,
+      "action": "enlarged"
+    },
+    {
+      "number": 626,
+      "page": 167,
+      "id": "national-2013-10",
+      "gainFromPreviousPdf": 2.25,
+      "action": "enlarged"
+    },
+    {
+      "number": 759,
+      "page": 202,
+      "id": "assembly-2023-06",
+      "gainFromPreviousPdf": 2.25,
+      "action": "enlarged"
+    },
+    {
+      "number": 276,
+      "page": 75,
+      "id": "assembly-2009-10",
+      "gainFromPreviousPdf": 1.0,
+      "action": "PNG footer fragments removed and margins trimmed"
+    },
+    {
+      "number": 512,
+      "page": 138,
+      "id": "military-2023-13",
+      "gainFromPreviousPdf": 1.0,
+      "action": "PNG footer fragments removed and margins trimmed"
+    },
+    {
+      "number": 565,
+      "page": 151,
+      "id": "seoul-2017-10",
+      "gainFromPreviousPdf": 1.0,
+      "action": "PNG footer fragments removed and margins trimmed"
+    }
+  ]
+}

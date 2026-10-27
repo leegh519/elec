@@ -4685,7 +4685,7 @@
       "src": "assets/questions/assembly/2009/q10.png",
       "mimeType": "image/png",
       "width": 1002,
-      "height": 573
+      "height": 399
     },
     "classification": {
       "category": "circuit-theory",
@@ -31960,7 +31960,7 @@
       "src": "assets/questions/seoul/2017/q10.png",
       "mimeType": "image/png",
       "width": 951,
-      "height": 538
+      "height": 408
     },
     "classification": {
       "category": "electronic-circuits",
@@ -58142,7 +58142,7 @@
       "src": "assets/questions/military/2023/q13.png",
       "mimeType": "image/png",
       "width": 653,
-      "height": 677
+      "height": 550
     },
     "classification": {
       "category": "electronic-circuits",

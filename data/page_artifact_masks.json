@@ -1737,6 +1737,72 @@
       ],
       "beforeSha256": "9af03cea77db9e9a948773740707e31e6c4e482dcc14c0fb3c77ab1547f99ebe",
       "afterSha256": "3c5b3f0c3f501417bc2e4f3bffd1182e7ab2aa0e16eaba51519a5088346d2787"
+    },
+    {
+      "id": "assembly-2009-10",
+      "src": "assets/questions/assembly/2009/q10.png",
+      "size": [
+        1002,
+        573
+      ],
+      "coordinateSpace": "after-margin-trim",
+      "rectangles": [
+        [
+          0,
+          430,
+          1002,
+          573
+        ]
+      ],
+      "reasons": [
+        "추가 지적 276번: 문제 아래 구분선·쪽번호 조각"
+      ],
+      "beforeSha256": "bf0628540b2fb53c19a4d84b9e7d8a22bacc144a12730f0b1d54395f3a807e36",
+      "afterSha256": "61b21762cebc0f9cfe8abbf383f14da303dd1cc057139c2fe6abfa16ace1c97f"
+    },
+    {
+      "id": "military-2023-13",
+      "src": "assets/questions/military/2023/q13.png",
+      "size": [
+        653,
+        677
+      ],
+      "coordinateSpace": "after-margin-trim",
+      "rectangles": [
+        [
+          0,
+          590,
+          653,
+          677
+        ]
+      ],
+      "reasons": [
+        "추가 지적 512번: 문제 아래 구분선·쪽번호 조각"
+      ],
+      "beforeSha256": "d8699a9bde28e3aa564184e5342d256bfae36c5f36ef8367ab10e2cddfe1f4e2",
+      "afterSha256": "493425bef13d21c14c28b637c12220fccf97f27d31c90fff82fbf53be260294c"
+    },
+    {
+      "id": "seoul-2017-10",
+      "src": "assets/questions/seoul/2017/q10.png",
+      "size": [
+        951,
+        538
+      ],
+      "coordinateSpace": "after-margin-trim",
+      "rectangles": [
+        [
+          0,
+          450,
+          951,
+          538
+        ]
+      ],
+      "reasons": [
+        "추가 지적 565번: 문제 아래 구분선·쪽번호 조각"
+      ],
+      "beforeSha256": "10cb1df00f038c59d2800b77948e50ab3740a74feb9270d4fa05865b1d617095",
+      "afterSha256": "7132a06ac0720a78de06a63c8004d62e0a0f0f0c600717782c03a0d13f384b07"
     }
   ]
 }

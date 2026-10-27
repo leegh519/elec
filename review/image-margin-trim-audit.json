@@ -780,5 +780,21 @@
       "page": 235,
       "gain": 1.4659
     }
-  ]
+  ],
+  "latestPdfFollowup": {
+    "pages": 293,
+    "questions": 1100,
+    "report": "print-followup-seven.json",
+    "fullPageQuestionNumbers": [
+      165,
+      223,
+      626,
+      759
+    ],
+    "additionalFragmentRemovalNumbers": [
+      276,
+      512,
+      565
+    ]
+  }
 }

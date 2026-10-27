@@ -30,12 +30,17 @@ class PageArtifactTest(unittest.TestCase):
         self.assertEqual(len({r['id'] for r in manifest['images']}), len(manifest['images']))
         for row in manifest['images']:
             path = ROOT / row['src']
-            final = trims.get(row['id'], row)
+            trim = trims.get(row['id'], row)
+            final = trim.get('followup', trim)
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
             rectangles = row['rectangles']
             if row['id'] in trims:
-                rectangles = [translate_mask(rect, final['cropPixels']) for rect in rectangles]
-                rectangles = [rect for rect in rectangles if rect is not None]
+                if row.get('coordinateSpace') != 'after-margin-trim':
+                    rectangles = [translate_mask(rect, trim['cropPixels']) for rect in rectangles]
+                    rectangles = [rect for rect in rectangles if rect is not None]
+                if 'followup' in trim:
+                    rectangles = [translate_mask(rect, final['cropPixels']) for rect in rectangles]
+                    rectangles = [rect for rect in rectangles if rect is not None]
             with Image.open(path) as image:
                 self.assertEqual(list(image.size), final['size'], row['id'])
                 for rect in rectangles:

@@ -1,8 +1,8 @@
 {
   "scannedImages": 1100,
-  "candidateImages": 182,
-  "cleanedImages": 78,
-  "rectangles": 92,
+  "candidateImages": 185,
+  "cleanedImages": 81,
+  "rectangles": 95,
   "dimensionsUnchanged": true,
   "outsideReviewedRegionsChangedPixels": 0,
   "method": "긴 수평·수직선 후보 추출 후 이미지 직접 검수. 회로·표·그래프·보기 테두리는 유지.",
@@ -846,5 +846,16 @@
       "originalPngChanged": false,
       "excludedRegion": "순백 여백만 제외"
     }
-  }
+  },
+  "laterFollowups": [
+    {
+      "numbers": [
+        276,
+        512,
+        565
+      ],
+      "report": "print-followup-seven.json",
+      "note": "여백 정리 이후 남은 쪽번호·구분선 조각 제거 및 순백 여백 재정리"
+    }
+  ]
 }

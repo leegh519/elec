@@ -70,6 +70,13 @@ class PrintPaginationTest(unittest.TestCase):
         self.assertEqual([len(p['questions']) for p in layout], [4, 1])
         self.assertEqual([r['page'] for r in plan], [1, 1, 1, 1, 2])
 
+    def test_full_page_question_has_no_neighbors_and_preserves_order(self):
+        plan = [{'category': 'circuit', 'sequence': i, 'rowSpan': rows, 'columnSpan': cols}
+                for i, (rows, cols) in enumerate([(1, 1), (2, 2), (1, 1), (1, 1), (2, 2)], 1)]
+        layout = paginate_print_plan(plan)
+        self.assertEqual([[r['sequence'] for r in p['questions']] for p in layout], [[1], [2], [3, 4], [5]])
+        self.assertEqual([(r['page'], r['slot']) for r in plan], [(1, 1), (2, 1), (3, 1), (3, 2), (4, 1)])
+
 
 @unittest.skipUnless(importlib.util.find_spec('fitz') and importlib.util.find_spec('fontTools'),
                      'PDF 검증에는 pymupdf/fonttools 필요')

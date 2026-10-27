@@ -42,10 +42,15 @@ class ImageMarginTest(unittest.TestCase):
         self.assertEqual(len({r['id'] for r in report['images']}), len(report['images']))
         for row in report['images']:
             source = ROOT / row['src']
-            self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), row['afterSha256'], row['id'])
-            self.assertEqual(masks[row['id']], translate_mask(row['originalNumberMaskPixels'], row['cropPixels']), row['id'])
+            final = row.get('followup', row)
+            self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
+            expected_mask = translate_mask(row['originalNumberMaskPixels'], row['cropPixels'])
+            if 'followup' in row:
+                self.assertEqual(final['beforeSha256'], row['afterSha256'], row['id'])
+                expected_mask = translate_mask(expected_mask, final['cropPixels'])
+            self.assertEqual(masks[row['id']], expected_mask, row['id'])
             with Image.open(source) as image:
-                self.assertEqual(list(image.size), row['size'], row['id'])
+                self.assertEqual(list(image.size), final['size'], row['id'])
                 self.assertEqual(image.size, (questions[row['id']]['image']['width'], questions[row['id']]['image']['height']))
                 self.assertEqual(find_trim_rectangle(image), [0, 0, image.width, image.height], row['id'])
 

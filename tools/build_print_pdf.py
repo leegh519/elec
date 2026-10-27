@@ -54,17 +54,19 @@ def paginate_print_plan(plan, section_covers=False):
                 occupied.clear()
         for item in rows:
             span = item.get('rowSpan', 1)
-            candidates = [slot for slot in range(1, 5) if slot not in occupied and
-                          (span == 1 or (slot <= 2 and slot + 2 not in occupied))]
+            column_span = item.get('columnSpan', 1)
+            def slots_for(slot):
+                if (slot - 1) // 2 + span > 2 or (slot - 1) % 2 + column_span > 2:
+                    return set()
+                return {slot + row * 2 + column for row in range(span) for column in range(column_span)}
+            candidates = [slot for slot in range(1, 5) if slots_for(slot) and not slots_for(slot) & occupied]
             if not candidates:
                 flush()
                 candidates = [1]
             slot = candidates[0]
             item['page'] = len(layout) + 1
             item['slot'] = slot
-            occupied.add(slot)
-            if span == 2:
-                occupied.add(slot + 2)
+            occupied.update(slots_for(slot))
             group.append(item)
         flush()
     return layout
@@ -189,11 +191,12 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
             q = byid[item['id']]
             x = margin + slot % 2 * (cell_width + gap)
             y = 72 + slot // 2 * cell_height
+            item_width = cell_width * item.get('columnSpan', 1) + gap * (item.get('columnSpan', 1) - 1)
             label = topics[item['topic']][2]['label'] + ' › ' + item['subtopicLabel']
             text(x, y + 10, f"{item['sequence']:03d}", 8)
             if show_classification:
-                text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
-            text(x + cell_width, y + 21, item['source'], 6, True)
+                text(x + 23, y + 10, label, 6.5, limit=item_width - 23)
+            text(x + item_width, y + 21, item['source'], 6, True)
             iw, ih = q['image']['width'], q['image']['height']
             crop = image_crops.get(q['id'])
             crop_left, crop_top = 0, 0
@@ -201,7 +204,7 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
                 crop_left, crop_top, crop_right, crop_bottom = crop['rect']
                 iw, ih = crop_right - crop_left, crop_bottom - crop_top
             available_height = cell_height * item.get('rowSpan', 1) - 70
-            scale = min(cell_width / iw, available_height / ih)
+            scale = min(item_width / iw, available_height / ih)
             rect = fitz.Rect(x, y + 32, x + iw * scale, y + 32 + ih * scale)
             if rect.y1 >= height - 65:
                 raise ValueError(f"이미지 범위 초과: {q['id']}")
@@ -302,6 +305,11 @@ def main():
                 if minimum_span not in (1, 2):
                     raise ValueError(f"잘못된 최소 배치 크기: {item['id']}")
                 item['rowSpan'] = max(minimum_span, 2 if ih / iw > 1.6 else 1)
+                column_span = overrides.get(item['id'], {}).get('minimumColumnSpan', 1)
+                if column_span not in (1, 2):
+                    raise ValueError(f"잘못된 최소 배치 너비: {item['id']}")
+                if column_span == 2:
+                    item['columnSpan'] = column_span
         if not plan:
             raise ValueError('조건에 맞는 문항이 없습니다')
         args.output.parent.mkdir(parents=True, exist_ok=True)

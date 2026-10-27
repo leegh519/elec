@@ -35,7 +35,11 @@ def main():
     for row in manifest['images']:
         source = ROOT / row['src']
         current = sha256(source)
-        if current in (row.get('afterSha256'), trims.get(row['id'], {}).get('afterSha256')):
+        trim = trims.get(row['id'], {})
+        final_trim = trim.get('followup', trim)
+        if current == row.get('afterSha256'):
+            continue
+        if current != row['beforeSha256'] and current == final_trim.get('afterSha256'):
             continue
         if current != row['beforeSha256']:
             raise ValueError(f"검수 이후 이미지가 변경되었습니다: {row['id']}")
