@@ -49,7 +49,7 @@ class ClassificationIntegrityTest(unittest.TestCase):
         for entry in audit['questionChanges']:
             question = questions[entry['id']]
             self.assertEqual(classifier.classify(question, topics), question['classification'])
-            self.assertEqual(question['classification']['topics'], entry['topics'])
+            self.assertEqual(question['classification'], classifier.CURRICULUM_CLASSIFICATIONS[entry['id']])
 
     def test_scoped_regeneration_preserves_unselected_question(self):
         selected = next(q for q in self.questions if q['id'] == 'seoul-2021-11')
@@ -77,20 +77,31 @@ class ClassificationIntegrityTest(unittest.TestCase):
         questions = {q['id']: q for q in self.questions}
         for key, correction in classifier.ORGANIZATION_CORRECTIONS.items():
             q = questions[key]
-            self.assertEqual(q['classification']['category'], correction['category'], key)
-            self.assertEqual(q['classification']['topics'], correction['topics'], key)
+            self.assertEqual(q['classification'], classifier.CURRICULUM_CLASSIFICATIONS[key], key)
             self.assertEqual(classifier.classify(q, topics), q['classification'], key)
 
-    def test_study_groups_cover_electronic_and_digital_topics(self):
+    def test_curriculum_covers_electronic_and_digital_topics(self):
         for category in self.taxonomy['categories']:
             if category['id'] in {'electronic-circuits', 'digital-engineering'}:
-                self.assertTrue(all(topic.get('group') for topic in category['topics']))
+                self.assertTrue(all(topic.get('concepts') for topic in category['topics']))
         questions = {q['id']: q for q in self.questions}
         # 키워드 OCR 오염으로 대분류까지 잘못 들어갔던 실제 사례.
         self.assertEqual(questions['national-2013-12']['classification']['category'], 'electronic-circuits')
         self.assertEqual(questions['military-2022-03']['classification']['category'], 'circuit-theory')
         self.assertIn('memory', questions['national-2021-04']['classification']['topics'])
         self.assertNotIn('minimization-kmap', questions['national-2023-12']['classification']['topics'])
+
+    def test_curriculum_merge_and_content_preservation(self):
+        audit = json.loads((PROJECT / 'review/curriculum-migration.json').read_text())
+        questions = {q['id']: q for q in self.questions}
+        self.assertEqual([len(c['topics']) for c in self.taxonomy['categories']], [17, 24, 17])
+        for entry in audit['changes']:
+            self.assertEqual(questions[entry['id']]['classification'], entry['after'])
+        _, topics = classifier.taxonomy_indexes(self.taxonomy)
+        for question in self.questions:
+            self.assertEqual(classifier.classify(question, topics), question['classification'])
+        for topic in ['series-parallel', 'kcl-kvl', 'node-analysis', 'loop-analysis']:
+            self.assertEqual(audit['mapping'][topic]['topic'], 'circuit-analysis')
 
 
 if __name__ == '__main__':

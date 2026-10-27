@@ -900,7 +900,13 @@ def generic_fallback(text: str) -> tuple[str, list[str]] | None:
     return None
 
 
+CURRICULUM_CLASSIFICATIONS = json.loads((DATA / "curriculum_classifications.json").read_text(encoding="utf-8"))
+
 def classify(question: dict, topic_index: dict) -> dict:
+    # 인강 기준으로 검토한 문항은 OCR 규칙 재실행으로 이전 분류에 돌아가지 않는다.
+    reviewed = CURRICULUM_CLASSIFICATIONS.get(question["id"])
+    if reviewed and all((reviewed["category"], topic) in topic_index for topic in reviewed["topics"]):
+        return __import__("copy").deepcopy(reviewed)
     text = normalized(question.get("ocrText", ""))
     old = question.get("classification", {})
     scored: dict[tuple[str, str], dict] = defaultdict(lambda: {"score": 0, "concepts": []})
