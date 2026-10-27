@@ -1,0 +1,789 @@
+{
+  "scannedImages": 1100,
+  "candidateImages": 176,
+  "cleanedImages": 72,
+  "rectangles": 86,
+  "dimensionsUnchanged": true,
+  "outsideReviewedRegionsChangedPixels": 0,
+  "method": "긴 수평·수직선 후보 추출 후 이미지 직접 검수. 회로·표·그래프·보기 테두리는 유지.",
+  "changes": [
+    {
+      "id": "assembly-2009-06",
+      "changedPixels": 4034,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2009-17",
+      "changedPixels": 4030,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-01",
+      "changedPixels": 726,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-02",
+      "changedPixels": 565,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-03",
+      "changedPixels": 265,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-04",
+      "changedPixels": 539,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-05",
+      "changedPixels": 758,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-11",
+      "changedPixels": 404,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-12",
+      "changedPixels": 267,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-13",
+      "changedPixels": 492,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-14",
+      "changedPixels": 380,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-15",
+      "changedPixels": 458,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-16",
+      "changedPixels": 564,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-01",
+      "changedPixels": 321,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-02",
+      "changedPixels": 600,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-03",
+      "changedPixels": 845,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-04",
+      "changedPixels": 471,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-05",
+      "changedPixels": 730,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-11",
+      "changedPixels": 444,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-12",
+      "changedPixels": 854,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-13",
+      "changedPixels": 389,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-14",
+      "changedPixels": 612,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-15",
+      "changedPixels": 754,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "national-2016-11",
+      "changedPixels": 4279,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2016-05",
+      "changedPixels": 4462,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2016-10",
+      "changedPixels": 4464,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2016-13",
+      "changedPixels": 4453,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-01",
+      "changedPixels": 291,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-02",
+      "changedPixels": 352,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-03",
+      "changedPixels": 591,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-04",
+      "changedPixels": 567,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-05",
+      "changedPixels": 1479,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-11",
+      "changedPixels": 379,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-12",
+      "changedPixels": 571,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-13",
+      "changedPixels": 692,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-14",
+      "changedPixels": 321,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-15",
+      "changedPixels": 517,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-01",
+      "changedPixels": 730,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-02",
+      "changedPixels": 725,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-03",
+      "changedPixels": 494,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-04",
+      "changedPixels": 440,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-05",
+      "changedPixels": 638,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-11",
+      "changedPixels": 531,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-12",
+      "changedPixels": 724,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-13",
+      "changedPixels": 510,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-14",
+      "changedPixels": 269,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2017-15",
+      "changedPixels": 677,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-01",
+      "changedPixels": 380,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-02",
+      "changedPixels": 364,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-03",
+      "changedPixels": 517,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-04",
+      "changedPixels": 743,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-05",
+      "changedPixels": 1176,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-11",
+      "changedPixels": 379,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-12",
+      "changedPixels": 918,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-13",
+      "changedPixels": 588,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-14",
+      "changedPixels": 460,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2018-15",
+      "changedPixels": 367,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2020-20",
+      "changedPixels": 3385,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2022-10",
+      "changedPixels": 4487,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2023-02",
+      "changedPixels": 4487,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2023-05",
+      "changedPixels": 4490,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-01",
+      "changedPixels": 3355,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-02",
+      "changedPixels": 14848,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-06",
+      "changedPixels": 5810,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-07",
+      "changedPixels": 14444,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-10",
+      "changedPixels": 4236,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-11",
+      "changedPixels": 5250,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-12",
+      "changedPixels": 3410,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-13",
+      "changedPixels": 11518,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-16",
+      "changedPixels": 6030,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-17",
+      "changedPixels": 14196,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2025-20",
+      "changedPixels": 10785,
+      "outsideReviewedRegionsChangedPixels": 0
+    }
+  ],
+  "retainedCandidates": [
+    {
+      "id": "national-2009-14",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2009-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2009-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2010-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2010-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2010-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2010-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2010-14",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2011-02",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2011-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2011-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2011-20",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2011-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2011-14",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2012-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2012-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2012-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2012-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2012-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2013-05",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2013-18",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2014-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2014-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2014-09",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2014-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2014-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2014-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2014-15",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2014-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2014-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2015-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2015-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2015-20",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2015-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2015-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2016-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2017-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2017-08",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2017-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2017-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2017-14",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2017-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2018-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2018-18",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2018-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2018-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2018-07",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2018-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2018-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2019-18",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2019-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2019-20",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2019-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2019-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2020-15",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2020-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2020-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2020-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2021-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2021-02",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2021-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-05",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2022-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2022-02",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2022-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2023-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2023-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2023-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2023-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2023-10",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2024-08",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2024-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2024-15",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2024-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "military-2024-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "military-2024-08",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2024-05",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2024-13",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2025-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "assembly-2025-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2025-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2026-06",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2026-09",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2026-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2026-16",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2026-05",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2026-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2007-18",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "local-2010-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2017-01",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "national-2017-11",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2020-03",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2020-10",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2020-15",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2020-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-04",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-09",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-12",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-17",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-18",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    },
+    {
+      "id": "seoul-2021-19",
+      "reason": "회로·그래프·표·보기의 선이므로 유지"
+    }
+  ]
+}
