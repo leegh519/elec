@@ -6,6 +6,7 @@ import csv
 import hashlib
 import json
 import math
+from itertools import groupby
 from pathlib import Path
 
 from study_taxonomy import build_print_plan, indexes
@@ -13,10 +14,28 @@ from study_taxonomy import build_print_plan, indexes
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def save_plan(path, plan, taxonomy, group_by):
+def paginate_print_plan(plan, section_covers=False):
+    """영역 표지 뒤에는 항상 새 문제 페이지를 시작하고 실제 PDF 쪽수를 기록한다."""
+    layout = []
+    sections = [list(rows) for _, rows in groupby(plan, key=lambda r: r['category'])] if section_covers else [plan]
+    for rows in sections:
+        if section_covers:
+            layout.append({'kind': 'cover', 'category': rows[0]['category'], 'questionCount': len(rows), 'questions': []})
+        for start in range(0, len(rows), 4):
+            group = rows[start:start + 4]
+            for slot, item in enumerate(group, 1):
+                item['page'] = len(layout) + 1
+                item['slot'] = slot
+            layout.append({'kind': 'questions', 'category': group[0]['category'], 'questions': group})
+    return layout
+
+
+def save_plan(path, plan, taxonomy, group_by, layout=None):
     metadata = {'taxonomyVersion': taxonomy['version'], 'groupBy': group_by,
                 'questionCount': len(plan), 'uniqueQuestionCount': len({q['id'] for q in plan}),
-                'pages': math.ceil(len(plan) / 4), 'questions': plan}
+                'pages': len(layout) if layout is not None else math.ceil(len(plan) / 4),
+                'covers': [{'page': i + 1, 'category': p['category']} for i, p in enumerate(layout or []) if p['kind'] == 'cover'],
+                'questions': plan}
     path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     with path.with_suffix('.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
@@ -72,7 +91,7 @@ def subset_font(path, text):
     return buffer.getvalue()
 
 
-def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
+def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_classification=True, section_covers=False):
     import fitz
     cats, topics, _ = indexes(taxonomy)
     byid = {q['id']: q for q in questions}
@@ -81,7 +100,7 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
         if missing:
             raise ValueError(f"번호 제거 영역 검수가 필요한 문항 {len(missing)}개: {', '.join(missing[:12])}. "
                              '검수된 --number-masks를 제공하거나 번호 제거 옵션 없이 생성하세요.')
-    labels = '전자공학개론 기출문제 정답 / · › 번 0123456789①②③④⑤'
+    labels = '전자공학개론 기출문제 회로이론 문제 전자회로 문제 디지털회로 문제 정답 / · › 번 0123456789①②③④⑤'
     labels += ''.join(r['source'] + r['subtopicLabel'] + r['groupLabel'] + topics[r['topic']][2]['label']
                       + cats[r['category']][1]['label'] for r in plan)
     font_bytes = subset_font(font_path, labels)
@@ -90,11 +109,12 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
     width, height, margin, gap = 595.276, 841.89, 36, 24
     cell_width = (width - 2 * margin - gap) / 2
     cell_height = 350
-    pages = math.ceil(len(plan) / 4)
+    layout = paginate_print_plan(plan, section_covers)
+    pages = len(layout)
     toc, seen = [], set()
     images = {}
     manifest = []
-    for page_index in range(pages):
+    for page_index, page_layout in enumerate(layout):
         page = doc.new_page(width=width, height=height)
         page.insert_font(fontname='kr', fontbuffer=font_bytes)
 
@@ -108,17 +128,29 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
                 raise ValueError(f'문구가 페이지 밖으로 나갑니다: {value}')
             page.insert_text((x, y), value, fontname='kr', fontsize=size, color=(.12, .12, .12))
 
+        if page_layout['kind'] == 'cover':
+            title = cats[page_layout['category']][1]['label'] + ' 문제'
+            for y, value, size in [(320, '전자공학개론 기출문제', 12), (390, title, 32),
+                                   (440, f"{page_layout['questionCount']}문제", 12)]:
+                text((width - font.text_length(value, fontsize=size)) / 2, y, value, size)
+            page.draw_line((width / 2 - 95, 410), (width / 2 + 95, 410), color=(.2, .2, .2), width=.6)
+            text(width - margin, height - 25, f'{page_index + 1} / {pages}', 8, True)
+            toc.append([1, title, page_index + 1])
+            seen.add(page_layout['category'])
+            continue
+
         text(margin, 35, '전자공학개론 기출문제', 10)
         text(width - margin, 35, f'{len(plan)}문제', 9, True)
         page.draw_line((margin, 46), (width - margin, 46), color=(.2, .2, .2), width=.6)
-        group = plan[page_index * 4:page_index * 4 + 4]
+        group = page_layout["questions"]
         for slot, item in enumerate(group):
             q = byid[item['id']]
             x = margin + slot % 2 * (cell_width + gap)
             y = 72 + slot // 2 * cell_height
             label = topics[item['topic']][2]['label'] + ' › ' + item['subtopicLabel']
             text(x, y + 10, f"{item['sequence']:03d}", 8)
-            text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
+            if show_classification:
+                text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
             text(x + cell_width, y + 21, item['source'], 6, True)
             iw, ih = q['image']['width'], q['image']['height']
             scale = min(cell_width / iw, (cell_height - 70) / ih)
@@ -155,14 +187,20 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
     doc.set_toc(toc)
     doc.set_metadata({'title': f'전자공학개론 기출 {len(plan)}문제',
                       'subject': 'A4 2×2 · 대표 소분류/태그별 · 문항 ID 중복 제외'})
-    doc.save(path, garbage=4, deflate=True)
+    doc.save(path, garbage=4, deflate=True, use_objstms=1, compression_effort=100)
     doc.close()
     check = fitz.open(path)
     assert len(check) == pages
     assert sum(len(p.get_image_info()) for p in check) == len(plan)
     for i, page in enumerate(check):
         text_content = page.get_text().translate(str.maketrans('➀➁➂➃➄', '①②③④⑤'))
-        rows = plan[i * 4:i * 4 + 4]
+        rows = layout[i]['questions']
+        if layout[i]['kind'] == 'cover':
+            assert len(page.get_image_info()) == 0
+            assert cats[layout[i]['category']][1]['label'] + ' 문제' in text_content
+            continue
+        if not show_classification:
+            assert all(topics[r['topic']][2]['label'] not in text_content for r in rows)
         assert len(page.get_image_info()) == len(rows)
         assert text_content.count('정답') == 1
         for row in rows:
@@ -170,7 +208,9 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
             assert f"{row['sequence']:03d}번 {['', '①', '②', '③', '④', '⑤'][row['answer']]}" in text_content
     check.close()
     path.with_suffix('.render.json').write_text(json.dumps({'verified': True, 'pages': pages,
-                    'numberRemoval': masks is not None, 'questions': manifest}, ensure_ascii=False, indent=2) + '\n')
+                    'numberRemoval': masks is not None, 'classificationShown': show_classification,
+                    'covers': [{'page': i + 1, 'category': p['category']} for i, p in enumerate(layout) if p['kind'] == 'cover'],
+                    'questions': manifest}, ensure_ascii=False, indent=2) + '\n')
 
 
 def main():
@@ -180,6 +220,8 @@ def main():
     parser.add_argument('--group-by', choices=['subtopic', 'tag'], default='subtopic')
     parser.add_argument('--tag-priority', action='append', help='태그 정렬시 대표 태그보다 우선할 태그. 지정 순서 적용')
     parser.add_argument('--output', type=Path, required=True, help='PDF 경로. 계획 JSON/CSV도 같은 이름으로 생성')
+    parser.add_argument('--hide-classification', action='store_true', help='문제 위에 새 번호만 표시하고 중·소분류명을 숨김')
+    parser.add_argument('--section-covers', action='store_true', help='각 대분류 앞에 영역 표지를 추가하고 새 페이지에서 시작')
     parser.add_argument('--plan-only', action='store_true', help='PDF 없이 전체 문항 순서·쪽 배치만 생성')
     parser.add_argument('--remove-original-numbers', action='store_true', help='검수된 좌표로 원 번호만 가림. 미검수 문항은 오류로 중단')
     parser.add_argument('--number-masks', type=Path, default=ROOT / 'data/print_number_masks.json')
@@ -196,11 +238,13 @@ def main():
         args.output.parent.mkdir(parents=True, exist_ok=True)
         if not args.plan_only:
             masks = json.loads(args.number_masks.read_text()) if args.remove_original_numbers else None
-            render_pdf(args.output, plan, questions, taxonomy, args.font, masks)
-        save_plan(args.output.with_suffix('.json'), plan, taxonomy, args.group_by)
+            render_pdf(args.output, plan, questions, taxonomy, args.font, masks,
+                       show_classification=not args.hide_classification, section_covers=args.section_covers)
+        layout = paginate_print_plan(plan, args.section_covers)
+        save_plan(args.output.with_suffix('.json'), plan, taxonomy, args.group_by, layout)
     except (ValueError, FileNotFoundError) as error:
         parser.error(str(error))
-    print(f"questions={len(plan)} unique={len({q['id'] for q in plan})} pages={math.ceil(len(plan) / 4)} group={args.group_by}")
+    print(f"questions={len(plan)} unique={len({q['id'] for q in plan})} pages={len(layout)} group={args.group_by}")
     return 0
 
 

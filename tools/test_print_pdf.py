@@ -3,7 +3,25 @@ import importlib.util
 import unittest
 from pathlib import Path
 
-from build_print_pdf import subset_font
+from build_print_pdf import subset_font, paginate_print_plan
+
+
+class PrintPaginationTest(unittest.TestCase):
+    def test_covers_keep_sections_on_separate_pages_and_numbering_continuous(self):
+        plan = [{'id': str(i), 'category': category, 'sequence': i}
+                for i, category in enumerate(['circuit'] * 5 + ['electronic'] * 4 + ['digital'] * 3, 1)]
+        layout = paginate_print_plan(plan, section_covers=True)
+        self.assertEqual([i + 1 for i, p in enumerate(layout) if p['kind'] == 'cover'], [1, 4, 6])
+        self.assertEqual(len(layout), 7)
+        self.assertEqual([r['page'] for r in plan], [2, 2, 2, 2, 3, 5, 5, 5, 5, 7, 7, 7])
+        self.assertEqual([r['sequence'] for r in plan], list(range(1, 13)))
+        self.assertEqual([r['slot'] for r in plan], [1, 2, 3, 4, 1, 1, 2, 3, 4, 1, 2, 3])
+
+    def test_default_layout_keeps_four_questions_per_page(self):
+        plan = [{'category': str(i), 'sequence': i} for i in range(5)]
+        layout = paginate_print_plan(plan)
+        self.assertEqual([len(p['questions']) for p in layout], [4, 1])
+        self.assertEqual([r['page'] for r in plan], [1, 1, 1, 1, 2])
 
 
 @unittest.skipUnless(importlib.util.find_spec('fitz') and importlib.util.find_spec('fontTools'),
