@@ -1,0 +1,1101 @@
+﻿문항ID,출처,대분류,중분류,소분류,관련소분류,태그,검토자료
+national-2007-01,2007 국가직 1번,digital-engineering,encoder-mux,MUX·논리함수 구현,,voltage-current,ocr-question-and-existing-classification
+national-2007-02,2007 국가직 2번,digital-engineering,logic-families,TR 논리·TTL,,voltage-current,ocr-question-and-existing-classification
+national-2007-03,2007 국가직 3번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,frequency,source-image-and-ocr
+national-2007-04,2007 국가직 4번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+national-2007-05,2007 국가직 5번,electronic-circuits,special-devices,특수소자 종류·특성 비교,,concept,ocr-question-and-existing-classification
+national-2007-06,2007 국가직 6번,digital-engineering,mcu-interface,RS-232·직렬통신·처리율,,voltage-current,ocr-question-and-existing-classification
+national-2007-07,2007 국가직 7번,circuit-theory,two-port,ABCD·전송파라미터,,voltage-current,ocr-question-and-existing-classification
+national-2007-08,2007 국가직 8번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2007-09,2007 국가직 9번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,concept,ocr-question-and-existing-classification
+national-2007-10,2007 국가직 10번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2007-11,2007 국가직 11번,circuit-theory,circuit-analysis,직병렬·합성저항,,voltage-current,source-image-and-ocr
+national-2007-12,2007 국가직 12번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+national-2007-13,2007 국가직 13번,electronic-circuits,opamp,가산기·가중합,,voltage-current,source-image-and-ocr
+national-2007-14,2007 국가직 14번,electronic-circuits,bjt-amplifier,CE·CB·CC 특성 비교,,concept,ocr-question-and-existing-classification
+national-2007-15,2007 국가직 15번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,ocr-question-and-existing-classification
+national-2007-16,2007 국가직 16번,electronic-circuits,amplifier-response,잡음지수·다단 잡음,,voltage-current,ocr-question-and-existing-classification
+national-2007-17,2007 국가직 17번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,power,ocr-question-and-existing-classification
+national-2007-18,2007 국가직 18번,circuit-theory,transient,RC 과도응답·시정수,,waveform,ocr-question-and-existing-classification
+national-2007-19,2007 국가직 19번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+national-2007-20,2007 국가직 20번,electronic-circuits,special-devices,LED·광소자,,concept,ocr-question-and-existing-classification
+national-2008-01,2008 국가직 1번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+national-2008-02,2008 국가직 2번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,bias,ocr-question-and-existing-classification
+national-2008-03,2008 국가직 3번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+national-2008-04,2008 국가직 4번,circuit-theory,resonance,공진조건·주파수,,concept,source-image-and-ocr
+national-2008-05,2008 국가직 5번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+national-2008-06,2008 국가직 6번,electronic-circuits,rectifier-smoothing,정밀정류기,,voltage-current,source-image-and-ocr
+national-2008-07,2008 국가직 7번,digital-engineering,information-data,영상 데이터량·전송률,,voltage-current,ocr-question-and-existing-classification
+national-2008-08,2008 국가직 8번,electronic-circuits,opamp,반전증폭기,,voltage-current,source-image-and-ocr
+national-2008-09,2008 국가직 9번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / concept,ocr-question-and-existing-classification
+national-2008-10,2008 국가직 10번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+national-2008-11,2008 국가직 11번,circuit-theory,elements-basics,직류 정상상태,,voltage-current,ocr-question-and-existing-classification
+national-2008-12,2008 국가직 12번,digital-engineering,boolean-gates,NAND·NOR 범용게이트,,voltage-current,source-image-and-ocr
+national-2008-13,2008 국가직 13번,circuit-theory,elements-basics,저항·비저항,,voltage-current,ocr-question-and-existing-classification
+national-2008-14,2008 국가직 14번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,current-gain / bias,ocr-question-and-existing-classification
+national-2008-15,2008 국가직 15번,circuit-theory,circuit-analysis,직병렬·합성저항,,impedance,source-image-and-ocr
+national-2008-16,2008 국가직 16번,circuit-theory,filter,능동필터·전달함수,,voltage-current,ocr-question-and-existing-classification
+national-2008-17,2008 국가직 17번,circuit-theory,filter,수동 고역통과필터,,frequency / waveform,ocr-question-and-existing-classification
+national-2008-18,2008 국가직 18번,electronic-circuits,limiter-clamper,클램퍼·직류레벨 이동,,waveform,source-image-and-ocr
+national-2008-19,2008 국가직 19번,circuit-theory,transient,RL 과도응답·시정수,,voltage-current,source-image-and-ocr
+national-2008-20,2008 국가직 20번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2009-01,2009 국가직 1번,circuit-theory,elements-basics,R·L·C 기본특성,,concept,ocr-question-and-existing-classification
+national-2009-02,2009 국가직 2번,electronic-circuits,bjt-device,α·β·전류 관계,,waveform,ocr-question-and-existing-classification
+national-2009-03,2009 국가직 3번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+national-2009-04,2009 국가직 4번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,frequency,ocr-question-and-existing-classification
+national-2009-05,2009 국가직 5번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,concept,ocr-question-and-existing-classification
+national-2009-06,2009 국가직 6번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,power,ocr-question-and-existing-classification
+national-2009-07,2009 국가직 7번,circuit-theory,resonance,직렬공진,,frequency,ocr-question-and-existing-classification
+national-2009-08,2009 국가직 8번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,ocr-question-and-existing-classification
+national-2009-09,2009 국가직 9번,digital-engineering,encoder-mux,MUX·논리함수 구현,,concept,ocr-question-and-existing-classification
+national-2009-10,2009 국가직 10번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,bias / waveform,source-image-and-ocr
+national-2009-11,2009 국가직 11번,circuit-theory,network-theorems,최대전력전달·공액정합,,impedance / power,ocr-question-and-existing-classification
+national-2009-12,2009 국가직 12번,circuit-theory,filter,능동필터·전달함수,,voltage-current,ocr-question-and-existing-classification
+national-2009-13,2009 국가직 13번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+national-2009-14,2009 국가직 14번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2009-15,2009 국가직 15번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2009-16,2009 국가직 16번,circuit-theory,transient,RC 과도응답·시정수,,waveform,ocr-question-and-existing-classification
+national-2009-17,2009 국가직 17번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+national-2009-18,2009 국가직 18번,circuit-theory,transient,RC 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+national-2009-19,2009 국가직 19번,digital-engineering,counter,분주·출력주파수,,waveform,ocr-question-and-existing-classification
+national-2009-20,2009 국가직 20번,electronic-circuits,fet-device,MOS 커패시터·축적·공핍·반전,,concept,ocr-question-and-existing-classification
+assembly-2009-01,2009 국회직 1번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,voltage-current,ocr-question-and-existing-classification
+assembly-2009-02,2009 국회직 2번,circuit-theory,network-theorems,밀러·밀만·상반정리,,concept,ocr-question-and-existing-classification
+assembly-2009-03,2009 국회직 3번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+assembly-2009-04,2009 국회직 4번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+assembly-2009-05,2009 국회직 5번,electronic-circuits,opamp,비반전증폭기,,voltage-gain,source-image-and-ocr
+assembly-2009-06,2009 국회직 6번,circuit-theory,elements-basics,R·L·C 기본특성,,concept,ocr-question-and-existing-classification
+assembly-2009-07,2009 국회직 7번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,logic,ocr-question-and-existing-classification
+assembly-2009-08,2009 국회직 8번,circuit-theory,electromagnetic-basics,자계·자속·자기회로,,voltage-current,ocr-question-and-existing-classification
+assembly-2009-09,2009 국회직 9번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+assembly-2009-10,2009 국회직 10번,circuit-theory,non-sinusoidal-fourier,고조파 평균전력,,power,ocr-question-and-existing-classification
+assembly-2009-11,2009 국회직 11번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+assembly-2009-12,2009 국회직 12번,electronic-circuits,rectifier-smoothing,반파정류,,power,source-image-and-ocr
+assembly-2009-13,2009 국회직 13번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+assembly-2009-14,2009 국회직 14번,electronic-circuits,bjt-device,α·β·전류 관계,,current-gain,ocr-question-and-existing-classification
+assembly-2009-15,2009 국회직 15번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,impedance,ocr-question-and-existing-classification
+assembly-2009-16,2009 국회직 16번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+assembly-2009-17,2009 국회직 17번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+assembly-2009-18,2009 국회직 18번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,voltage-current,source-image-and-ocr
+assembly-2009-19,2009 국회직 19번,circuit-theory,circuit-analysis,직병렬·합성저항,,impedance,source-image-and-ocr
+assembly-2009-20,2009 국회직 20번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,voltage-current,ocr-question-and-existing-classification
+local-2009-01,2009 지방직 1번,digital-engineering,logic-families,팬아웃·잡음여유·소비전력,,power,ocr-question-and-existing-classification
+local-2009-02,2009 지방직 2번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,impedance,source-image-and-ocr
+local-2009-03,2009 지방직 3번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-current,ocr-question-and-existing-classification
+local-2009-04,2009 지방직 4번,circuit-theory,resonance,Q·선택도·대역폭,,frequency / transfer,ocr-question-and-existing-classification
+local-2009-05,2009 지방직 5번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,voltage-current,ocr-question-and-existing-classification
+local-2009-06,2009 지방직 6번,electronic-circuits,amplifier-response,다단증폭기·종합이득·대역폭,,voltage-gain,ocr-question-and-existing-classification
+local-2009-07,2009 지방직 7번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+local-2009-08,2009 지방직 8번,circuit-theory,two-port,Y 파라미터,,voltage-current,ocr-question-and-existing-classification
+local-2009-09,2009 지방직 9번,circuit-theory,coupled-transformer,변압기 권선비·전압·전류,,power,ocr-question-and-existing-classification
+local-2009-10,2009 지방직 10번,digital-engineering,logic-families,다이오드 논리·DTL,,logic,ocr-question-and-existing-classification
+local-2009-11,2009 지방직 11번,electronic-circuits,measurement-sensors,전압계·전류계·측정오차,,concept,ocr-question-and-existing-classification
+local-2009-12,2009 지방직 12번,circuit-theory,elements-basics,직류 정상상태,,voltage-current,ocr-question-and-existing-classification
+local-2009-13,2009 지방직 13번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,concept,ocr-question-and-existing-classification
+local-2009-14,2009 지방직 14번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+local-2009-15,2009 지방직 15번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,waveform,source-image-and-ocr
+local-2009-16,2009 지방직 16번,digital-engineering,adc-dac,가중저항 DAC·출력전압,,voltage-current,source-image-and-ocr
+local-2009-17,2009 지방직 17번,electronic-circuits,fet-device,문턱전압·몸체효과,BJT 구조·동작영역·얼리효과 / 다이오드 I–V·항복특성 / 에너지대·페르미준위,concept / bias,source-image-and-ocr
+local-2009-18,2009 지방직 18번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,voltage-current,ocr-question-and-existing-classification
+local-2009-19,2009 지방직 19번,digital-engineering,latch-flipflop,셋업·홀드·트리거,,timing,ocr-question-and-existing-classification
+local-2009-20,2009 지방직 20번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2010-01,2010 국가직 1번,electronic-circuits,opamp,비반전증폭기,,voltage-current,source-image-and-ocr
+national-2010-02,2010 국가직 2번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+national-2010-03,2010 국가직 3번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+national-2010-04,2010 국가직 4번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+national-2010-05,2010 국가직 5번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+national-2010-06,2010 국가직 6번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,frequency,ocr-question-and-existing-classification
+national-2010-07,2010 국가직 7번,electronic-circuits,analog-communication,FM·PM 편이·대역폭,,frequency,ocr-question-and-existing-classification
+national-2010-08,2010 국가직 8번,electronic-circuits,oscillator,RC 위상천이 발진기,,frequency,ocr-question-and-existing-classification
+national-2010-09,2010 국가직 9번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+national-2010-10,2010 국가직 10번,electronic-circuits,fet-amplifier,CS·CG·CD 특성 비교,,voltage-gain / impedance / bias,ocr-question-and-existing-classification
+national-2010-11,2010 국가직 11번,circuit-theory,elements-basics,R·L·C 기본특성,,power,ocr-question-and-existing-classification
+national-2010-12,2010 국가직 12번,electronic-circuits,power-amplifier,A·B·AB·C급 동작특성,,power,ocr-question-and-existing-classification
+national-2010-13,2010 국가직 13번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2010-14,2010 국가직 14번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,voltage-current,ocr-question-and-existing-classification
+national-2010-15,2010 국가직 15번,digital-engineering,counter,동기·비동기 카운터 특성,인코더·디코더·MUX·DEMUX 비교 / 조합논리회로 기능 비교,voltage-current,ocr-question-and-existing-classification
+national-2010-16,2010 국가직 16번,digital-engineering,information-data,샤논 채널용량·SNR,,power / frequency,ocr-question-and-existing-classification
+national-2010-17,2010 국가직 17번,circuit-theory,network-theorems,노턴 등가회로,,voltage-current,ocr-question-and-existing-classification
+national-2010-18,2010 국가직 18번,circuit-theory,coupled-transformer,임피던스 변환·정합,,impedance,ocr-question-and-existing-classification
+national-2010-19,2010 국가직 19번,digital-engineering,latch-flipflop,순차회로 상태표·설계,D 플립플롭·래치 / T 플립플롭·타이밍,logic,ocr-question-and-existing-classification
+national-2010-20,2010 국가직 20번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+local-2010-01,2010 지방직 1번,electronic-circuits,amplifier-basics,입출력 임피던스·버퍼,,voltage-gain / impedance,ocr-question-and-existing-classification
+local-2010-02,2010 지방직 2번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+local-2010-03,2010 지방직 3번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,voltage-gain,ocr-question-and-existing-classification
+local-2010-04,2010 지방직 4번,electronic-circuits,analog-communication,FM·PM 편이·대역폭,,concept / frequency,ocr-question-and-existing-classification
+local-2010-05,2010 지방직 5번,electronic-circuits,opamp,비반전증폭기,,voltage-gain,source-image-and-ocr
+local-2010-06,2010 지방직 6번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,ocr-question-and-existing-classification
+local-2010-07,2010 지방직 7번,digital-engineering,minimization-kmap,무관항·Don’t care,,logic,ocr-question-and-existing-classification
+local-2010-08,2010 지방직 8번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+local-2010-09,2010 지방직 9번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,frequency,source-image-and-ocr
+local-2010-10,2010 지방직 10번,electronic-circuits,rectifier-smoothing,정밀정류기,,concept,ocr-question-and-existing-classification
+local-2010-11,2010 지방직 11번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+local-2010-12,2010 지방직 12번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,voltage-current,ocr-question-and-existing-classification
+local-2010-13,2010 지방직 13번,digital-engineering,network-protocol,OSI 7계층·기능,,concept,ocr-question-and-existing-classification
+local-2010-14,2010 지방직 14번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+local-2010-15,2010 지방직 15번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+local-2010-16,2010 지방직 16번,electronic-circuits,measurement-sensors,전압계·전류계·측정오차,,concept,source-image-and-ocr
+local-2010-17,2010 지방직 17번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+local-2010-18,2010 지방직 18번,digital-engineering,latch-flipflop,SR 래치·SR FF,,waveform / timing,ocr-question-and-existing-classification
+local-2010-19,2010 지방직 19번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,ocr-question-and-existing-classification
+local-2010-20,2010 지방직 20번,electronic-circuits,special-devices,특수소자 종류·특성 비교,BJT·FET 특성 비교 / MOSFET 구조·동작영역,concept,ocr-question-and-existing-classification
+national-2011-01,2011 국가직 1번,electronic-circuits,oscillator,PLL·VCO·주파수합성,,frequency,ocr-question-and-existing-classification
+national-2011-02,2011 국가직 2번,digital-engineering,minimization-kmap,불대수식 간소화,,voltage-current,ocr-question-and-existing-classification
+national-2011-03,2011 국가직 3번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+national-2011-04,2011 국가직 4번,digital-engineering,latch-flipflop,셋업·홀드·트리거,,concept,ocr-question-and-existing-classification
+national-2011-05,2011 국가직 5번,electronic-circuits,voltage-regulator,스위칭 조정기·DC–DC,,voltage-current,ocr-question-and-existing-classification
+national-2011-06,2011 국가직 6번,electronic-circuits,opamp,반전증폭기,,concept,source-image-and-ocr
+national-2011-07,2011 국가직 7번,electronic-circuits,rectifier-smoothing,정밀정류기,,waveform,source-image-and-ocr
+national-2011-08,2011 국가직 8번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept / temperature,ocr-question-and-existing-classification
+national-2011-09,2011 국가직 9번,electronic-circuits,bjt-device,α·β·전류 관계,,current-gain,ocr-question-and-existing-classification
+national-2011-10,2011 국가직 10번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,ocr-question-and-existing-classification
+national-2011-11,2011 국가직 11번,digital-engineering,information-data,영상 데이터량·전송률,,frequency,ocr-question-and-existing-classification
+national-2011-12,2011 국가직 12번,electronic-circuits,rf-electromagnetic,전송선로·특성임피던스,,concept,ocr-question-and-existing-classification
+national-2011-13,2011 국가직 13번,electronic-circuits,limiter-clamper,리미터 전달특성·출력파형,,concept,source-image-and-ocr
+national-2011-14,2011 국가직 14번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,temperature,ocr-question-and-existing-classification
+national-2011-15,2011 국가직 15번,electronic-circuits,special-devices,버랙터·가변용량 다이오드,,bias,ocr-question-and-existing-classification
+national-2011-16,2011 국가직 16번,circuit-theory,filter,능동필터·전달함수,,waveform,ocr-question-and-existing-classification
+national-2011-17,2011 국가직 17번,electronic-circuits,opamp,전압 팔로워·버퍼,,concept,source-image-and-ocr
+national-2011-18,2011 국가직 18번,digital-engineering,arithmetic-circuits,반가산기,,concept,ocr-question-and-existing-classification
+national-2011-19,2011 국가직 19번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2011-20,2011 국가직 20번,circuit-theory,signals-systems,LTI·임펄스응답·컨벌루션,,frequency / transfer,ocr-question-and-existing-classification
+local-2011-01,2011 지방직 1번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+local-2011-02,2011 지방직 2번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,concept,ocr-question-and-existing-classification
+local-2011-03,2011 지방직 3번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,ocr-question-and-existing-classification
+local-2011-04,2011 지방직 4번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,concept,ocr-question-and-existing-classification
+local-2011-05,2011 지방직 5번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+local-2011-06,2011 지방직 6번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,concept / frequency,ocr-question-and-existing-classification
+local-2011-07,2011 지방직 7번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,impedance,ocr-question-and-existing-classification
+local-2011-08,2011 지방직 8번,digital-engineering,digital-communication,심벌률·비트율·QAM 계산,,voltage-current,ocr-question-and-existing-classification
+local-2011-09,2011 지방직 9번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,power,ocr-question-and-existing-classification
+local-2011-10,2011 지방직 10번,digital-engineering,encoder-mux,MUX·논리함수 구현,,logic,ocr-question-and-existing-classification
+local-2011-11,2011 지방직 11번,electronic-circuits,opamp,반전증폭기,,voltage-current,source-image-and-ocr
+local-2011-12,2011 지방직 12번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,power,ocr-question-and-existing-classification
+local-2011-13,2011 지방직 13번,digital-engineering,error-correction,패리티·CRC·FEC·ARQ 비교,,concept,ocr-question-and-existing-classification
+local-2011-14,2011 지방직 14번,digital-engineering,latch-flipflop,순차회로 상태표·설계,,voltage-current,ocr-question-and-existing-classification
+local-2011-15,2011 지방직 15번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+local-2011-16,2011 지방직 16번,electronic-circuits,special-devices,특수소자 종류·특성 비교,BJT·FET 특성 비교 / MOSFET 구조·동작영역,concept / bias,ocr-question-and-existing-classification
+local-2011-17,2011 지방직 17번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+local-2011-18,2011 지방직 18번,electronic-circuits,oscillator,발진조건·발진기 비교,,waveform,ocr-question-and-existing-classification
+local-2011-19,2011 지방직 19번,digital-engineering,minimization-kmap,무관항·Don’t care,,concept,ocr-question-and-existing-classification
+local-2011-20,2011 지방직 20번,electronic-circuits,amplifier-response,캐스코드 증폭기,,voltage-gain,ocr-question-and-existing-classification
+national-2012-01,2012 국가직 1번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,concept,ocr-question-and-existing-classification
+national-2012-02,2012 국가직 2번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,concept,source-image-and-ocr
+national-2012-03,2012 국가직 3번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+national-2012-04,2012 국가직 4번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,voltage-current,ocr-question-and-existing-classification
+national-2012-05,2012 국가직 5번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,ocr-question-and-existing-classification
+national-2012-06,2012 국가직 6번,electronic-circuits,rectifier-smoothing,정밀정류기,,voltage-current,ocr-question-and-existing-classification
+national-2012-07,2012 국가직 7번,digital-engineering,register,시프트레지스터·데이터 이동,,voltage-current,ocr-question-and-existing-classification
+national-2012-08,2012 국가직 8번,circuit-theory,circuit-analysis,KVL·루프해석,,voltage-current,source-image-and-ocr
+national-2012-09,2012 국가직 9번,digital-engineering,adc-dac,R–2R DAC,,voltage-current,source-image-and-ocr
+national-2012-10,2012 국가직 10번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / waveform,ocr-question-and-existing-classification
+national-2012-11,2012 국가직 11번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2012-12,2012 국가직 12번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+national-2012-13,2012 국가직 13번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+national-2012-14,2012 국가직 14번,circuit-theory,elements-basics,커패시터·정전용량,,concept,ocr-question-and-existing-classification
+national-2012-15,2012 국가직 15번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,frequency,ocr-question-and-existing-classification
+national-2012-16,2012 국가직 16번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,voltage-current,source-image-and-ocr
+national-2012-17,2012 국가직 17번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2012-18,2012 국가직 18번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+national-2012-19,2012 국가직 19번,electronic-circuits,special-devices,LED·광소자,,concept / bias,ocr-question-and-existing-classification
+national-2012-20,2012 국가직 20번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,power / frequency / waveform,ocr-question-and-existing-classification
+local-2012-01,2012 지방직 1번,circuit-theory,resonance,Q·선택도·대역폭,,frequency,ocr-question-and-existing-classification
+local-2012-02,2012 지방직 2번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+local-2012-03,2012 지방직 3번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+local-2012-04,2012 지방직 4번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,voltage-current,ocr-question-and-existing-classification
+local-2012-05,2012 지방직 5번,electronic-circuits,special-devices,LED·광소자,,concept,ocr-question-and-existing-classification
+local-2012-06,2012 지방직 6번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,concept / frequency,ocr-question-and-existing-classification
+local-2012-07,2012 지방직 7번,digital-engineering,minimization-kmap,불대수식 간소화,,voltage-current,ocr-question-and-existing-classification
+local-2012-08,2012 지방직 8번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+local-2012-09,2012 지방직 9번,electronic-circuits,measurement-sensors,전압계·전류계·측정오차,,concept,ocr-question-and-existing-classification
+local-2012-10,2012 지방직 10번,circuit-theory,sinusoidal-phasor,정현파·주파수·실효값,,frequency,ocr-question-and-existing-classification
+local-2012-11,2012 지방직 11번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+local-2012-12,2012 지방직 12번,electronic-circuits,bjt-device,BJT 스위칭·포화,LED·광소자,voltage-current,ocr-question-and-existing-classification
+local-2012-13,2012 지방직 13번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,voltage-gain,ocr-question-and-existing-classification
+local-2012-14,2012 지방직 14번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-gain,source-image-and-ocr
+local-2012-15,2012 지방직 15번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+local-2012-16,2012 지방직 16번,electronic-circuits,limiter-clamper,제너 리미터,,voltage-current,source-image-and-ocr
+local-2012-17,2012 지방직 17번,circuit-theory,filter,수동 저역통과필터,,frequency / transfer,ocr-question-and-existing-classification
+local-2012-18,2012 지방직 18번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,impedance / frequency,ocr-question-and-existing-classification
+local-2012-19,2012 지방직 19번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,concept / frequency,ocr-question-and-existing-classification
+local-2012-20,2012 지방직 20번,circuit-theory,signals-systems,LTI·임펄스응답·컨벌루션,,transfer,ocr-question-and-existing-classification
+national-2013-01,2013 국가직 1번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+national-2013-02,2013 국가직 2번,circuit-theory,two-port,Y 파라미터,,voltage-current,ocr-question-and-existing-classification
+national-2013-03,2013 국가직 3번,electronic-circuits,special-devices,버랙터·가변용량 다이오드,,concept,ocr-question-and-existing-classification
+national-2013-04,2013 국가직 4번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,frequency,ocr-question-and-existing-classification
+national-2013-05,2013 국가직 5번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2013-06,2013 국가직 6번,circuit-theory,filter,능동필터·전달함수,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2013-07,2013 국가직 7번,circuit-theory,filter,필터 전달함수·주파수응답,,transfer,source-image-and-ocr
+national-2013-08,2013 국가직 8번,electronic-circuits,rectifier-smoothing,첨두값 검출기,,concept,ocr-question-and-existing-classification
+national-2013-09,2013 국가직 9번,circuit-theory,filter,필터 전달함수·주파수응답,,transfer,ocr-question-and-existing-classification
+national-2013-10,2013 국가직 10번,electronic-circuits,amplifier-response,다단증폭기·종합이득·대역폭,,voltage-gain,ocr-question-and-existing-classification
+national-2013-11,2013 국가직 11번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,concept,ocr-question-and-existing-classification
+national-2013-12,2013 국가직 12번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+national-2013-13,2013 국가직 13번,electronic-circuits,opamp,비반전증폭기,,voltage-current,source-image-and-ocr
+national-2013-14,2013 국가직 14번,digital-engineering,counter,계수범위·필요 FF 수,,voltage-current,ocr-question-and-existing-classification
+national-2013-15,2013 국가직 15번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+national-2013-16,2013 국가직 16번,electronic-circuits,opamp,반전증폭기,,voltage-gain,source-image-and-ocr
+national-2013-17,2013 국가직 17번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,voltage-current,ocr-question-and-existing-classification
+national-2013-18,2013 국가직 18번,electronic-circuits,rectifier-smoothing,정류 파형·평균값·실효값,,waveform,source-image-and-ocr
+national-2013-19,2013 국가직 19번,electronic-circuits,oscillator,빈 브리지 발진기,,frequency,source-image-and-ocr
+national-2013-20,2013 국가직 20번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,concept,ocr-question-and-existing-classification
+national-2014-01,2014 국가직 1번,digital-engineering,number-systems,정수·소수 진법변환,코드 종류·특성 비교,code / concept,ocr-question-and-existing-classification
+national-2014-02,2014 국가직 2번,electronic-circuits,limiter-clamper,리미터 전달특성·출력파형,,voltage-current,ocr-question-and-existing-classification
+national-2014-03,2014 국가직 3번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,voltage-current,ocr-question-and-existing-classification
+national-2014-04,2014 국가직 4번,circuit-theory,resonance,병렬공진,,impedance / frequency,source-image-and-ocr
+national-2014-05,2014 국가직 5번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+national-2014-06,2014 국가직 6번,electronic-circuits,fet-device,FET 전달컨덕턴스,,voltage-current,ocr-question-and-existing-classification
+national-2014-07,2014 국가직 7번,circuit-theory,signals-systems,표본화·에일리어싱,,frequency,ocr-question-and-existing-classification
+national-2014-08,2014 국가직 8번,electronic-circuits,comparator-schmitt,슈미트 문턱전압·전달특성,,voltage-current,ocr-question-and-existing-classification
+national-2014-09,2014 국가직 9번,digital-engineering,latch-flipflop,순차회로 상태표·설계,무관항·Don’t care,logic / timing,ocr-question-and-existing-classification
+national-2014-10,2014 국가직 10번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+national-2014-11,2014 국가직 11번,electronic-circuits,special-devices,특수소자 종류·특성 비교,,concept,ocr-question-and-existing-classification
+national-2014-12,2014 국가직 12번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+national-2014-13,2014 국가직 13번,electronic-circuits,diode-basics,다이오드 I–V·항복특성,,concept,ocr-question-and-existing-classification
+national-2014-14,2014 국가직 14번,electronic-circuits,semiconductor-basics,에너지대·페르미준위,,concept,ocr-question-and-existing-classification
+national-2014-15,2014 국가직 15번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2014-16,2014 국가직 16번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain,ocr-question-and-existing-classification
+national-2014-17,2014 국가직 17번,digital-engineering,information-data,음성 데이터량·압축·저장,,frequency,ocr-question-and-existing-classification
+national-2014-18,2014 국가직 18번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+national-2014-19,2014 국가직 19번,circuit-theory,non-sinusoidal-fourier,푸리에 변환·성질,,voltage-current,ocr-question-and-existing-classification
+national-2014-20,2014 국가직 20번,digital-engineering,counter,카운트 순서·상태표·설계,,voltage-current,ocr-question-and-existing-classification
+assembly-2014-01,2014 국회직 1번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,concept,source-image-and-ocr
+assembly-2014-02,2014 국회직 2번,digital-engineering,minimization-kmap,무관항·Don’t care,,logic,ocr-question-and-existing-classification
+assembly-2014-03,2014 국회직 3번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+assembly-2014-04,2014 국회직 4번,electronic-circuits,measurement-sensors,오실로스코프·리사쥬,,waveform,ocr-question-and-existing-classification
+assembly-2014-05,2014 국회직 5번,digital-engineering,register,시프트레지스터·데이터 이동,,waveform / timing,ocr-question-and-existing-classification
+assembly-2014-06,2014 국회직 6번,digital-engineering,codes-arithmetic,BCD·7세그먼트,,code,ocr-question-and-existing-classification
+assembly-2014-07,2014 국회직 7번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,concept,ocr-question-and-existing-classification
+assembly-2014-08,2014 국회직 8번,electronic-circuits,voltage-regulator,직류전원 구성·변동률,,concept,ocr-question-and-existing-classification
+assembly-2014-09,2014 국회직 9번,electronic-circuits,amplifier-response,다단증폭기·종합이득·대역폭,,voltage-gain / impedance,ocr-question-and-existing-classification
+assembly-2014-10,2014 국회직 10번,electronic-circuits,limiter-clamper,클램퍼·직류레벨 이동,,waveform,source-image-and-ocr
+assembly-2014-11,2014 국회직 11번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,impedance / frequency,ocr-question-and-existing-classification
+assembly-2014-12,2014 국회직 12번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept / bias,ocr-question-and-existing-classification
+assembly-2014-13,2014 국회직 13번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+assembly-2014-14,2014 국회직 14번,circuit-theory,circuit-analysis,직병렬·합성저항,,power,source-image-and-ocr
+assembly-2014-15,2014 국회직 15번,circuit-theory,filter,능동필터·전달함수,,voltage-gain / frequency,ocr-question-and-existing-classification
+assembly-2014-16,2014 국회직 16번,circuit-theory,network-theorems,테브난 등가회로,최대전력전달·저항정합,impedance / power,ocr-question-and-existing-classification
+assembly-2014-17,2014 국회직 17번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain / bias,ocr-question-and-existing-classification
+assembly-2014-18,2014 국회직 18번,digital-engineering,number-systems,정수·소수 진법변환,코드 종류·특성 비교,code / concept,ocr-question-and-existing-classification
+assembly-2014-19,2014 국회직 19번,electronic-circuits,oscillator,빈 브리지 발진기,,concept,source-image-and-ocr
+assembly-2014-20,2014 국회직 20번,circuit-theory,filter,필터 전달함수·주파수응답,,transfer,ocr-question-and-existing-classification
+seoul-2014-01,2014 서울시 1번,circuit-theory,elements-basics,R·L·C 기본특성,,concept,ocr-question-and-existing-classification
+seoul-2014-02,2014 서울시 2번,electronic-circuits,measurement-sensors,전압계·전류계·측정오차,,voltage-current,ocr-question-and-existing-classification
+seoul-2014-03,2014 서울시 3번,digital-engineering,encoder-mux,MUX·논리함수 구현,,voltage-current,ocr-question-and-existing-classification
+seoul-2014-04,2014 서울시 4번,digital-engineering,latch-flipflop,SR 래치·SR FF,,voltage-current,ocr-question-and-existing-classification
+seoul-2014-05,2014 서울시 5번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,concept,ocr-question-and-existing-classification
+seoul-2014-06,2014 서울시 6번,digital-engineering,information-data,영상 데이터량·전송률,,frequency,ocr-question-and-existing-classification
+seoul-2014-07,2014 서울시 7번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,impedance,ocr-question-and-existing-classification
+seoul-2014-08,2014 서울시 8번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+seoul-2014-09,2014 서울시 9번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,voltage-current,ocr-question-and-existing-classification
+seoul-2014-10,2014 서울시 10번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+seoul-2014-11,2014 서울시 11번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+seoul-2014-12,2014 서울시 12번,circuit-theory,resonance,공진조건·주파수,,frequency,ocr-question-and-existing-classification
+seoul-2014-13,2014 서울시 13번,circuit-theory,transient,RC 과도응답·시정수,,frequency,ocr-question-and-existing-classification
+seoul-2014-14,2014 서울시 14번,electronic-circuits,rf-electromagnetic,전송선로·특성임피던스,,impedance,ocr-question-and-existing-classification
+seoul-2014-15,2014 서울시 15번,digital-engineering,boolean-gates,NAND·NOR 범용게이트,,concept,ocr-question-and-existing-classification
+seoul-2014-16,2014 서울시 16번,circuit-theory,electromagnetic-basics,전계·전위,,frequency,ocr-question-and-existing-classification
+seoul-2014-17,2014 서울시 17번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+seoul-2014-18,2014 서울시 18번,circuit-theory,coupled-transformer,변압기 권선비·전압·전류,,voltage-current,ocr-question-and-existing-classification
+seoul-2014-19,2014 서울시 19번,circuit-theory,resonance,Q·선택도·대역폭,,frequency,ocr-question-and-existing-classification
+seoul-2014-20,2014 서울시 20번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,frequency,ocr-question-and-existing-classification
+national-2015-01,2015 국가직 1번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+national-2015-02,2015 국가직 2번,circuit-theory,elements-basics,배터리 용량·특성,,voltage-current,ocr-question-and-existing-classification
+national-2015-03,2015 국가직 3번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-current,ocr-question-and-existing-classification
+national-2015-04,2015 국가직 4번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-gain,source-image-and-ocr
+national-2015-05,2015 국가직 5번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+national-2015-06,2015 국가직 6번,circuit-theory,network-theorems,최대전력전달·공액정합,,impedance / power,ocr-question-and-existing-classification
+national-2015-07,2015 국가직 7번,digital-engineering,minimization-kmap,무관항·Don’t care,,concept,ocr-question-and-existing-classification
+national-2015-08,2015 국가직 8번,circuit-theory,signals-systems,전달함수·주파수응답,,frequency / transfer,ocr-question-and-existing-classification
+national-2015-09,2015 국가직 9번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+national-2015-10,2015 국가직 10번,electronic-circuits,fet-device,MOS 커패시터·축적·공핍·반전,,voltage-current,ocr-question-and-existing-classification
+national-2015-11,2015 국가직 11번,electronic-circuits,rf-electromagnetic,안테나 길이·전파,,power,ocr-question-and-existing-classification
+national-2015-12,2015 국가직 12번,circuit-theory,resonance,병렬공진,,frequency,ocr-question-and-existing-classification
+national-2015-13,2015 국가직 13번,electronic-circuits,differentiator-integrator,적분기·출력파형,,voltage-current,ocr-question-and-existing-classification
+national-2015-14,2015 국가직 14번,digital-engineering,digital-communication,심벌률·비트율·QAM 계산,,frequency,ocr-question-and-existing-classification
+national-2015-15,2015 국가직 15번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,voltage-current,source-image-and-ocr
+national-2015-16,2015 국가직 16번,digital-engineering,latch-flipflop,SR 래치·SR FF,,logic / timing,ocr-question-and-existing-classification
+national-2015-17,2015 국가직 17번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2015-18,2015 국가직 18번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept,ocr-question-and-existing-classification
+national-2015-19,2015 국가직 19번,circuit-theory,signals-systems,LTI·임펄스응답·컨벌루션,,transfer,ocr-question-and-existing-classification
+national-2015-20,2015 국가직 20번,electronic-circuits,semiconductor-basics,에너지대·페르미준위,,concept,ocr-question-and-existing-classification
+assembly-2015-01,2015 국회직 1번,circuit-theory,elements-basics,R·L·C 기본특성,,concept / frequency,ocr-question-and-existing-classification
+assembly-2015-02,2015 국회직 2번,electronic-circuits,bjt-amplifier,CE·CB·CC 특성 비교,,concept,ocr-question-and-existing-classification
+assembly-2015-03,2015 국회직 3번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+assembly-2015-04,2015 국회직 4번,circuit-theory,circuit-analysis,종속전원 회로해석,,concept,source-image-and-ocr
+assembly-2015-05,2015 국회직 5번,circuit-theory,two-port,ABCD·전송파라미터,,concept,ocr-question-and-existing-classification
+assembly-2015-06,2015 국회직 6번,circuit-theory,ac-power,역률·역률개선,,concept,ocr-question-and-existing-classification
+assembly-2015-07,2015 국회직 7번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,concept,source-image-and-ocr
+assembly-2015-08,2015 국회직 8번,electronic-circuits,limiter-clamper,제너 리미터,,concept,source-image-and-ocr
+assembly-2015-09,2015 국회직 9번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,bias / frequency / waveform,ocr-question-and-existing-classification
+assembly-2015-10,2015 국회직 10번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+assembly-2015-11,2015 국회직 11번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,PN접합·공핍층·바이어스,concept,ocr-question-and-existing-classification
+assembly-2015-12,2015 국회직 12번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,concept,ocr-question-and-existing-classification
+assembly-2015-13,2015 국회직 13번,digital-engineering,digital-communication,디지털 방송·전송방식,,concept,ocr-question-and-existing-classification
+assembly-2015-14,2015 국회직 14번,circuit-theory,network-theorems,최대전력전달·공액정합,,power,ocr-question-and-existing-classification
+assembly-2015-15,2015 국회직 15번,circuit-theory,sinusoidal-phasor,페이저·위상·합성,,concept,ocr-question-and-existing-classification
+assembly-2015-16,2015 국회직 16번,electronic-circuits,differentiator-integrator,적분기·출력파형,,waveform,ocr-question-and-existing-classification
+assembly-2015-17,2015 국회직 17번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,waveform,ocr-question-and-existing-classification
+assembly-2015-18,2015 국회직 18번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+assembly-2015-19,2015 국회직 19번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+assembly-2015-20,2015 국회직 20번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+seoul-2015-01,2015 서울시 1번,circuit-theory,elements-basics,저항·비저항,,voltage-current,ocr-question-and-existing-classification
+seoul-2015-02,2015 서울시 2번,circuit-theory,sinusoidal-phasor,정현파·주파수·실효값,,concept,ocr-question-and-existing-classification
+seoul-2015-03,2015 서울시 3번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+seoul-2015-04,2015 서울시 4번,electronic-circuits,semiconductor-basics,이동도·확산·드리프트,,temperature,ocr-question-and-existing-classification
+seoul-2015-05,2015 서울시 5번,circuit-theory,ac-power,역률·역률개선,,voltage-current,ocr-question-and-existing-classification
+seoul-2015-06,2015 서울시 6번,electronic-circuits,power-amplifier,전력증폭기 효율·최대출력,,power,ocr-question-and-existing-classification
+seoul-2015-07,2015 서울시 7번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+seoul-2015-08,2015 서울시 8번,circuit-theory,control-systems,블록선도·신호흐름선도,,voltage-current,ocr-question-and-existing-classification
+seoul-2015-09,2015 서울시 9번,electronic-circuits,bjt-device,바이어스 안정화·부하선,,concept,ocr-question-and-existing-classification
+seoul-2015-10,2015 서울시 10번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,source-image-and-ocr
+seoul-2015-11,2015 서울시 11번,circuit-theory,electromagnetic-basics,도선·자극 사이 힘,,concept,ocr-question-and-existing-classification
+seoul-2015-12,2015 서울시 12번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,voltage-gain / impedance / power / waveform,source-image-and-ocr
+seoul-2015-13,2015 서울시 13번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+seoul-2015-14,2015 서울시 14번,circuit-theory,transient,RLC 과도응답·감쇠,,transfer,ocr-question-and-existing-classification
+seoul-2015-15,2015 서울시 15번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+seoul-2015-16,2015 서울시 16번,digital-engineering,logic-families,팬아웃·잡음여유·소비전력,,voltage-current,ocr-question-and-existing-classification
+seoul-2015-17,2015 서울시 17번,electronic-circuits,bjt-device,전압분배 바이어스,,bias,ocr-question-and-existing-classification
+seoul-2015-18,2015 서울시 18번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+seoul-2015-19,2015 서울시 19번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+seoul-2015-20,2015 서울시 20번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,concept,ocr-question-and-existing-classification
+national-2016-01,2016 국가직 1번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+national-2016-02,2016 국가직 2번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+national-2016-03,2016 국가직 3번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,voltage-current,ocr-question-and-existing-classification
+national-2016-04,2016 국가직 4번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-gain,source-image-and-ocr
+national-2016-05,2016 국가직 5번,electronic-circuits,differential-mirror,차동쌍 회로·이득·입출력 위상,,concept,ocr-question-and-existing-classification
+national-2016-06,2016 국가직 6번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2016-07,2016 국가직 7번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,ocr-question-and-existing-classification
+national-2016-08,2016 국가직 8번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2016-09,2016 국가직 9번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,impedance,ocr-question-and-existing-classification
+national-2016-10,2016 국가직 10번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+national-2016-11,2016 국가직 11번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,waveform,ocr-question-and-existing-classification
+national-2016-12,2016 국가직 12번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,current-gain,source-image-and-ocr
+national-2016-13,2016 국가직 13번,electronic-circuits,fet-device,MOS 커패시터·축적·공핍·반전,,voltage-current,ocr-question-and-existing-classification
+national-2016-14,2016 국가직 14번,circuit-theory,resonance,공진조건·주파수,,concept,ocr-question-and-existing-classification
+national-2016-15,2016 국가직 15번,digital-engineering,information-data,샤논 채널용량·SNR,,frequency,ocr-question-and-existing-classification
+national-2016-16,2016 국가직 16번,electronic-circuits,oscillator,수정발진기,,concept,ocr-question-and-existing-classification
+national-2016-17,2016 국가직 17번,electronic-circuits,fet-amplifier,CD·소스 팔로워,,voltage-gain,source-image-and-ocr
+national-2016-18,2016 국가직 18번,digital-engineering,information-data,음성 데이터량·압축·저장,,voltage-current,ocr-question-and-existing-classification
+national-2016-19,2016 국가직 19번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain,ocr-question-and-existing-classification
+national-2016-20,2016 국가직 20번,electronic-circuits,limiter-clamper,리미터 전달특성·출력파형,,waveform,ocr-question-and-existing-classification
+assembly-2016-01,2016 국회직 1번,electronic-circuits,special-devices,터널·쇼트키 다이오드,,concept,source-image-and-ocr
+assembly-2016-02,2016 국회직 2번,circuit-theory,laplace,라플라스 변환·시간이동,,concept,ocr-question-and-existing-classification
+assembly-2016-03,2016 국회직 3번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain / impedance,ocr-question-and-existing-classification
+assembly-2016-04,2016 국회직 4번,digital-engineering,logic-families,TR 논리·TTL,,concept,ocr-question-and-existing-classification
+assembly-2016-05,2016 국회직 5번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+assembly-2016-06,2016 국회직 6번,electronic-circuits,feedback-amplifier,부궤환 효과·안정도·왜곡,,concept / frequency,ocr-question-and-existing-classification
+assembly-2016-07,2016 국회직 7번,circuit-theory,electromagnetic-basics,유전체·정전용량,,voltage-current,ocr-question-and-existing-classification
+assembly-2016-08,2016 국회직 8번,circuit-theory,filter,필터 전달함수·주파수응답,,transfer,ocr-question-and-existing-classification
+assembly-2016-09,2016 국회직 9번,digital-engineering,arithmetic-circuits,반가산기,,logic,source-image-and-ocr
+assembly-2016-10,2016 국회직 10번,electronic-circuits,oscillator,RC 위상천이 발진기,,frequency,ocr-question-and-existing-classification
+assembly-2016-11,2016 국회직 11번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,impedance,ocr-question-and-existing-classification
+assembly-2016-12,2016 국회직 12번,electronic-circuits,measurement-sensors,오실로스코프·리사쥬,,frequency / waveform,ocr-question-and-existing-classification
+assembly-2016-13,2016 국회직 13번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-current,ocr-question-and-existing-classification
+assembly-2016-14,2016 국회직 14번,digital-engineering,minimization-kmap,무관항·Don’t care,,logic,ocr-question-and-existing-classification
+assembly-2016-15,2016 국회직 15번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,concept,ocr-question-and-existing-classification
+assembly-2016-16,2016 국회직 16번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,concept,ocr-question-and-existing-classification
+assembly-2016-17,2016 국회직 17번,circuit-theory,filter,대역통과·대역저지,,frequency / waveform,source-image-and-ocr
+assembly-2016-18,2016 국회직 18번,circuit-theory,network-theorems,테브난 등가회로,,concept,ocr-question-and-existing-classification
+assembly-2016-19,2016 국회직 19번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,logic,ocr-question-and-existing-classification
+assembly-2016-20,2016 국회직 20번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,concept,source-image-and-ocr
+seoul-2016-01,2016 서울시 1번,circuit-theory,electromagnetic-basics,유전체·정전용량,,voltage-current,ocr-question-and-existing-classification
+seoul-2016-02,2016 서울시 2번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+seoul-2016-03,2016 서울시 3번,circuit-theory,circuit-analysis,KCL·노드해석,,concept,source-image-and-ocr
+seoul-2016-04,2016 서울시 4번,circuit-theory,network-theorems,테브난 등가회로,최대전력전달·저항정합,voltage-current,ocr-question-and-existing-classification
+seoul-2016-05,2016 서울시 5번,electronic-circuits,differentiator-integrator,적분기·출력파형,,frequency / waveform,source-image-and-ocr
+seoul-2016-06,2016 서울시 6번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,concept,ocr-question-and-existing-classification
+seoul-2016-07,2016 서울시 7번,circuit-theory,coupled-transformer,임피던스 변환·정합,,impedance,ocr-question-and-existing-classification
+seoul-2016-08,2016 서울시 8번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+seoul-2016-09,2016 서울시 9번,circuit-theory,network-theorems,중첩정리,,voltage-current,ocr-question-and-existing-classification
+seoul-2016-10,2016 서울시 10번,electronic-circuits,bjt-device,α·β·전류 관계,,voltage-current,ocr-question-and-existing-classification
+seoul-2016-11,2016 서울시 11번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+seoul-2016-12,2016 서울시 12번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+seoul-2016-13,2016 서울시 13번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+seoul-2016-14,2016 서울시 14번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,voltage-current,source-image-and-ocr
+seoul-2016-15,2016 서울시 15번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+seoul-2016-16,2016 서울시 16번,circuit-theory,electromagnetic-basics,전계·전위,,voltage-current,ocr-question-and-existing-classification
+seoul-2016-17,2016 서울시 17번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,concept,ocr-question-and-existing-classification
+seoul-2016-18,2016 서울시 18번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,concept,ocr-question-and-existing-classification
+seoul-2016-19,2016 서울시 19번,circuit-theory,bridge-transform,브리지 평형·해석,,voltage-current,source-image-and-ocr
+seoul-2016-20,2016 서울시 20번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,concept,ocr-question-and-existing-classification
+national-2017-01,2017 국가직 1번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,voltage-current,ocr-question-and-existing-classification
+national-2017-02,2017 국가직 2번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,power,ocr-question-and-existing-classification
+national-2017-03,2017 국가직 3번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+national-2017-04,2017 국가직 4번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,voltage-current,ocr-question-and-existing-classification
+national-2017-05,2017 국가직 5번,digital-engineering,logic-families,다이오드 논리·DTL,,voltage-current,ocr-question-and-existing-classification
+national-2017-06,2017 국가직 6번,electronic-circuits,fet-device,FET 전달컨덕턴스,,voltage-current,ocr-question-and-existing-classification
+national-2017-07,2017 국가직 7번,electronic-circuits,limiter-clamper,제너 리미터,,voltage-current,source-image-and-ocr
+national-2017-08,2017 국가직 8번,circuit-theory,filter,대역통과·대역저지,,voltage-current,ocr-question-and-existing-classification
+national-2017-09,2017 국가직 9번,circuit-theory,resonance,Q·선택도·대역폭,,frequency,ocr-question-and-existing-classification
+national-2017-10,2017 국가직 10번,circuit-theory,elements-basics,저항·비저항,,power,ocr-question-and-existing-classification
+national-2017-11,2017 국가직 11번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+national-2017-12,2017 국가직 12번,digital-engineering,latch-flipflop,D 플립플롭·래치,,timing,ocr-question-and-existing-classification
+national-2017-13,2017 국가직 13번,electronic-circuits,analog-communication,변조 목적·통신방식,,power / frequency,ocr-question-and-existing-classification
+national-2017-14,2017 국가직 14번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+national-2017-15,2017 국가직 15번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,concept,ocr-question-and-existing-classification
+national-2017-16,2017 국가직 16번,electronic-circuits,pulse-555,555 비안정·듀티비·시정수,,waveform,ocr-question-and-existing-classification
+national-2017-17,2017 국가직 17번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,voltage-current,ocr-question-and-existing-classification
+national-2017-18,2017 국가직 18번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,voltage-current,ocr-question-and-existing-classification
+national-2017-19,2017 국가직 19번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+national-2017-20,2017 국가직 20번,circuit-theory,filter,수동 저역통과필터,,voltage-current,source-image-and-ocr
+assembly-2017-01,2017 국회직 1번,electronic-circuits,rectifier-smoothing,중간탭 전파정류,,waveform,ocr-question-and-existing-classification
+assembly-2017-02,2017 국회직 2번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,concept,ocr-question-and-existing-classification
+assembly-2017-03,2017 국회직 3번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,concept,ocr-question-and-existing-classification
+assembly-2017-04,2017 국회직 4번,electronic-circuits,oscillator,빈 브리지 발진기,,frequency,ocr-question-and-existing-classification
+assembly-2017-05,2017 국회직 5번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+assembly-2017-06,2017 국회직 6번,digital-engineering,number-systems,보수·부호표현·이진연산,,code / concept,ocr-question-and-existing-classification
+assembly-2017-07,2017 국회직 7번,electronic-circuits,bjt-amplifier,CE·CB·CC 특성 비교,,voltage-gain / current-gain / impedance,ocr-question-and-existing-classification
+assembly-2017-08,2017 국회직 8번,digital-engineering,arithmetic-circuits,디지털 크기·등가비교기,,concept,ocr-question-and-existing-classification
+assembly-2017-09,2017 국회직 9번,circuit-theory,resonance,공진조건·주파수,,frequency,ocr-question-and-existing-classification
+assembly-2017-10,2017 국회직 10번,circuit-theory,resonance,병렬공진,,concept,ocr-question-and-existing-classification
+assembly-2017-11,2017 국회직 11번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+assembly-2017-12,2017 국회직 12번,digital-engineering,number-systems,정수·소수 진법변환,,code / concept,ocr-question-and-existing-classification
+assembly-2017-13,2017 국회직 13번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+assembly-2017-14,2017 국회직 14번,electronic-circuits,feedback-amplifier,부궤환 효과·안정도·왜곡,,voltage-gain / frequency,ocr-question-and-existing-classification
+assembly-2017-15,2017 국회직 15번,circuit-theory,circuit-analysis,KCL·노드해석,,concept,source-image-and-ocr
+assembly-2017-16,2017 국회직 16번,electronic-circuits,feedback-amplifier,귀환형식·입출력 임피던스,,concept,ocr-question-and-existing-classification
+assembly-2017-17,2017 국회직 17번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,concept,ocr-question-and-existing-classification
+assembly-2017-18,2017 국회직 18번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,concept,ocr-question-and-existing-classification
+assembly-2017-19,2017 국회직 19번,electronic-circuits,power-amplifier,A·B·AB·C급 동작특성,,power / bias / waveform,ocr-question-and-existing-classification
+assembly-2017-20,2017 국회직 20번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+seoul-2017-01,2017 서울시 1번,electronic-circuits,amplifier-response,달링턴 증폭기,,concept,ocr-question-and-existing-classification
+seoul-2017-02,2017 서울시 2번,circuit-theory,filter,능동필터·전달함수,,voltage-current,ocr-question-and-existing-classification
+seoul-2017-03,2017 서울시 3번,circuit-theory,network-theorems,최대전력전달·공액정합,,power,ocr-question-and-existing-classification
+seoul-2017-04,2017 서울시 4번,circuit-theory,circuit-analysis,직병렬·합성저항,,voltage-current,source-image-and-ocr
+seoul-2017-05,2017 서울시 5번,digital-engineering,number-systems,정수·소수 진법변환,,code / concept,ocr-question-and-existing-classification
+seoul-2017-06,2017 서울시 6번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+seoul-2017-07,2017 서울시 7번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+seoul-2017-08,2017 서울시 8번,circuit-theory,circuit-analysis,종속전원 회로해석,,power,source-image-and-ocr
+seoul-2017-09,2017 서울시 9번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,frequency,ocr-question-and-existing-classification
+seoul-2017-10,2017 서울시 10번,electronic-circuits,fet-device,JFET·핀치오프,,concept,ocr-question-and-existing-classification
+seoul-2017-11,2017 서울시 11번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,voltage-current,ocr-question-and-existing-classification
+seoul-2017-12,2017 서울시 12번,electronic-circuits,power-amplifier,B·AB급 푸시풀·교차왜곡,,concept,ocr-question-and-existing-classification
+seoul-2017-13,2017 서울시 13번,circuit-theory,transient,RL 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+seoul-2017-14,2017 서울시 14번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+seoul-2017-15,2017 서울시 15번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+seoul-2017-16,2017 서울시 16번,circuit-theory,elements-basics,직류 정상상태,,voltage-current,ocr-question-and-existing-classification
+seoul-2017-17,2017 서울시 17번,circuit-theory,electromagnetic-basics,전자유도·유도기전력,,power,ocr-question-and-existing-classification
+seoul-2017-18,2017 서울시 18번,electronic-circuits,fet-device,JFET·핀치오프,,concept,ocr-question-and-existing-classification
+seoul-2017-19,2017 서울시 19번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+seoul-2017-20,2017 서울시 20번,electronic-circuits,differential-mirror,차동쌍 회로·이득·입출력 위상,,waveform,source-image-and-ocr
+national-2018-01,2018 국가직 1번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,voltage-current,ocr-question-and-existing-classification
+national-2018-02,2018 국가직 2번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,concept,ocr-question-and-existing-classification
+national-2018-03,2018 국가직 3번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,waveform / timing,ocr-question-and-existing-classification
+national-2018-04,2018 국가직 4번,electronic-circuits,special-devices,특수소자 종류·특성 비교,,concept / bias,ocr-question-and-existing-classification
+national-2018-05,2018 국가직 5번,electronic-circuits,analog-communication,FM 프리엠퍼시스·디엠퍼시스,,voltage-current,ocr-question-and-existing-classification
+national-2018-06,2018 국가직 6번,circuit-theory,signals-systems,LTI·임펄스응답·컨벌루션,,waveform / transfer,ocr-question-and-existing-classification
+national-2018-07,2018 국가직 7번,electronic-circuits,differential-mirror,차동쌍 회로·이득·입출력 위상,,current-gain / impedance,ocr-question-and-existing-classification
+national-2018-08,2018 국가직 8번,electronic-circuits,amplifier-response,연산증폭기 GBW·대역폭,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2018-09,2018 국가직 9번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+national-2018-10,2018 국가직 10번,electronic-circuits,voltage-regulator,스위칭 조정기·DC–DC,,voltage-current,ocr-question-and-existing-classification
+national-2018-11,2018 국가직 11번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2018-12,2018 국가직 12번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,voltage-gain / frequency / waveform,ocr-question-and-existing-classification
+national-2018-13,2018 국가직 13번,electronic-circuits,oscillator,발진조건·발진기 비교,,voltage-current,ocr-question-and-existing-classification
+national-2018-14,2018 국가직 14번,electronic-circuits,fet-device,문턱전압·몸체효과,,concept,ocr-question-and-existing-classification
+national-2018-15,2018 국가직 15번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2018-16,2018 국가직 16번,circuit-theory,filter,능동필터·전달함수,,frequency / transfer,ocr-question-and-existing-classification
+national-2018-17,2018 국가직 17번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+national-2018-18,2018 국가직 18번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+national-2018-19,2018 국가직 19번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,impedance,ocr-question-and-existing-classification
+national-2018-20,2018 국가직 20번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,voltage-current,source-image-and-ocr
+assembly-2018-01,2018 국회직 1번,electronic-circuits,fet-device,JFET·핀치오프,,concept / bias,ocr-question-and-existing-classification
+assembly-2018-02,2018 국회직 2번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,frequency,ocr-question-and-existing-classification
+assembly-2018-03,2018 국회직 3번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,bias / frequency / waveform,ocr-question-and-existing-classification
+assembly-2018-04,2018 국회직 4번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,concept,ocr-question-and-existing-classification
+assembly-2018-05,2018 국회직 5번,electronic-circuits,limiter-clamper,클램퍼·직류레벨 이동,,waveform,source-image-and-ocr
+assembly-2018-06,2018 국회직 6번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,impedance / power,ocr-question-and-existing-classification
+assembly-2018-07,2018 국회직 7번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,bias / waveform,ocr-question-and-existing-classification
+assembly-2018-08,2018 국회직 8번,electronic-circuits,amplifier-response,연산증폭기 GBW·대역폭,,frequency,ocr-question-and-existing-classification
+assembly-2018-09,2018 국회직 9번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,concept,ocr-question-and-existing-classification
+assembly-2018-10,2018 국회직 10번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,voltage-gain / temperature,ocr-question-and-existing-classification
+assembly-2018-11,2018 국회직 11번,electronic-circuits,amplifier-response,캐스코드 증폭기,,voltage-gain,ocr-question-and-existing-classification
+assembly-2018-12,2018 국회직 12번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2018-13,2018 국회직 13번,electronic-circuits,limiter-clamper,제너 리미터,,concept,source-image-and-ocr
+assembly-2018-14,2018 국회직 14번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+assembly-2018-15,2018 국회직 15번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+assembly-2018-16,2018 국회직 16번,circuit-theory,electromagnetic-basics,도선·자극 사이 힘,,concept,ocr-question-and-existing-classification
+assembly-2018-17,2018 국회직 17번,circuit-theory,sinusoidal-phasor,페이저·위상·합성,,concept,ocr-question-and-existing-classification
+assembly-2018-18,2018 국회직 18번,circuit-theory,laplace,라플라스 변환·시간이동,,waveform,ocr-question-and-existing-classification
+assembly-2018-19,2018 국회직 19번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+assembly-2018-20,2018 국회직 20번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+seoul-2018-01,2018 서울시 1번,electronic-circuits,semiconductor-basics,이동도·확산·드리프트,,concept,ocr-question-and-existing-classification
+seoul-2018-02,2018 서울시 2번,circuit-theory,electromagnetic-basics,쿨롱 법칙·전하 간 힘,,voltage-current,ocr-question-and-existing-classification
+seoul-2018-03,2018 서울시 3번,circuit-theory,control-systems,제어계 응답,,transfer,ocr-question-and-existing-classification
+seoul-2018-04,2018 서울시 4번,electronic-circuits,fet-device,JFET·핀치오프,,concept,ocr-question-and-existing-classification
+seoul-2018-05,2018 서울시 5번,electronic-circuits,bjt-device,전압분배 바이어스,,bias,ocr-question-and-existing-classification
+seoul-2018-06,2018 서울시 6번,circuit-theory,filter,능동필터·전달함수,,transfer,ocr-question-and-existing-classification
+seoul-2018-07,2018 서울시 7번,electronic-circuits,rectifier-smoothing,반파정류,,concept,source-image-and-ocr
+seoul-2018-08,2018 서울시 8번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+seoul-2018-09,2018 서울시 9번,circuit-theory,laplace,역라플라스·수렴영역,,transfer,ocr-question-and-existing-classification
+seoul-2018-10,2018 서울시 10번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+seoul-2018-11,2018 서울시 11번,circuit-theory,elements-basics,전류·전력·정격,,power,ocr-question-and-existing-classification
+seoul-2018-12,2018 서울시 12번,circuit-theory,signals-systems,전력스펙트럼·잡음,,power / frequency,ocr-question-and-existing-classification
+seoul-2018-13,2018 서울시 13번,circuit-theory,bridge-transform,브리지 평형·해석,,voltage-current,source-image-and-ocr
+seoul-2018-14,2018 서울시 14번,circuit-theory,non-sinusoidal-fourier,비정현파 평균값·실효값,,voltage-current,ocr-question-and-existing-classification
+seoul-2018-15,2018 서울시 15번,circuit-theory,network-theorems,최대전력전달·공액정합,,impedance / power,ocr-question-and-existing-classification
+seoul-2018-16,2018 서울시 16번,circuit-theory,transient,RLC 과도응답·감쇠,,waveform,ocr-question-and-existing-classification
+seoul-2018-17,2018 서울시 17번,circuit-theory,signals-systems,전력스펙트럼·잡음,,power,ocr-question-and-existing-classification
+seoul-2018-18,2018 서울시 18번,circuit-theory,non-sinusoidal-fourier,푸리에 변환·성질,,frequency,ocr-question-and-existing-classification
+seoul-2018-19,2018 서울시 19번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,voltage-current,ocr-question-and-existing-classification
+seoul-2018-20,2018 서울시 20번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+national-2019-01,2019 국가직 1번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,source-image-and-ocr
+national-2019-02,2019 국가직 2번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept / bias,ocr-question-and-existing-classification
+national-2019-03,2019 국가직 3번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+national-2019-04,2019 국가직 4번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+national-2019-05,2019 국가직 5번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+national-2019-06,2019 국가직 6번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+national-2019-07,2019 국가직 7번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,concept,ocr-question-and-existing-classification
+national-2019-08,2019 국가직 8번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain / impedance,ocr-question-and-existing-classification
+national-2019-09,2019 국가직 9번,circuit-theory,filter,능동필터·전달함수,,transfer,source-image-and-ocr
+national-2019-10,2019 국가직 10번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+national-2019-11,2019 국가직 11번,circuit-theory,ac-power,역률·역률개선,,power,ocr-question-and-existing-classification
+national-2019-12,2019 국가직 12번,digital-engineering,counter,분주·출력주파수,,frequency / timing,ocr-question-and-existing-classification
+national-2019-13,2019 국가직 13번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,concept,ocr-question-and-existing-classification
+national-2019-14,2019 국가직 14번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+national-2019-15,2019 국가직 15번,circuit-theory,signals-systems,LTI·임펄스응답·컨벌루션,,transfer,ocr-question-and-existing-classification
+national-2019-16,2019 국가직 16번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,voltage-current,ocr-question-and-existing-classification
+national-2019-17,2019 국가직 17번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept,ocr-question-and-existing-classification
+national-2019-18,2019 국가직 18번,circuit-theory,signals-systems,전달함수·주파수응답,,transfer,ocr-question-and-existing-classification
+national-2019-19,2019 국가직 19번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,source-image-and-ocr
+national-2019-20,2019 국가직 20번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+assembly-2019-01,2019 국회직 1번,digital-engineering,minimization-kmap,카르노맵 간소화,,voltage-current,ocr-question-and-existing-classification
+assembly-2019-02,2019 국회직 2번,digital-engineering,adc-dac,가중저항 DAC·출력전압,,voltage-current,ocr-question-and-existing-classification
+assembly-2019-03,2019 국회직 3번,digital-engineering,counter,카운트 순서·상태표·설계,,voltage-current,ocr-question-and-existing-classification
+assembly-2019-04,2019 국회직 4번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,logic,ocr-question-and-existing-classification
+assembly-2019-05,2019 국회직 5번,circuit-theory,non-sinusoidal-fourier,비정현파 평균값·실효값,,frequency,ocr-question-and-existing-classification
+assembly-2019-06,2019 국회직 6번,circuit-theory,electromagnetic-basics,유전체·정전용량,,concept,ocr-question-and-existing-classification
+assembly-2019-07,2019 국회직 7번,circuit-theory,electromagnetic-basics,전류밀도·미분형 옴의 법칙,,concept,ocr-question-and-existing-classification
+assembly-2019-08,2019 국회직 8번,electronic-circuits,semiconductor-basics,온도·진성캐리어,,power / temperature,ocr-question-and-existing-classification
+assembly-2019-09,2019 국회직 9번,electronic-circuits,fabrication,포토리소그래피·포토레지스트,,voltage-current,ocr-question-and-existing-classification
+assembly-2019-10,2019 국회직 10번,electronic-circuits,amplifier-basics,입출력 임피던스·버퍼,,impedance / power,ocr-question-and-existing-classification
+assembly-2019-11,2019 국회직 11번,electronic-circuits,special-devices,특수소자 종류·특성 비교,,concept,ocr-question-and-existing-classification
+assembly-2019-12,2019 국회직 12번,circuit-theory,bridge-transform,브리지 평형·해석,,power,ocr-question-and-existing-classification
+assembly-2019-13,2019 국회직 13번,circuit-theory,coupled-transformer,임피던스 변환·정합,,impedance / power,ocr-question-and-existing-classification
+assembly-2019-14,2019 국회직 14번,electronic-circuits,opamp,비반전증폭기,,voltage-current,source-image-and-ocr
+assembly-2019-15,2019 국회직 15번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+assembly-2019-16,2019 국회직 16번,electronic-circuits,limiter-clamper,클램퍼·직류레벨 이동,,concept,source-image-and-ocr
+assembly-2019-17,2019 국회직 17번,circuit-theory,filter,능동필터·전달함수,,concept,source-image-and-ocr
+assembly-2019-18,2019 국회직 18번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2019-19,2019 국회직 19번,circuit-theory,circuit-analysis,부하선·비선형 소자 해석,,bias,source-image-and-ocr
+assembly-2019-20,2019 국회직 20번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-01,2019 서울시 1번,digital-engineering,minimization-kmap,카르노맵 간소화,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-02,2019 서울시 2번,digital-engineering,codes-arithmetic,Excess-3 코드,,code,ocr-question-and-existing-classification
+seoul-2019-03,2019 서울시 3번,circuit-theory,electromagnetic-basics,유전체·정전용량,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-04,2019 서울시 4번,circuit-theory,electromagnetic-basics,도선·자극 사이 힘,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-05,2019 서울시 5번,electronic-circuits,semiconductor-basics,광전·열전효과,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-06,2019 서울시 6번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+seoul-2019-07,2019 서울시 7번,circuit-theory,transient,초기값·최종값,,voltage-current,source-image-and-ocr
+seoul-2019-08,2019 서울시 8번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+seoul-2019-09,2019 서울시 9번,digital-engineering,arithmetic-circuits,전가산기·병렬가산기,,logic,ocr-question-and-existing-classification
+seoul-2019-10,2019 서울시 10번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+seoul-2019-11,2019 서울시 11번,circuit-theory,filter,수동 고역통과필터,,concept,source-image-and-ocr
+seoul-2019-12,2019 서울시 12번,digital-engineering,codes-arithmetic,Gray 코드 변환,,code,ocr-question-and-existing-classification
+seoul-2019-13,2019 서울시 13번,circuit-theory,resonance,Q·선택도·대역폭,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-14,2019 서울시 14번,circuit-theory,transient,RC 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-15,2019 서울시 15번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+seoul-2019-16,2019 서울시 16번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,concept,ocr-question-and-existing-classification
+seoul-2019-17,2019 서울시 17번,electronic-circuits,bjt-device,BJT 스위칭·포화,,bias,ocr-question-and-existing-classification
+seoul-2019-18,2019 서울시 18번,electronic-circuits,oscillator,빈 브리지 발진기,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-19,2019 서울시 19번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+seoul-2019-20,2019 서울시 20번,digital-engineering,minimization-kmap,최소항·최대항·정규형,,concept,ocr-question-and-existing-classification
+national-2020-01,2020 국가직 1번,digital-engineering,network-protocol,OSI 7계층·기능,,power,ocr-question-and-existing-classification
+national-2020-02,2020 국가직 2번,circuit-theory,network-theorems,전원변환,,voltage-current,ocr-question-and-existing-classification
+national-2020-03,2020 국가직 3번,digital-engineering,latch-flipflop,D 플립플롭·래치,,voltage-current,ocr-question-and-existing-classification
+national-2020-04,2020 국가직 4번,digital-engineering,codes-arithmetic,코드 종류·특성 비교,패리티·CRC·FEC·ARQ 비교,code / concept,ocr-question-and-existing-classification
+national-2020-05,2020 국가직 5번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,voltage-current,ocr-question-and-existing-classification
+national-2020-06,2020 국가직 6번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,voltage-current,ocr-question-and-existing-classification
+national-2020-07,2020 국가직 7번,electronic-circuits,amplifier-response,증폭기 주파수응답·차단주파수,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2020-08,2020 국가직 8번,digital-engineering,arithmetic-circuits,디지털 크기·등가비교기,,voltage-current,ocr-question-and-existing-classification
+national-2020-09,2020 국가직 9번,electronic-circuits,bjt-device,BJT 스위칭·포화,,voltage-current,ocr-question-and-existing-classification
+national-2020-10,2020 국가직 10번,electronic-circuits,opamp,슬루율·비이상 특성,,concept,source-image-and-ocr
+national-2020-11,2020 국가직 11번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+national-2020-12,2020 국가직 12번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,concept,ocr-question-and-existing-classification
+national-2020-13,2020 국가직 13번,electronic-circuits,analog-communication,FM 프리엠퍼시스·디엠퍼시스,,concept,ocr-question-and-existing-classification
+national-2020-14,2020 국가직 14번,electronic-circuits,limiter-clamper,제너 리미터,,voltage-current,source-image-and-ocr
+national-2020-15,2020 국가직 15번,digital-engineering,latch-flipflop,순차회로 상태표·설계,,timing,ocr-question-and-existing-classification
+national-2020-16,2020 국가직 16번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+national-2020-17,2020 국가직 17번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,concept,source-image-and-ocr
+national-2020-18,2020 국가직 18번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+national-2020-19,2020 국가직 19번,electronic-circuits,special-devices,SCR·사이리스터·TRIAC,,voltage-current,ocr-question-and-existing-classification
+national-2020-20,2020 국가직 20번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,voltage-gain / frequency,ocr-question-and-existing-classification
+assembly-2020-01,2020 국회직 1번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+assembly-2020-02,2020 국회직 2번,digital-engineering,counter,분주·출력주파수,,frequency / timing,ocr-question-and-existing-classification
+assembly-2020-03,2020 국회직 3번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+assembly-2020-04,2020 국회직 4번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+assembly-2020-05,2020 국회직 5번,circuit-theory,elements-basics,전하·에너지 보존,,voltage-current,source-image-and-ocr
+assembly-2020-06,2020 국회직 6번,electronic-circuits,rf-electromagnetic,맥스웰 방정식·변위전류,,concept,ocr-question-and-existing-classification
+assembly-2020-07,2020 국회직 7번,electronic-circuits,differentiator-integrator,적분기·출력파형,,voltage-current,source-image-and-ocr
+assembly-2020-08,2020 국회직 8번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,voltage-current,ocr-question-and-existing-classification
+assembly-2020-09,2020 국회직 9번,digital-engineering,counter,동기·비동기 카운터 특성,,frequency / timing,ocr-question-and-existing-classification
+assembly-2020-10,2020 국회직 10번,circuit-theory,transient,RL 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+assembly-2020-11,2020 국회직 11번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2020-12,2020 국회직 12번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+assembly-2020-13,2020 국회직 13번,circuit-theory,circuit-analysis,종속전원 회로해석,,power,source-image-and-ocr
+assembly-2020-14,2020 국회직 14번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+assembly-2020-15,2020 국회직 15번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+assembly-2020-16,2020 국회직 16번,electronic-circuits,voltage-regulator,직류전원 구성·변동률,,concept,ocr-question-and-existing-classification
+assembly-2020-17,2020 국회직 17번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+assembly-2020-18,2020 국회직 18번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,voltage-current,ocr-question-and-existing-classification
+assembly-2020-19,2020 국회직 19번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,voltage-current,ocr-question-and-existing-classification
+assembly-2020-20,2020 국회직 20번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,timing,ocr-question-and-existing-classification
+seoul-2020-01,2020 서울시 1번,circuit-theory,elements-basics,전류·전력·정격,,power,ocr-question-and-existing-classification
+seoul-2020-02,2020 서울시 2번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+seoul-2020-03,2020 서울시 3번,electronic-circuits,special-devices,버랙터·가변용량 다이오드,,concept,source-image-and-ocr
+seoul-2020-04,2020 서울시 4번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+seoul-2020-05,2020 서울시 5번,circuit-theory,electromagnetic-basics,자계·자속·자기회로,,voltage-current,ocr-question-and-existing-classification
+seoul-2020-06,2020 서울시 6번,electronic-circuits,rectifier-smoothing,정밀정류기,,waveform,source-image-and-ocr
+seoul-2020-07,2020 서울시 7번,electronic-circuits,pulse-555,멀티바이브레이터·안정상태,,concept,ocr-question-and-existing-classification
+seoul-2020-08,2020 서울시 8번,electronic-circuits,opamp,전압 팔로워·버퍼,,concept,source-image-and-ocr
+seoul-2020-09,2020 서울시 9번,circuit-theory,filter,수동 저역통과필터,,concept,ocr-question-and-existing-classification
+seoul-2020-10,2020 서울시 10번,electronic-circuits,opamp,비반전증폭기,,voltage-current,source-image-and-ocr
+seoul-2020-11,2020 서울시 11번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,concept,ocr-question-and-existing-classification
+seoul-2020-12,2020 서울시 12번,circuit-theory,circuit-analysis,KVL·루프해석,,voltage-current,source-image-and-ocr
+seoul-2020-13,2020 서울시 13번,digital-engineering,latch-flipflop,D 플립플롭·래치,,waveform,source-image-and-ocr
+seoul-2020-14,2020 서울시 14번,digital-engineering,arithmetic-circuits,가감산기·보수연산 회로,,concept,ocr-question-and-existing-classification
+seoul-2020-15,2020 서울시 15번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+seoul-2020-16,2020 서울시 16번,circuit-theory,elements-basics,전류·전력·정격,,voltage-current,ocr-question-and-existing-classification
+seoul-2020-17,2020 서울시 17번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,voltage-gain / frequency,ocr-question-and-existing-classification
+seoul-2020-18,2020 서울시 18번,circuit-theory,laplace,s영역 회로해석,,transfer,ocr-question-and-existing-classification
+seoul-2020-19,2020 서울시 19번,electronic-circuits,differentiator-integrator,적분기·출력파형,,frequency / waveform,source-image-and-ocr
+seoul-2020-20,2020 서울시 20번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+national-2021-01,2021 국가직 1번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+national-2021-02,2021 국가직 2번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+national-2021-03,2021 국가직 3번,circuit-theory,filter,능동필터·전달함수,,frequency / transfer,source-image-and-ocr
+national-2021-04,2021 국가직 4번,digital-engineering,memory,ROM·디코더,디코더·출력해석,concept,ocr-question-and-existing-classification
+national-2021-05,2021 국가직 5번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+national-2021-06,2021 국가직 6번,circuit-theory,network-theorems,최대전력전달·공액정합,,impedance / power,ocr-question-and-existing-classification
+national-2021-07,2021 국가직 7번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+national-2021-08,2021 국가직 8번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,concept,source-image-and-ocr
+national-2021-09,2021 국가직 9번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,concept,ocr-question-and-existing-classification
+national-2021-10,2021 국가직 10번,electronic-circuits,oscillator,PLL·VCO·주파수합성,,concept / frequency,ocr-question-and-existing-classification
+national-2021-11,2021 국가직 11번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+national-2021-12,2021 국가직 12번,electronic-circuits,fet-amplifier,CS·CG·CD 특성 비교,,voltage-gain / impedance / bias,ocr-question-and-existing-classification
+national-2021-13,2021 국가직 13번,digital-engineering,network-protocol,교환방식·토폴로지,,concept,ocr-question-and-existing-classification
+national-2021-14,2021 국가직 14번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,concept / temperature,ocr-question-and-existing-classification
+national-2021-15,2021 국가직 15번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,voltage-current,ocr-question-and-existing-classification
+national-2021-16,2021 국가직 16번,digital-engineering,latch-flipflop,D 플립플롭·래치,,logic / timing,ocr-question-and-existing-classification
+national-2021-17,2021 국가직 17번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,voltage-current,ocr-question-and-existing-classification
+national-2021-18,2021 국가직 18번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,voltage-gain,ocr-question-and-existing-classification
+national-2021-19,2021 국가직 19번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,concept,source-image-and-ocr
+national-2021-20,2021 국가직 20번,electronic-circuits,feedback-amplifier,폐루프 이득·귀환율·대역폭,,voltage-current,ocr-question-and-existing-classification
+assembly-2021-01,2021 국회직 1번,circuit-theory,circuit-analysis,전압·전류분배,,concept,source-image-and-ocr
+assembly-2021-02,2021 국회직 2번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,concept,ocr-question-and-existing-classification
+assembly-2021-03,2021 국회직 3번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+assembly-2021-04,2021 국회직 4번,electronic-circuits,bjt-amplifier,CB·공통베이스,,voltage-gain / current-gain / impedance,source-image-and-ocr
+assembly-2021-05,2021 국회직 5번,circuit-theory,non-sinusoidal-fourier,푸리에급수·고조파,,concept,ocr-question-and-existing-classification
+assembly-2021-06,2021 국회직 6번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,concept,ocr-question-and-existing-classification
+assembly-2021-07,2021 국회직 7번,digital-engineering,adc-dac,가중저항 DAC·출력전압,,concept,source-image-and-ocr
+assembly-2021-08,2021 국회직 8번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,impedance,ocr-question-and-existing-classification
+assembly-2021-09,2021 국회직 9번,digital-engineering,latch-flipflop,순차회로 상태표·설계,D 플립플롭·래치 / JK 플립플롭·타이밍,concept,ocr-question-and-existing-classification
+assembly-2021-10,2021 국회직 10번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+assembly-2021-11,2021 국회직 11번,electronic-circuits,opamp,비반전증폭기,,voltage-current,source-image-and-ocr
+assembly-2021-12,2021 국회직 12번,electronic-circuits,oscillator,빈 브리지 발진기,,concept,ocr-question-and-existing-classification
+assembly-2021-13,2021 국회직 13번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,impedance,ocr-question-and-existing-classification
+assembly-2021-14,2021 국회직 14번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain / impedance / frequency,ocr-question-and-existing-classification
+assembly-2021-15,2021 국회직 15번,circuit-theory,network-theorems,전원변환,,impedance,ocr-question-and-existing-classification
+assembly-2021-16,2021 국회직 16번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain,ocr-question-and-existing-classification
+assembly-2021-17,2021 국회직 17번,digital-engineering,minimization-kmap,카르노맵 간소화,,concept,ocr-question-and-existing-classification
+assembly-2021-18,2021 국회직 18번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,power,source-image-and-ocr
+assembly-2021-19,2021 국회직 19번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+assembly-2021-20,2021 국회직 20번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept / bias,ocr-question-and-existing-classification
+seoul-2021-01,2021 서울시 1번,circuit-theory,coupled-transformer,상호인덕턴스·결합계수,,voltage-current,ocr-question-and-existing-classification
+seoul-2021-02,2021 서울시 2번,circuit-theory,ac-power,역률·역률개선,,voltage-current,ocr-question-and-existing-classification
+seoul-2021-03,2021 서울시 3번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+seoul-2021-04,2021 서울시 4번,circuit-theory,network-theorems,테브난 등가회로,,voltage-current,ocr-question-and-existing-classification
+seoul-2021-05,2021 서울시 5번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,impedance,ocr-question-and-existing-classification
+seoul-2021-06,2021 서울시 6번,circuit-theory,signals-systems,전력스펙트럼·잡음,,power / frequency / transfer,ocr-question-and-existing-classification
+seoul-2021-07,2021 서울시 7번,circuit-theory,transient,RC 과도응답·시정수,,concept,ocr-question-and-existing-classification
+seoul-2021-08,2021 서울시 8번,circuit-theory,resonance,Q·선택도·대역폭,,voltage-current,ocr-question-and-existing-classification
+seoul-2021-09,2021 서울시 9번,electronic-circuits,differential-mirror,전류미러,,impedance,ocr-question-and-existing-classification
+seoul-2021-10,2021 서울시 10번,circuit-theory,control-systems,안정도·특성방정식,,concept,ocr-question-and-existing-classification
+seoul-2021-11,2021 서울시 11번,circuit-theory,bridge-transform,브리지 평형·해석,Y–Δ 변환,voltage-current,source-image-and-ocr
+seoul-2021-12,2021 서울시 12번,circuit-theory,laplace,역라플라스·수렴영역,,concept,ocr-question-and-existing-classification
+seoul-2021-13,2021 서울시 13번,circuit-theory,electromagnetic-basics,자계·자속·자기회로,,concept,ocr-question-and-existing-classification
+seoul-2021-14,2021 서울시 14번,circuit-theory,filter,필터 판별·차단주파수,,frequency,ocr-question-and-existing-classification
+seoul-2021-15,2021 서울시 15번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+seoul-2021-16,2021 서울시 16번,electronic-circuits,comparator-schmitt,전압 비교기·포화출력,,concept,ocr-question-and-existing-classification
+seoul-2021-17,2021 서울시 17번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,voltage-current,ocr-question-and-existing-classification
+seoul-2021-18,2021 서울시 18번,circuit-theory,three-phase,평형 3상·Y·Δ 결선,,impedance,ocr-question-and-existing-classification
+seoul-2021-19,2021 서울시 19번,digital-engineering,encoder-mux,디코더·출력해석,,concept,ocr-question-and-existing-classification
+seoul-2021-20,2021 서울시 20번,electronic-circuits,comparator-schmitt,전압 비교기·포화출력,,voltage-current,ocr-question-and-existing-classification
+national-2022-01,2022 국가직 1번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,voltage-current,ocr-question-and-existing-classification
+national-2022-02,2022 국가직 2번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+national-2022-03,2022 국가직 3번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,current-gain,ocr-question-and-existing-classification
+national-2022-04,2022 국가직 4번,digital-engineering,digital-communication,라인코드·NRZ·RZ·맨체스터,,waveform,ocr-question-and-existing-classification
+national-2022-05,2022 국가직 5번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+national-2022-06,2022 국가직 6번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+national-2022-07,2022 국가직 7번,electronic-circuits,differential-mirror,차동쌍 회로·이득·입출력 위상,,concept,ocr-question-and-existing-classification
+national-2022-08,2022 국가직 8번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+national-2022-09,2022 국가직 9번,circuit-theory,resonance,병렬공진,,frequency / transfer,ocr-question-and-existing-classification
+national-2022-10,2022 국가직 10번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,voltage-current,source-image-and-ocr
+national-2022-11,2022 국가직 11번,circuit-theory,filter,수동 고역통과필터,,concept / frequency,ocr-question-and-existing-classification
+national-2022-12,2022 국가직 12번,digital-engineering,arithmetic-circuits,반가산기,,logic,ocr-question-and-existing-classification
+national-2022-13,2022 국가직 13번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+national-2022-14,2022 국가직 14번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,timing,ocr-question-and-existing-classification
+national-2022-15,2022 국가직 15번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept / frequency,ocr-question-and-existing-classification
+national-2022-16,2022 국가직 16번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,logic,ocr-question-and-existing-classification
+national-2022-17,2022 국가직 17번,circuit-theory,coupled-transformer,임피던스 변환·정합,,impedance / power,ocr-question-and-existing-classification
+national-2022-18,2022 국가직 18번,electronic-circuits,fet-device,FET 전달컨덕턴스,,voltage-current,ocr-question-and-existing-classification
+national-2022-19,2022 국가직 19번,electronic-circuits,amplifier-response,증폭기 주파수응답·차단주파수,,concept,ocr-question-and-existing-classification
+national-2022-20,2022 국가직 20번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2022-01,2022 국회직 1번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+assembly-2022-02,2022 국회직 2번,circuit-theory,coupled-transformer,임피던스 변환·정합,,impedance,ocr-question-and-existing-classification
+assembly-2022-03,2022 국회직 3번,circuit-theory,filter,필터 전달함수·주파수응답,,transfer,ocr-question-and-existing-classification
+assembly-2022-04,2022 국회직 4번,electronic-circuits,bjt-amplifier,CE·CB·CC 특성 비교,,concept,ocr-question-and-existing-classification
+assembly-2022-05,2022 국회직 5번,circuit-theory,network-theorems,노턴 등가회로,,voltage-current,ocr-question-and-existing-classification
+assembly-2022-06,2022 국회직 6번,circuit-theory,two-port,Z 파라미터,,impedance,ocr-question-and-existing-classification
+assembly-2022-07,2022 국회직 7번,circuit-theory,filter,능동필터·전달함수,,frequency,source-image-and-ocr
+assembly-2022-08,2022 국회직 8번,electronic-circuits,limiter-clamper,제너 리미터,,waveform,source-image-and-ocr
+assembly-2022-09,2022 국회직 9번,circuit-theory,network-theorems,최대전력전달·공액정합,,power,ocr-question-and-existing-classification
+assembly-2022-10,2022 국회직 10번,electronic-circuits,rectifier-smoothing,첨두값 검출기,,frequency / waveform,source-image-and-ocr
+assembly-2022-11,2022 국회직 11번,electronic-circuits,differentiator-integrator,적분기·출력파형,,concept,source-image-and-ocr
+assembly-2022-12,2022 국회직 12번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+assembly-2022-13,2022 국회직 13번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+assembly-2022-14,2022 국회직 14번,digital-engineering,boolean-gates,논리회로↔논리식,,concept,ocr-question-and-existing-classification
+assembly-2022-15,2022 국회직 15번,digital-engineering,boolean-gates,논리회로↔논리식,,concept,ocr-question-and-existing-classification
+assembly-2022-16,2022 국회직 16번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,source-image-and-ocr
+assembly-2022-17,2022 국회직 17번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept,ocr-question-and-existing-classification
+assembly-2022-18,2022 국회직 18번,electronic-circuits,rf-electromagnetic,맥스웰 방정식·변위전류,,concept,ocr-question-and-existing-classification
+assembly-2022-19,2022 국회직 19번,electronic-circuits,feedback-amplifier,부궤환 효과·안정도·왜곡,,impedance / frequency,ocr-question-and-existing-classification
+assembly-2022-20,2022 국회직 20번,electronic-circuits,rf-electromagnetic,전자기파·파장·전파속도,,concept / frequency,ocr-question-and-existing-classification
+military-2022-01,2022 군무원 1번,circuit-theory,electromagnetic-basics,자계·자속·자기회로,,concept,ocr-question-and-existing-classification
+military-2022-02,2022 군무원 2번,electronic-circuits,measurement-sensors,전압계·전류계·측정오차,,concept,ocr-question-and-existing-classification
+military-2022-03,2022 군무원 3번,circuit-theory,elements-basics,배터리 용량·특성,,concept,ocr-question-and-existing-classification
+military-2022-04,2022 군무원 4번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,power,ocr-question-and-existing-classification
+military-2022-05,2022 군무원 5번,circuit-theory,control-systems,블록선도·신호흐름선도,,concept,ocr-question-and-existing-classification
+military-2022-06,2022 군무원 6번,electronic-circuits,special-devices,LED·광소자,,concept,ocr-question-and-existing-classification
+military-2022-07,2022 군무원 7번,circuit-theory,transient,RLC 과도응답·감쇠,,voltage-current,ocr-question-and-existing-classification
+military-2022-08,2022 군무원 8번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+military-2022-09,2022 군무원 9번,circuit-theory,circuit-analysis,전압·전류분배,,power,source-image-and-ocr
+military-2022-10,2022 군무원 10번,electronic-circuits,amplifier-response,증폭기 주파수응답·차단주파수,,concept / frequency,ocr-question-and-existing-classification
+military-2022-11,2022 군무원 11번,digital-engineering,boolean-gates,NAND·NOR 범용게이트,,concept,ocr-question-and-existing-classification
+military-2022-12,2022 군무원 12번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+military-2022-13,2022 군무원 13번,circuit-theory,circuit-analysis,KCL·노드해석,,concept,source-image-and-ocr
+military-2022-14,2022 군무원 14번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias,ocr-question-and-existing-classification
+military-2022-15,2022 군무원 15번,circuit-theory,elements-basics,R·L·C 기본특성,,voltage-current,ocr-question-and-existing-classification
+military-2022-16,2022 군무원 16번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept / temperature,ocr-question-and-existing-classification
+military-2022-17,2022 군무원 17번,circuit-theory,elements-basics,전류·전력·정격,,power,ocr-question-and-existing-classification
+military-2022-18,2022 군무원 18번,circuit-theory,elements-basics,인덕터·전압전류 관계,,concept,ocr-question-and-existing-classification
+military-2022-19,2022 군무원 19번,circuit-theory,elements-basics,커패시터·정전용량,,concept,ocr-question-and-existing-classification
+military-2022-20,2022 군무원 20번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / concept,ocr-question-and-existing-classification
+local-2022-01,2022 지방직 1번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+local-2022-02,2022 지방직 2번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+local-2022-03,2022 지방직 3번,circuit-theory,elements-basics,R·L·C 기본특성,,concept,source-image-and-ocr
+local-2022-04,2022 지방직 4번,electronic-circuits,diode-basics,다이오드 ON/OFF·회로해석,,voltage-current,ocr-question-and-existing-classification
+local-2022-05,2022 지방직 5번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,waveform,ocr-question-and-existing-classification
+local-2022-06,2022 지방직 6번,electronic-circuits,rectifier-smoothing,반파정류,,concept,ocr-question-and-existing-classification
+local-2022-07,2022 지방직 7번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,bias,ocr-question-and-existing-classification
+local-2022-08,2022 지방직 8번,electronic-circuits,fet-amplifier,CD·소스 팔로워,,concept,source-image-and-ocr
+local-2022-09,2022 지방직 9번,digital-engineering,codes-arithmetic,코드 종류·특성 비교,패리티·CRC·FEC·ARQ 비교,code / concept,ocr-question-and-existing-classification
+local-2022-10,2022 지방직 10번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,voltage-current,ocr-question-and-existing-classification
+local-2022-11,2022 지방직 11번,electronic-circuits,amplifier-response,달링턴 증폭기,,concept,ocr-question-and-existing-classification
+local-2022-12,2022 지방직 12번,circuit-theory,signals-systems,보드선도·극점·영점,,frequency / transfer,ocr-question-and-existing-classification
+local-2022-13,2022 지방직 13번,electronic-circuits,opamp,가산기·가중합,,voltage-current,source-image-and-ocr
+local-2022-14,2022 지방직 14번,digital-engineering,network-protocol,TCP/IP·TCP·UDP,,concept,ocr-question-and-existing-classification
+local-2022-15,2022 지방직 15번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,voltage-current,ocr-question-and-existing-classification
+local-2022-16,2022 지방직 16번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,voltage-gain / current-gain,ocr-question-and-existing-classification
+local-2022-17,2022 지방직 17번,circuit-theory,sinusoidal-phasor,정현파·주파수·실효값,,frequency,ocr-question-and-existing-classification
+local-2022-18,2022 지방직 18번,circuit-theory,filter,능동필터·전달함수,,frequency,ocr-question-and-existing-classification
+local-2022-19,2022 지방직 19번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,waveform,source-image-and-ocr
+local-2022-20,2022 지방직 20번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,concept,ocr-question-and-existing-classification
+national-2023-01,2023 국가직 1번,digital-engineering,counter,계수범위·필요 FF 수,,voltage-current,ocr-question-and-existing-classification
+national-2023-02,2023 국가직 2번,digital-engineering,logic-families,TR 논리·TTL,,concept,ocr-question-and-existing-classification
+national-2023-03,2023 국가직 3번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+national-2023-04,2023 국가직 4번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+national-2023-05,2023 국가직 5번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain,source-image-and-ocr
+national-2023-06,2023 국가직 6번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,power,ocr-question-and-existing-classification
+national-2023-07,2023 국가직 7번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+national-2023-08,2023 국가직 8번,circuit-theory,circuit-analysis,종속전원 회로해석,,power,source-image-and-ocr
+national-2023-09,2023 국가직 9번,electronic-circuits,fet-device,MOSFET 구조·동작영역,BJT 구조·동작영역·얼리효과 / LED·광소자,concept,ocr-question-and-existing-classification
+national-2023-10,2023 국가직 10번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2023-11,2023 국가직 11번,electronic-circuits,opamp,가산기·가중합,,voltage-current,source-image-and-ocr
+national-2023-12,2023 국가직 12번,digital-engineering,digital-communication,PCM·표본화·양자화·비트율,,frequency,ocr-question-and-existing-classification
+national-2023-13,2023 국가직 13번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,frequency,source-image-and-ocr
+national-2023-14,2023 국가직 14번,digital-engineering,network-protocol,이더넷·LAN 프레임,,voltage-current,ocr-question-and-existing-classification
+national-2023-15,2023 국가직 15번,electronic-circuits,differentiator-integrator,미분기·주파수특성,,waveform,source-image-and-ocr
+national-2023-16,2023 국가직 16번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+national-2023-17,2023 국가직 17번,electronic-circuits,comparator-schmitt,슈미트 문턱전압·전달특성,,voltage-current,ocr-question-and-existing-classification
+national-2023-18,2023 국가직 18번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+national-2023-19,2023 국가직 19번,electronic-circuits,opamp,전압 팔로워·버퍼,,voltage-current,source-image-and-ocr
+national-2023-20,2023 국가직 20번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+assembly-2023-01,2023 국회직 1번,digital-engineering,arithmetic-circuits,가감산기·보수연산 회로,,concept,ocr-question-and-existing-classification
+assembly-2023-02,2023 국회직 2번,digital-engineering,counter,카운트 순서·상태표·설계,,timing,ocr-question-and-existing-classification
+assembly-2023-03,2023 국회직 3번,digital-engineering,error-correction,채널부호화·오류정정,,concept,ocr-question-and-existing-classification
+assembly-2023-04,2023 국회직 4번,digital-engineering,digital-communication,라인코드·NRZ·RZ·맨체스터,,waveform,ocr-question-and-existing-classification
+assembly-2023-05,2023 국회직 5번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2023-06,2023 국회직 6번,electronic-circuits,comparator-schmitt,전압 비교기·포화출력,,concept,ocr-question-and-existing-classification
+assembly-2023-07,2023 국회직 7번,electronic-circuits,opamp,가산기·가중합,,concept,source-image-and-ocr
+assembly-2023-08,2023 국회직 8번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+assembly-2023-09,2023 국회직 9번,digital-engineering,latch-flipflop,순차회로 상태표·설계,,concept,ocr-question-and-existing-classification
+assembly-2023-10,2023 국회직 10번,digital-engineering,counter,동기·비동기 카운터 특성,,concept,ocr-question-and-existing-classification
+assembly-2023-11,2023 국회직 11번,digital-engineering,arithmetic-circuits,전가산기·병렬가산기,,concept,ocr-question-and-existing-classification
+assembly-2023-12,2023 국회직 12번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept,ocr-question-and-existing-classification
+assembly-2023-13,2023 국회직 13번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,PN접합·공핍층·바이어스,concept,ocr-question-and-existing-classification
+assembly-2023-14,2023 국회직 14번,circuit-theory,sinusoidal-phasor,정현파·주파수·실효값,,concept / frequency,ocr-question-and-existing-classification
+assembly-2023-15,2023 국회직 15번,circuit-theory,electromagnetic-basics,전류밀도·미분형 옴의 법칙,,concept,ocr-question-and-existing-classification
+assembly-2023-16,2023 국회직 16번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+assembly-2023-17,2023 국회직 17번,electronic-circuits,semiconductor-basics,광전·열전효과,,impedance / power / temperature,ocr-question-and-existing-classification
+assembly-2023-18,2023 국회직 18번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+assembly-2023-19,2023 국회직 19번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,ocr-question-and-existing-classification
+assembly-2023-20,2023 국회직 20번,digital-engineering,latch-flipflop,SR 래치·SR FF,,concept,ocr-question-and-existing-classification
+military-2023-01,2023 군무원 1번,circuit-theory,elements-basics,저항·비저항,,voltage-current,ocr-question-and-existing-classification
+military-2023-02,2023 군무원 2번,circuit-theory,elements-basics,R·L·C 기본특성,,concept,ocr-question-and-existing-classification
+military-2023-03,2023 군무원 3번,digital-engineering,latch-flipflop,마스터–슬레이브·레이스,,power,ocr-question-and-existing-classification
+military-2023-04,2023 군무원 4번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+military-2023-05,2023 군무원 5번,circuit-theory,filter,대역통과·대역저지,,voltage-current,ocr-question-and-existing-classification
+military-2023-06,2023 군무원 6번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+military-2023-07,2023 군무원 7번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+military-2023-08,2023 군무원 8번,electronic-circuits,fet-device,문턱전압·몸체효과,,concept,ocr-question-and-existing-classification
+military-2023-09,2023 군무원 9번,electronic-circuits,semiconductor-basics,에너지대·페르미준위,,concept,ocr-question-and-existing-classification
+military-2023-10,2023 군무원 10번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,voltage-gain,ocr-question-and-existing-classification
+military-2023-11,2023 군무원 11번,electronic-circuits,power-amplifier,A·B·AB·C급 동작특성,,power,ocr-question-and-existing-classification
+military-2023-12,2023 군무원 12번,circuit-theory,elements-basics,배터리 용량·특성,,voltage-current,ocr-question-and-existing-classification
+military-2023-13,2023 군무원 13번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+military-2023-14,2023 군무원 14번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,voltage-current,ocr-question-and-existing-classification
+military-2023-15,2023 군무원 15번,electronic-circuits,power-amplifier,전력증폭기 효율·최대출력,,voltage-current,ocr-question-and-existing-classification
+military-2023-16,2023 군무원 16번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain / bias / temperature / waveform,ocr-question-and-existing-classification
+military-2023-17,2023 군무원 17번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+military-2023-18,2023 군무원 18번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,concept,ocr-question-and-existing-classification
+military-2023-19,2023 군무원 19번,electronic-circuits,rectifier-smoothing,반파정류,,voltage-current,source-image-and-ocr
+military-2023-20,2023 군무원 20번,circuit-theory,circuit-analysis,커패시터·인덕터 합성,,voltage-current,source-image-and-ocr
+local-2023-01,2023 지방직 1번,circuit-theory,non-sinusoidal-fourier,비정현파 평균값·실효값,,power / waveform,ocr-question-and-existing-classification
+local-2023-02,2023 지방직 2번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+local-2023-03,2023 지방직 3번,digital-engineering,number-systems,정수·소수 진법변환,코드 종류·특성 비교,code / concept,ocr-question-and-existing-classification
+local-2023-04,2023 지방직 4번,electronic-circuits,differentiator-integrator,미분기·적분기 비교,미분기·주파수특성 / 적분기·출력파형,concept,ocr-question-and-existing-classification
+local-2023-05,2023 지방직 5번,electronic-circuits,pulse-555,555 비안정·듀티비·시정수,,concept,ocr-question-and-existing-classification
+local-2023-06,2023 지방직 6번,digital-engineering,latch-flipflop,T 플립플롭·타이밍,,voltage-current,source-image-and-ocr
+local-2023-07,2023 지방직 7번,circuit-theory,elements-basics,직류 정상상태,,voltage-current,source-image-and-ocr
+local-2023-08,2023 지방직 8번,electronic-circuits,amplifier-response,증폭기 주파수응답·차단주파수,,frequency / transfer,ocr-question-and-existing-classification
+local-2023-09,2023 지방직 9번,electronic-circuits,bjt-device,전압분배 바이어스,,bias / impedance,ocr-question-and-existing-classification
+local-2023-10,2023 지방직 10번,electronic-circuits,limiter-clamper,리미터 전달특성·출력파형,,concept,ocr-question-and-existing-classification
+local-2023-11,2023 지방직 11번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+local-2023-12,2023 지방직 12번,electronic-circuits,fet-device,MOSFET 전류·치수·바이어스,,voltage-current,ocr-question-and-existing-classification
+local-2023-13,2023 지방직 13번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,voltage-current,source-image-and-ocr
+local-2023-14,2023 지방직 14번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+local-2023-15,2023 지방직 15번,electronic-circuits,amplifier-response,다단증폭기·종합이득·대역폭,,frequency,ocr-question-and-existing-classification
+local-2023-16,2023 지방직 16번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+local-2023-17,2023 지방직 17번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+local-2023-18,2023 지방직 18번,digital-engineering,network-protocol,TCP/IP·TCP·UDP,,concept,ocr-question-and-existing-classification
+local-2023-19,2023 지방직 19번,electronic-circuits,comparator-schmitt,슈미트 문턱전압·전달특성,,voltage-current,ocr-question-and-existing-classification
+local-2023-20,2023 지방직 20번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2024-01,2024 국가직 1번,digital-engineering,encoder-mux,MUX·논리함수 구현,,voltage-current,ocr-question-and-existing-classification
+national-2024-02,2024 국가직 2번,electronic-circuits,pulse-555,멀티바이브레이터·안정상태,,concept,ocr-question-and-existing-classification
+national-2024-03,2024 국가직 3번,electronic-circuits,voltage-regulator,직류전원 구성·변동률,,voltage-current,ocr-question-and-existing-classification
+national-2024-04,2024 국가직 4번,electronic-circuits,fet-device,JFET·핀치오프,,concept,ocr-question-and-existing-classification
+national-2024-05,2024 국가직 5번,digital-engineering,network-protocol,TCP/IP·TCP·UDP,,voltage-current,ocr-question-and-existing-classification
+national-2024-06,2024 국가직 6번,digital-engineering,minimization-kmap,최소항·최대항·정규형,,logic,ocr-question-and-existing-classification
+national-2024-07,2024 국가직 7번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,ocr-question-and-existing-classification
+national-2024-08,2024 국가직 8번,electronic-circuits,voltage-regulator,직렬·병렬 선형조정기,,power,ocr-question-and-existing-classification
+national-2024-09,2024 국가직 9번,electronic-circuits,bjt-amplifier,CE·CB·CC 특성 비교,,concept / bias,ocr-question-and-existing-classification
+national-2024-10,2024 국가직 10번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+national-2024-11,2024 국가직 11번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,ocr-question-and-existing-classification
+national-2024-12,2024 국가직 12번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept / bias,ocr-question-and-existing-classification
+national-2024-13,2024 국가직 13번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain,ocr-question-and-existing-classification
+national-2024-14,2024 국가직 14번,electronic-circuits,amplifier-response,연산증폭기 GBW·대역폭,,frequency,ocr-question-and-existing-classification
+national-2024-15,2024 국가직 15번,electronic-circuits,comparator-schmitt,전압 비교기·포화출력,,voltage-current,ocr-question-and-existing-classification
+national-2024-16,2024 국가직 16번,circuit-theory,transient,RC 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+national-2024-17,2024 국가직 17번,electronic-circuits,special-devices,SCR·사이리스터·TRIAC,,concept,ocr-question-and-existing-classification
+national-2024-18,2024 국가직 18번,circuit-theory,ac-power,복소전력·전력삼각형,,power,ocr-question-and-existing-classification
+national-2024-19,2024 국가직 19번,digital-engineering,arithmetic-circuits,조합논리회로 기능 비교,디코더·출력해석 / 패리티 검사,concept,ocr-question-and-existing-classification
+national-2024-20,2024 국가직 20번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+assembly-2024-01,2024 국회직 1번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2024-02,2024 국회직 2번,circuit-theory,filter,능동필터·전달함수,,voltage-gain / frequency,ocr-question-and-existing-classification
+assembly-2024-03,2024 국회직 3번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,concept,source-image-and-ocr
+assembly-2024-04,2024 국회직 4번,electronic-circuits,amplifier-response,다단증폭기·종합이득·대역폭,전압·전력이득·dB·dBm,voltage-gain / frequency,ocr-question-and-existing-classification
+assembly-2024-05,2024 국회직 5번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+assembly-2024-06,2024 국회직 6번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,voltage-current,source-image-and-ocr
+assembly-2024-07,2024 국회직 7번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+assembly-2024-08,2024 국회직 8번,electronic-circuits,rectifier-smoothing,중간탭 전파정류,,bias / frequency / waveform,ocr-question-and-existing-classification
+assembly-2024-09,2024 국회직 9번,digital-engineering,arithmetic-circuits,전가산기·병렬가산기,,concept,ocr-question-and-existing-classification
+assembly-2024-10,2024 국회직 10번,digital-engineering,digital-communication,ASK·FSK·PSK·QAM 방식,,voltage-current,ocr-question-and-existing-classification
+assembly-2024-11,2024 국회직 11번,circuit-theory,signals-systems,표본화·에일리어싱,,frequency,ocr-question-and-existing-classification
+assembly-2024-12,2024 국회직 12번,circuit-theory,signals-systems,전력스펙트럼·잡음,,concept / frequency,ocr-question-and-existing-classification
+assembly-2024-13,2024 국회직 13번,digital-engineering,boolean-gates,NAND·NOR 범용게이트,,voltage-current,ocr-question-and-existing-classification
+assembly-2024-14,2024 국회직 14번,digital-engineering,codes-arithmetic,코드 종류·특성 비교,패리티·CRC·FEC·ARQ 비교,code / concept,ocr-question-and-existing-classification
+assembly-2024-15,2024 국회직 15번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,voltage-current,ocr-question-and-existing-classification
+assembly-2024-16,2024 국회직 16번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+assembly-2024-17,2024 국회직 17번,digital-engineering,latch-flipflop,순차회로 상태표·설계,,concept,ocr-question-and-existing-classification
+assembly-2024-18,2024 국회직 18번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+assembly-2024-19,2024 국회직 19번,circuit-theory,transient,RC 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+assembly-2024-20,2024 국회직 20번,circuit-theory,filter,필터 판별·차단주파수,,frequency,ocr-question-and-existing-classification
+military-2024-01,2024 군무원 1번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+military-2024-02,2024 군무원 2번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept / bias,ocr-question-and-existing-classification
+military-2024-03,2024 군무원 3번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,concept,ocr-question-and-existing-classification
+military-2024-04,2024 군무원 4번,electronic-circuits,bjt-device,BJT 구조·동작영역·얼리효과,,concept / bias,ocr-question-and-existing-classification
+military-2024-05,2024 군무원 5번,electronic-circuits,special-devices,LED·광소자,,concept / bias,ocr-question-and-existing-classification
+military-2024-06,2024 군무원 6번,circuit-theory,circuit-analysis,직병렬·합성저항,,power,source-image-and-ocr
+military-2024-07,2024 군무원 7번,electronic-circuits,differentiator-integrator,미분기·주파수특성,,frequency / waveform,ocr-question-and-existing-classification
+military-2024-08,2024 군무원 8번,circuit-theory,circuit-analysis,커패시터·인덕터 합성,,concept,source-image-and-ocr
+military-2024-09,2024 군무원 9번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+military-2024-10,2024 군무원 10번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+military-2024-11,2024 군무원 11번,circuit-theory,coupled-transformer,변압기 권선비·전압·전류,,power,ocr-question-and-existing-classification
+military-2024-12,2024 군무원 12번,electronic-circuits,amplifier-basics,전압·전력이득·dB·dBm,,power / waveform,ocr-question-and-existing-classification
+military-2024-13,2024 군무원 13번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+military-2024-14,2024 군무원 14번,electronic-circuits,feedback-amplifier,부궤환 효과·안정도·왜곡,,concept,ocr-question-and-existing-classification
+military-2024-15,2024 군무원 15번,electronic-circuits,rectifier-smoothing,중간탭 전파정류,,concept,ocr-question-and-existing-classification
+military-2024-16,2024 군무원 16번,electronic-circuits,rf-electromagnetic,전자기파·파장·전파속도,,concept / frequency,ocr-question-and-existing-classification
+military-2024-17,2024 군무원 17번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,frequency / transfer,source-image-and-ocr
+military-2024-18,2024 군무원 18번,digital-engineering,latch-flipflop,D 플립플롭·래치,,concept,ocr-question-and-existing-classification
+military-2024-19,2024 군무원 19번,digital-engineering,boolean-gates,불대수 법칙·드모르간,,logic,ocr-question-and-existing-classification
+military-2024-20,2024 군무원 20번,circuit-theory,laplace,라플라스 변환·시간이동,,frequency,ocr-question-and-existing-classification
+local-2024-01,2024 지방직 1번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,voltage-current,source-image-and-ocr
+local-2024-02,2024 지방직 2번,digital-engineering,counter,계수범위·필요 FF 수,,voltage-current,ocr-question-and-existing-classification
+local-2024-03,2024 지방직 3번,electronic-circuits,opamp,비반전증폭기,,voltage-gain,source-image-and-ocr
+local-2024-04,2024 지방직 4번,electronic-circuits,bjt-device,α·β·전류 관계,,concept,ocr-question-and-existing-classification
+local-2024-05,2024 지방직 5번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+local-2024-06,2024 지방직 6번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,voltage-current,source-image-and-ocr
+local-2024-07,2024 지방직 7번,electronic-circuits,oscillator,발진조건·발진기 비교,,transfer,ocr-question-and-existing-classification
+local-2024-08,2024 지방직 8번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,voltage-current,ocr-question-and-existing-classification
+local-2024-09,2024 지방직 9번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+local-2024-10,2024 지방직 10번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,frequency,ocr-question-and-existing-classification
+local-2024-11,2024 지방직 11번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+local-2024-12,2024 지방직 12번,electronic-circuits,rectifier-smoothing,전파정류,,waveform,source-image-and-ocr
+local-2024-13,2024 지방직 13번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+local-2024-14,2024 지방직 14번,electronic-circuits,differentiator-integrator,미분기·주파수특성,,voltage-current,source-image-and-ocr
+local-2024-15,2024 지방직 15번,digital-engineering,digital-communication,심벌률·비트율·QAM 계산,,frequency,ocr-question-and-existing-classification
+local-2024-16,2024 지방직 16번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+local-2024-17,2024 지방직 17번,circuit-theory,circuit-analysis,KVL·루프해석,,voltage-current,source-image-and-ocr
+local-2024-18,2024 지방직 18번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,voltage-current,ocr-question-and-existing-classification
+local-2024-19,2024 지방직 19번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,concept,ocr-question-and-existing-classification
+local-2024-20,2024 지방직 20번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,frequency,ocr-question-and-existing-classification
+national-2025-01,2025 국가직 1번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+national-2025-02,2025 국가직 2번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+national-2025-03,2025 국가직 3번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+national-2025-04,2025 국가직 4번,circuit-theory,filter,수동 고역통과필터,,voltage-current,ocr-question-and-existing-classification
+national-2025-05,2025 국가직 5번,circuit-theory,sinusoidal-phasor,교류회로 전압·전류,,frequency,ocr-question-and-existing-classification
+national-2025-06,2025 국가직 6번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+national-2025-07,2025 국가직 7번,electronic-circuits,comparator-schmitt,슈미트 문턱전압·전달특성,,concept,ocr-question-and-existing-classification
+national-2025-08,2025 국가직 8번,electronic-circuits,rectifier-smoothing,전파정류,,concept / frequency,ocr-question-and-existing-classification
+national-2025-09,2025 국가직 9번,circuit-theory,filter,능동필터·전달함수,,frequency,ocr-question-and-existing-classification
+national-2025-10,2025 국가직 10번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+national-2025-11,2025 국가직 11번,electronic-circuits,pulse-555,555 비안정·듀티비·시정수,,voltage-current,ocr-question-and-existing-classification
+national-2025-12,2025 국가직 12번,circuit-theory,bridge-transform,브리지 평형·해석,,voltage-current,source-image-and-ocr
+national-2025-13,2025 국가직 13번,electronic-circuits,amplifier-response,달링턴 증폭기,,voltage-gain / current-gain / impedance,ocr-question-and-existing-classification
+national-2025-14,2025 국가직 14번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,impedance,ocr-question-and-existing-classification
+national-2025-15,2025 국가직 15번,electronic-circuits,opamp,감산기·차동연산,,voltage-current,source-image-and-ocr
+national-2025-16,2025 국가직 16번,digital-engineering,logic-families,CMOS·NMOS 논리회로,,logic,ocr-question-and-existing-classification
+national-2025-17,2025 국가직 17번,digital-engineering,network-protocol,교환방식·토폴로지,,concept,ocr-question-and-existing-classification
+national-2025-18,2025 국가직 18번,digital-engineering,register,시프트레지스터·데이터 이동,,voltage-current,ocr-question-and-existing-classification
+national-2025-19,2025 국가직 19번,digital-engineering,minimization-kmap,카르노맵 간소화,,logic,ocr-question-and-existing-classification
+national-2025-20,2025 국가직 20번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-01,2025 국회직 1번,electronic-circuits,opamp,이상적 OP AMP·가상단락,,concept,source-image-and-ocr
+assembly-2025-02,2025 국회직 2번,electronic-circuits,opamp,복합 연산·다단 OP AMP,,concept,source-image-and-ocr
+assembly-2025-03,2025 국회직 3번,digital-engineering,logic-families,팬아웃·잡음여유·소비전력,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-04,2025 국회직 4번,digital-engineering,boolean-gates,XOR·XNOR·등가논리,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-05,2025 국회직 5번,digital-engineering,codes-arithmetic,코드 종류·특성 비교,패리티·CRC·FEC·ARQ 비교,code / voltage-current,ocr-question-and-existing-classification
+assembly-2025-06,2025 국회직 6번,circuit-theory,network-theorems,노턴 등가회로,,concept,ocr-question-and-existing-classification
+assembly-2025-07,2025 국회직 7번,circuit-theory,transient,초기값·최종값,,logic,ocr-question-and-existing-classification
+assembly-2025-08,2025 국회직 8번,circuit-theory,laplace,s영역 회로해석,,concept,ocr-question-and-existing-classification
+assembly-2025-09,2025 국회직 9번,digital-engineering,minimization-kmap,최소항·최대항·정규형,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-10,2025 국회직 10번,digital-engineering,number-systems,정수·소수 진법변환,,code / voltage-current,source-image-and-ocr
+assembly-2025-11,2025 국회직 11번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,power / waveform,ocr-question-and-existing-classification
+assembly-2025-12,2025 국회직 12번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-13,2025 국회직 13번,electronic-circuits,opamp,가산기·가중합,,voltage-current,source-image-and-ocr
+assembly-2025-14,2025 국회직 14번,electronic-circuits,bjt-amplifier,소신호 등가회로·임피던스,,voltage-current,source-image-and-ocr
+assembly-2025-15,2025 국회직 15번,circuit-theory,network-theorems,최대전력전달·저항정합,,power,ocr-question-and-existing-classification
+assembly-2025-16,2025 국회직 16번,circuit-theory,two-port,Z 파라미터,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-17,2025 국회직 17번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+assembly-2025-18,2025 국회직 18번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,concept,ocr-question-and-existing-classification
+assembly-2025-19,2025 국회직 19번,electronic-circuits,rf-electromagnetic,맥스웰 방정식·변위전류,,voltage-current,ocr-question-and-existing-classification
+assembly-2025-20,2025 국회직 20번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,timing,source-image-and-ocr
+military-2025-01,2025 군무원 1번,circuit-theory,circuit-analysis,전압·전류분배,,voltage-current,source-image-and-ocr
+military-2025-02,2025 군무원 2번,circuit-theory,filter,대역통과·대역저지,,voltage-current,source-image-and-ocr
+military-2025-03,2025 군무원 3번,circuit-theory,electromagnetic-basics,도선·자극 사이 힘,,concept,ocr-question-and-existing-classification
+military-2025-04,2025 군무원 4번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+military-2025-05,2025 군무원 5번,electronic-circuits,diode-basics,다이오드 온도특성,,concept / temperature,ocr-question-and-existing-classification
+military-2025-06,2025 군무원 6번,electronic-circuits,differentiator-integrator,적분기·출력파형,,waveform,source-image-and-ocr
+military-2025-07,2025 군무원 7번,circuit-theory,ac-power,복소전력·전력삼각형,,power,ocr-question-and-existing-classification
+military-2025-08,2025 군무원 8번,electronic-circuits,oscillator,발진조건·발진기 비교,,voltage-gain / power,ocr-question-and-existing-classification
+military-2025-09,2025 군무원 9번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+military-2025-10,2025 군무원 10번,circuit-theory,sinusoidal-phasor,임피던스·어드미턴스,,impedance,ocr-question-and-existing-classification
+military-2025-11,2025 군무원 11번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,concept,ocr-question-and-existing-classification
+military-2025-12,2025 군무원 12번,circuit-theory,circuit-analysis,전압·전류분배,,concept,source-image-and-ocr
+military-2025-13,2025 군무원 13번,circuit-theory,ac-power,유효전력·평균전력,,power,ocr-question-and-existing-classification
+military-2025-14,2025 군무원 14번,digital-engineering,arithmetic-circuits,반가산기,,concept,ocr-question-and-existing-classification
+military-2025-15,2025 군무원 15번,electronic-circuits,opamp,가산기·가중합,,concept,source-image-and-ocr
+military-2025-16,2025 군무원 16번,circuit-theory,electromagnetic-basics,유전체·정전용량,,concept,ocr-question-and-existing-classification
+military-2025-17,2025 군무원 17번,electronic-circuits,limiter-clamper,제너 리미터,,concept,source-image-and-ocr
+military-2025-18,2025 군무원 18번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / voltage-current,ocr-question-and-existing-classification
+military-2025-19,2025 군무원 19번,electronic-circuits,opamp,감산기·차동연산,,concept,source-image-and-ocr
+military-2025-20,2025 군무원 20번,circuit-theory,ac-power,복소전력·전력삼각형,,power,ocr-question-and-existing-classification
+local-2025-01,2025 지방직 1번,digital-engineering,boolean-gates,진리표·타이밍·출력값,,logic,ocr-question-and-existing-classification
+local-2025-02,2025 지방직 2번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,timing,ocr-question-and-existing-classification
+local-2025-03,2025 지방직 3번,digital-engineering,register,순환 시프트,,voltage-current,ocr-question-and-existing-classification
+local-2025-04,2025 지방직 4번,electronic-circuits,feedback-amplifier,부궤환 효과·안정도·왜곡,,voltage-gain / frequency,ocr-question-and-existing-classification
+local-2025-05,2025 지방직 5번,circuit-theory,resonance,직렬공진,,frequency,ocr-question-and-existing-classification
+local-2025-06,2025 지방직 6번,electronic-circuits,rectifier-smoothing,정밀정류기,,voltage-current,ocr-question-and-existing-classification
+local-2025-07,2025 지방직 7번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,concept,ocr-question-and-existing-classification
+local-2025-08,2025 지방직 8번,circuit-theory,elements-basics,커패시터·정전용량,,frequency,ocr-question-and-existing-classification
+local-2025-09,2025 지방직 9번,electronic-circuits,rectifier-smoothing,평활·리플·맥동률,,frequency / waveform,ocr-question-and-existing-classification
+local-2025-10,2025 지방직 10번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,voltage-current,source-image-and-ocr
+local-2025-11,2025 지방직 11번,electronic-circuits,feedback-amplifier,폐루프 이득·귀환율·대역폭,,frequency,ocr-question-and-existing-classification
+local-2025-12,2025 지방직 12번,electronic-circuits,voltage-regulator,제너 정전압·허용부하,,concept,ocr-question-and-existing-classification
+local-2025-13,2025 지방직 13번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,voltage-gain / impedance,ocr-question-and-existing-classification
+local-2025-14,2025 지방직 14번,electronic-circuits,analog-communication,변조 목적·통신방식,,concept,ocr-question-and-existing-classification
+local-2025-15,2025 지방직 15번,electronic-circuits,oscillator,PLL·VCO·주파수합성,,voltage-current,ocr-question-and-existing-classification
+local-2025-16,2025 지방직 16번,electronic-circuits,comparator-schmitt,슈미트 트리거·히스테리시스,,concept,ocr-question-and-existing-classification
+local-2025-17,2025 지방직 17번,digital-engineering,digital-communication,심벌률·비트율·QAM 계산,,concept / frequency,ocr-question-and-existing-classification
+local-2025-18,2025 지방직 18번,electronic-circuits,opamp,전류·전압 변환·전류증폭,,current-gain,source-image-and-ocr
+local-2025-19,2025 지방직 19번,circuit-theory,network-theorems,최대전력전달·공액정합,,impedance / power,ocr-question-and-existing-classification
+local-2025-20,2025 지방직 20번,digital-engineering,boolean-gates,논리회로↔논리식,,logic,ocr-question-and-existing-classification
+national-2026-01,2026 국가직 1번,electronic-circuits,bjt-amplifier,CC·이미터 팔로워,,concept,ocr-question-and-existing-classification
+national-2026-02,2026 국가직 2번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+national-2026-03,2026 국가직 3번,digital-engineering,network-protocol,OSI 7계층·기능,,voltage-current,ocr-question-and-existing-classification
+national-2026-04,2026 국가직 4번,electronic-circuits,analog-communication,FM 프리엠퍼시스·디엠퍼시스,,voltage-current,ocr-question-and-existing-classification
+national-2026-05,2026 국가직 5번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,voltage-current,source-image-and-ocr
+national-2026-06,2026 국가직 6번,digital-engineering,minimization-kmap,무관항·Don’t care,,logic,ocr-question-and-existing-classification
+national-2026-07,2026 국가직 7번,circuit-theory,transient,초기값·최종값,,voltage-current,ocr-question-and-existing-classification
+national-2026-08,2026 국가직 8번,electronic-circuits,diode-basics,다이오드 온도특성,,concept / bias / temperature,ocr-question-and-existing-classification
+national-2026-09,2026 국가직 9번,electronic-circuits,bjt-amplifier,CE·공통이미터 이득·위상,,voltage-gain / bias,ocr-question-and-existing-classification
+national-2026-10,2026 국가직 10번,digital-engineering,encoder-mux,MUX·논리함수 구현,,logic,ocr-question-and-existing-classification
+national-2026-11,2026 국가직 11번,circuit-theory,circuit-analysis,KCL·노드해석,,voltage-current,source-image-and-ocr
+national-2026-12,2026 국가직 12번,electronic-circuits,bjt-device,BJT·FET 특성 비교,MOSFET 구조·동작영역,power,ocr-question-and-existing-classification
+national-2026-13,2026 국가직 13번,electronic-circuits,fet-device,MOSFET 구조·동작영역,,power,ocr-question-and-existing-classification
+national-2026-14,2026 국가직 14번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,voltage-gain,source-image-and-ocr
+national-2026-15,2026 국가직 15번,electronic-circuits,amplifier-response,연산증폭기 GBW·대역폭,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2026-16,2026 국가직 16번,digital-engineering,latch-flipflop,마스터–슬레이브·레이스,,waveform,ocr-question-and-existing-classification
+national-2026-17,2026 국가직 17번,electronic-circuits,fet-amplifier,CS·공통소스 이득·임피던스,,impedance,source-image-and-ocr
+national-2026-18,2026 국가직 18번,electronic-circuits,differential-mirror,차동·동상이득·CMRR,,concept,ocr-question-and-existing-classification
+national-2026-19,2026 국가직 19번,electronic-circuits,oscillator,RC 위상천이 발진기,,voltage-gain / frequency,ocr-question-and-existing-classification
+national-2026-20,2026 국가직 20번,circuit-theory,filter,능동필터·전달함수,,transfer,ocr-question-and-existing-classification
+military-2026-01,2026 군무원 1번,electronic-circuits,semiconductor-basics,에너지대·페르미준위,,concept / temperature,ocr-question-and-existing-classification
+military-2026-02,2026 군무원 2번,electronic-circuits,opamp,가산기·가중합,,concept,source-image-and-ocr
+military-2026-03,2026 군무원 3번,digital-engineering,memory,RAM·DRAM·HBM,,concept / frequency,ocr-question-and-existing-classification
+military-2026-04,2026 군무원 4번,electronic-circuits,bjt-device,BJT 스위칭·포화,,concept,ocr-question-and-existing-classification
+military-2026-05,2026 군무원 5번,digital-engineering,number-systems,보수·부호표현·이진연산,,code,ocr-question-and-existing-classification
+military-2026-06,2026 군무원 6번,circuit-theory,resonance,직렬공진,,concept,ocr-question-and-existing-classification
+military-2026-07,2026 군무원 7번,electronic-circuits,bjt-device,α·β·전류 관계,,current-gain,ocr-question-and-existing-classification
+military-2026-08,2026 군무원 8번,circuit-theory,filter,수동 저역통과필터,,frequency / transfer,ocr-question-and-existing-classification
+military-2026-09,2026 군무원 9번,circuit-theory,transient,RL 과도응답·시정수,,voltage-current,ocr-question-and-existing-classification
+military-2026-10,2026 군무원 10번,circuit-theory,elements-basics,전하·에너지 보존,,voltage-current,source-image-and-ocr
+military-2026-11,2026 군무원 11번,circuit-theory,elements-basics,전류·전력·정격,,power,ocr-question-and-existing-classification
+military-2026-12,2026 군무원 12번,circuit-theory,network-theorems,테브난 등가회로,,impedance,ocr-question-and-existing-classification
+military-2026-13,2026 군무원 13번,circuit-theory,non-sinusoidal-fourier,비정현파 평균값·실효값,,concept,ocr-question-and-existing-classification
+military-2026-14,2026 군무원 14번,digital-engineering,latch-flipflop,JK 플립플롭·타이밍,,timing,ocr-question-and-existing-classification
+military-2026-15,2026 군무원 15번,digital-engineering,number-systems,정수·소수 진법변환,,code,ocr-question-and-existing-classification
+military-2026-16,2026 군무원 16번,circuit-theory,electromagnetic-basics,도선·자극 사이 힘,,concept,ocr-question-and-existing-classification
+military-2026-17,2026 군무원 17번,electronic-circuits,semiconductor-basics,진성·불순물 반도체·도핑,,concept,ocr-question-and-existing-classification
+military-2026-18,2026 군무원 18번,circuit-theory,non-sinusoidal-fourier,푸리에 변환·성질,,concept,ocr-question-and-existing-classification
+military-2026-19,2026 군무원 19번,circuit-theory,circuit-analysis,커패시터·인덕터 합성,,concept,source-image-and-ocr
+military-2026-20,2026 군무원 20번,electronic-circuits,oscillator,빈 브리지 발진기,,frequency,source-image-and-ocr
+local-2026-01,2026 지방직 1번,electronic-circuits,bjt-amplifier,CB·공통베이스,,current-gain / impedance,ocr-question-and-existing-classification
+local-2026-02,2026 지방직 2번,digital-engineering,minimization-kmap,불대수식 간소화,,logic,ocr-question-and-existing-classification
+local-2026-03,2026 지방직 3번,electronic-circuits,bjt-amplifier,이미터 저항·바이패스,,voltage-gain / impedance / bias,ocr-question-and-existing-classification
+local-2026-04,2026 지방직 4번,electronic-circuits,bjt-device,바이어스 안정화·부하선,,power / bias / waveform,ocr-question-and-existing-classification
+local-2026-05,2026 지방직 5번,electronic-circuits,rectifier-smoothing,브리지 전파정류,,frequency,ocr-question-and-existing-classification
+local-2026-06,2026 지방직 6번,electronic-circuits,diode-basics,PN접합·공핍층·바이어스,,concept,ocr-question-and-existing-classification
+local-2026-07,2026 지방직 7번,circuit-theory,circuit-analysis,직류회로 전압·전류·전력,,concept,source-image-and-ocr
+local-2026-08,2026 지방직 8번,digital-engineering,error-correction,패리티 검사,,concept,ocr-question-and-existing-classification
+local-2026-09,2026 지방직 9번,circuit-theory,non-sinusoidal-fourier,비정현파 평균값·실효값,,waveform,ocr-question-and-existing-classification
+local-2026-10,2026 지방직 10번,electronic-circuits,oscillator,LC·하틀리·콜피츠·클랩,,frequency,ocr-question-and-existing-classification
+local-2026-11,2026 지방직 11번,circuit-theory,network-theorems,전원변환,,voltage-current,ocr-question-and-existing-classification
+local-2026-12,2026 지방직 12번,electronic-circuits,oscillator,발진조건·발진기 비교,,concept,ocr-question-and-existing-classification
+local-2026-13,2026 지방직 13번,electronic-circuits,limiter-clamper,리미터 전달특성·출력파형,,voltage-gain / impedance,ocr-question-and-existing-classification
+local-2026-14,2026 지방직 14번,electronic-circuits,limiter-clamper,바이어스·양방향 리미터,,logic,source-image-and-ocr
+local-2026-15,2026 지방직 15번,electronic-circuits,analog-communication,AM·DSB·SSB·변조도,,concept,ocr-question-and-existing-classification
+local-2026-16,2026 지방직 16번,electronic-circuits,opamp,반전증폭기,,voltage-current,source-image-and-ocr
+local-2026-17,2026 지방직 17번,digital-engineering,boolean-gates,논리회로↔논리식,,voltage-current,ocr-question-and-existing-classification
+local-2026-18,2026 지방직 18번,electronic-circuits,bjt-device,BJT 직류 바이어스 계산,,bias / current-gain,ocr-question-and-existing-classification
+local-2026-19,2026 지방직 19번,digital-engineering,arithmetic-circuits,디지털 크기·등가비교기,,concept,source-image-and-ocr
+local-2026-20,2026 지방직 20번,digital-engineering,latch-flipflop,D 플립플롭·래치,,timing,ocr-question-and-existing-classification

@@ -1,0 +1,208 @@
+#!/usr/bin/env python3
+"""제본용 A4 2×2 PDF/문항계획 생성. 대표 소분류 또는 태그로 묶고 문항 ID 중복을 제외한다."""
+from __future__ import annotations
+import argparse
+import csv
+import hashlib
+import json
+import math
+from pathlib import Path
+
+from study_taxonomy import build_print_plan, indexes
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def save_plan(path, plan, taxonomy, group_by):
+    metadata = {'taxonomyVersion': taxonomy['version'], 'groupBy': group_by,
+                'questionCount': len(plan), 'uniqueQuestionCount': len({q['id'] for q in plan}),
+                'pages': math.ceil(len(plan) / 4), 'questions': plan}
+    path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    with path.with_suffix('.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['새번호', '페이지', '칸', '문항ID', '대분류', '중분류', '소분류', '정렬묶음', '출처', '정답'])
+        for row in plan:
+            writer.writerow([row[k] for k in ['sequence', 'page', 'slot', 'id', 'categoryLabel', 'topicLabel',
+                                              'subtopicLabel', 'groupLabel', 'source', 'answer']])
+
+
+def subset_font(path, text):
+    # Embedded Korean serif subset avoids embedding the full ~25 MB font in every PDF.
+    from fontTools import subset
+    from fontTools.ttLib import TTFont
+    font = TTFont(str(path), fontNumber=1 if path.suffix.lower() == '.ttc' else -1)
+    options = subset.Options()
+    options.layout_features = ['*']
+    sub = subset.Subsetter(options=options)
+    sub.populate(text=text)
+    sub.subset(font)
+    from io import BytesIO
+    buffer = BytesIO()
+    if 'CFF ' in font:
+        # CID-keyed CFF subsets can extract as text yet render blank in PDF readers.
+        # Convert the small subset to ordinary TrueType outlines before embedding.
+        from fontTools.fontBuilder import FontBuilder
+        from fontTools.pens.ttGlyphPen import TTGlyphPen
+        from fontTools.pens.cu2quPen import Cu2QuPen
+        glyph_set = font.getGlyphSet()
+        glyphs = {}
+        for name in font.getGlyphOrder():
+            pen = TTGlyphPen(glyph_set)
+            glyph_set[name].draw(Cu2QuPen(pen, max_err=1.0, reverse_direction=True))
+            glyphs[name] = pen.glyph()
+        builder = FontBuilder(font['head'].unitsPerEm, isTTF=True)
+        builder.setupGlyphOrder(font.getGlyphOrder())
+        builder.setupCharacterMap(font.getBestCmap())
+        builder.setupGlyf(glyphs)
+        builder.setupHorizontalMetrics(font['hmtx'].metrics)
+        builder.setupHorizontalHeader(ascent=font['hhea'].ascent, descent=font['hhea'].descent)
+        builder.setupOS2(sTypoAscender=font['OS/2'].sTypoAscender,
+                         sTypoDescender=font['OS/2'].sTypoDescender,
+                         usWinAscent=font['OS/2'].usWinAscent,
+                         usWinDescent=font['OS/2'].usWinDescent)
+        builder.setupNameTable({'familyName': 'Study Serif Subset', 'styleName': 'Regular',
+                                'uniqueFontIdentifier': 'StudySerifSubset',
+                                'fullName': 'Study Serif Subset', 'psName': 'StudySerifSubset'})
+        builder.setupPost()
+        builder.setupMaxp()
+        builder.save(buffer)
+    else:
+        font.save(buffer)
+    font.close()
+    return buffer.getvalue()
+
+
+def render_pdf(path, plan, questions, taxonomy, font_path, masks=None):
+    import fitz
+    cats, topics, _ = indexes(taxonomy)
+    byid = {q['id']: q for q in questions}
+    if masks is not None:
+        missing = [p['id'] for p in plan if p['id'] not in masks]
+        if missing:
+            raise ValueError(f"번호 제거 영역 검수가 필요한 문항 {len(missing)}개: {', '.join(missing[:12])}. "
+                             '검수된 --number-masks를 제공하거나 번호 제거 옵션 없이 생성하세요.')
+    labels = '전자공학개론 기출문제 정답 / · › 번 0123456789①②③④⑤'
+    labels += ''.join(r['source'] + r['subtopicLabel'] + r['groupLabel'] + topics[r['topic']][2]['label']
+                      + cats[r['category']][1]['label'] for r in plan)
+    font_bytes = subset_font(font_path, labels)
+    font = fitz.Font(fontbuffer=font_bytes)
+    doc = fitz.open()
+    width, height, margin, gap = 595.276, 841.89, 36, 24
+    cell_width = (width - 2 * margin - gap) / 2
+    cell_height = 350
+    pages = math.ceil(len(plan) / 4)
+    toc, seen = [], set()
+    images = {}
+    manifest = []
+    for page_index in range(pages):
+        page = doc.new_page(width=width, height=height)
+        page.insert_font(fontname='kr', fontbuffer=font_bytes)
+
+        def text(x, y, value, size=8, right=False, limit=None):
+            if limit:
+                while size > 4 and font.text_length(value, fontsize=size) > limit:
+                    size -= .25
+            if right:
+                x -= font.text_length(value, fontsize=size)
+            if x < margin - 1:
+                raise ValueError(f'문구가 페이지 밖으로 나갑니다: {value}')
+            page.insert_text((x, y), value, fontname='kr', fontsize=size, color=(.12, .12, .12))
+
+        text(margin, 35, '전자공학개론 기출문제', 10)
+        text(width - margin, 35, f'{len(plan)}문제', 9, True)
+        page.draw_line((margin, 46), (width - margin, 46), color=(.2, .2, .2), width=.6)
+        group = plan[page_index * 4:page_index * 4 + 4]
+        for slot, item in enumerate(group):
+            q = byid[item['id']]
+            x = margin + slot % 2 * (cell_width + gap)
+            y = 72 + slot // 2 * cell_height
+            label = topics[item['topic']][2]['label'] + ' › ' + item['subtopicLabel']
+            text(x, y + 10, f"{item['sequence']:03d}", 8)
+            text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
+            text(x + cell_width, y + 21, item['source'], 6, True)
+            iw, ih = q['image']['width'], q['image']['height']
+            scale = min(cell_width / iw, (cell_height - 70) / ih)
+            rect = fitz.Rect(x, y + 32, x + iw * scale, y + 32 + ih * scale)
+            if rect.y1 >= height - 65:
+                raise ValueError(f"이미지 범위 초과: {q['id']}")
+            image_path = ROOT / q['image']['src']
+            image_xref = images.get(q['id'])
+            images[q['id']] = page.insert_image(rect, xref=image_xref or 0,
+                                                filename=None if image_xref else str(image_path))
+            mask = masks.get(q['id']) if masks is not None else None
+            if mask:
+                a, b, c, d = mask
+                if not (0 <= a <= c <= iw and 0 <= b <= d <= ih):
+                    raise ValueError(f"번호 가림 범위 오류: {q['id']}")
+                page.draw_rect(fitz.Rect(x + a * scale, y + 32 + b * scale,
+                                         x + c * scale, y + 32 + d * scale),
+                               color=None, fill=(1, 1, 1), overlay=True)
+            manifest.append({**item, 'pdfRect': list(rect), 'numberMaskPixels': mask,
+                             'imageSha256': hashlib.sha256(image_path.read_bytes()).hexdigest()})
+            key = (item['category'], item['topic'], item['group'])
+            if key not in seen:
+                if item['category'] not in seen:
+                    toc.append([1, cats[item['category']][1]['label'], page_index + 1])
+                    seen.add(item['category'])
+                if (item['category'], item['topic']) not in seen:
+                    toc.append([2, topics[item['topic']][2]['label'], page_index + 1])
+                    seen.add((item['category'], item['topic']))
+                toc.append([3, item['groupLabel'], page_index + 1])
+                seen.add(key)
+        answers = '정답   ' + '   ·   '.join(f"{r['sequence']:03d}번 {['', '①', '②', '③', '④', '⑤'][r['answer']]}" for r in group)
+        text(width - margin, height - 47, answers, 6, True)
+        text(width - margin, height - 25, f'{page_index + 1} / {pages}', 8, True)
+    doc.set_toc(toc)
+    doc.set_metadata({'title': f'전자공학개론 기출 {len(plan)}문제',
+                      'subject': 'A4 2×2 · 대표 소분류/태그별 · 문항 ID 중복 제외'})
+    doc.save(path, garbage=4, deflate=True)
+    doc.close()
+    check = fitz.open(path)
+    assert len(check) == pages
+    assert sum(len(p.get_image_info()) for p in check) == len(plan)
+    for i, page in enumerate(check):
+        text_content = page.get_text().translate(str.maketrans('➀➁➂➃➄', '①②③④⑤'))
+        rows = plan[i * 4:i * 4 + 4]
+        assert len(page.get_image_info()) == len(rows)
+        assert text_content.count('정답') == 1
+        for row in rows:
+            assert row['source'] in text_content
+            assert f"{row['sequence']:03d}번 {['', '①', '②', '③', '④', '⑤'][row['answer']]}" in text_content
+    check.close()
+    path.with_suffix('.render.json').write_text(json.dumps({'verified': True, 'pages': pages,
+                    'numberRemoval': masks is not None, 'questions': manifest}, ensure_ascii=False, indent=2) + '\n')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    for name in ['category', 'topic', 'subtopic', 'tag']:
+        parser.add_argument('--' + name, action='append', help='ID 지정. 여러 번 사용하면 해당 조건 안에서 OR')
+    parser.add_argument('--group-by', choices=['subtopic', 'tag'], default='subtopic')
+    parser.add_argument('--tag-priority', action='append', help='태그 정렬시 대표 태그보다 우선할 태그. 지정 순서 적용')
+    parser.add_argument('--output', type=Path, required=True, help='PDF 경로. 계획 JSON/CSV도 같은 이름으로 생성')
+    parser.add_argument('--plan-only', action='store_true', help='PDF 없이 전체 문항 순서·쪽 배치만 생성')
+    parser.add_argument('--remove-original-numbers', action='store_true', help='검수된 좌표로 원 번호만 가림. 미검수 문항은 오류로 중단')
+    parser.add_argument('--number-masks', type=Path, default=ROOT / 'data/print_number_masks.json')
+    parser.add_argument('--font', type=Path, default=Path('/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc'))
+    args = parser.parse_args()
+    taxonomy = json.loads((ROOT / 'data/taxonomy.json').read_text())
+    questions = json.loads((ROOT / 'data/questions.json').read_text())
+    try:
+        plan = build_print_plan(questions, taxonomy, categories=args.category, topics=args.topic,
+                               subtopics=args.subtopic, tags=args.tag, group_by=args.group_by,
+                               tag_priority=args.tag_priority)
+        if not plan:
+            raise ValueError('조건에 맞는 문항이 없습니다')
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        if not args.plan_only:
+            masks = json.loads(args.number_masks.read_text()) if args.remove_original_numbers else None
+            render_pdf(args.output, plan, questions, taxonomy, args.font, masks)
+        save_plan(args.output.with_suffix('.json'), plan, taxonomy, args.group_by)
+    except (ValueError, FileNotFoundError) as error:
+        parser.error(str(error))
+    print(f"questions={len(plan)} unique={len({q['id'] for q in plan})} pages={math.ceil(len(plan) / 4)} group={args.group_by}")
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

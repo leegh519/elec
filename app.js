@@ -11,7 +11,7 @@
   const els = {
     total: $("#total-count"), solved: $("#solved-count"), wrong: $("#wrong-count"),
     agency: $("#agency-filter"), year: $("#year-filter"), category: $("#category-filter"),
-    topic: $("#topic-filter"), history: $("#history-filter"), resetFilters: $("#reset-filters"), order: $("#order-filter"),
+    topic: $("#topic-filter"), subtopic: $("#subtopic-filter"), tag: $("#tag-filter"), history: $("#history-filter"), resetFilters: $("#reset-filters"), order: $("#order-filter"),
     resultCount: $("#filter-result"), modeInputs: [...document.querySelectorAll("input[name='mode']")],
     batchWrap: $("#batch-size-wrap"), batchSize: $("#batch-size"),
     setup: $("#setup-panel"), practice: $("#practice-panel"), list: $("#question-list"),
@@ -43,6 +43,8 @@
   const selectedYears = new Set();
   const selectedCategories = new Set();
   const selectedTopics = new Set();
+  const selectedSubtopics = new Set();
+  const selectedTags = new Set();
   const selectedHistories = new Set();
 
   const HISTORY_KEY = "electronics-question-bank-screen";
@@ -107,6 +109,30 @@
       }
     }
     renderCheckGroup(els.topic, items, selectedTopics);
+    updateDetailFilters();
+  }
+
+  function updateDetailFilters() {
+    const topics = taxonomy.categories
+      .filter(c => !selectedCategories.size || selectedCategories.has(c.id))
+      .flatMap(c => c.topics || [])
+      .filter(t => selectedTopics.has(t.id));
+    const leaves = topics.flatMap(t => t.subtopics || []);
+    const allowed = new Set(leaves.map(s => s.id));
+    [...selectedSubtopics].forEach(id => { if (!allowed.has(id)) selectedSubtopics.delete(id); });
+    const entries = topics.flatMap(t => [
+      { heading: true, label: t.label },
+      ...(t.subtopics || []).map(leaf => ({ value: leaf.id, label: leaf.label }))
+    ]);
+    renderCheckGroup(els.subtopic, entries, selectedSubtopics);
+    if (!topics.length) els.subtopic.textContent = "먼저 중분류를 선택하세요.";
+    const parentQuestions = questions.filter(q =>
+      (!selectedCategories.size || selectedCategories.has(q.classification.category)) &&
+      (!selectedTopics.size || q.classification.topics.some(t => selectedTopics.has(t))));
+    const availableTags = new Set(parentQuestions.flatMap(q => q.classification.tags || []));
+    [...selectedTags].forEach(id => { if (!availableTags.has(id)) selectedTags.delete(id); });
+    renderCheckGroup(els.tag, (taxonomy.studyTags || []).filter(t => availableTags.has(t.id))
+      .map(t => ({ value: t.id, label: t.label })), selectedTags);
     updateFilterCount();
   }
 
@@ -119,6 +145,8 @@
       if (selectedCategories.size && !selectedCategories.has(classification.category)) return false;
       const questionTopics = classification.topics || (classification.topic ? [classification.topic] : []);
       if (selectedTopics.size && !questionTopics.some(topic => selectedTopics.has(topic))) return false;
+      if (selectedSubtopics.size && !(classification.subtopics || []).some(s => selectedSubtopics.has(s))) return false;
+      if (selectedTags.size && !(classification.tags || []).some(t => selectedTags.has(t))) return false;
       if (selectedHistories.size && ![...selectedHistories].some(history => {
         if (history === "unseen") return !record.attempts;
         if (history === "wrong") return Boolean(record.wrong);
@@ -228,6 +256,7 @@
       { label: categoryLabel(classification.category), type: "category" },
       ...(classification.topics || (classification.topic ? [classification.topic] : [])).map(topic => ({ label: topicLabel(classification.category, topic), type: "topic" })),
       ...(classification.concepts || []).map(label => ({ label, type: "concept" })),
+      ...(classification.tags || []).map(id => ({ label: (taxonomy.studyTags || []).find(tag => tag.id === id)?.label, type: "tag" })),
       ...(classification.auxiliaryTags || []).map(label => ({ label, type: "tag" })),
       ...(classification.questionTypes || []).map(label => ({ label, type: "tag" }))
     ].filter(chip => chip.label);
@@ -478,7 +507,7 @@
   }
 
   function resetFilters() {
-    [selectedAgencies, selectedYears, selectedCategories, selectedTopics, selectedHistories].forEach(selected => selected.clear());
+    [selectedAgencies, selectedYears, selectedCategories, selectedTopics, selectedSubtopics, selectedTags, selectedHistories].forEach(selected => selected.clear());
     initializeFilters();
     toast("필터를 초기화했습니다.");
   }
@@ -486,7 +515,9 @@
   els.agency.addEventListener("change", event => handleCheckGroupChange(event, selectedAgencies));
   els.year.addEventListener("change", event => handleCheckGroupChange(event, selectedYears));
   els.category.addEventListener("change", event => handleCheckGroupChange(event, selectedCategories, updateDependentFilters));
-  els.topic.addEventListener("change", event => handleCheckGroupChange(event, selectedTopics));
+  els.topic.addEventListener("change", event => handleCheckGroupChange(event, selectedTopics, updateDetailFilters));
+  els.subtopic.addEventListener("change", event => handleCheckGroupChange(event, selectedSubtopics));
+  els.tag.addEventListener("change", event => handleCheckGroupChange(event, selectedTags));
   els.history.addEventListener("change", event => handleCheckGroupChange(event, selectedHistories));
   els.resetFilters.addEventListener("click", resetFilters);
   els.modeInputs.forEach(input => input.addEventListener("change", () => els.batchWrap.classList.toggle("is-hidden", input.value === "single" && input.checked)));

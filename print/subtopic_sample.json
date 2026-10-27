@@ -1,0 +1,161 @@
+{
+  "taxonomyVersion": 4,
+  "groupBy": "subtopic",
+  "questionCount": 8,
+  "uniqueQuestionCount": 8,
+  "pages": 2,
+  "questions": [
+    {
+      "sequence": 1,
+      "page": 1,
+      "slot": 1,
+      "id": "seoul-2016-19",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2016 서울시 19번",
+      "answer": 3
+    },
+    {
+      "sequence": 2,
+      "page": 1,
+      "slot": 2,
+      "id": "seoul-2018-13",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2018 서울시 13번",
+      "answer": 1
+    },
+    {
+      "sequence": 3,
+      "page": 1,
+      "slot": 3,
+      "id": "assembly-2019-12",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "power"
+      ],
+      "source": "2019 국회직 12번",
+      "answer": 1
+    },
+    {
+      "sequence": 4,
+      "page": 1,
+      "slot": 4,
+      "id": "seoul-2021-11",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2021 서울시 11번",
+      "answer": 2
+    },
+    {
+      "sequence": 5,
+      "page": 2,
+      "slot": 1,
+      "id": "national-2025-12",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2025 국가직 12번",
+      "answer": 2
+    },
+    {
+      "sequence": 6,
+      "page": 2,
+      "slot": 2,
+      "id": "national-2010-17",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2010 국가직 17번",
+      "answer": 1
+    },
+    {
+      "sequence": 7,
+      "page": 2,
+      "slot": 3,
+      "id": "assembly-2022-05",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2022 국회직 5번",
+      "answer": 3
+    },
+    {
+      "sequence": 8,
+      "page": 2,
+      "slot": 4,
+      "id": "assembly-2025-06",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "concept"
+      ],
+      "source": "2025 국회직 6번",
+      "answer": 2
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "id": "circuit-theory",
@@ -9,202 +9,511 @@
           "id": "elements-basics",
           "label": "기본소자",
           "concepts": [
-            "전압·전류·전력",
-            "R·L·C",
-            "전압원·전류원",
-            "에너지 저장",
-            "배터리 특성",
-            "인덕터 단락",
-            "커패시터 개방",
-            "정상상태 등가회로",
-            "정상상태 전압·전류"
+            "저항·비저항",
+            "커패시터·정전용량",
+            "인덕터·전압전류 관계",
+            "전하·에너지 보존",
+            "배터리 용량·특성",
+            "직류 정상상태",
+            "전류·전력·정격",
+            "R·L·C 기본특성"
+          ],
+          "subtopics": [
+            {
+              "id": "elements-basics/resistance",
+              "label": "저항·비저항"
+            },
+            {
+              "id": "elements-basics/capacitance",
+              "label": "커패시터·정전용량"
+            },
+            {
+              "id": "elements-basics/inductance",
+              "label": "인덕터·전압전류 관계"
+            },
+            {
+              "id": "elements-basics/energy",
+              "label": "전하·에너지 보존"
+            },
+            {
+              "id": "elements-basics/battery",
+              "label": "배터리 용량·특성"
+            },
+            {
+              "id": "elements-basics/dc-steady",
+              "label": "직류 정상상태"
+            },
+            {
+              "id": "elements-basics/power",
+              "label": "전류·전력·정격"
+            },
+            {
+              "id": "elements-basics/rlc",
+              "label": "R·L·C 기본특성"
+            }
           ]
         },
         {
           "id": "circuit-analysis",
           "label": "회로해석",
           "concepts": [
-            "저항 직·병렬",
-            "커패시터 직·병렬",
-            "인덕터 직·병렬",
-            "등가회로",
-            "옴의 법칙",
-            "KCL",
-            "KVL",
-            "노드전압",
-            "슈퍼노드",
-            "루프전류",
-            "슈퍼메시"
+            "직병렬·합성저항",
+            "커패시터·인덕터 합성",
+            "전압·전류분배",
+            "종속전원 회로해석",
+            "KCL·노드해석",
+            "KVL·루프해석",
+            "부하선·비선형 소자 해석",
+            "직류회로 전압·전류·전력"
+          ],
+          "subtopics": [
+            {
+              "id": "circuit-analysis/equivalent",
+              "label": "직병렬·합성저항"
+            },
+            {
+              "id": "circuit-analysis/capacitor-network",
+              "label": "커패시터·인덕터 합성"
+            },
+            {
+              "id": "circuit-analysis/divider",
+              "label": "전압·전류분배"
+            },
+            {
+              "id": "circuit-analysis/dependent",
+              "label": "종속전원 회로해석"
+            },
+            {
+              "id": "circuit-analysis/node",
+              "label": "KCL·노드해석"
+            },
+            {
+              "id": "circuit-analysis/loop",
+              "label": "KVL·루프해석"
+            },
+            {
+              "id": "circuit-analysis/nonlinear",
+              "label": "부하선·비선형 소자 해석"
+            },
+            {
+              "id": "circuit-analysis/dc-network",
+              "label": "직류회로 전압·전류·전력"
+            }
           ]
         },
         {
           "id": "bridge-transform",
           "label": "브리지·Y–Δ 변환",
           "concepts": [
-            "휘트스톤 브리지",
-            "브리지 평형",
-            "Y→Δ 변환",
-            "Δ→Y 변환"
+            "브리지 평형·해석",
+            "Y–Δ 변환"
+          ],
+          "subtopics": [
+            {
+              "id": "bridge-transform/bridge",
+              "label": "브리지 평형·해석"
+            },
+            {
+              "id": "bridge-transform/wye-delta",
+              "label": "Y–Δ 변환"
+            }
           ]
         },
         {
           "id": "network-theorems",
           "label": "회로망 정리",
           "concepts": [
-            "전압원→전류원",
-            "전류원→전압원",
-            "독립전원 분리",
-            "중첩 원리",
-            "테브난 전압",
-            "테브난 저항",
-            "테브난 등가회로",
-            "노턴 전류",
-            "노턴 저항",
+            "최대전력전달·공액정합",
+            "최대전력전달·저항정합",
             "노턴 등가회로",
-            "저항 정합",
-            "공액 정합",
-            "최대전력",
-            "전력전달효율",
-            "밀러정리",
-            "밀만정리",
-            "상반정리"
+            "테브난 등가회로",
+            "중첩정리",
+            "전원변환",
+            "밀러·밀만·상반정리"
+          ],
+          "subtopics": [
+            {
+              "id": "network-theorems/maximum-ac",
+              "label": "최대전력전달·공액정합"
+            },
+            {
+              "id": "network-theorems/maximum-dc",
+              "label": "최대전력전달·저항정합"
+            },
+            {
+              "id": "network-theorems/norton",
+              "label": "노턴 등가회로"
+            },
+            {
+              "id": "network-theorems/thevenin",
+              "label": "테브난 등가회로"
+            },
+            {
+              "id": "network-theorems/superposition",
+              "label": "중첩정리"
+            },
+            {
+              "id": "network-theorems/source",
+              "label": "전원변환"
+            },
+            {
+              "id": "network-theorems/miller",
+              "label": "밀러·밀만·상반정리"
+            }
           ]
         },
         {
           "id": "sinusoidal-phasor",
           "label": "정현파·페이저",
           "concepts": [
-            "정현파",
-            "주파수·주기",
-            "페이저",
-            "임피던스·어드미턴스"
+            "정현파·주파수·실효값",
+            "페이저·위상·합성",
+            "임피던스·어드미턴스",
+            "교류회로 전압·전류"
+          ],
+          "subtopics": [
+            {
+              "id": "sinusoidal-phasor/wave",
+              "label": "정현파·주파수·실효값"
+            },
+            {
+              "id": "sinusoidal-phasor/phasor",
+              "label": "페이저·위상·합성"
+            },
+            {
+              "id": "sinusoidal-phasor/impedance",
+              "label": "임피던스·어드미턴스"
+            },
+            {
+              "id": "sinusoidal-phasor/ac-analysis",
+              "label": "교류회로 전압·전류"
+            }
           ]
         },
         {
           "id": "ac-power",
           "label": "교류전력·역률",
           "concepts": [
-            "유효·무효·피상전력",
-            "복소전력",
-            "역률",
-            "역률개선"
+            "역률·역률개선",
+            "복소전력·전력삼각형",
+            "유효전력·평균전력"
+          ],
+          "subtopics": [
+            {
+              "id": "ac-power/factor",
+              "label": "역률·역률개선"
+            },
+            {
+              "id": "ac-power/triangle",
+              "label": "복소전력·전력삼각형"
+            },
+            {
+              "id": "ac-power/average",
+              "label": "유효전력·평균전력"
+            }
           ]
         },
         {
           "id": "filter",
           "label": "필터",
           "concepts": [
-            "저역·고역통과",
+            "능동필터·전달함수",
             "대역통과·대역저지",
-            "차단주파수"
+            "수동 고역통과필터",
+            "수동 저역통과필터",
+            "필터 전달함수·주파수응답",
+            "필터 판별·차단주파수"
+          ],
+          "subtopics": [
+            {
+              "id": "filter/active",
+              "label": "능동필터·전달함수"
+            },
+            {
+              "id": "filter/band",
+              "label": "대역통과·대역저지"
+            },
+            {
+              "id": "filter/highpass",
+              "label": "수동 고역통과필터"
+            },
+            {
+              "id": "filter/lowpass",
+              "label": "수동 저역통과필터"
+            },
+            {
+              "id": "filter/response",
+              "label": "필터 전달함수·주파수응답"
+            },
+            {
+              "id": "filter/cutoff",
+              "label": "필터 판별·차단주파수"
+            }
           ]
         },
         {
           "id": "resonance",
           "label": "공진",
           "concepts": [
-            "직렬공진",
+            "Q·선택도·대역폭",
             "병렬공진",
-            "공진주파수",
-            "Q·대역폭"
+            "직렬공진",
+            "공진조건·주파수"
+          ],
+          "subtopics": [
+            {
+              "id": "resonance/quality",
+              "label": "Q·선택도·대역폭"
+            },
+            {
+              "id": "resonance/parallel",
+              "label": "병렬공진"
+            },
+            {
+              "id": "resonance/series",
+              "label": "직렬공진"
+            },
+            {
+              "id": "resonance/basics",
+              "label": "공진조건·주파수"
+            }
           ]
         },
         {
           "id": "transient",
           "label": "과도현상",
           "concepts": [
-            "RC 응답",
-            "RL 응답",
-            "RLC 응답",
-            "시정수",
-            "초기값·최종값"
+            "초기값·최종값",
+            "RLC 과도응답·감쇠",
+            "RL 과도응답·시정수",
+            "RC 과도응답·시정수"
+          ],
+          "subtopics": [
+            {
+              "id": "transient/initial-final",
+              "label": "초기값·최종값"
+            },
+            {
+              "id": "transient/rlc",
+              "label": "RLC 과도응답·감쇠"
+            },
+            {
+              "id": "transient/rl",
+              "label": "RL 과도응답·시정수"
+            },
+            {
+              "id": "transient/rc",
+              "label": "RC 과도응답·시정수"
+            }
           ]
         },
         {
           "id": "coupled-transformer",
           "label": "변압기·상호유도",
           "concepts": [
-            "상호인덕턴스",
-            "결합계수",
-            "이상변압기",
-            "임피던스 변환"
+            "상호인덕턴스·결합계수",
+            "임피던스 변환·정합",
+            "변압기 권선비·전압·전류"
+          ],
+          "subtopics": [
+            {
+              "id": "coupled-transformer/coupling",
+              "label": "상호인덕턴스·결합계수"
+            },
+            {
+              "id": "coupled-transformer/matching",
+              "label": "임피던스 변환·정합"
+            },
+            {
+              "id": "coupled-transformer/ratio",
+              "label": "변압기 권선비·전압·전류"
+            }
           ]
         },
         {
           "id": "two-port",
           "label": "4단자망",
           "concepts": [
-            "Z·Y·h 파라미터",
-            "ABCD 파라미터",
-            "2포트 접속"
+            "ABCD·전송파라미터",
+            "Y 파라미터",
+            "Z 파라미터"
+          ],
+          "subtopics": [
+            {
+              "id": "two-port/abcd",
+              "label": "ABCD·전송파라미터"
+            },
+            {
+              "id": "two-port/y",
+              "label": "Y 파라미터"
+            },
+            {
+              "id": "two-port/z",
+              "label": "Z 파라미터"
+            }
           ]
         },
         {
           "id": "laplace",
           "label": "라플라스변환",
           "concepts": [
-            "라플라스 회로해석",
-            "초기조건",
-            "역변환"
+            "역라플라스·수렴영역",
+            "s영역 회로해석",
+            "라플라스 변환·시간이동"
+          ],
+          "subtopics": [
+            {
+              "id": "laplace/inverse",
+              "label": "역라플라스·수렴영역"
+            },
+            {
+              "id": "laplace/circuit",
+              "label": "s영역 회로해석"
+            },
+            {
+              "id": "laplace/forward",
+              "label": "라플라스 변환·시간이동"
+            }
           ]
         },
         {
           "id": "signals-systems",
           "label": "선형시불변시스템",
           "concepts": [
-            "LTI 시스템",
-            "임펄스 응답",
-            "컨볼루션",
-            "샘플링·에일리어싱",
-            "전달함수",
-            "극점·영점",
-            "보드선도"
+            "LTI·임펄스응답·컨벌루션",
+            "표본화·에일리어싱",
+            "전력스펙트럼·잡음",
+            "보드선도·극점·영점",
+            "전달함수·주파수응답"
+          ],
+          "subtopics": [
+            {
+              "id": "signals-systems/convolution",
+              "label": "LTI·임펄스응답·컨벌루션"
+            },
+            {
+              "id": "signals-systems/sampling",
+              "label": "표본화·에일리어싱"
+            },
+            {
+              "id": "signals-systems/spectrum",
+              "label": "전력스펙트럼·잡음"
+            },
+            {
+              "id": "signals-systems/bode",
+              "label": "보드선도·극점·영점"
+            },
+            {
+              "id": "signals-systems/transfer",
+              "label": "전달함수·주파수응답"
+            }
           ]
         },
         {
           "id": "control-systems",
           "label": "블록선도·제어시스템",
           "concepts": [
-            "신호흐름선도",
-            "폐루프 전달함수",
-            "안정도·루스 판별",
+            "안정도·특성방정식",
+            "블록선도·신호흐름선도",
             "제어계 응답"
+          ],
+          "subtopics": [
+            {
+              "id": "control-systems/stability",
+              "label": "안정도·특성방정식"
+            },
+            {
+              "id": "control-systems/block",
+              "label": "블록선도·신호흐름선도"
+            },
+            {
+              "id": "control-systems/response",
+              "label": "제어계 응답"
+            }
           ]
         },
         {
           "id": "three-phase",
           "label": "3상회로",
           "concepts": [
-            "Y·Δ 결선",
-            "평형 3상",
-            "3상 전력"
+            "평형 3상·Y·Δ 결선"
+          ],
+          "subtopics": [
+            {
+              "id": "three-phase/balanced",
+              "label": "평형 3상·Y·Δ 결선"
+            }
           ]
         },
         {
           "id": "non-sinusoidal-fourier",
           "label": "비정현파·푸리에급수",
           "concepts": [
-            "평균값·실효값",
-            "푸리에급수",
-            "고조파"
+            "푸리에 변환·성질",
+            "푸리에급수·고조파",
+            "고조파 평균전력",
+            "비정현파 평균값·실효값"
+          ],
+          "subtopics": [
+            {
+              "id": "non-sinusoidal-fourier/transform",
+              "label": "푸리에 변환·성질"
+            },
+            {
+              "id": "non-sinusoidal-fourier/series",
+              "label": "푸리에급수·고조파"
+            },
+            {
+              "id": "non-sinusoidal-fourier/harmonic-power",
+              "label": "고조파 평균전력"
+            },
+            {
+              "id": "non-sinusoidal-fourier/rms",
+              "label": "비정현파 평균값·실효값"
+            }
           ]
         },
         {
           "id": "electromagnetic-basics",
           "label": "전계·자계·전자유도",
           "concepts": [
-            "쿨롱의 법칙",
-            "전계·전위",
-            "가우스 법칙",
             "유전체·정전용량",
-            "자계·자속",
-            "자기저항",
-            "코일 자기회로",
-            "도선 간 힘",
-            "패러데이 법칙",
-            "렌츠 법칙",
-            "유도기전력",
-            "와전류"
+            "쿨롱 법칙·전하 간 힘",
+            "전계·전위",
+            "전류밀도·미분형 옴의 법칙",
+            "전자유도·유도기전력",
+            "도선·자극 사이 힘",
+            "자계·자속·자기회로"
+          ],
+          "subtopics": [
+            {
+              "id": "electromagnetic-basics/capacitance",
+              "label": "유전체·정전용량"
+            },
+            {
+              "id": "electromagnetic-basics/coulomb",
+              "label": "쿨롱 법칙·전하 간 힘"
+            },
+            {
+              "id": "electromagnetic-basics/field",
+              "label": "전계·전위"
+            },
+            {
+              "id": "electromagnetic-basics/ohm",
+              "label": "전류밀도·미분형 옴의 법칙"
+            },
+            {
+              "id": "electromagnetic-basics/induction",
+              "label": "전자유도·유도기전력"
+            },
+            {
+              "id": "electromagnetic-basics/force",
+              "label": "도선·자극 사이 힘"
+            },
+            {
+              "id": "electromagnetic-basics/magnetic",
+              "label": "자계·자속·자기회로"
+            }
           ]
         }
       ]
@@ -217,300 +526,707 @@
           "id": "semiconductor-basics",
           "label": "반도체 기초",
           "concepts": [
-            "도체·반도체·절연체",
-            "에너지대",
-            "페르미준위",
-            "밴드갭",
-            "진성·불순물 반도체",
-            "N형·P형",
-            "전자·정공",
-            "이동도·전도도",
-            "확산·드리프트",
-            "생성·재결합",
-            "홀효과",
-            "광전·열전효과"
+            "에너지대·페르미준위",
+            "이동도·확산·드리프트",
+            "광전·열전효과",
+            "온도·진성캐리어",
+            "진성·불순물 반도체·도핑"
+          ],
+          "subtopics": [
+            {
+              "id": "semiconductor-basics/energy",
+              "label": "에너지대·페르미준위"
+            },
+            {
+              "id": "semiconductor-basics/transport",
+              "label": "이동도·확산·드리프트"
+            },
+            {
+              "id": "semiconductor-basics/photo-thermal",
+              "label": "광전·열전효과"
+            },
+            {
+              "id": "semiconductor-basics/temperature",
+              "label": "온도·진성캐리어"
+            },
+            {
+              "id": "semiconductor-basics/doping",
+              "label": "진성·불순물 반도체·도핑"
+            }
           ]
         },
         {
           "id": "diode-basics",
           "label": "다이오드",
           "concepts": [
-            "공핍층",
-            "확산전위",
-            "순·역방향 바이어스",
-            "항복",
-            "접합용량",
-            "전류·전압 특성",
-            "이상모델",
-            "정전압모델",
-            "소신호모델"
+            "다이오드 ON/OFF·회로해석",
+            "다이오드 온도특성",
+            "다이오드 I–V·항복특성",
+            "PN접합·공핍층·바이어스"
+          ],
+          "subtopics": [
+            {
+              "id": "diode-basics/circuit",
+              "label": "다이오드 ON/OFF·회로해석"
+            },
+            {
+              "id": "diode-basics/temperature",
+              "label": "다이오드 온도특성"
+            },
+            {
+              "id": "diode-basics/iv",
+              "label": "다이오드 I–V·항복특성"
+            },
+            {
+              "id": "diode-basics/junction",
+              "label": "PN접합·공핍층·바이어스"
+            }
           ]
         },
         {
           "id": "special-devices",
           "label": "특수 반도체소자",
           "concepts": [
-            "쇼트키 다이오드",
-            "터널 다이오드",
-            "버랙터 다이오드",
-            "LED",
-            "포토다이오드",
-            "태양전지",
-            "광결합기",
-            "SCR·TRIAC·DIAC",
-            "UJT",
-            "IGBT",
-            "전력 MOSFET"
+            "LED·광소자",
+            "SCR·사이리스터·TRIAC",
+            "버랙터·가변용량 다이오드",
+            "터널·쇼트키 다이오드",
+            "특수소자 종류·특성 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "special-devices/led",
+              "label": "LED·광소자"
+            },
+            {
+              "id": "special-devices/thyristor",
+              "label": "SCR·사이리스터·TRIAC"
+            },
+            {
+              "id": "special-devices/varactor",
+              "label": "버랙터·가변용량 다이오드"
+            },
+            {
+              "id": "special-devices/tunnel",
+              "label": "터널·쇼트키 다이오드"
+            },
+            {
+              "id": "special-devices/comparison",
+              "label": "특수소자 종류·특성 비교"
+            }
           ]
         },
         {
           "id": "rectifier-smoothing",
           "label": "정류·평활회로",
           "concepts": [
+            "첨두값 검출기",
+            "정밀정류기",
+            "평활·리플·맥동률",
+            "브리지 전파정류",
+            "중간탭 전파정류",
             "반파정류",
             "전파정류",
-            "브리지정류",
-            "정밀정류",
-            "평균값·실효값",
-            "최대역전압",
-            "배전압회로",
-            "리플",
-            "맥동률",
-            "커패시터 입력필터",
-            "LC 평활필터",
-            "평활필터",
-            "첨두값 검출"
+            "정류 파형·평균값·실효값"
+          ],
+          "subtopics": [
+            {
+              "id": "rectifier-smoothing/peak",
+              "label": "첨두값 검출기"
+            },
+            {
+              "id": "rectifier-smoothing/precision",
+              "label": "정밀정류기"
+            },
+            {
+              "id": "rectifier-smoothing/smoothing",
+              "label": "평활·리플·맥동률"
+            },
+            {
+              "id": "rectifier-smoothing/bridge",
+              "label": "브리지 전파정류"
+            },
+            {
+              "id": "rectifier-smoothing/center",
+              "label": "중간탭 전파정류"
+            },
+            {
+              "id": "rectifier-smoothing/half",
+              "label": "반파정류"
+            },
+            {
+              "id": "rectifier-smoothing/full",
+              "label": "전파정류"
+            },
+            {
+              "id": "rectifier-smoothing/rectification",
+              "label": "정류 파형·평균값·실효값"
+            }
           ]
         },
         {
           "id": "limiter-clamper",
           "label": "리미터·클램퍼",
           "concepts": [
-            "직렬·병렬 리미터",
-            "바이어스 리미터",
-            "양·음 리미터",
-            "양·음 클램퍼",
-            "직류 레벨 이동"
+            "제너 리미터",
+            "클램퍼·직류레벨 이동",
+            "바이어스·양방향 리미터",
+            "리미터 전달특성·출력파형"
+          ],
+          "subtopics": [
+            {
+              "id": "limiter-clamper/zener",
+              "label": "제너 리미터"
+            },
+            {
+              "id": "limiter-clamper/clamp",
+              "label": "클램퍼·직류레벨 이동"
+            },
+            {
+              "id": "limiter-clamper/biased",
+              "label": "바이어스·양방향 리미터"
+            },
+            {
+              "id": "limiter-clamper/clip",
+              "label": "리미터 전달특성·출력파형"
+            }
           ]
         },
         {
           "id": "voltage-regulator",
           "label": "정전압회로",
           "concepts": [
-            "제너 다이오드",
-            "제너 항복",
-            "전류·전압 특성",
-            "제너 정전압",
-            "부하변동",
-            "전원변동",
-            "제너 리미터",
-            "선형·직렬·병렬 조정기",
-            "스위칭 전원",
-            "DC-DC 컨버터"
+            "직류전원 구성·변동률",
+            "스위칭 조정기·DC–DC",
+            "직렬·병렬 선형조정기",
+            "제너 정전압·허용부하"
+          ],
+          "subtopics": [
+            {
+              "id": "voltage-regulator/supply",
+              "label": "직류전원 구성·변동률"
+            },
+            {
+              "id": "voltage-regulator/switching",
+              "label": "스위칭 조정기·DC–DC"
+            },
+            {
+              "id": "voltage-regulator/linear",
+              "label": "직렬·병렬 선형조정기"
+            },
+            {
+              "id": "voltage-regulator/zener",
+              "label": "제너 정전압·허용부하"
+            }
           ]
         },
         {
           "id": "bjt-device",
           "label": "BJT 기초·바이어스",
           "concepts": [
-            "BJT 구조·동작",
-            "전류 관계",
-            "동작영역",
-            "특성곡선",
-            "직류부하선",
-            "고정·자기 바이어스",
+            "BJT·FET 특성 비교",
+            "BJT 스위칭·포화",
+            "α·β·전류 관계",
+            "BJT 구조·동작영역·얼리효과",
+            "바이어스 안정화·부하선",
             "전압분배 바이어스",
-            "온도 안정화"
+            "BJT 직류 바이어스 계산"
+          ],
+          "subtopics": [
+            {
+              "id": "bjt-device/comparison",
+              "label": "BJT·FET 특성 비교"
+            },
+            {
+              "id": "bjt-device/switch",
+              "label": "BJT 스위칭·포화"
+            },
+            {
+              "id": "bjt-device/current",
+              "label": "α·β·전류 관계"
+            },
+            {
+              "id": "bjt-device/operation",
+              "label": "BJT 구조·동작영역·얼리효과"
+            },
+            {
+              "id": "bjt-device/stability",
+              "label": "바이어스 안정화·부하선"
+            },
+            {
+              "id": "bjt-device/divider",
+              "label": "전압분배 바이어스"
+            },
+            {
+              "id": "bjt-device/bias",
+              "label": "BJT 직류 바이어스 계산"
+            }
           ]
         },
         {
           "id": "bjt-amplifier",
           "label": "BJT 증폭기",
           "concepts": [
-            "CE·CC·CB",
-            "h 파라미터",
-            "소신호 등가회로",
-            "증폭도·임피던스"
+            "CC·이미터 팔로워",
+            "CB·공통베이스",
+            "CE·CB·CC 특성 비교",
+            "소신호 등가회로·임피던스",
+            "이미터 저항·바이패스",
+            "CE·공통이미터 이득·위상"
+          ],
+          "subtopics": [
+            {
+              "id": "bjt-amplifier/cc",
+              "label": "CC·이미터 팔로워"
+            },
+            {
+              "id": "bjt-amplifier/cb",
+              "label": "CB·공통베이스"
+            },
+            {
+              "id": "bjt-amplifier/comparison",
+              "label": "CE·CB·CC 특성 비교"
+            },
+            {
+              "id": "bjt-amplifier/model",
+              "label": "소신호 등가회로·임피던스"
+            },
+            {
+              "id": "bjt-amplifier/bypass",
+              "label": "이미터 저항·바이패스"
+            },
+            {
+              "id": "bjt-amplifier/ce",
+              "label": "CE·공통이미터 이득·위상"
+            }
           ]
         },
         {
           "id": "fet-device",
           "label": "FET 기초·바이어스",
           "concepts": [
-            "JFET",
-            "MESFET",
-            "핀치오프",
-            "전달특성",
-            "증가형·공핍형",
-            "문턱전압",
-            "채널",
-            "동작영역",
-            "MOS 커패시터",
-            "축적·공핍·반전",
-            "채널 길이 변조",
-            "전달컨덕턴스"
+            "MOS 커패시터·축적·공핍·반전",
+            "FET 전달컨덕턴스",
+            "JFET·핀치오프",
+            "문턱전압·몸체효과",
+            "MOSFET 전류·치수·바이어스",
+            "MOSFET 구조·동작영역"
+          ],
+          "subtopics": [
+            {
+              "id": "fet-device/mos-cap",
+              "label": "MOS 커패시터·축적·공핍·반전"
+            },
+            {
+              "id": "fet-device/gm",
+              "label": "FET 전달컨덕턴스"
+            },
+            {
+              "id": "fet-device/jfet",
+              "label": "JFET·핀치오프"
+            },
+            {
+              "id": "fet-device/threshold",
+              "label": "문턱전압·몸체효과"
+            },
+            {
+              "id": "fet-device/current",
+              "label": "MOSFET 전류·치수·바이어스"
+            },
+            {
+              "id": "fet-device/operation",
+              "label": "MOSFET 구조·동작영역"
+            }
           ]
         },
         {
           "id": "fet-amplifier",
           "label": "FET 증폭기",
           "concepts": [
-            "CS·CD·CG",
-            "FET 바이어스",
-            "FET 소신호 해석"
+            "CD·소스 팔로워",
+            "CS·CG·CD 특성 비교",
+            "CS·공통소스 이득·임피던스"
+          ],
+          "subtopics": [
+            {
+              "id": "fet-amplifier/cd",
+              "label": "CD·소스 팔로워"
+            },
+            {
+              "id": "fet-amplifier/comparison",
+              "label": "CS·CG·CD 특성 비교"
+            },
+            {
+              "id": "fet-amplifier/cs",
+              "label": "CS·공통소스 이득·임피던스"
+            }
           ]
         },
         {
           "id": "amplifier-basics",
           "label": "증폭기 일반특성",
           "concepts": [
-            "전압·전류·전력이득",
-            "입출력 임피던스",
-            "dB",
-            "임피던스 정합"
+            "입출력 임피던스·버퍼",
+            "전압·전력이득·dB·dBm"
+          ],
+          "subtopics": [
+            {
+              "id": "amplifier-basics/impedance",
+              "label": "입출력 임피던스·버퍼"
+            },
+            {
+              "id": "amplifier-basics/db",
+              "label": "전압·전력이득·dB·dBm"
+            }
           ]
         },
         {
           "id": "amplifier-response",
           "label": "주파수응답·다단증폭기",
           "concepts": [
-            "결합·바이패스",
-            "저·고주파 차단",
-            "밀러효과",
-            "잡음·왜곡",
-            "다단증폭기",
-            "달링턴",
-            "캐스코드·부트스트랩",
-            "동조증폭기"
+            "잡음지수·다단 잡음",
+            "달링턴 증폭기",
+            "캐스코드 증폭기",
+            "다단증폭기·종합이득·대역폭",
+            "연산증폭기 GBW·대역폭",
+            "증폭기 주파수응답·차단주파수"
+          ],
+          "subtopics": [
+            {
+              "id": "amplifier-response/noise",
+              "label": "잡음지수·다단 잡음"
+            },
+            {
+              "id": "amplifier-response/darlington",
+              "label": "달링턴 증폭기"
+            },
+            {
+              "id": "amplifier-response/cascode",
+              "label": "캐스코드 증폭기"
+            },
+            {
+              "id": "amplifier-response/cascade",
+              "label": "다단증폭기·종합이득·대역폭"
+            },
+            {
+              "id": "amplifier-response/gbw",
+              "label": "연산증폭기 GBW·대역폭"
+            },
+            {
+              "id": "amplifier-response/frequency",
+              "label": "증폭기 주파수응답·차단주파수"
+            }
           ]
         },
         {
           "id": "power-amplifier",
           "label": "전력증폭기",
           "concepts": [
-            "A·B·AB·C급",
-            "푸시풀",
-            "효율·왜곡"
+            "B·AB급 푸시풀·교차왜곡",
+            "전력증폭기 효율·최대출력",
+            "A·B·AB·C급 동작특성"
+          ],
+          "subtopics": [
+            {
+              "id": "power-amplifier/pushpull",
+              "label": "B·AB급 푸시풀·교차왜곡"
+            },
+            {
+              "id": "power-amplifier/efficiency",
+              "label": "전력증폭기 효율·최대출력"
+            },
+            {
+              "id": "power-amplifier/classes",
+              "label": "A·B·AB·C급 동작특성"
+            }
           ]
         },
         {
           "id": "feedback-amplifier",
           "label": "부궤환증폭기",
           "concepts": [
-            "귀환 형식",
-            "이득·대역폭",
-            "입출력 임피던스",
-            "안정도"
+            "귀환형식·입출력 임피던스",
+            "폐루프 이득·귀환율·대역폭",
+            "부궤환 효과·안정도·왜곡"
+          ],
+          "subtopics": [
+            {
+              "id": "feedback-amplifier/topology",
+              "label": "귀환형식·입출력 임피던스"
+            },
+            {
+              "id": "feedback-amplifier/gain",
+              "label": "폐루프 이득·귀환율·대역폭"
+            },
+            {
+              "id": "feedback-amplifier/effects",
+              "label": "부궤환 효과·안정도·왜곡"
+            }
           ]
         },
         {
           "id": "differential-mirror",
           "label": "차동증폭기·전류미러",
           "concepts": [
-            "차동증폭기",
-            "차동이득",
-            "CMRR",
-            "전류미러"
+            "전류미러",
+            "차동·동상이득·CMRR",
+            "차동쌍 회로·이득·입출력 위상"
+          ],
+          "subtopics": [
+            {
+              "id": "differential-mirror/mirror",
+              "label": "전류미러"
+            },
+            {
+              "id": "differential-mirror/cmrr",
+              "label": "차동·동상이득·CMRR"
+            },
+            {
+              "id": "differential-mirror/pair",
+              "label": "차동쌍 회로·이득·입출력 위상"
+            }
           ]
         },
         {
           "id": "opamp",
           "label": "연산증폭기",
           "concepts": [
-            "이상적 OP AMP",
-            "가상단락",
-            "입출력저항",
-            "슬루율",
-            "반전·비반전",
-            "가산·감산",
-            "미분·적분",
-            "전압추종기"
+            "이상적 OP AMP·가상단락",
+            "슬루율·비이상 특성",
+            "반전증폭기",
+            "비반전증폭기",
+            "가산기·가중합",
+            "감산기·차동연산",
+            "전압 팔로워·버퍼",
+            "전류·전압 변환·전류증폭",
+            "복합 연산·다단 OP AMP"
+          ],
+          "subtopics": [
+            {
+              "id": "opamp/ideal",
+              "label": "이상적 OP AMP·가상단락"
+            },
+            {
+              "id": "opamp/slew",
+              "label": "슬루율·비이상 특성"
+            },
+            {
+              "id": "opamp/inverting",
+              "label": "반전증폭기"
+            },
+            {
+              "id": "opamp/noninverting",
+              "label": "비반전증폭기"
+            },
+            {
+              "id": "opamp/summer",
+              "label": "가산기·가중합"
+            },
+            {
+              "id": "opamp/difference",
+              "label": "감산기·차동연산"
+            },
+            {
+              "id": "opamp/follower",
+              "label": "전압 팔로워·버퍼"
+            },
+            {
+              "id": "opamp/current",
+              "label": "전류·전압 변환·전류증폭"
+            },
+            {
+              "id": "opamp/compound",
+              "label": "복합 연산·다단 OP AMP"
+            }
           ]
         },
         {
           "id": "differentiator-integrator",
           "label": "미분기·적분기",
           "concepts": [
-            "미분기",
-            "적분기",
-            "입출력 파형",
-            "시정수"
+            "적분기·출력파형",
+            "미분기·주파수특성",
+            "미분기·적분기 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "differentiator-integrator/integrator",
+              "label": "적분기·출력파형"
+            },
+            {
+              "id": "differentiator-integrator/differentiator",
+              "label": "미분기·주파수특성"
+            },
+            {
+              "id": "differentiator-integrator/comparison",
+              "label": "미분기·적분기 비교"
+            }
           ]
         },
         {
           "id": "comparator-schmitt",
           "label": "비교기·슈미트 트리거",
           "concepts": [
-            "비교기",
-            "영교차 검출",
-            "슈미트 트리거",
-            "히스테리시스"
+            "슈미트 트리거·히스테리시스",
+            "슈미트 문턱전압·전달특성",
+            "전압 비교기·포화출력"
+          ],
+          "subtopics": [
+            {
+              "id": "comparator-schmitt/schmitt",
+              "label": "슈미트 트리거·히스테리시스"
+            },
+            {
+              "id": "comparator-schmitt/threshold",
+              "label": "슈미트 문턱전압·전달특성"
+            },
+            {
+              "id": "comparator-schmitt/comparator",
+              "label": "전압 비교기·포화출력"
+            }
           ]
         },
         {
           "id": "oscillator",
           "label": "발진기",
           "concepts": [
-            "발진조건",
-            "RC·Wien",
-            "하틀리·콜피츠·클랩",
-            "수정발진기"
+            "PLL·VCO·주파수합성",
+            "수정발진기",
+            "빈 브리지 발진기",
+            "RC 위상천이 발진기",
+            "LC·하틀리·콜피츠·클랩",
+            "발진조건·발진기 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "oscillator/pll",
+              "label": "PLL·VCO·주파수합성"
+            },
+            {
+              "id": "oscillator/crystal",
+              "label": "수정발진기"
+            },
+            {
+              "id": "oscillator/wien",
+              "label": "빈 브리지 발진기"
+            },
+            {
+              "id": "oscillator/phase",
+              "label": "RC 위상천이 발진기"
+            },
+            {
+              "id": "oscillator/lc",
+              "label": "LC·하틀리·콜피츠·클랩"
+            },
+            {
+              "id": "oscillator/condition",
+              "label": "발진조건·발진기 비교"
+            }
           ]
         },
         {
           "id": "pulse-555",
           "label": "펄스회로·555 타이머",
           "concepts": [
-            "멀티바이브레이터",
-            "단안정·비안정",
-            "펄스 발생",
-            "555 타이머"
+            "555 비안정·듀티비·시정수",
+            "멀티바이브레이터·안정상태"
+          ],
+          "subtopics": [
+            {
+              "id": "pulse-555/555",
+              "label": "555 비안정·듀티비·시정수"
+            },
+            {
+              "id": "pulse-555/multi",
+              "label": "멀티바이브레이터·안정상태"
+            }
           ]
         },
         {
           "id": "fabrication",
           "label": "반도체 제조공정",
           "concepts": [
-            "웨이퍼·도핑",
-            "산화·확산·이온주입",
-            "CMOS 공정",
-            "집적도·패키징",
-            "포토레지스트"
+            "포토리소그래피·포토레지스트"
+          ],
+          "subtopics": [
+            {
+              "id": "fabrication/photo",
+              "label": "포토리소그래피·포토레지스트"
+            }
           ]
         },
         {
           "id": "analog-communication",
           "label": "아날로그 통신",
           "concepts": [
-            "AM·DSB·SSB",
-            "FM·PM",
-            "변조지수",
-            "변복조 회로"
+            "FM 프리엠퍼시스·디엠퍼시스",
+            "FM·PM 편이·대역폭",
+            "AM·DSB·SSB·변조도",
+            "변조 목적·통신방식"
+          ],
+          "subtopics": [
+            {
+              "id": "analog-communication/fm-emphasis",
+              "label": "FM 프리엠퍼시스·디엠퍼시스"
+            },
+            {
+              "id": "analog-communication/fm",
+              "label": "FM·PM 편이·대역폭"
+            },
+            {
+              "id": "analog-communication/am",
+              "label": "AM·DSB·SSB·변조도"
+            },
+            {
+              "id": "analog-communication/principle",
+              "label": "변조 목적·통신방식"
+            }
           ]
         },
         {
           "id": "rf-electromagnetic",
           "label": "전자기파·안테나·고주파회로",
           "concepts": [
-            "안테나 길이·이득",
-            "전파 특성",
-            "RF",
-            "맥스웰 방정식",
-            "전자기파 속도·파장",
-            "매질·굴절률",
-            "편파",
-            "특성임피던스",
-            "전파정수·무왜형 조건"
+            "맥스웰 방정식·변위전류",
+            "전송선로·특성임피던스",
+            "안테나 길이·전파",
+            "전자기파·파장·전파속도"
+          ],
+          "subtopics": [
+            {
+              "id": "rf-electromagnetic/maxwell",
+              "label": "맥스웰 방정식·변위전류"
+            },
+            {
+              "id": "rf-electromagnetic/line",
+              "label": "전송선로·특성임피던스"
+            },
+            {
+              "id": "rf-electromagnetic/antenna",
+              "label": "안테나 길이·전파"
+            },
+            {
+              "id": "rf-electromagnetic/wave",
+              "label": "전자기파·파장·전파속도"
+            }
           ]
         },
         {
           "id": "measurement-sensors",
           "label": "계측·센서",
           "concepts": [
-            "전압계·전류계",
-            "오실로스코프",
-            "브리지 센서",
-            "변환기"
+            "전압계·전류계·측정오차",
+            "오실로스코프·리사쥬"
+          ],
+          "subtopics": [
+            {
+              "id": "measurement-sensors/meter",
+              "label": "전압계·전류계·측정오차"
+            },
+            {
+              "id": "measurement-sensors/scope",
+              "label": "오실로스코프·리사쥬"
+            }
           ]
         }
       ]
@@ -523,171 +1239,436 @@
           "id": "number-systems",
           "label": "진법변환·보수연산",
           "concepts": [
-            "2·8·10·16진수",
-            "진법변환",
-            "보수",
-            "2진 연산",
-            "오버플로"
+            "보수·부호표현·이진연산",
+            "정수·소수 진법변환"
+          ],
+          "subtopics": [
+            {
+              "id": "number-systems/complement",
+              "label": "보수·부호표현·이진연산"
+            },
+            {
+              "id": "number-systems/radix",
+              "label": "정수·소수 진법변환"
+            }
           ]
         },
         {
           "id": "codes-arithmetic",
           "label": "코드변환",
           "concepts": [
-            "BCD·Gray",
-            "ASCII"
+            "Gray 코드 변환",
+            "Excess-3 코드",
+            "BCD·7세그먼트",
+            "코드 종류·특성 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "codes-arithmetic/gray",
+              "label": "Gray 코드 변환"
+            },
+            {
+              "id": "codes-arithmetic/excess",
+              "label": "Excess-3 코드"
+            },
+            {
+              "id": "codes-arithmetic/bcd",
+              "label": "BCD·7세그먼트"
+            },
+            {
+              "id": "codes-arithmetic/types",
+              "label": "코드 종류·특성 비교"
+            }
           ]
         },
         {
           "id": "boolean-gates",
           "label": "불대수·논리게이트",
           "concepts": [
-            "불대수",
-            "드모르간",
-            "기본·범용게이트",
-            "논리식 변환"
+            "불대수 법칙·드모르간",
+            "NAND·NOR 범용게이트",
+            "진리표·타이밍·출력값",
+            "XOR·XNOR·등가논리",
+            "논리회로↔논리식"
+          ],
+          "subtopics": [
+            {
+              "id": "boolean-gates/algebra",
+              "label": "불대수 법칙·드모르간"
+            },
+            {
+              "id": "boolean-gates/universal",
+              "label": "NAND·NOR 범용게이트"
+            },
+            {
+              "id": "boolean-gates/truth",
+              "label": "진리표·타이밍·출력값"
+            },
+            {
+              "id": "boolean-gates/xor",
+              "label": "XOR·XNOR·등가논리"
+            },
+            {
+              "id": "boolean-gates/expression",
+              "label": "논리회로↔논리식"
+            }
           ]
         },
         {
           "id": "minimization-kmap",
           "label": "카르노맵·논리식 간소화",
           "concepts": [
-            "카르노맵",
-            "최소항·최대항",
-            "Don't care"
+            "무관항·Don’t care",
+            "최소항·최대항·정규형",
+            "카르노맵 간소화",
+            "불대수식 간소화"
+          ],
+          "subtopics": [
+            {
+              "id": "minimization-kmap/dontcare",
+              "label": "무관항·Don’t care"
+            },
+            {
+              "id": "minimization-kmap/minterm",
+              "label": "최소항·최대항·정규형"
+            },
+            {
+              "id": "minimization-kmap/kmap",
+              "label": "카르노맵 간소화"
+            },
+            {
+              "id": "minimization-kmap/algebra",
+              "label": "불대수식 간소화"
+            }
           ]
         },
         {
           "id": "logic-families",
           "label": "전자소자 게이트",
           "concepts": [
-            "TTL·CMOS",
-            "잡음여유",
-            "팬인·팬아웃",
-            "전달지연·전력소모"
+            "다이오드 논리·DTL",
+            "TR 논리·TTL",
+            "팬아웃·잡음여유·소비전력",
+            "CMOS·NMOS 논리회로"
+          ],
+          "subtopics": [
+            {
+              "id": "logic-families/diode",
+              "label": "다이오드 논리·DTL"
+            },
+            {
+              "id": "logic-families/ttl",
+              "label": "TR 논리·TTL"
+            },
+            {
+              "id": "logic-families/fanout",
+              "label": "팬아웃·잡음여유·소비전력"
+            },
+            {
+              "id": "logic-families/cmos",
+              "label": "CMOS·NMOS 논리회로"
+            }
           ]
         },
         {
           "id": "arithmetic-circuits",
           "label": "가산기·감산기·비교기",
           "concepts": [
-            "가산기",
-            "감산기",
-            "ALU",
-            "디지털 비교기",
-            "패리티 발생·검사",
-            "코드변환기"
+            "반가산기",
+            "전가산기·병렬가산기",
+            "가감산기·보수연산 회로",
+            "디지털 크기·등가비교기",
+            "조합논리회로 기능 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "arithmetic-circuits/half",
+              "label": "반가산기"
+            },
+            {
+              "id": "arithmetic-circuits/full",
+              "label": "전가산기·병렬가산기"
+            },
+            {
+              "id": "arithmetic-circuits/addsub",
+              "label": "가감산기·보수연산 회로"
+            },
+            {
+              "id": "arithmetic-circuits/compare",
+              "label": "디지털 크기·등가비교기"
+            },
+            {
+              "id": "arithmetic-circuits/overview",
+              "label": "조합논리회로 기능 비교"
+            }
           ]
         },
         {
           "id": "encoder-mux",
           "label": "인코더·디코더·MUX·DEMUX",
           "concepts": [
-            "인코더",
-            "우선순위 인코더",
-            "디코더",
-            "MUX",
-            "DEMUX",
-            "데이터 선택"
+            "MUX·논리함수 구현",
+            "디코더·출력해석",
+            "인코더·디코더·MUX·DEMUX 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "encoder-mux/mux",
+              "label": "MUX·논리함수 구현"
+            },
+            {
+              "id": "encoder-mux/decoder",
+              "label": "디코더·출력해석"
+            },
+            {
+              "id": "encoder-mux/selection",
+              "label": "인코더·디코더·MUX·DEMUX 비교"
+            }
           ]
         },
         {
           "id": "latch-flipflop",
           "label": "플립플롭·래치",
           "concepts": [
-            "RS·JK·D·T 플립플롭",
-            "래치",
-            "상태표·여기표",
-            "레이스 현상"
+            "셋업·홀드·트리거",
+            "마스터–슬레이브·레이스",
+            "SR 래치·SR FF",
+            "JK 플립플롭·타이밍",
+            "D 플립플롭·래치",
+            "T 플립플롭·타이밍",
+            "순차회로 상태표·설계"
+          ],
+          "subtopics": [
+            {
+              "id": "latch-flipflop/timing",
+              "label": "셋업·홀드·트리거"
+            },
+            {
+              "id": "latch-flipflop/master",
+              "label": "마스터–슬레이브·레이스"
+            },
+            {
+              "id": "latch-flipflop/sr",
+              "label": "SR 래치·SR FF"
+            },
+            {
+              "id": "latch-flipflop/jk",
+              "label": "JK 플립플롭·타이밍"
+            },
+            {
+              "id": "latch-flipflop/d",
+              "label": "D 플립플롭·래치"
+            },
+            {
+              "id": "latch-flipflop/t",
+              "label": "T 플립플롭·타이밍"
+            },
+            {
+              "id": "latch-flipflop/state",
+              "label": "순차회로 상태표·설계"
+            }
           ]
         },
         {
           "id": "counter",
           "label": "카운터·분주회로",
           "concepts": [
-            "동기·비동기 카운터",
-            "링·존슨 카운터",
-            "분주"
+            "계수범위·필요 FF 수",
+            "분주·출력주파수",
+            "카운트 순서·상태표·설계",
+            "동기·비동기 카운터 특성"
+          ],
+          "subtopics": [
+            {
+              "id": "counter/bits",
+              "label": "계수범위·필요 FF 수"
+            },
+            {
+              "id": "counter/divide",
+              "label": "분주·출력주파수"
+            },
+            {
+              "id": "counter/sequence",
+              "label": "카운트 순서·상태표·설계"
+            },
+            {
+              "id": "counter/types",
+              "label": "동기·비동기 카운터 특성"
+            }
           ]
         },
         {
           "id": "register",
           "label": "레지스터·시프트레지스터",
           "concepts": [
-            "시프트레지스터",
-            "직·병렬 변환"
+            "순환 시프트",
+            "시프트레지스터·데이터 이동"
+          ],
+          "subtopics": [
+            {
+              "id": "register/circular",
+              "label": "순환 시프트"
+            },
+            {
+              "id": "register/shift",
+              "label": "시프트레지스터·데이터 이동"
+            }
           ]
         },
         {
           "id": "memory",
           "label": "메모리",
           "concepts": [
-            "ROM·RAM",
-            "SRAM·DRAM·HBM",
-            "플래시"
+            "ROM·디코더",
+            "RAM·DRAM·HBM"
+          ],
+          "subtopics": [
+            {
+              "id": "memory/rom",
+              "label": "ROM·디코더"
+            },
+            {
+              "id": "memory/ram",
+              "label": "RAM·DRAM·HBM"
+            }
           ]
         },
         {
           "id": "adc-dac",
           "label": "ADC·DAC",
           "concepts": [
-            "분해능·양자화",
-            "R-2R DAC",
-            "변환방식",
-            "변환시간"
+            "R–2R DAC",
+            "가중저항 DAC·출력전압"
+          ],
+          "subtopics": [
+            {
+              "id": "adc-dac/r2r",
+              "label": "R–2R DAC"
+            },
+            {
+              "id": "adc-dac/weighted",
+              "label": "가중저항 DAC·출력전압"
+            }
           ]
         },
         {
           "id": "error-correction",
           "label": "오류검출·정정",
           "concepts": [
-            "패리티",
-            "CRC",
-            "해밍코드",
-            "오류검출·정정"
+            "패리티 검사",
+            "채널부호화·오류정정",
+            "패리티·CRC·FEC·ARQ 비교"
+          ],
+          "subtopics": [
+            {
+              "id": "error-correction/parity",
+              "label": "패리티 검사"
+            },
+            {
+              "id": "error-correction/channel",
+              "label": "채널부호화·오류정정"
+            },
+            {
+              "id": "error-correction/overview",
+              "label": "패리티·CRC·FEC·ARQ 비교"
+            }
           ]
         },
         {
           "id": "digital-communication",
           "label": "디지털 통신",
           "concepts": [
-            "ASK·FSK·PSK·QAM",
-            "PCM",
-            "심볼률·비트율",
-            "오류확률",
-            "라인코드",
-            "채널 부호화"
+            "PCM·표본화·양자화·비트율",
+            "라인코드·NRZ·RZ·맨체스터",
+            "심벌률·비트율·QAM 계산",
+            "ASK·FSK·PSK·QAM 방식",
+            "디지털 방송·전송방식"
+          ],
+          "subtopics": [
+            {
+              "id": "digital-communication/pcm",
+              "label": "PCM·표본화·양자화·비트율"
+            },
+            {
+              "id": "digital-communication/linecode",
+              "label": "라인코드·NRZ·RZ·맨체스터"
+            },
+            {
+              "id": "digital-communication/rate",
+              "label": "심벌률·비트율·QAM 계산"
+            },
+            {
+              "id": "digital-communication/qam",
+              "label": "ASK·FSK·PSK·QAM 방식"
+            },
+            {
+              "id": "digital-communication/broadcast",
+              "label": "디지털 방송·전송방식"
+            }
           ]
         },
         {
           "id": "information-data",
           "label": "정보이론·데이터전송",
           "concepts": [
-            "나이퀴스트율",
-            "채널용량",
-            "SNR",
-            "데이터 전송률"
+            "샤논 채널용량·SNR",
+            "영상 데이터량·전송률",
+            "음성 데이터량·압축·저장"
+          ],
+          "subtopics": [
+            {
+              "id": "information-data/capacity",
+              "label": "샤논 채널용량·SNR"
+            },
+            {
+              "id": "information-data/image",
+              "label": "영상 데이터량·전송률"
+            },
+            {
+              "id": "information-data/audio",
+              "label": "음성 데이터량·압축·저장"
+            }
           ]
         },
         {
           "id": "mcu-interface",
           "label": "컴퓨터 인터페이스·통신규격",
           "concepts": [
-            "MCU·Arduino",
-            "RS-232·UART",
-            "SPI·I²C",
-            "직렬·병렬 전송"
+            "RS-232·직렬통신·처리율"
+          ],
+          "subtopics": [
+            {
+              "id": "mcu-interface/serial",
+              "label": "RS-232·직렬통신·처리율"
+            }
           ]
         },
         {
           "id": "network-protocol",
           "label": "네트워크·프로토콜",
           "concepts": [
-            "OSI 7계층",
-            "TCP·UDP·IP",
-            "LAN·인터넷",
-            "전송 프로토콜",
-            "이더넷 프레임"
+            "OSI 7계층·기능",
+            "TCP/IP·TCP·UDP",
+            "이더넷·LAN 프레임",
+            "교환방식·토폴로지"
+          ],
+          "subtopics": [
+            {
+              "id": "network-protocol/osi",
+              "label": "OSI 7계층·기능"
+            },
+            {
+              "id": "network-protocol/tcpip",
+              "label": "TCP/IP·TCP·UDP"
+            },
+            {
+              "id": "network-protocol/ethernet",
+              "label": "이더넷·LAN 프레임"
+            },
+            {
+              "id": "network-protocol/switching",
+              "label": "교환방식·토폴로지"
+            }
           ]
         }
       ]
@@ -717,5 +1698,63 @@
       "회로도 포함",
       "복수개념"
     ]
-  }
+  },
+  "studyTags": [
+    {
+      "id": "concept",
+      "label": "개념·특성 판별"
+    },
+    {
+      "id": "voltage-gain",
+      "label": "전압이득"
+    },
+    {
+      "id": "current-gain",
+      "label": "전류이득"
+    },
+    {
+      "id": "impedance",
+      "label": "임피던스·등가저항"
+    },
+    {
+      "id": "power",
+      "label": "전력·효율"
+    },
+    {
+      "id": "bias",
+      "label": "바이어스·동작점"
+    },
+    {
+      "id": "temperature",
+      "label": "온도영향"
+    },
+    {
+      "id": "frequency",
+      "label": "주파수·대역폭"
+    },
+    {
+      "id": "waveform",
+      "label": "출력파형"
+    },
+    {
+      "id": "transfer",
+      "label": "전달함수·응답"
+    },
+    {
+      "id": "logic",
+      "label": "논리식·진리표"
+    },
+    {
+      "id": "timing",
+      "label": "타이밍·상태변화"
+    },
+    {
+      "id": "code",
+      "label": "진법·코드변환"
+    },
+    {
+      "id": "voltage-current",
+      "label": "전압·전류 계산"
+    }
+  ]
 }

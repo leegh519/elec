@@ -236,3 +236,7 @@ body.practice-active { display: grid; grid-template-columns: 230px minmax(0, 1fr
   .link-buttons { justify-content: flex-start; }
   .contact-sheet-list { grid-template-columns: 1fr; }
 }
+
+.detail-filters summary { cursor: pointer; font-size: 14px; font-weight: 700; color: #415269; }
+.detail-filters summary small { font-size: 11px; font-weight: 400; }
+.detail-filters[open] .multi-topic-filter { margin-top: 12px; }

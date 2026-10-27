@@ -1,0 +1,263 @@
+{
+  "verified": true,
+  "pages": 2,
+  "numberRemoval": true,
+  "questions": [
+    {
+      "sequence": 1,
+      "page": 1,
+      "slot": 1,
+      "id": "seoul-2016-19",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2016 서울시 19번",
+      "answer": 3,
+      "pdfRect": [
+        36.0,
+        104.0,
+        285.638,
+        235.46616568047335
+      ],
+      "numberMaskPixels": [
+        0,
+        11,
+        53,
+        51
+      ],
+      "imageSha256": "d6ce3f2bf3b0ab100e10526e15b0b09002269ea6a8be5904f5a5e5630754267c"
+    },
+    {
+      "sequence": 2,
+      "page": 1,
+      "slot": 2,
+      "id": "seoul-2018-13",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2018 서울시 13번",
+      "answer": 1,
+      "pdfRect": [
+        309.638,
+        104.0,
+        559.276,
+        228.08042603550297
+      ],
+      "numberMaskPixels": [
+        0,
+        12,
+        252,
+        51
+      ],
+      "imageSha256": "96d944656e4907af6359f9a9ab7ed5a69652ba5db96494b407d3fc20687fb8b4"
+    },
+    {
+      "sequence": 3,
+      "page": 1,
+      "slot": 3,
+      "id": "assembly-2019-12",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "power"
+      ],
+      "source": "2019 국회직 12번",
+      "answer": 1,
+      "pdfRect": [
+        36.0,
+        454.0,
+        285.638,
+        634.3058543607112
+      ],
+      "numberMaskPixels": [
+        0,
+        13,
+        121,
+        51
+      ],
+      "imageSha256": "eab0a07695006c40b5c5168867dfe874051cbdc5b3c7843ed76e55844086da30"
+    },
+    {
+      "sequence": 4,
+      "page": 1,
+      "slot": 4,
+      "id": "seoul-2021-11",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2021 서울시 11번",
+      "answer": 2,
+      "pdfRect": [
+        309.638,
+        454.0,
+        559.276,
+        576.6032781065089
+      ],
+      "numberMaskPixels": [
+        0,
+        0,
+        275,
+        54
+      ],
+      "imageSha256": "91c23c784f9d413eb786656d6dfe723a985beb5f400dfede7036379c40e3ec1f"
+    },
+    {
+      "sequence": 5,
+      "page": 2,
+      "slot": 1,
+      "id": "national-2025-12",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "bridge-transform",
+      "topicLabel": "브리지·Y–Δ 변환",
+      "subtopic": "bridge-transform/bridge",
+      "subtopicLabel": "브리지 평형·해석",
+      "group": "bridge-transform/bridge",
+      "groupLabel": "브리지 평형·해석",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2025 국가직 12번",
+      "answer": 2,
+      "pdfRect": [
+        36.0,
+        104.0,
+        285.63800000000003,
+        273.17092893401013
+      ],
+      "numberMaskPixels": [
+        0,
+        15,
+        59,
+        56
+      ],
+      "imageSha256": "98ccafd568aee10119f3430c72fd6a4d6e0ac9e7987be12a096c33bb7669af09"
+    },
+    {
+      "sequence": 6,
+      "page": 2,
+      "slot": 2,
+      "id": "national-2010-17",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2010 국가직 17번",
+      "answer": 1,
+      "pdfRect": [
+        309.638,
+        104.0,
+        559.276,
+        300.1592413209145
+      ],
+      "numberMaskPixels": [
+        0,
+        14,
+        133,
+        55
+      ],
+      "imageSha256": "a6210d8d8112f32228857dc956431cca0ec257595f72e227ad73054bf894863f"
+    },
+    {
+      "sequence": 7,
+      "page": 2,
+      "slot": 3,
+      "id": "assembly-2022-05",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "voltage-current"
+      ],
+      "source": "2022 국회직 5번",
+      "answer": 3,
+      "pdfRect": [
+        36.0,
+        454.0,
+        285.638,
+        687.3618560541913
+      ],
+      "numberMaskPixels": [
+        0,
+        13,
+        104,
+        51
+      ],
+      "imageSha256": "7a847141343e19da96e18933c5798cc36cea5d35e2baf4763e507b4104544f43"
+    },
+    {
+      "sequence": 8,
+      "page": 2,
+      "slot": 4,
+      "id": "assembly-2025-06",
+      "category": "circuit-theory",
+      "categoryLabel": "회로이론",
+      "topic": "network-theorems",
+      "topicLabel": "회로망 정리",
+      "subtopic": "network-theorems/norton",
+      "subtopicLabel": "노턴 등가회로",
+      "group": "network-theorems/norton",
+      "groupLabel": "노턴 등가회로",
+      "tags": [
+        "concept"
+      ],
+      "source": "2025 국회직 6번",
+      "answer": 2,
+      "pdfRect": [
+        309.638,
+        454.0,
+        559.276,
+        699.2065562130177
+      ],
+      "numberMaskPixels": [
+        0,
+        15,
+        55,
+        54
+      ],
+      "imageSha256": "52efc97c30ff6a9efc1fb471584af231ac07efb46abc8f347b25585885697129"
+    }
+  ]
+}

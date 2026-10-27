@@ -907,6 +907,8 @@ def classify(question: dict, topic_index: dict) -> dict:
     reviewed = CURRICULUM_CLASSIFICATIONS.get(question["id"])
     if reviewed and all((reviewed["category"], topic) in topic_index for topic in reviewed["topics"]):
         return __import__("copy").deepcopy(reviewed)
+    if any(topic.get("subtopics") for topic in topic_index.values()):
+        raise ValueError(f"검토된 소분류가 없는 새 문항입니다: {question['id']}. curriculum_classifications.json에 분류를 지정하세요.")
     text = normalized(question.get("ocrText", ""))
     old = question.get("classification", {})
     scored: dict[tuple[str, str], dict] = defaultdict(lambda: {"score": 0, "concepts": []})
@@ -1012,6 +1014,9 @@ def main() -> int:
     for question in questions:
         if question["id"] in selected:
             classification = classify(question, topic_index)
+            if taxonomy["version"] >= 4:
+                from study_taxonomy import validate_classification
+                validate_classification(classification, taxonomy)
             question["classification"] = classification
             question.setdefault("review", {})["classification"] = classification["status"]
         else:
@@ -1040,6 +1045,11 @@ def main() -> int:
         "multiTopicQuestionCount": sum(len(q["classification"]["topics"]) > 1 for q in questions),
         "needsReviewCount": len(uncertain),
         "topicCounts": dict(sorted(topic_counts.items())),
+        "categoryCounts": dict(Counter(q["classification"]["category"] for q in questions)),
+        "primaryTopicCounts": dict(sorted(Counter(q["classification"].get("primaryTopic", q["classification"]["topics"][0]) for q in questions).items())),
+        "subtopicCounts": dict(sorted(Counter(s for q in questions for s in q["classification"].get("subtopics", [])).items())),
+        "primarySubtopicCounts": dict(sorted(Counter(q["classification"].get("primarySubtopic") for q in questions if q["classification"].get("primarySubtopic")).items())),
+        "tagCounts": dict(sorted(Counter(t for q in questions for t in q["classification"].get("tags", [])).items())),
         "needsReview": [{"id": q["id"], "ocrText": q.get("ocrText", ""), "classification": q["classification"]} for q in uncertain],
     }
     (PROJECT / "review" / "classification-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
