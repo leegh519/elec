@@ -7233,7 +7233,7 @@
         27,
         53
       ],
-      "imageSha256": "fc30b1beb3615c747c44c2065f304f73affb0831988d34c6470348b358d63990"
+      "imageSha256": "4a6dee4f689a80fa38c510982e2e4a567266aa8476f1613912ddf42bbf55b85d"
     },
     {
       "sequence": 219,
@@ -15548,7 +15548,7 @@
         53,
         50
       ],
-      "imageSha256": "b8d1ea916099c45d7663b16d80ae23d5d17e16ebc4f6d36686e9d070df930ea8"
+      "imageSha256": "42a590fb7854df59a80c877e260af3d024bb3300461aae39b5abeccc5b7c4a4f"
     },
     {
       "sequence": 470,
@@ -20501,7 +20501,7 @@
         173,
         47
       ],
-      "imageSha256": "35532ed396a3044498df2a3d40abe1f93dedda1811419f52ae51b16b0eaba4fb"
+      "imageSha256": "95d650b52c7ad6d9db94ada374fd13c03c64bd3dbbc8c9d3d9c98e98c4d72e87"
     },
     {
       "sequence": 618,
@@ -22102,7 +22102,7 @@
         53,
         53
       ],
-      "imageSha256": "e41cbfc619b2fa0ee4506e37183b97ad40b0da61cafe923032f4281220a22dfe"
+      "imageSha256": "c7518f00782d4ca1b0e27856689b1e6a04b458cb0cf524c3fe3d345868cbf268"
     },
     {
       "sequence": 666,
@@ -27962,7 +27962,7 @@
         267,
         48
       ],
-      "imageSha256": "15befd7046d8523d3c99a5e961e4e5689631614b8c24f4a2bc056d090807fb76"
+      "imageSha256": "1c0704c32faf6ae294b9f4ac7d832aba96556d96f61a117617d92768441d0508"
     },
     {
       "sequence": 843,
@@ -28463,7 +28463,7 @@
         52,
         54
       ],
-      "imageSha256": "9af03cea77db9e9a948773740707e31e6c4e482dcc14c0fb3c77ab1547f99ebe"
+      "imageSha256": "3c5b3f0c3f501417bc2e4f3bffd1182e7ab2aa0e16eaba51519a5088346d2787"
     },
     {
       "sequence": 858,
@@ -28948,14 +28948,20 @@
       "pdfRect": [
         36.0,
         454.0,
-        211.38950715421305,
-        734.0
+        285.63800000000003,
+        546.9278510998308
       ],
       "numberMaskPixels": [
         0,
         14,
         60,
         50
+      ],
+      "sourceCropPixels": [
+        0,
+        0,
+        1182,
+        440
       ],
       "imageSha256": "6ea235db31882dc12f73e33cf4e15312ee2b9cab7c46f741f8d26bdb886fdb3a"
     },

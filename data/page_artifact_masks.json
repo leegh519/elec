@@ -1611,6 +1611,132 @@
       ],
       "beforeSha256": "92c5879b9708ca634d207e1ab7dc39963d224f365a9e9fcb85130907ae6782b5",
       "afterSha256": "e53a1aacb9822895d5d4595317d0c361dc5424fb8bf0dc744227e2391bf50429"
+    },
+    {
+      "id": "military-2022-07",
+      "src": "assets/questions/military/2022/q07.png",
+      "size": [
+        960,
+        485
+      ],
+      "rectangles": [
+        [
+          0,
+          400,
+          960,
+          485
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "fc30b1beb3615c747c44c2065f304f73affb0831988d34c6470348b358d63990",
+      "afterSha256": "4a6dee4f689a80fa38c510982e2e4a567266aa8476f1613912ddf42bbf55b85d"
+    },
+    {
+      "id": "seoul-2016-10",
+      "src": "assets/questions/seoul/2016/q10.png",
+      "size": [
+        1183,
+        522
+      ],
+      "rectangles": [
+        [
+          0,
+          430,
+          1183,
+          522
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "b8d1ea916099c45d7663b16d80ae23d5d17e16ebc4f6d36686e9d070df930ea8",
+      "afterSha256": "42a590fb7854df59a80c877e260af3d024bb3300461aae39b5abeccc5b7c4a4f"
+    },
+    {
+      "id": "military-2022-04",
+      "src": "assets/questions/military/2022/q04.png",
+      "size": [
+        960,
+        484
+      ],
+      "rectangles": [
+        [
+          0,
+          400,
+          960,
+          484
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "35532ed396a3044498df2a3d40abe1f93dedda1811419f52ae51b16b0eaba4fb",
+      "afterSha256": "95d650b52c7ad6d9db94ada374fd13c03c64bd3dbbc8c9d3d9c98e98c4d72e87"
+    },
+    {
+      "id": "seoul-2015-10",
+      "src": "assets/questions/seoul/2015/q10.png",
+      "size": [
+        1183,
+        368
+      ],
+      "rectangles": [
+        [
+          0,
+          310,
+          1183,
+          368
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "e41cbfc619b2fa0ee4506e37183b97ad40b0da61cafe923032f4281220a22dfe",
+      "afterSha256": "c7518f00782d4ca1b0e27856689b1e6a04b458cb0cf524c3fe3d345868cbf268"
+    },
+    {
+      "id": "assembly-2009-03",
+      "src": "assets/questions/assembly/2009/q03.png",
+      "size": [
+        1181,
+        423
+      ],
+      "rectangles": [
+        [
+          0,
+          300,
+          1181,
+          423
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "15befd7046d8523d3c99a5e961e4e5689631614b8c24f4a2bc056d090807fb76",
+      "afterSha256": "1c0704c32faf6ae294b9f4ac7d832aba96556d96f61a117617d92768441d0508"
+    },
+    {
+      "id": "seoul-2014-10",
+      "src": "assets/questions/seoul/2014/q10.png",
+      "size": [
+        1183,
+        690
+      ],
+      "rectangles": [
+        [
+          0,
+          630,
+          1183,
+          690
+        ]
+      ],
+      "reasons": [
+        "추가 검수: 문제 아래 남은 쪽번호·과목명·구분선 조각"
+      ],
+      "beforeSha256": "9af03cea77db9e9a948773740707e31e6c4e482dcc14c0fb3c77ab1547f99ebe",
+      "afterSha256": "3c5b3f0c3f501417bc2e4f3bffd1182e7ab2aa0e16eaba51519a5088346d2787"
     }
   ]
 }

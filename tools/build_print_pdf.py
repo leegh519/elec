@@ -14,6 +14,30 @@ from study_taxonomy import build_print_plan, indexes
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def load_image_crops():
+    path = ROOT / 'data/print_image_crops.json'
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def crop_print_image(image_path, crop):
+    """검수된 순백 여백만 제외한다. 글자·도형 픽셀이 있으면 출력 중단."""
+    from io import BytesIO
+    from PIL import Image
+    if hashlib.sha256(image_path.read_bytes()).hexdigest() != crop['imageSha256']:
+        raise ValueError(f'출력 여백 검수 이후 이미지 변경: {image_path}')
+    with Image.open(image_path) as original:
+        left, top, right, bottom = crop['rect']
+        if not (0 <= left < right <= original.width and 0 <= top < bottom <= original.height):
+            raise ValueError(f'출력 여백 좌표 오류: {image_path}')
+        outside = original.convert('L')
+        outside.paste(255, (left, top, right, bottom))
+        if outside.getextrema() != (255, 255):
+            raise ValueError(f'출력에서 제외할 영역에 내용이 있습니다: {image_path}')
+        buffer = BytesIO()
+        original.crop((left, top, right, bottom)).save(buffer, format='PNG')
+        return buffer.getvalue()
+
+
 def paginate_print_plan(plan, section_covers=False):
     """영역 표지 뒤에는 항상 새 문제 페이지를 시작하고 실제 PDF 쪽수를 기록한다."""
     layout = []
@@ -111,6 +135,7 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
     import fitz
     cats, topics, _ = indexes(taxonomy)
     byid = {q['id']: q for q in questions}
+    image_crops = load_image_crops()
     if masks is not None:
         missing = [p['id'] for p in plan if p['id'] not in masks]
         if missing:
@@ -170,6 +195,11 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
                 text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
             text(x + cell_width, y + 21, item['source'], 6, True)
             iw, ih = q['image']['width'], q['image']['height']
+            crop = image_crops.get(q['id'])
+            crop_left, crop_top = 0, 0
+            if crop:
+                crop_left, crop_top, crop_right, crop_bottom = crop['rect']
+                iw, ih = crop_right - crop_left, crop_bottom - crop_top
             available_height = cell_height * item.get('rowSpan', 1) - 70
             scale = min(cell_width / iw, available_height / ih)
             rect = fitz.Rect(x, y + 32, x + iw * scale, y + 32 + ih * scale)
@@ -177,17 +207,21 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
                 raise ValueError(f"이미지 범위 초과: {q['id']}")
             image_path = ROOT / q['image']['src']
             image_xref = images.get(q['id'])
+            cropped_bytes = crop_print_image(image_path, crop) if crop and not image_xref else None
             images[q['id']] = page.insert_image(rect, xref=image_xref or 0,
-                                                filename=None if image_xref else str(image_path))
+                                                filename=None if image_xref or crop else str(image_path),
+                                                stream=cropped_bytes)
             mask = masks.get(q['id']) if masks is not None else None
             if mask:
                 a, b, c, d = mask
-                if not (0 <= a <= c <= iw and 0 <= b <= d <= ih):
+                if not (crop_left <= a <= c <= crop_left + iw and crop_top <= b <= d <= crop_top + ih):
                     raise ValueError(f"번호 가림 범위 오류: {q['id']}")
+                a, b, c, d = a - crop_left, b - crop_top, c - crop_left, d - crop_top
                 page.draw_rect(fitz.Rect(x + a * scale, y + 32 + b * scale,
                                          x + c * scale, y + 32 + d * scale),
                                color=None, fill=(1, 1, 1), overlay=True)
             manifest.append({**item, 'pdfRect': list(rect), 'numberMaskPixels': mask,
+                             **({'sourceCropPixels': crop['rect']} if crop else {}),
                              'imageSha256': hashlib.sha256(image_path.read_bytes()).hexdigest()})
             key = (item['category'], item['topic'], item['group'])
             if key not in seen:
@@ -254,9 +288,15 @@ def main():
                                tag_priority=args.tag_priority)
         if args.adaptive_sizing:
             byid = {q['id']: q for q in questions}
+            image_crops = load_image_crops()
             for item in plan:
                 image = byid[item['id']]['image']
-                item['rowSpan'] = 2 if image['height'] / image['width'] > 1.6 else 1
+                crop = image_crops.get(item['id'])
+                iw, ih = image['width'], image['height']
+                if crop:
+                    left, top, right, bottom = crop['rect']
+                    iw, ih = right - left, bottom - top
+                item['rowSpan'] = 2 if ih / iw > 1.6 else 1
         if not plan:
             raise ValueError('조건에 맞는 문항이 없습니다')
         args.output.parent.mkdir(parents=True, exist_ok=True)

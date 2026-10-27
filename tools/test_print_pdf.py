@@ -1,9 +1,41 @@
 """텍스트 추출 성공만으로 놓칠 수 있는 PDF 명조체 렌더링 누락을 검증."""
 import importlib.util
+import hashlib
+import json
+import tempfile
 import unittest
 from pathlib import Path
 
-from build_print_pdf import subset_font, paginate_print_plan
+from build_print_pdf import subset_font, paginate_print_plan, crop_print_image, load_image_crops, ROOT
+
+
+class PrintCropTest(unittest.TestCase):
+    def test_crop_preserves_content_pixels_and_rejects_nonwhite_exclusions(self):
+        from io import BytesIO
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'question.png'
+            image = Image.new('L', (100, 200), 255)
+            image.paste(0, (10, 10, 90, 70))
+            image.save(path)
+            crop = {'rect': [0, 0, 100, 80], 'imageSha256': hashlib.sha256(path.read_bytes()).hexdigest()}
+            result = Image.open(BytesIO(crop_print_image(path, crop)))
+            self.assertEqual(result.size, (100, 80))
+            self.assertEqual(result.tobytes(), image.crop(crop['rect']).tobytes())
+            with self.assertRaises(ValueError):
+                crop_print_image(path, {**crop, 'rect': [0, 0, 100, 60]})
+            image.putpixel((0, 190), 254)
+            image.save(path)
+            with self.assertRaises(ValueError):
+                crop_print_image(path, crop)
+            crop['imageSha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
+            with self.assertRaises(ValueError):
+                crop_print_image(path, crop)
+
+    def test_reviewed_print_crops_are_blank_outside(self):
+        questions = {q['id']: q for q in json.loads((ROOT / 'data/questions.json').read_text())}
+        for qid, crop in load_image_crops().items():
+            self.assertTrue(crop_print_image(ROOT / questions[qid]['image']['src'], crop))
 
 
 class PrintPaginationTest(unittest.TestCase):

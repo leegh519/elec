@@ -1,8 +1,8 @@
 {
   "scannedImages": 1100,
-  "candidateImages": 176,
-  "cleanedImages": 72,
-  "rectangles": 86,
+  "candidateImages": 182,
+  "cleanedImages": 78,
+  "rectangles": 92,
   "dimensionsUnchanged": true,
   "outsideReviewedRegionsChangedPixels": 0,
   "method": "긴 수평·수직선 후보 추출 후 이미지 직접 검수. 회로·표·그래프·보기 테두리는 유지.",
@@ -365,6 +365,36 @@
     {
       "id": "assembly-2025-20",
       "changedPixels": 10785,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "military-2022-07",
+      "changedPixels": 450,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2016-10",
+      "changedPixels": 212,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "military-2022-04",
+      "changedPixels": 873,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2015-10",
+      "changedPixels": 60,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "assembly-2009-03",
+      "changedPixels": 4030,
+      "outsideReviewedRegionsChangedPixels": 0
+    },
+    {
+      "id": "seoul-2014-10",
+      "changedPixels": 22,
       "outsideReviewedRegionsChangedPixels": 0
     }
   ],
@@ -785,5 +815,36 @@
       "id": "seoul-2021-19",
       "reason": "회로·그래프·표·보기의 선이므로 유지"
     }
-  ]
+  ],
+  "followup": {
+    "reviewedPrintNumbers": [
+      218,
+      469,
+      617,
+      665,
+      842,
+      857
+    ],
+    "images": [
+      "military-2022-07",
+      "seoul-2016-10",
+      "military-2022-04",
+      "seoul-2015-10",
+      "assembly-2009-03",
+      "seoul-2014-10"
+    ],
+    "reason": "짧은 쪽번호·과목명·가로선 조각을 추가 검수해 제거",
+    "printWhitespaceCrop": {
+      "number": 872,
+      "id": "assembly-2020-20",
+      "rect": [
+        0,
+        0,
+        1182,
+        440
+      ],
+      "originalPngChanged": false,
+      "excludedRegion": "순백 여백만 제외"
+    }
+  }
 }
