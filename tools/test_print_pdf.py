@@ -17,6 +17,21 @@ class PrintPaginationTest(unittest.TestCase):
         self.assertEqual([r['sequence'] for r in plan], list(range(1, 13)))
         self.assertEqual([r['slot'] for r in plan], [1, 2, 3, 4, 1, 1, 2, 3, 4, 1, 2, 3])
 
+    def test_tall_question_occupies_both_rows_without_overlap(self):
+        plan = [{'category': 'circuit', 'sequence': i, 'rowSpan': span}
+                for i, span in enumerate([1, 2, 1, 2, 2], 1)]
+        layout = paginate_print_plan(plan)
+        self.assertEqual([len(p['questions']) for p in layout], [3, 2])
+        self.assertEqual([(r['page'], r['slot']) for r in plan],
+                         [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2)])
+        for page in layout:
+            used = []
+            for row in page['questions']:
+                used.append(row['slot'])
+                if row['rowSpan'] == 2:
+                    used.append(row['slot'] + 2)
+            self.assertEqual(len(used), len(set(used)))
+
     def test_default_layout_keeps_four_questions_per_page(self):
         plan = [{'category': str(i), 'sequence': i} for i in range(5)]
         layout = paginate_print_plan(plan)

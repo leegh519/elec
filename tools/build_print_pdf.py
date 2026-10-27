@@ -21,12 +21,28 @@ def paginate_print_plan(plan, section_covers=False):
     for rows in sections:
         if section_covers:
             layout.append({'kind': 'cover', 'category': rows[0]['category'], 'questionCount': len(rows), 'questions': []})
-        for start in range(0, len(rows), 4):
-            group = rows[start:start + 4]
-            for slot, item in enumerate(group, 1):
-                item['page'] = len(layout) + 1
-                item['slot'] = slot
-            layout.append({'kind': 'questions', 'category': group[0]['category'], 'questions': group})
+        occupied = set()
+        group = []
+        def flush():
+            if group:
+                layout.append({'kind': 'questions', 'category': group[0]['category'], 'questions': list(group)})
+                group.clear()
+                occupied.clear()
+        for item in rows:
+            span = item.get('rowSpan', 1)
+            candidates = [slot for slot in range(1, 5) if slot not in occupied and
+                          (span == 1 or (slot <= 2 and slot + 2 not in occupied))]
+            if not candidates:
+                flush()
+                candidates = [1]
+            slot = candidates[0]
+            item['page'] = len(layout) + 1
+            item['slot'] = slot
+            occupied.add(slot)
+            if span == 2:
+                occupied.add(slot + 2)
+            group.append(item)
+        flush()
     return layout
 
 
@@ -143,7 +159,8 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
         text(width - margin, 35, f'{len(plan)}문제', 9, True)
         page.draw_line((margin, 46), (width - margin, 46), color=(.2, .2, .2), width=.6)
         group = page_layout["questions"]
-        for slot, item in enumerate(group):
+        for item in group:
+            slot = item['slot'] - 1
             q = byid[item['id']]
             x = margin + slot % 2 * (cell_width + gap)
             y = 72 + slot // 2 * cell_height
@@ -153,7 +170,8 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
                 text(x + 23, y + 10, label, 6.5, limit=cell_width - 23)
             text(x + cell_width, y + 21, item['source'], 6, True)
             iw, ih = q['image']['width'], q['image']['height']
-            scale = min(cell_width / iw, (cell_height - 70) / ih)
+            available_height = cell_height * item.get('rowSpan', 1) - 70
+            scale = min(cell_width / iw, available_height / ih)
             rect = fitz.Rect(x, y + 32, x + iw * scale, y + 32 + ih * scale)
             if rect.y1 >= height - 65:
                 raise ValueError(f"이미지 범위 초과: {q['id']}")
@@ -222,6 +240,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True, help='PDF 경로. 계획 JSON/CSV도 같은 이름으로 생성')
     parser.add_argument('--hide-classification', action='store_true', help='문제 위에 새 번호만 표시하고 중·소분류명을 숨김')
     parser.add_argument('--section-covers', action='store_true', help='각 대분류 앞에 영역 표지를 추가하고 새 페이지에서 시작')
+    parser.add_argument('--adaptive-sizing', action='store_true', help='세로로 긴 문제는 세로 두 칸 사용')
     parser.add_argument('--plan-only', action='store_true', help='PDF 없이 전체 문항 순서·쪽 배치만 생성')
     parser.add_argument('--remove-original-numbers', action='store_true', help='검수된 좌표로 원 번호만 가림. 미검수 문항은 오류로 중단')
     parser.add_argument('--number-masks', type=Path, default=ROOT / 'data/print_number_masks.json')
@@ -233,6 +252,11 @@ def main():
         plan = build_print_plan(questions, taxonomy, categories=args.category, topics=args.topic,
                                subtopics=args.subtopic, tags=args.tag, group_by=args.group_by,
                                tag_priority=args.tag_priority)
+        if args.adaptive_sizing:
+            byid = {q['id']: q for q in questions}
+            for item in plan:
+                image = byid[item['id']]['image']
+                item['rowSpan'] = 2 if image['height'] / image['width'] > 1.6 else 1
         if not plan:
             raise ValueError('조건에 맞는 문항이 없습니다')
         args.output.parent.mkdir(parents=True, exist_ok=True)
