@@ -33,9 +33,14 @@ class StudyTaxonomyTest(unittest.TestCase):
         rows = {r['id']: r for r in self.audit['questions']}
         trims_path = ROOT / 'data/image_margin_trims.json'
         trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
+        normalized_path = ROOT / 'data/normalized_question_images.json'
+        normalized = {r['id']: r for r in json.loads(normalized_path.read_text())['images']} if normalized_path.exists() else {}
         self.assertEqual(set(rows), {q['id'] for q in self.questions})
         for q in self.questions:
             protected = {k: v for k, v in q.items() if k != 'classification'}
+            if q['id'] in normalized:
+                width, height = normalized[q['id']]['originalSize']
+                protected['image'] = {**protected['image'], 'width': width, 'height': height}
             # The classification audit predates the authorized blank-margin trim.
             # Restore only the recorded pre-trim dimensions when checking that audit;
             # test_image_margins verifies current dimensions, hashes and coordinates.

@@ -77,6 +77,22 @@ class PrintPaginationTest(unittest.TestCase):
         self.assertEqual([[r['sequence'] for r in p['questions']] for p in layout], [[1], [2], [3, 4], [5]])
         self.assertEqual([(r['page'], r['slot']) for r in plan], [(1, 1), (2, 1), (3, 1), (3, 2), (4, 1)])
 
+    def test_balanced_pages_have_no_singletons_even_for_odd_sections(self):
+        plan = [{'category': cat, 'sequence': i, 'rowSpan': span} for i, (cat, span) in enumerate(
+            [('circuit', s) for s in [1, 1, 2, 1, 1, 2, 1]] + [('electronic', 1)] * 5, 1)]
+        layout = paginate_print_plan(plan, section_covers=True, avoid_single_question_pages=True)
+        rows = [p for p in layout if p['kind'] == 'questions']
+        self.assertTrue(all(2 <= len(p['questions']) <= 4 for p in rows))
+        self.assertEqual([q['sequence'] for p in rows for q in p['questions']], list(range(1, 13)))
+        self.assertEqual(len([p for p in layout if p['kind'] == 'cover']), 2)
+        for page in rows:
+            used = []
+            for row in page['questions']:
+                used.append(row['slot'])
+                if row['rowSpan'] == 2:
+                    used.append(row['slot'] + 2)
+            self.assertEqual(len(used), len(set(used)))
+
 
 @unittest.skipUnless(importlib.util.find_spec('fitz') and importlib.util.find_spec('fontTools'),
                      'PDF 검증에는 pymupdf/fonttools 필요')

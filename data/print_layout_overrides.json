@@ -5,22 +5,18 @@
   },
   "assembly-2014-15": {
     "minimumRowSpan": 2,
-    "minimumColumnSpan": 2,
-    "reason": "165번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+    "reason": "한 페이지 한 문항 배치를 해제하고 다른 문제와 함께 세로 두 칸으로 배치"
   },
   "national-2007-18": {
     "minimumRowSpan": 2,
-    "minimumColumnSpan": 2,
-    "reason": "223번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+    "reason": "한 페이지 한 문항 배치를 해제하고 다른 문제와 함께 세로 두 칸으로 배치"
   },
   "national-2013-10": {
     "minimumRowSpan": 2,
-    "minimumColumnSpan": 2,
-    "reason": "626번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+    "reason": "한 페이지 한 문항 배치를 해제하고 다른 문제와 함께 세로 두 칸으로 배치"
   },
   "assembly-2023-06": {
     "minimumRowSpan": 2,
-    "minimumColumnSpan": 2,
-    "reason": "759번: 회로 기호·보기까지 읽기 쉽도록 한 페이지 전체로 확대"
+    "reason": "한 페이지 한 문항 배치를 해제하고 다른 문제와 함께 세로 두 칸으로 배치"
   }
 }

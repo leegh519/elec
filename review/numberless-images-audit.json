@@ -1,0 +1,93 @@
+{
+  "baseCommit": "543ae348e7844b760541023648a64925036b136c",
+  "imagesVerified": 1100,
+  "reviewedNumberMaskMatchesPreviousPdf": true,
+  "allOtherContentPixelsUnchanged": true,
+  "onlyPureWhiteMarginsCropped": true,
+  "resampled": false,
+  "rightMarginRemovedAtLeast36Pixels": [
+    1,
+    60,
+    78,
+    85,
+    124,
+    137,
+    157,
+    166,
+    207,
+    216,
+    237,
+    307,
+    350,
+    358,
+    372,
+    423,
+    461,
+    468,
+    470,
+    478,
+    483,
+    513,
+    522,
+    559,
+    610,
+    638,
+    671,
+    675,
+    698,
+    719,
+    741,
+    749,
+    763,
+    777,
+    816,
+    877,
+    925,
+    932,
+    935,
+    943,
+    945,
+    957,
+    971,
+    991,
+    1005,
+    1040,
+    1098
+  ],
+  "pdfPages": 297,
+  "pdfQuestionCount": 1100,
+  "minimumQuestionsPerPage": 2,
+  "maximumQuestionsPerPage": 4,
+  "questionPageCounts": {
+    "4": 236,
+    "2": 18,
+    "3": 40
+  },
+  "singleQuestionPages": 0,
+  "noFullWidthExclusiveQuestion": true,
+  "sequenceSourcesAnswersUnchanged": true,
+  "otherQuestionsNotSmallerThanPreviousPdf": true,
+  "correctedNumbers": [
+    {
+      "number": 165,
+      "page": 44,
+      "questionsOnPage": 2
+    },
+    {
+      "number": 223,
+      "page": 61,
+      "questionsOnPage": 3
+    },
+    {
+      "number": 626,
+      "page": 168,
+      "questionsOnPage": 3
+    },
+    {
+      "number": 759,
+      "page": 203,
+      "questionsOnPage": 3
+    }
+  ],
+  "imagesWithNumberPixelsRemoved": 1095
+}

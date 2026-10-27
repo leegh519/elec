@@ -38,13 +38,60 @@ def crop_print_image(image_path, crop):
         return buffer.getvalue()
 
 
-def paginate_print_plan(plan, section_covers=False):
+def pack_question_slots(rows):
+    occupied, slots = set(), []
+    for item in rows:
+        span, columns = item.get('rowSpan', 1), item.get('columnSpan', 1)
+        possible = []
+        for slot in range(1, 5):
+            if (slot - 1) // 2 + span > 2 or (slot - 1) % 2 + columns > 2:
+                continue
+            cells = {slot + row * 2 + column for row in range(span) for column in range(columns)}
+            if not cells & occupied:
+                possible.append((slot, cells))
+        if not possible:
+            return None
+        slot, cells = possible[0]
+        slots.append(slot)
+        occupied.update(cells)
+    return slots
+
+
+def balanced_question_groups(rows):
+    """문제 순서를 유지하며 모든 문제 페이지에 2~4문항을 배치한다."""
+    costs, choices = [float('inf')] * (len(rows) + 1), {}
+    costs[-1] = 0
+    for start in range(len(rows) - 1, -1, -1):
+        for count in (4, 3, 2):
+            end = start + count
+            if end > len(rows) or pack_question_slots(rows[start:end]) is None:
+                continue
+            if costs[end] + 1 < costs[start]:
+                costs[start] = costs[end] + 1
+                choices[start] = end
+    if not choices.get(0):
+        raise ValueError('각 문제 페이지에 2문항 이상 배치할 수 없습니다. 전체 페이지를 차지하는 배치를 해제하세요.')
+    result, start = [], 0
+    while start < len(rows):
+        end = choices[start]
+        result.append(rows[start:end])
+        start = end
+    return result
+
+
+def paginate_print_plan(plan, section_covers=False, avoid_single_question_pages=False):
     """영역 표지 뒤에는 항상 새 문제 페이지를 시작하고 실제 PDF 쪽수를 기록한다."""
     layout = []
     sections = [list(rows) for _, rows in groupby(plan, key=lambda r: r['category'])] if section_covers else [plan]
     for rows in sections:
         if section_covers:
             layout.append({'kind': 'cover', 'category': rows[0]['category'], 'questionCount': len(rows), 'questions': []})
+        if avoid_single_question_pages:
+            for group in balanced_question_groups(rows):
+                for item, slot in zip(group, pack_question_slots(group)):
+                    item['page'], item['slot'] = len(layout) + 1, slot
+                layout.append({'kind': 'questions', 'category': group[0]['category'], 'questions': group})
+            continue
         occupied = set()
         group = []
         def flush():
@@ -133,7 +180,7 @@ def subset_font(path, text):
     return buffer.getvalue()
 
 
-def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_classification=True, section_covers=False):
+def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_classification=True, section_covers=False, avoid_single_question_pages=False):
     import fitz
     cats, topics, _ = indexes(taxonomy)
     byid = {q['id']: q for q in questions}
@@ -152,7 +199,7 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
     width, height, margin, gap = 595.276, 841.89, 36, 24
     cell_width = (width - 2 * margin - gap) / 2
     cell_height = 350
-    layout = paginate_print_plan(plan, section_covers)
+    layout = paginate_print_plan(plan, section_covers, avoid_single_question_pages)
     pages = len(layout)
     toc, seen = [], set()
     images = {}
@@ -254,6 +301,8 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
             assert len(page.get_image_info()) == 0
             assert cats[layout[i]['category']][1]['label'] + ' 문제' in text_content
             continue
+        if avoid_single_question_pages:
+            assert 2 <= len(rows) <= 4
         if not show_classification:
             assert all(topics[r['topic']][2]['label'] not in text_content for r in rows)
         assert len(page.get_image_info()) == len(rows)
@@ -264,6 +313,7 @@ def render_pdf(path, plan, questions, taxonomy, font_path, masks=None, *, show_c
     check.close()
     path.with_suffix('.render.json').write_text(json.dumps({'verified': True, 'pages': pages,
                     'numberRemoval': masks is not None, 'classificationShown': show_classification,
+                    'avoidSingleQuestionPages': avoid_single_question_pages,
                     'covers': [{'page': i + 1, 'category': p['category']} for i, p in enumerate(layout) if p['kind'] == 'cover'],
                     'questions': manifest}, ensure_ascii=False, indent=2) + '\n')
 
@@ -277,6 +327,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True, help='PDF 경로. 계획 JSON/CSV도 같은 이름으로 생성')
     parser.add_argument('--hide-classification', action='store_true', help='문제 위에 새 번호만 표시하고 중·소분류명을 숨김')
     parser.add_argument('--section-covers', action='store_true', help='각 대분류 앞에 영역 표지를 추가하고 새 페이지에서 시작')
+    parser.add_argument('--avoid-single-question-pages', action='store_true', help='모든 문제 페이지에 2~4문항을 배치')
     parser.add_argument('--adaptive-sizing', action='store_true', help='세로로 긴 문제는 세로 두 칸 사용')
     parser.add_argument('--plan-only', action='store_true', help='PDF 없이 전체 문항 순서·쪽 배치만 생성')
     parser.add_argument('--remove-original-numbers', action='store_true', help='검수된 좌표로 원 번호만 가림. 미검수 문항은 오류로 중단')
@@ -316,8 +367,9 @@ def main():
         if not args.plan_only:
             masks = json.loads(args.number_masks.read_text()) if args.remove_original_numbers else None
             render_pdf(args.output, plan, questions, taxonomy, args.font, masks,
-                       show_classification=not args.hide_classification, section_covers=args.section_covers)
-        layout = paginate_print_plan(plan, args.section_covers)
+                       show_classification=not args.hide_classification, section_covers=args.section_covers,
+                       avoid_single_question_pages=args.avoid_single_question_pages)
+        layout = paginate_print_plan(plan, args.section_covers, args.avoid_single_question_pages)
         save_plan(args.output.with_suffix('.json'), plan, taxonomy, args.group_by, layout)
     except (ValueError, FileNotFoundError) as error:
         parser.error(str(error))

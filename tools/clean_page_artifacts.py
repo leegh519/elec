@@ -31,6 +31,8 @@ def main():
     manifest = json.loads(path.read_text())
     trims_path = ROOT / 'data/image_margin_trims.json'
     trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
+    normalized_path = ROOT / 'data/normalized_question_images.json'
+    normalized = {r['id']: r for r in json.loads(normalized_path.read_text())['images']} if normalized_path.exists() else {}
     changed = 0
     for row in manifest['images']:
         source = ROOT / row['src']
@@ -38,6 +40,8 @@ def main():
         trim = trims.get(row['id'], {})
         final_trim = trim.get('followup', trim)
         if current == row.get('afterSha256'):
+            continue
+        if current != row['beforeSha256'] and current == normalized.get(row['id'], {}).get('afterSha256'):
             continue
         if current != row['beforeSha256'] and current == final_trim.get('afterSha256'):
             continue

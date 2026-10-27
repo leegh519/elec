@@ -27,12 +27,13 @@ class PageArtifactTest(unittest.TestCase):
         manifest = json.loads((ROOT / 'data/page_artifact_masks.json').read_text())
         trims_path = ROOT / 'data/image_margin_trims.json'
         trims = {r['id']: r for r in json.loads(trims_path.read_text())['images']} if trims_path.exists() else {}
+        normalized_path = ROOT / 'data/normalized_question_images.json'
+        normalized = {r['id']: r for r in json.loads(normalized_path.read_text())['images']} if normalized_path.exists() else {}
         self.assertEqual(len({r['id'] for r in manifest['images']}), len(manifest['images']))
         for row in manifest['images']:
             path = ROOT / row['src']
             trim = trims.get(row['id'], row)
             final = trim.get('followup', trim)
-            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
             rectangles = row['rectangles']
             if row['id'] in trims:
                 if row.get('coordinateSpace') != 'after-margin-trim':
@@ -41,6 +42,11 @@ class PageArtifactTest(unittest.TestCase):
                 if 'followup' in trim:
                     rectangles = [translate_mask(rect, final['cropPixels']) for rect in rectangles]
                     rectangles = [rect for rect in rectangles if rect is not None]
+            if row['id'] in normalized:
+                final = normalized[row['id']]
+                rectangles = [translate_mask(rect, final['cropPixels']) for rect in rectangles]
+                rectangles = [rect for rect in rectangles if rect is not None]
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
             with Image.open(path) as image:
                 self.assertEqual(list(image.size), final['size'], row['id'])
                 for rect in rectangles:

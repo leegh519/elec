@@ -38,16 +38,24 @@ class ImageMarginTest(unittest.TestCase):
         report = json.loads(path.read_text())
         questions = {q['id']: q for q in json.loads((ROOT / 'data/questions.json').read_text())}
         masks = json.loads((ROOT / 'data/print_number_masks.json').read_text())
+        normalized_path = ROOT / 'data/normalized_question_images.json'
+        normalized = {r['id']: r for r in json.loads(normalized_path.read_text())['images']} if normalized_path.exists() else {}
         self.assertEqual(report['trimmedImages'], len(report['images']))
         self.assertEqual(len({r['id'] for r in report['images']}), len(report['images']))
         for row in report['images']:
             source = ROOT / row['src']
             final = row.get('followup', row)
-            self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
             expected_mask = translate_mask(row['originalNumberMaskPixels'], row['cropPixels'])
             if 'followup' in row:
                 self.assertEqual(final['beforeSha256'], row['afterSha256'], row['id'])
                 expected_mask = translate_mask(expected_mask, final['cropPixels'])
+            if row['id'] in normalized:
+                next_state = normalized[row['id']]
+                self.assertEqual(next_state['beforeSha256'], final['afterSha256'], row['id'])
+                self.assertEqual(next_state['numberMaskBefore'], expected_mask, row['id'])
+                expected_mask = None
+                final = next_state
+            self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), final['afterSha256'], row['id'])
             self.assertEqual(masks[row['id']], expected_mask, row['id'])
             with Image.open(source) as image:
                 self.assertEqual(list(image.size), final['size'], row['id'])
