@@ -58421,9 +58421,11 @@
     "classification": {
       "category": "circuit-theory",
       "topics": [
+        "coupled-transformer",
         "network-theorems"
       ],
       "concepts": [
+        "임피던스 변환·정합",
         "최대전력전달·저항정합"
       ],
       "auxiliaryTags": [],
@@ -58433,9 +58435,10 @@
       ],
       "status": "approved",
       "method": "curriculum-v4:full-bank-review",
-      "primaryTopic": "network-theorems",
-      "primarySubtopic": "network-theorems/maximum-dc",
+      "primaryTopic": "coupled-transformer",
+      "primarySubtopic": "coupled-transformer/matching",
       "subtopics": [
+        "coupled-transformer/matching",
         "network-theorems/maximum-dc"
       ],
       "primaryTag": "power",

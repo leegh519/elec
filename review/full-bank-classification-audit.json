@@ -24465,16 +24465,17 @@
       },
       "after": {
         "category": "circuit-theory",
-        "primaryTopic": "network-theorems",
-        "primarySubtopic": "network-theorems/maximum-dc",
+        "primaryTopic": "coupled-transformer",
+        "primarySubtopic": "coupled-transformer/matching",
         "subtopics": [
+          "coupled-transformer/matching",
           "network-theorems/maximum-dc"
         ],
         "tags": [
           "power"
         ]
       },
-      "reason": "전체 문항의 질문·선지 OCR과 기존 분류를 대조하여 소분류 지정",
+      "reason": "권선비에 따른 임피던스 변환과 최대전력전달을 함께 적용하므로 변압기 임피던스 정합을 대표 분류로 지정",
       "protectedContentSha256": "c8ec7dea893a1925c07d2b2b7d25b9e413b12bd22d7bbc49f885ea948a7e4a07"
     },
     {
