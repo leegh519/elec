@@ -61419,11 +61419,12 @@
       "height": 1021
     },
     "classification": {
-      "category": "circuit-theory",
+      "category": "electronic-circuits",
       "topics": [
-        "network-theorems"
+        "opamp"
       ],
       "concepts": [
+        "반전증폭기",
         "최대전력전달·저항정합"
       ],
       "auxiliaryTags": [],
@@ -61433,10 +61434,10 @@
       ],
       "status": "approved",
       "method": "curriculum-v4:full-bank-review",
-      "primaryTopic": "network-theorems",
-      "primarySubtopic": "network-theorems/maximum-dc",
+      "primaryTopic": "opamp",
+      "primarySubtopic": "opamp/inverting",
       "subtopics": [
-        "network-theorems/maximum-dc"
+        "opamp/inverting"
       ],
       "primaryTag": "power",
       "tags": [

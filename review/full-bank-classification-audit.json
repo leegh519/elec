@@ -25720,17 +25720,17 @@
         ]
       },
       "after": {
-        "category": "circuit-theory",
-        "primaryTopic": "network-theorems",
-        "primarySubtopic": "network-theorems/maximum-dc",
+        "category": "electronic-circuits",
+        "primaryTopic": "opamp",
+        "primarySubtopic": "opamp/inverting",
         "subtopics": [
-          "network-theorems/maximum-dc"
+          "opamp/inverting"
         ],
         "tags": [
           "power"
         ]
       },
-      "reason": "문제의 질문과 회로가 실제로 요구하는 풀이 개념을 기준으로 지정",
+      "reason": "반전 연산증폭기 출력과 최대전력전달을 함께 계산하므로 반전증폭기를 대표 분류로 지정",
       "protectedContentSha256": "66469a65ada00aec49b4a80f2481bfb044a850b1a7e8e17b39a6e2547450c379"
     },
     {
