@@ -9405,7 +9405,7 @@
       ],
       "size": [
         775,
-        491
+        452
       ],
       "numberMaskBefore": [
         0,
@@ -9422,7 +9422,12 @@
       ],
       "rightMarginRemoved": 0,
       "marginChanged": true,
-      "afterSha256": "ffd52f6959dfa29cb42e664df824c8727040fd2d860c6e410efbb048ee7cee73"
+      "afterSha256": "0b0df0f01a5d5f91bed82b557f43a733ac70805206da3f25606e8a0c7359ba22",
+      "footerCleanup": {
+        "removedBottomRows": 39,
+        "reason": "문제 아래에 끼어든 전자공학 시험지 꼬리말 제거",
+        "preservedQuestionPixels": true
+      }
     },
     {
       "id": "military-2026-01",
